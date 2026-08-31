@@ -25,6 +25,7 @@ def compute_indicators(df: pd.DataFrame) -> pd.DataFrame:
     df["ema_fast"] = ta.ema(df["close"], length=config.EMA_FAST)
     df["ema_slow"] = ta.ema(df["close"], length=config.EMA_SLOW)
     df["vol_avg20"] = df["volume"].rolling(20).mean()
+    df["atr"] = ta.atr(df["high"], df["low"], df["close"], length=14)
     return df
 
 
@@ -32,6 +33,75 @@ def _find_col(df: pd.DataFrame, prefix: str) -> str | None:
     """Hilfsfunktion: findet die tatsächliche Spaltenbezeichnung von pandas-ta."""
     matches = [c for c in df.columns if c.startswith(prefix)]
     return matches[0] if matches else None
+
+
+def _find_local_extrema(values, order: int = 3) -> tuple[list[int], list[int]]:
+    """
+    Findet lokale Hoch- und Tiefpunkte in einer Preis-Reihe (einfache
+    Fensterbetrachtung, kein externes Paket nötig).
+    Gibt (Indizes der Hochpunkte, Indizes der Tiefpunkte) zurück.
+    """
+    highs_idx, lows_idx = [], []
+    n = len(values)
+    for i in range(order, n - order):
+        window = values[i - order:i + order + 1]
+        if values[i] == window.max() and values[i] != window.min():
+            highs_idx.append(i)
+        if values[i] == window.min() and values[i] != window.max():
+            lows_idx.append(i)
+    return _merge_close_indices(highs_idx, order), _merge_close_indices(lows_idx, order)
+
+
+def _merge_close_indices(idx_list: list[int], min_gap: int) -> list[int]:
+    """Fasst nahe beieinanderliegende Indizes (Plateaus) zu einem Punkt zusammen."""
+    if not idx_list:
+        return []
+    merged = [idx_list[0]]
+    for idx in idx_list[1:]:
+        if idx - merged[-1] > min_gap:
+            merged.append(idx)
+    return merged
+
+
+def detect_double_top_bottom(df: pd.DataFrame, lookback: int = 40) -> tuple[bool, bool]:
+    """
+    Prüft die letzten `lookback` Kerzen auf ein Double-Top- (bearish) oder
+    Double-Bottom-Muster (bullish): zwei ungefähr gleich hohe Hoch-/Tiefpunkte
+    mit einem deutlichen Gegenausschlag dazwischen, aktuell noch "frisch".
+    Gibt (double_top_gefunden, double_bottom_gefunden) zurück.
+    """
+    recent = df.tail(lookback).reset_index(drop=True)
+    if len(recent) < 20:
+        return False, False
+
+    highs_idx, lows_idx = _find_local_extrema(recent["high"].values, order=3)
+    _, lows_idx_for_bottom = _find_local_extrema(recent["low"].values, order=3)
+
+    double_top = False
+    double_bottom = False
+    n = len(recent)
+
+    # --- Double Top: zwei ähnliche Hochpunkte, Tal dazwischen, aktuell nahe dran ---
+    if len(highs_idx) >= 2:
+        i1, i2 = highs_idx[-2], highs_idx[-1]
+        p1, p2 = recent["high"].iloc[i1], recent["high"].iloc[i2]
+        if abs(p1 - p2) / p1 * 100 <= 1.5 and (n - 1 - i2) <= 10:
+            trough = recent["low"].iloc[i1:i2 + 1].min()
+            drop_pct = (p1 - trough) / p1 * 100
+            if drop_pct >= 2.0:
+                double_top = True
+
+    # --- Double Bottom: zwei ähnliche Tiefpunkte, Zwischenhoch, aktuell nahe dran ---
+    if len(lows_idx_for_bottom) >= 2:
+        i1, i2 = lows_idx_for_bottom[-2], lows_idx_for_bottom[-1]
+        p1, p2 = recent["low"].iloc[i1], recent["low"].iloc[i2]
+        if abs(p1 - p2) / p1 * 100 <= 1.5 and (n - 1 - i2) <= 10:
+            peak = recent["high"].iloc[i1:i2 + 1].max()
+            rise_pct = (peak - p1) / p1 * 100
+            if rise_pct >= 2.0:
+                double_bottom = True
+
+    return double_top, double_bottom
 
 
 def analyze_coin(symbol: str, df: pd.DataFrame) -> dict | None:
@@ -98,6 +168,13 @@ def analyze_coin(symbol: str, df: pd.DataFrame) -> dict | None:
             else:
                 bearish_points.append(f"Volumen-Spike ({latest['volume']/latest['vol_avg20']:.1f}x Durchschnitt)")
 
+    # --- Chart-Pattern: Double Top / Double Bottom ---
+    double_top, double_bottom = detect_double_top_bottom(df)
+    if double_top:
+        bearish_points.append("Double-Top-Formation erkannt")
+    if double_bottom:
+        bullish_points.append("Double-Bottom-Formation erkannt")
+
     # --- Preisbewegung bereits im Gange? (für Stufe 3) ---
     recent_change_pct = (latest["close"] - df.iloc[-4]["close"]) / df.iloc[-4]["close"] * 100
 
@@ -129,6 +206,22 @@ def analyze_coin(symbol: str, df: pd.DataFrame) -> dict | None:
     else:
         return None
 
+    # --- Stop-Loss / Take-Profit (ATR-basiert) ---
+    # Orientierung, keine Vorhersage: nutzt die jüngste Schwankungsbreite
+    # (ATR) des Coins, um einen vernünftigen Risiko-Rahmen zu setzen.
+    # Chance-Risiko-Verhältnis ca. 1:2 (Take-Profit-Distanz = 2x Stop-Loss-Distanz)
+    stop_loss = None
+    take_profit = None
+    if pd.notna(latest["atr"]) and latest["atr"] > 0:
+        atr = latest["atr"]
+        price = latest["close"]
+        if direction == "long":
+            stop_loss = price - 1.5 * atr
+            take_profit = price + 3.0 * atr
+        else:
+            stop_loss = price + 1.5 * atr
+            take_profit = price - 3.0 * atr
+
     return {
         "symbol": symbol,
         "direction": direction,
@@ -138,6 +231,8 @@ def analyze_coin(symbol: str, df: pd.DataFrame) -> dict | None:
         "rsi": round(latest["rsi"], 1) if pd.notna(latest["rsi"]) else None,
         "recent_change_pct": round(recent_change_pct, 2),
         "volume_spike": vol_spike,
+        "stop_loss": stop_loss,
+        "take_profit": take_profit,
     }
 
 
