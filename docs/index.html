@@ -1,1 +1,219 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crypto Signal Bot – Dashboard</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --card: #161b22;
+    --border: #30363d;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --green: #3fb950;
+    --red: #f85149;
+    --yellow: #d29922;
+    --blue: #58a6ff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 16px;
+    max-width: 720px;
+    margin-inline: auto;
+  }
+  h1 { font-size: 1.4rem; margin-bottom: 4px; }
+  .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+  }
+  .card .label { color: var(--muted); font-size: 0.8rem; margin-bottom: 6px; }
+  .card .value { font-size: 1.6rem; font-weight: 700; }
+  .value.green { color: var(--green); }
+  .value.red { color: var(--red); }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 20px;
+  }
+  section h2 { font-size: 1.05rem; margin-top: 0; margin-bottom: 12px; }
+  .signal-row {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 0.9rem;
+  }
+  .signal-row:last-child { border-bottom: none; }
+  .badge {
+    display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;
+  }
+  .badge.long { background: rgba(63,185,80,0.15); color: var(--green); }
+  .badge.short { background: rgba(248,81,73,0.15); color: var(--red); }
+  .badge.tier1 { background: rgba(139,148,158,0.2); color: var(--muted); }
+  .badge.tier2 { background: rgba(210,153,34,0.15); color: var(--yellow); }
+  .badge.tier3 { background: rgba(248,81,73,0.15); color: var(--red); }
+  .outcome { font-weight: 700; }
+  .outcome.richtig { color: var(--green); }
+  .outcome.falsch { color: var(--red); }
+  .outcome.neutral { color: var(--muted); }
+  .settings-item {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 0.9rem;
+  }
+  .settings-item:last-child { border-bottom: none; }
+  .settings-item .desc { color: var(--muted); font-size: 0.8rem; }
+  a.btn {
+    display: inline-block; background: var(--blue); color: #fff; text-decoration: none;
+    padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 600;
+  }
+  .empty { color: var(--muted); text-align: center; padding: 20px 0; font-size: 0.9rem; }
+  .footer { color: var(--muted); font-size: 0.75rem; text-align: center; margin-top: 24px; }
+  .footer a { color: var(--blue); }
+  .loading { text-align: center; color: var(--muted); padding: 40px 0; }
+</style>
+</head>
+<body>
 
+<h1>📊 Crypto Signal Bot</h1>
+<p class="subtitle">Persönliches Dashboard – aktualisiert bei jedem Bot-Lauf (alle 5 Min)</p>
+
+<div id="loading" class="loading">Lade Daten...</div>
+
+<div id="content" style="display:none">
+
+  <div class="cards">
+    <div class="card">
+      <div class="label">Aktive Signale (7 Tage)</div>
+      <div class="value" id="stat-total">–</div>
+    </div>
+    <div class="card">
+      <div class="label">Trefferquote</div>
+      <div class="value green" id="stat-accuracy">–</div>
+    </div>
+    <div class="card">
+      <div class="label">Richtig / Falsch</div>
+      <div class="value" id="stat-rf">–</div>
+    </div>
+  </div>
+
+  <section>
+    <h2>🕐 Letzte Signale</h2>
+    <div id="recent-signals"></div>
+  </section>
+
+  <section>
+    <h2>⚙️ Aktuelle Einstellungen</h2>
+    <div class="settings-item">
+      <div><div>Beobachtete Coins</div><div class="desc">TOP_N_COINS</div></div>
+      <div>150</div>
+    </div>
+    <div class="settings-item">
+      <div><div>Push ab Stufe</div><div class="desc">NOTIFY_MIN_TIER</div></div>
+      <div>2</div>
+    </div>
+    <div class="settings-item">
+      <div><div>Kerzenintervall</div><div class="desc">TIMEFRAME</div></div>
+      <div>4h</div>
+    </div>
+    <div class="settings-item">
+      <div><div>Scan-Takt</div><div class="desc">GitHub Actions Cron</div></div>
+      <div>alle 5 Min</div>
+    </div>
+    <div class="settings-item">
+      <div><div>Auswertung nach</div><div class="desc">OUTCOME_CHECK_HOURS</div></div>
+      <div>12h</div>
+    </div>
+    <div style="margin-top:14px; text-align:center;">
+      <a class="btn" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot/edit/main/src/config.py" target="_blank">Einstellungen bearbeiten →</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>🔗 Schnellzugriff</h2>
+    <div style="display:flex; flex-wrap:wrap; gap:8px;">
+      <a class="btn" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot/actions" target="_blank">Bot-Läufe ansehen</a>
+      <a class="btn" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot" target="_blank">Repository öffnen</a>
+    </div>
+  </section>
+
+</div>
+
+<div class="footer">
+  Kein Finanzrat. Alle Daten dienen nur der Orientierung.<br>
+  <a href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot" target="_blank">Quellcode auf GitHub</a>
+</div>
+
+<script>
+const REPO_RAW = "https://raw.githubusercontent.com/lorisvollenweider-pixel/crypto-signal-bot/main";
+
+async function loadDashboard() {
+  try {
+    const res = await fetch(`${REPO_RAW}/data/signal_history.json?t=${Date.now()}`);
+    const history = await res.json();
+
+    const now = Date.now();
+    const sevenDaysMs = 7 * 24 * 3600 * 1000;
+    const recentAll = history.filter(e => (now - new Date(e.timestamp).getTime()) < sevenDaysMs);
+
+    document.getElementById("stat-total").textContent = recentAll.length;
+
+    const evaluated = recentAll.filter(e => e.checked);
+    const richtig = evaluated.filter(e => e.outcome === "richtig").length;
+    const falsch = evaluated.filter(e => e.outcome === "falsch").length;
+    const neutral = evaluated.filter(e => e.outcome === "neutral").length;
+
+    const accuracyBase = richtig + falsch;
+    const accuracyPct = accuracyBase > 0 ? Math.round((richtig / accuracyBase) * 100) : null;
+    document.getElementById("stat-accuracy").textContent = accuracyPct !== null ? `${accuracyPct}%` : "–";
+    document.getElementById("stat-rf").textContent = `${richtig} / ${falsch}`;
+
+    const sorted = [...recentAll].sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+    const recentSignalsEl = document.getElementById("recent-signals");
+    if (sorted.length === 0) {
+      recentSignalsEl.innerHTML = '<div class="empty">Noch keine Signale in den letzten 7 Tagen.</div>';
+    } else {
+      recentSignalsEl.innerHTML = sorted.slice(0, 15).map(e => {
+        const date = new Date(e.timestamp);
+        const dateStr = date.toLocaleDateString("de-CH", { day: "2-digit", month: "2-digit" }) +
+                         " " + date.toLocaleTimeString("de-CH", { hour: "2-digit", minute: "2-digit" });
+        const dirBadge = e.direction === "long"
+          ? '<span class="badge long">LONG</span>'
+          : '<span class="badge short">SHORT</span>';
+        const tierBadge = `<span class="badge tier${e.tier}">Stufe ${e.tier}</span>`;
+        let outcomeHtml = '<span style="color:var(--muted)">offen</span>';
+        if (e.checked) {
+          const cls = e.outcome;
+          const sign = e.change_pct > 0 ? "+" : "";
+          outcomeHtml = `<span class="outcome ${cls}">${e.outcome} (${sign}${e.change_pct}%)</span>`;
+        }
+        return `<div class="signal-row">
+          <div><strong>${e.symbol}</strong> ${dirBadge} ${tierBadge}</div>
+          <div style="text-align:right">
+            <div>${outcomeHtml}</div>
+            <div style="color:var(--muted); font-size:0.75rem;">${dateStr}</div>
+          </div>
+        </div>`;
+      }).join("");
+    }
+
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("content").style.display = "block";
+  } catch (err) {
+    document.getElementById("loading").textContent =
+      "Konnte Daten nicht laden. Läuft der Bot schon mindestens einmal? (" + err.message + ")";
+  }
+}
+
+loadDashboard();
+</script>
+
+</body>
+</html>
