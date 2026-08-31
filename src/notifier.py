@@ -28,19 +28,20 @@ def _format_price(price: float) -> str:
 
 
 def send_signal_notification(signal: dict, news_context: list[dict] = None):
-    """Sendet eine Benachrichtigung für ein Trading-Signal."""
-    direction_de = "LONG (steigend)" if signal["direction"] == "long" else "SHORT (fallend)"
+    """Sendet eine Benachrichtigung für ein Trading-Signal (kompaktes Format)."""
     tier = signal["tier"]
     full_name = signal.get("full_name", "")
     tv_symbol = signal.get("tradingview_symbol", signal["symbol"])
+    direction_emoji = "📈" if signal["direction"] == "long" else "📉"
+    direction_word = "LONG" if signal["direction"] == "long" else "SHORT"
 
     name_display = f"{full_name} ({signal['symbol']})" if full_name else signal["symbol"]
-    title = f"{name_display} – {direction_de} – {TIER_LABELS[tier]}"
+    tier_short = {1: "Stufe 1", 2: "Stufe 2", 3: "Stufe 3"}[tier]
+    title = f"{direction_emoji} {name_display} — {direction_word} — {tier_short}"
 
     lines = [
-        f"TradingView-Suche: {tv_symbol}",
-        f"Preis: {_format_price(signal['price'])} USDT",
-        f"Änderung (letzte 4 Kerzen): {signal['recent_change_pct']}%",
+        f"💰 {_format_price(signal['price'])} USDT ({signal['recent_change_pct']:+.1f}%)",
+        f"📊 TradingView: {tv_symbol}",
     ]
 
     if signal.get("stop_loss") is not None and signal.get("take_profit") is not None:
@@ -48,31 +49,19 @@ def send_signal_notification(signal: dict, news_context: list[dict] = None):
         tp = signal["take_profit"]
         sl_pct = (sl - signal["price"]) / signal["price"] * 100
         tp_pct = (tp - signal["price"]) / signal["price"] * 100
-        lines.append("")
-        lines.append(f"Stop-Loss: {_format_price(sl)} USDT ({sl_pct:+.1f}%)")
-        lines.append(f"Take-Profit: {_format_price(tp)} USDT ({tp_pct:+.1f}%)")
-        lines.append("(Orientierung auf Basis der Volatilität, keine Garantie)")
-        lines.append("")
-        lines.append("Zeithorizont: Bei 4h-Kerzen wirken solche Signale")
-        lines.append("erfahrungsgemäß (falls überhaupt) innerhalb 1-3 Tagen -")
-        lines.append("keine Garantie, nur grobe Orientierung.")
+        lines.append(f"🎯 SL: {_format_price(sl)} ({sl_pct:+.1f}%) | TP: {_format_price(tp)} ({tp_pct:+.1f}%)")
+        lines.append("⏱️ Zeitrahmen: ca. 1-3 Tage (grobe Orientierung)")
 
     if tier == 3:
-        lines.append("")
-        lines.append("Hinweis: Stufe 3 heißt 'Bewegung läuft bereits' - ein Teil")
-        lines.append("davon kann schon passiert sein. Für frühere Signale eher")
-        lines.append("auf Stufe 2 achten.")
+        lines.append("⚠️ Bewegung läuft evtl. schon - für Früheinstieg eher Stufe 2 beachten")
 
     lines.append("")
-    lines.append("Gründe:")
-    lines += [f"- {r}" for r in signal["reasons"]]
+    lines.append("📌 " + " · ".join(signal["reasons"]))
 
     if news_context:
-        lines.append("")
-        lines.append("Passende News:")
-        for n in news_context[:2]:
-            sentiment_word = "positiv" if n["sentiment"] > 0 else "negativ"
-            lines.append(f"- ({sentiment_word}) {n['title']}")
+        top_news = news_context[0]
+        sentiment_emoji = "🟢" if top_news["sentiment"] > 0 else "🔴"
+        lines.append(f"{sentiment_emoji} News: {top_news['title']}")
 
     lines.append("")
     lines.append("Kein Finanzrat - eigene Prüfung nötig.")
