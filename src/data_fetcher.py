@@ -1,6 +1,10 @@
 """
-Holt die Top-Coins (CoinGecko) und deren Kursdaten (Binance Public API).
+Holt die Top-Coins (CoinGecko) und deren Kursdaten (KuCoin Public API).
 Beide APIs sind kostenlos und benötigen keinen API-Key.
+
+Hinweis: Wir nutzen KuCoin statt Binance, weil Binance seine öffentliche
+API für Server-Standorte in den USA sperrt (Fehler 451) - und genau dort
+laufen die GitHub Actions Server. KuCoin hat diese Einschränkung nicht.
 """
 
 import time
@@ -10,13 +14,19 @@ import pandas as pd
 from src import config
 
 COINGECKO_URL = "https://api.coingecko.com/api/v3/coins/markets"
-BINANCE_KLINES_URL = "https://api.binance.com/api/v3/klines"
-BINANCE_EXCHANGE_INFO_URL = "https://api.binance.com/api/v3/exchangeInfo"
+KUCOIN_SYMBOLS_URL = "https://api.kucoin.com/api/v1/symbols"
+KUCOIN_KLINES_URL = "https://api.kucoin.com/api/v1/market/candles"
 
-TIMEFRAME_TO_BINANCE = {
-    "1h": "1h",
-    "4h": "4h",
-    "1d": "1d",
+TIMEFRAME_TO_KUCOIN = {
+    "1h": "1hour",
+    "4h": "4hour",
+    "1d": "1day",
+}
+
+TIMEFRAME_SECONDS = {
+    "1h": 3600,
+    "4h": 4 * 3600,
+    "1d": 24 * 3600,
 }
 
 
@@ -40,55 +50,69 @@ def get_top_coins(limit: int = None) -> list[dict]:
     ]
 
 
-def get_binance_symbols() -> set[str]:
-    """Liste aller aktiven USDT-Handelspaare auf Binance."""
-    resp = requests.get(BINANCE_EXCHANGE_INFO_URL, timeout=20)
+def get_kucoin_symbols() -> set[str]:
+    """Liste aller aktiven USDT-Handelspaare auf KuCoin."""
+    resp = requests.get(KUCOIN_SYMBOLS_URL, timeout=20)
     resp.raise_for_status()
     data = resp.json()
     return {
-        s["symbol"] for s in data["symbols"]
-        if s["quoteAsset"] == config.QUOTE_CURRENCY and s["status"] == "TRADING"
+        s["symbol"] for s in data.get("data", [])
+        if s.get("quoteCurrency") == config.QUOTE_CURRENCY and s.get("enableTrading")
     }
 
 
 def get_klines(symbol: str, interval: str = None, limit: int = None) -> pd.DataFrame | None:
-    """Holt Kerzendaten (OHLCV) für ein Handelspaar von Binance."""
-    interval = TIMEFRAME_TO_BINANCE.get(interval or config.TIMEFRAME, "4h")
+    """Holt Kerzendaten (OHLCV) für ein Handelspaar von KuCoin."""
+    tf = interval or config.TIMEFRAME
+    kucoin_type = TIMEFRAME_TO_KUCOIN.get(tf, "4hour")
     limit = limit or config.CANDLE_LIMIT
-    params = {"symbol": symbol, "interval": interval, "limit": limit}
+    seconds_per_candle = TIMEFRAME_SECONDS.get(tf, 4 * 3600)
+
+    end_at = int(time.time())
+    start_at = end_at - (limit * seconds_per_candle)
+
+    params = {
+        "symbol": symbol,
+        "type": kucoin_type,
+        "startAt": start_at,
+        "endAt": end_at,
+    }
     try:
-        resp = requests.get(BINANCE_KLINES_URL, params=params, timeout=15)
+        resp = requests.get(KUCOIN_KLINES_URL, params=params, timeout=15)
         if resp.status_code != 200:
             return None
-        raw = resp.json()
+        payload = resp.json()
+        raw = payload.get("data", [])
         if not raw:
             return None
+
+        # KuCoin liefert: [time, open, close, high, low, volume, turnover]
+        # und die Liste ist neueste-zuerst -> wir drehen sie um (älteste-zuerst)
+        raw = list(reversed(raw))
         df = pd.DataFrame(raw, columns=[
-            "open_time", "open", "high", "low", "close", "volume",
-            "close_time", "quote_asset_volume", "trades",
-            "taker_buy_base", "taker_buy_quote", "ignore"
+            "open_time", "open", "close", "high", "low", "volume", "turnover"
         ])
         for col in ["open", "high", "low", "close", "volume"]:
             df[col] = df[col].astype(float)
-        df["open_time"] = pd.to_datetime(df["open_time"], unit="ms")
-        return df
+        df["open_time"] = pd.to_datetime(df["open_time"].astype(float), unit="s")
+        return df[["open_time", "open", "high", "low", "close", "volume"]]
     except requests.RequestException:
         return None
 
 
 def build_watchlist() -> list[dict]:
     """
-    Kombiniert Top-Coins von CoinGecko mit verfügbaren Binance-Symbolen.
-    Gibt eine Liste von {id, symbol, name, binance_symbol} zurück.
+    Kombiniert Top-Coins von CoinGecko mit verfügbaren KuCoin-Symbolen.
+    Gibt eine Liste von {id, symbol, name, kucoin_symbol} zurück.
     """
     coins = get_top_coins()
-    binance_symbols = get_binance_symbols()
+    kucoin_symbols = get_kucoin_symbols()
 
     watchlist = []
     for c in coins:
-        pair = f"{c['symbol']}{config.QUOTE_CURRENCY}"
-        if pair in binance_symbols:
-            c["binance_symbol"] = pair
+        pair = f"{c['symbol']}-{config.QUOTE_CURRENCY}"
+        if pair in kucoin_symbols:
+            c["kucoin_symbol"] = pair
             watchlist.append(c)
     return watchlist
 
@@ -97,10 +121,10 @@ def fetch_all_klines(watchlist: list[dict]) -> dict[str, pd.DataFrame]:
     """Holt Kerzendaten für alle Coins der Watchlist. Respektiert Rate-Limits."""
     result = {}
     for i, coin in enumerate(watchlist):
-        df = get_klines(coin["binance_symbol"])
+        df = get_klines(coin["kucoin_symbol"])
         if df is not None and len(df) > 30:
             result[coin["symbol"]] = df
-        # Binance erlaubt großzügige Rate-Limits, kleine Pause reicht
-        if i % 20 == 0:
+        # kleine Pause, um KuCoins Rate-Limits nicht zu strapazieren
+        if i % 15 == 0:
             time.sleep(0.5)
     return result
