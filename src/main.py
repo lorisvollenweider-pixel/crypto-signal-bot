@@ -5,10 +5,11 @@ Ablauf:
 1. Top-Coins + Kursdaten laden
 2. Technische Signale berechnen
 3. Relevante News laden und Coins zuordnen
-4. Cooldown/Dedup prüfen, Signale in Historie speichern
-5. Benachrichtigungen über ntfy.sh senden (nur ab Stufe NOTIFY_MIN_TIER)
-6. Ältere Signale automatisch auswerten (richtig/falsch gelegen?)
-7. Zustand speichern
+4. Einflussreiche-Personen-Erkennung in News (Trump, Musk, etc.)
+5. Cooldown/Dedup prüfen, Signale in Historie speichern
+6. Benachrichtigungen über ntfy.sh senden (nur ab Stufe NOTIFY_MIN_TIER)
+7. Ältere Signale automatisch auswerten (richtig/falsch gelegen?)
+8. Zustand speichern
 """
 
 import sys
@@ -30,6 +31,8 @@ def run():
 
     # Nachschlage-Hilfe: Symbol -> KuCoin-Handelspaar (für die Historie)
     kucoin_symbol_by_coin = {c["symbol"]: c["kucoin_symbol"] for c in watchlist}
+    # Nachschlage-Hilfe: Symbol -> voller Name (für bessere Lesbarkeit/TradingView-Suche)
+    full_name_by_coin = {c["symbol"]: c["name"] for c in watchlist}
 
     print("Lade Kursdaten...")
     klines = data_fetcher.fetch_all_klines(watchlist)
@@ -46,12 +49,27 @@ def run():
         print(f"{len(articles)} News-Artikel geladen, {len(coin_news)} Coins mit relevanten News.")
     except Exception as e:
         print(f"News konnten nicht geladen werden: {e}")
+        articles = []
         coin_news = {}
 
     print("Prüfe Cooldowns und sende Benachrichtigungen...")
     persisted_state = state_module.load_state()
     signal_history = history_module.load_history()
     sent_count = 0
+
+    # --- Einflussreiche-Personen-Erkennung (Trump, Musk, etc. in News) ---
+    try:
+        influencer_hits = news.find_influencer_mentions(articles, watchlist)
+        for hit in influencer_hits:
+            link = hit["article"]["link"]
+            if link and state_module.should_notify_news(persisted_state, link):
+                notifier.send_influencer_alert(hit)
+                state_module.mark_news_notified(persisted_state, link)
+                time.sleep(1)
+        if influencer_hits:
+            print(f"{len(influencer_hits)} News mit einflussreichen Personen gefunden.")
+    except Exception as e:
+        print(f"Einflussreiche-Personen-Erkennung fehlgeschlagen: {e}")
 
     for signal in signals:
         # Jedes Signal wird in der Historie festgehalten (für die spätere
@@ -62,6 +80,8 @@ def run():
                 history_module.record_signal(signal_history, signal, kucoin_symbol)
 
             if signal["tier"] >= config.NOTIFY_MIN_TIER:
+                signal["full_name"] = full_name_by_coin.get(signal["symbol"], "")
+                signal["tradingview_symbol"] = f"{signal['symbol']}{config.QUOTE_CURRENCY}"
                 relevant_news = coin_news.get(signal["symbol"])
                 notifier.send_signal_notification(signal, relevant_news)
                 sent_count += 1
