@@ -57,6 +57,12 @@ def send_signal_notification(signal: dict, news_context: list[dict] = None):
         lines.append("erfahrungsgemäß (falls überhaupt) innerhalb 1-3 Tagen -")
         lines.append("keine Garantie, nur grobe Orientierung.")
 
+    if tier == 3:
+        lines.append("")
+        lines.append("Hinweis: Stufe 3 heißt 'Bewegung läuft bereits' - ein Teil")
+        lines.append("davon kann schon passiert sein. Für frühere Signale eher")
+        lines.append("auf Stufe 2 achten.")
+
     lines.append("")
     lines.append("Gründe:")
     lines += [f"- {r}" for r in signal["reasons"]]
