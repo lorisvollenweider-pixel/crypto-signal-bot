@@ -2,9 +2,10 @@ name: Crypto Signal Scan
 
 on:
   schedule:
-    # Läuft alle 15 Minuten (UTC). GitHub Actions garantiert keine exakte
+    # Läuft alle 5 Minuten (UTC). So werden Stufen-Wechsel (1->2->3) schnell
+    # erkannt und gemeldet. GitHub Actions garantiert keine exakte
     # Pünktlichkeit, kleine Verzögerungen von wenigen Minuten sind normal.
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}  # erlaubt manuelles Starten über den "Run workflow" Button
 
 permissions:
@@ -20,7 +21,7 @@ jobs:
       - name: Python einrichten
         uses: actions/setup-python@v5
         with:
-             python-version: "3.12"
+          python-version: "3.12"
 
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
