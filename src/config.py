@@ -39,13 +39,27 @@ NEGATIVE_KEYWORDS = [
     "investigation", "fraud", "collapse", "negative"
 ]
 
+# Namen einflussreicher Personen/Institutionen, deren Aussagen den Markt
+# stark bewegen können. Wird in News-Artikeln gesucht (Titel + Zusammenfassung).
+# Hinweis: Kein Live-Zugriff auf X/Twitter selbst (kostenpflichtige API) -
+# basiert auf Berichterstattung durch die konfigurierten Krypto-News-Seiten,
+# die solche Aussagen meist innerhalb weniger Stunden aufgreifen.
+INFLUENCER_KEYWORDS = [
+    "trump", "elon musk", "musk", "sec chair", "jerome powell", "powell",
+    "gary gensler", "gensler", "michael saylor", "saylor", "changpeng zhao",
+    "cz binance", "vitalik buterin", "blackrock", "larry fink",
+]
+NEWS_DEDUP_HOURS = 48  # verhindert, dass derselbe Artikel mehrfach gemeldet wird
+
 # --- Benachrichtigung (ntfy.sh) ---
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "")  # wird als GitHub Secret gesetzt
 NTFY_URL = f"https://ntfy.sh/{NTFY_TOPIC}"
 
 # Nur Signale ab dieser Stufe werden als Push-Nachricht verschickt.
-# Stufe 1 (schwaches Einzelsignal) wird weiterhin intern gespeichert/ausgewertet,
-# aber NICHT gepusht - das reduziert die Anzahl der Nachrichten deutlich.
+# Stufe 2 = mehrere Indikatoren bestätigen sich gegenseitig JETZT, OHNE
+# dass der Kurs sich schon merklich bewegt haben muss (das wäre erst
+# Stufe 3). Kommt seltener vor als Stufe 1, dafür mit höherer Sicherheit -
+# genau der Kompromiss zwischen "früh genug" und "zuverlässig genug".
 NOTIFY_MIN_TIER = 2
 
 # --- Erfolgs-Auswertung ---
@@ -54,7 +68,9 @@ OUTCOME_CHECK_HOURS = 12
 # Ab welcher prozentualen Kursbewegung (in die vorhergesagte Richtung)
 # gilt ein Signal als "richtig" (statt "neutral/unklar")?
 OUTCOME_MOVE_THRESHOLD_PCT = 1.0
+SIGNAL_HISTORY_FILE = "data/signal_history.json"
 FAILURE_PATTERNS_FILE = "data/failure_patterns.json"
+
 # --- State / Dedup ---
 STATE_FILE = "data/state.json"
 # Wie lange (in Stunden) ein Coin nach einer Meldung "stumm" bleibt,
