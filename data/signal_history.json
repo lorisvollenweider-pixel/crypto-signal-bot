@@ -2090,7 +2090,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.87
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "UB",
@@ -3085,7 +3085,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.37
+    "best_favorable_pct": 1.48
   },
   {
     "symbol": "PENGU",
@@ -3206,7 +3206,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "XRP",
@@ -3275,7 +3275,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "LINK",
@@ -3309,7 +3309,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "PEPE",
@@ -3397,7 +3397,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.86
   },
   {
     "symbol": "BTT",
@@ -3449,7 +3449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "ALGO",
@@ -3484,7 +3484,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "NIGHT",
@@ -3498,6 +3498,59 @@
     "stop_loss": 0.01897959511394097,
     "take_profit": 0.01718080977211806,
     "timestamp": "2026-09-01T18:55:26.047692+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0001,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 1.000307133285295,
+    "take_profit": 0.9996857334294098,
+    "timestamp": "2026-09-01T19:11:12.923014+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "GRAM",
+    "kucoin_symbol": "GRAM-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 1.32,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 1.3689859348195175,
+    "take_profit": 1.2220281303609652,
+    "timestamp": "2026-09-01T19:11:12.923044+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 14.35,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 14.94190196909922,
+    "take_profit": 13.166196061801559,
+    "timestamp": "2026-09-01T19:11:14.200033+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
