@@ -16,6 +16,7 @@ from src import config
 COINGECKO_URL = "https://api.coingecko.com/api/v3/coins/markets"
 KUCOIN_SYMBOLS_URL = "https://api.kucoin.com/api/v1/symbols"
 KUCOIN_KLINES_URL = "https://api.kucoin.com/api/v1/market/candles"
+KUCOIN_TICKER_URL = "https://api.kucoin.com/api/v1/market/orderbook/level1"
 
 TIMEFRAME_TO_KUCOIN = {
     "1h": "1hour",
@@ -97,6 +98,19 @@ def get_klines(symbol: str, interval: str = None, limit: int = None) -> pd.DataF
         df["open_time"] = pd.to_datetime(df["open_time"].astype(float), unit="s")
         return df[["open_time", "open", "high", "low", "close", "volume"]]
     except requests.RequestException:
+        return None
+
+
+def get_current_price(kucoin_symbol: str) -> float | None:
+    """Holt den aktuellen Preis eines Handelspaares (für die Erfolgs-Auswertung)."""
+    try:
+        resp = requests.get(KUCOIN_TICKER_URL, params={"symbol": kucoin_symbol}, timeout=10)
+        if resp.status_code != 200:
+            return None
+        data = resp.json().get("data") or {}
+        price = data.get("price")
+        return float(price) if price is not None else None
+    except (requests.RequestException, TypeError, ValueError):
         return None
 
 
