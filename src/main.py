@@ -9,7 +9,8 @@ Ablauf:
 5. Cooldown/Dedup prüfen, Signale in Historie speichern
 6. Benachrichtigungen über ntfy.sh senden (nur ab Stufe NOTIFY_MIN_TIER)
 7. Ältere Signale automatisch auswerten (richtig/falsch gelegen?)
-8. Zustand speichern
+8. Muster-Erkennung: welche Indikatoren waren wie zuverlässig?
+9. Zustand speichern
 """
 
 import sys
@@ -93,6 +94,9 @@ def run():
     print(f"Fertig. {sent_count} Benachrichtigungen gesendet (Stufe {config.NOTIFY_MIN_TIER}+).")
 
     # --- Erfolgs-Auswertung älterer Signale ---
+    print("Aktualisiere Preisverlauf offener Signale...")
+    history_module.update_open_signals(signal_history)
+
     print("Werte fällige ältere Signale aus...")
     newly_evaluated = history_module.evaluate_due_signals(signal_history)
     if newly_evaluated:
@@ -103,6 +107,16 @@ def run():
 
     signal_history = history_module.prune_old_history(signal_history)
     history_module.save_history(signal_history)
+
+    # --- Muster-Erkennung: welche Gründe/Indikatoren lagen wie oft richtig? ---
+    # Läuft rein auf bereits gespeicherten Daten, keine zusätzlichen API-Aufrufe.
+    print("Analysiere Muster bei bisherigen Signalen...")
+    patterns = history_module.analyze_failure_patterns(signal_history)
+    history_module.save_failure_patterns(patterns)
+    if patterns:
+        worst = patterns[0]
+        print(f"Schwächster Indikator bisher: '{worst['reason']}' "
+              f"({worst['richtig']} richtig / {worst['falsch']} falsch)")
 
 
 if __name__ == "__main__":
