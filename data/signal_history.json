@@ -1817,7 +1817,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.48
+    "best_favorable_pct": 2.94
   },
   {
     "symbol": "STABLE",
@@ -2719,7 +2719,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.45
+    "best_favorable_pct": 3.81
   },
   {
     "symbol": "ASTER",
@@ -3154,7 +3154,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.14
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "FF",
@@ -3275,7 +3275,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "LINK",
@@ -3309,7 +3309,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "PEPE",
@@ -3379,7 +3379,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "MON",
@@ -3397,7 +3397,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "BTT",
@@ -3429,6 +3429,75 @@
     "stop_loss": 2.495980920430143e-07,
     "take_profit": 2.2980381591397132e-07,
     "timestamp": "2026-09-01T18:41:58.164424+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "LIT",
+    "kucoin_symbol": "LIT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.723,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 3.9769904149747544,
+    "take_profit": 3.2150191700504913,
+    "timestamp": "2026-09-01T18:55:24.727403+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "ALGO",
+    "kucoin_symbol": "ALGO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0886,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.08551870767418934,
+    "take_profit": 0.09476258465162132,
+    "timestamp": "2026-09-01T18:55:24.727426+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "LDO",
+    "kucoin_symbol": "LDO-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.3702,
+    "reasons": [
+      "Volumen-Spike (3.4x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.35405435725212936,
+    "take_profit": 0.4024912854957412,
+    "timestamp": "2026-09-01T18:55:24.727465+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.01838,
+    "reasons": [
+      "Volumen-Spike (2.4x Durchschnitt)"
+    ],
+    "stop_loss": 0.01897959511394097,
+    "take_profit": 0.01718080977211806,
+    "timestamp": "2026-09-01T18:55:26.047692+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
