@@ -1387,7 +1387,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "XMR",
@@ -1404,7 +1404,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.27
+    "best_favorable_pct": 2.89
   },
   {
     "symbol": "XLM",
@@ -2056,7 +2056,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "PENDLE",
@@ -2228,7 +2228,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.14
+    "best_favorable_pct": 2.88
   },
   {
     "symbol": "BTC",
@@ -2861,7 +2861,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "KITE",
@@ -3136,6 +3136,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.84
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.769,
+    "reasons": [
+      "RSI \u00fcberkauft (77.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.7977324243839888,
+    "take_profit": 0.7115351512320224,
+    "timestamp": "2026-09-01T17:25:28.991876+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.10202,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.09542956919090742,
+    "take_profit": 0.11520086161818516,
+    "timestamp": "2026-09-01T17:25:30.478552+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
