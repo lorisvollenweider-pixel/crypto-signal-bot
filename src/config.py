@@ -54,7 +54,7 @@ OUTCOME_CHECK_HOURS = 12
 # Ab welcher prozentualen Kursbewegung (in die vorhergesagte Richtung)
 # gilt ein Signal als "richtig" (statt "neutral/unklar")?
 OUTCOME_MOVE_THRESHOLD_PCT = 1.0
-   FAILURE_PATTERNS_FILE = "data/failure_patterns.json"
+FAILURE_PATTERNS_FILE = "data/failure_patterns.json"
 # --- State / Dedup ---
 STATE_FILE = "data/state.json"
 # Wie lange (in Stunden) ein Coin nach einer Meldung "stumm" bleibt,
