@@ -194,21 +194,20 @@ def analyze_coin(symbol: str, df: pd.DataFrame) -> dict | None:
         return None  # keine klare Richtung
 
     # --- Stufe (Tier) bestimmen ---
-          # WICHTIG: Stufe 2 braucht dieselbe Indikator-Anzahl wie Stufe 3 (2),
-       # damit Coins nicht direkt zu Stufe 3 springen, ohne vorher als
-       # Stufe-2-Frühwarnung gemeldet worden zu sein. Stufe 3 = zusätzlich
-       # eine bereits laufende Kursbewegung.
-       already_moving = (direction == "long" and recent_change_pct > 3) or \
-                         (direction == "short" and recent_change_pct < -3)
+    # WICHTIG: Stufe 2 braucht dieselbe Indikator-Anzahl wie Stufe 3 (2),
+    # damit Coins nicht direkt zu Stufe 3 springen, ohne vorher als
+    # Stufe-2-Frühwarnung gemeldet worden zu sein. Stufe 3 = zusätzlich
+    # eine bereits laufende Kursbewegung.
+    already_moving = (direction == "long" and recent_change_pct > 3) or \
+                      (direction == "short" and recent_change_pct < -3)
 
-       if already_moving and score >= 2:
-           tier = 3  # Bewegung läuft bereits, mehrere Indikatoren bestätigen
-       elif score >= 2:
-           tier = 2  # mehrere Indikatoren stimmen überein, Bewegung noch nicht zwingend im Gange
-       elif score >= 1:
-           tier = 1  # erstes schwaches Signal
-       else:
-           return None
+    if already_moving and score >= 2:
+        tier = 3  # Bewegung läuft bereits, mehrere Indikatoren bestätigen
+    elif score >= 2:
+        tier = 2  # mehrere Indikatoren stimmen überein, Bewegung noch nicht zwingend im Gange
+    elif score >= 1:
+        tier = 1  # erstes schwaches Signal
+    else:
         return None
 
     # --- Stop-Loss / Take-Profit (ATR-basiert) ---
