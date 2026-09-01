@@ -1646,7 +1646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.3
+    "best_favorable_pct": 2.72
   },
   {
     "symbol": "ENA",
@@ -2513,7 +2513,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "MORPHO",
@@ -2755,7 +2755,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "ALGO",
@@ -3397,7 +3397,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "BTT",
@@ -3571,7 +3571,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "GRAM",
@@ -3606,7 +3606,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "SUI",
@@ -3623,7 +3623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "XAUT",
@@ -3696,7 +3696,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "TIA",
@@ -3728,6 +3728,93 @@
     "stop_loss": 0.015866575739936814,
     "take_profit": 0.01632684852012637,
     "timestamp": "2026-09-01T19:38:08.721085+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.35641,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.2x Durchschnitt)"
+    ],
+    "stop_loss": 1.3990010965090638,
+    "take_profit": 1.271227806981872,
+    "timestamp": "2026-09-01T19:50:00.074102+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9997,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.000435165707782,
+    "take_profit": 0.9982296685844365,
+    "timestamp": "2026-09-01T19:50:01.137361+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ONDO",
+    "kucoin_symbol": "ONDO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.34256,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.35388925744781313,
+    "take_profit": 0.3199014851043736,
+    "timestamp": "2026-09-01T19:50:01.137401+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.3767,
+    "reasons": [
+      "RSI \u00fcberkauft (75.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.39637145195876394,
+    "take_profit": 0.33735709608247205,
+    "timestamp": "2026-09-01T19:50:01.137439+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JASMY",
+    "kucoin_symbol": "JASMY-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.004965,
+    "reasons": [
+      "Volumen-Spike (2.5x Durchschnitt)"
+    ],
+    "stop_loss": 0.005260369877540142,
+    "take_profit": 0.004374260244919715,
+    "timestamp": "2026-09-01T19:50:02.241398+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
