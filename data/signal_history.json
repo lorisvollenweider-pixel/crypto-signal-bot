@@ -1646,7 +1646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.72
+    "best_favorable_pct": 2.85
   },
   {
     "symbol": "ENA",
@@ -2004,7 +2004,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.76
+    "best_favorable_pct": 3.9
   },
   {
     "symbol": "FET",
@@ -2073,7 +2073,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.7
+    "best_favorable_pct": 2.96
   },
   {
     "symbol": "LDO",
@@ -2755,7 +2755,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "ALGO",
@@ -3432,7 +3432,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.66
   },
   {
     "symbol": "LIT",
@@ -3449,7 +3449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.46
+    "best_favorable_pct": 5.0
   },
   {
     "symbol": "ALGO",
@@ -3959,5 +3959,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SKY",
+    "kucoin_symbol": "SKY-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.07299,
+    "reasons": [
+      "RSI \u00fcberkauft (70.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.07513167853695399,
+    "take_profit": 0.06870664292609201,
+    "timestamp": "2026-09-01T23:21:10.130287+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PYTH",
+    "kucoin_symbol": "PYTH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0521,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.05460806159894716,
+    "take_profit": 0.04708387680210568,
+    "timestamp": "2026-09-01T23:21:11.363653+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.27
   }
 ]
