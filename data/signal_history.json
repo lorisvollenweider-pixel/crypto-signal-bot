@@ -2073,7 +2073,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.96
+    "best_favorable_pct": 3.34
   },
   {
     "symbol": "LDO",
@@ -3206,7 +3206,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.97
+    "best_favorable_pct": 2.02
   },
   {
     "symbol": "XRP",
@@ -3449,7 +3449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.0
+    "best_favorable_pct": 5.13
   },
   {
     "symbol": "ALGO",
@@ -3818,7 +3818,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "AAVE",
@@ -3904,7 +3904,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.36
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "HYPE",
@@ -3976,7 +3976,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "PYTH",
@@ -3993,6 +3993,25 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.81
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.7692,
+    "reasons": [
+      "RSI \u00fcberkauft (71.2)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (3.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.8035637087407165,
+    "take_profit": 0.7004725825185669,
+    "timestamp": "2026-09-01T23:32:48.805005+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
