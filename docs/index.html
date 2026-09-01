@@ -2,159 +2,500 @@
 <html lang="de">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Crypto Signal Bot – Dashboard</title>
+<!--
+  Bitcoin-Glyph-Pfaddaten basieren auf "bitcoin-sign" aus Font Awesome Free 6.5.2
+  (https://fontawesome.com), Icons unter CC BY 4.0, Copyright Fonticons, Inc.
+  Button-Icons: Lucide (https://lucide.dev), ISC-Lizenz.
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0d1117;
-    --card: #161b22;
-    --border: #30363d;
-    --text: #e6edf3;
-    --muted: #8b949e;
-    --green: #3fb950;
-    --red: #f85149;
-    --yellow: #d29922;
-    --blue: #58a6ff;
+    --bg: #070a12;
+    --bg-2: #0c1120;
+    --gold: #f7931a;
+    --gold-soft: #ffb454;
+    --lava: #ff5e1a;
+    --lava-hot: #ffb347;
+    --cyan: #00e5c7;
+    --text: #e9edf5;
+    --muted: #8b94a8;
+    --card: rgba(17, 22, 38, 0.72);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --green: #3ddc84;
+    --red: #ff5c6c;
+    --yellow: #f7c948;
   }
   * { box-sizing: border-box; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  html, body {
     margin: 0;
-    padding: 16px;
-    max-width: 720px;
-    margin-inline: auto;
+    height: 100%;
+    background:
+      radial-gradient(circle at 50% 40%, rgba(255,110,30,0.20), transparent 44%),
+      radial-gradient(circle at 82% 85%, rgba(0,229,199,0.09), transparent 46%),
+      radial-gradient(circle at 12% 10%, rgba(150,70,255,0.08), transparent 42%),
+      radial-gradient(ellipse at 50% 50%, #160a0c 0%, #0d0812 46%, #06050a 100%);
+    color: var(--text);
+    font-family: "IBM Plex Sans", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    overflow: hidden; /* single-screen app layout: everything below is fixed/absolute, nothing should scroll */
   }
-  h1 { font-size: 1.4rem; margin-bottom: 4px; }
-  .subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 24px; }
-  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 24px; }
+  body {
+    height: 100dvh;
+    position: relative;
+  }
+
+  #scene-canvas {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    touch-action: pan-y;
+  }
+
+  .top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    text-align: center;
+    padding: 28px 16px 0;
+    pointer-events: none;
+  }
+  .top-bar h1 {
+    margin: 0;
+    font-family: "Unbounded", "IBM Plex Sans", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    background: linear-gradient(135deg, var(--gold-soft), var(--gold) 55%, var(--cyan));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .top-bar p {
+    margin: 4px 0 0;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+
+  .stage {
+    position: relative;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ---- Button ring ---- */
+  .ring {
+    position: absolute;
+    inset: 0;
+    z-index: 6;
+    pointer-events: none;
+  }
+  .thread-svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    pointer-events: none;
+  }
+  .thread-line {
+    fill: none;
+    stroke-width: 1.4;
+    stroke-dasharray: 2 7;
+    opacity: 0.65;
+    filter: drop-shadow(0 0 3px currentColor);
+    animation: thread-flow 1.6s linear infinite;
+  }
+  .thread-core {
+    fill: none;
+    stroke-width: 1;
+    opacity: 0.22;
+  }
+  @keyframes thread-flow {
+    to { stroke-dashoffset: -36; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .thread-line { animation: none; }
+  }
+  .orb-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 66px;
+    height: 66px;
+    margin: -33px 0 0 -33px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+      radial-gradient(circle at 32% 26%, rgba(255,255,255,0.16), rgba(255,255,255,0.01) 45%),
+      linear-gradient(165deg, rgba(40,26,18,0.8), rgba(10,8,14,0.88));
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    box-shadow:
+      0 10px 26px rgba(0,0,0,0.5),
+      inset 0 1px 0 rgba(255,255,255,0.16),
+      inset 0 -2px 5px rgba(0,0,0,0.55),
+      inset 0 0 0 1px rgba(0,0,0,0.35),
+      0 0 16px -8px var(--accent, var(--cyan));
+    color: var(--text);
+    cursor: pointer;
+    pointer-events: auto;
+    transition: transform 0.25s cubic-bezier(.2,.8,.2,1), box-shadow 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+    transform: translate(var(--tx, 0), var(--ty, 0));
+    -webkit-tap-highlight-color: transparent;
+  }
+  /* Dashed HUD bezel ring, like a machined instrument dial. */
+  .orb-btn::before {
+    content: "";
+    position: absolute;
+    inset: -9px;
+    border-radius: 50%;
+    background: repeating-conic-gradient(var(--accent, var(--cyan)) 0deg 5deg, transparent 5deg 16deg);
+    -webkit-mask: radial-gradient(closest-side, transparent calc(100% - 3.5px), #000 calc(100% - 2.5px));
+            mask: radial-gradient(closest-side, transparent calc(100% - 3.5px), #000 calc(100% - 2.5px));
+    opacity: 0.4;
+    pointer-events: none;
+    transition: opacity 0.25s ease, transform 0.6s linear;
+  }
+  /* Fine engraved inner ring for a machined-metal read. */
+  .orb-btn::after {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.5);
+    pointer-events: none;
+  }
+  .orb-btn svg {
+    width: 23px;
+    height: 23px;
+    stroke: currentColor;
+    fill: none;
+    stroke-width: 1.75;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+    position: relative;
+    z-index: 1;
+  }
+  .orb-btn .orb-label {
+    position: absolute;
+    top: 100%;
+    margin-top: 8px;
+    font-size: 0.68rem;
+    color: var(--muted);
+    white-space: nowrap;
+    letter-spacing: 0.02em;
+    opacity: 0.85;
+  }
+  .orb-btn:hover, .orb-btn:focus-visible {
+    transform: translate(var(--tx, 0), var(--ty, 0)) translateY(-3px);
+    border-color: color-mix(in srgb, var(--accent, var(--cyan)) 55%, var(--card-border));
+    box-shadow:
+      0 12px 30px rgba(0,0,0,0.5),
+      0 0 30px -4px var(--accent, var(--cyan)),
+      inset 0 1px 0 rgba(255,255,255,0.24),
+      inset 0 -2px 5px rgba(0,0,0,0.5);
+    color: var(--accent, var(--cyan));
+    outline: none;
+  }
+  .orb-btn:hover::before, .orb-btn:focus-visible::before {
+    opacity: 0.95;
+    transform: rotate(24deg);
+  }
+  .orb-btn:active {
+    transform: translate(var(--tx, 0), var(--ty, 0)) translateY(-1px) scale(0.96);
+  }
+  .orb-btn:focus-visible {
+    outline: 2px solid var(--accent, var(--cyan));
+    outline-offset: 3px;
+  }
+  .orb-btn.stat { --accent: var(--cyan); }
+  .orb-btn.signals { --accent: var(--gold); }
+  .orb-btn.settings { --accent: #b98cff; }
+  .orb-btn.more { --accent: #ff6ea6; }
+
+  /* ---- Panels ---- */
+  .panel-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(3, 5, 12, 0.55);
+    backdrop-filter: blur(2px);
+    z-index: 9;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+  }
+  .panel-backdrop.open {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .panel {
+    position: fixed;
+    z-index: 10;
+    background: var(--card);
+    border: 1px solid var(--card-border);
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    box-shadow: 0 -20px 60px rgba(0,0,0,0.5), 0 20px 60px rgba(0,0,0,0.5);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.32s cubic-bezier(.2,.8,.2,1), opacity 0.25s ease;
+  }
+  /* Desktop: side panel */
+  @media (min-width: 641px) {
+    .panel {
+      top: 0;
+      right: 0;
+      height: 100dvh;
+      width: min(400px, 92vw);
+      border-radius: 0;
+      border-left: 1px solid var(--card-border);
+      transform: translateX(100%);
+    }
+    .panel.open { transform: translateX(0); }
+  }
+  /* Mobile: bottom sheet */
+  @media (max-width: 640px) {
+    .panel {
+      left: 0;
+      right: 0;
+      bottom: 0;
+      max-height: min(78dvh, 620px);
+      border-radius: 20px 20px 0 0;
+      border-bottom: none;
+      padding-bottom: env(safe-area-inset-bottom);
+      transform: translateY(100%);
+    }
+    .panel.open { transform: translateY(0); }
+  }
+  .panel-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 20px;
+    border-bottom: 1px solid var(--card-border);
+    flex: 0 0 auto;
+  }
+  .panel-head h2 {
+    margin: 0;
+    font-family: "Unbounded", "IBM Plex Sans", sans-serif;
+    font-size: 0.92rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .panel-head h2 svg {
+    width: 19px; height: 19px;
+    stroke: var(--accent, var(--cyan));
+    fill: none; stroke-width: 1.9; stroke-linecap: round; stroke-linejoin: round;
+  }
+  .panel-close {
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--card-border);
+    background: rgba(255,255,255,0.04);
+    color: var(--muted);
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+  }
+  .panel-close svg { width: 16px; height: 16px; stroke: currentColor; fill: none; stroke-width: 2; }
+  .panel-close:hover { color: var(--text); background: rgba(255,255,255,0.08); }
+  .panel-body {
+    padding: 18px 20px 26px;
+    overflow-y: auto;
+    flex: 1 1 auto;
+  }
+
+  /* ---- content pieces (reused structure from previous dashboard) ---- */
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; margin-bottom: 20px; }
   .card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 16px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    padding: 14px;
   }
-  .card .label { color: var(--muted); font-size: 0.8rem; margin-bottom: 6px; }
-  .card .value { font-size: 1.6rem; font-weight: 700; }
+  .card .label { color: var(--muted); font-size: 0.72rem; margin-bottom: 6px; }
+  .card .value { font-family: "Unbounded", "IBM Plex Sans", sans-serif; font-size: 1.4rem; font-weight: 600; }
   .value.green { color: var(--green); }
-  .value.red { color: var(--red); }
-  section {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 20px;
-  }
-  section h2 { font-size: 1.05rem; margin-top: 0; margin-bottom: 12px; }
+  .value.accent { color: var(--cyan); }
   .signal-row {
     display: flex; justify-content: space-between; align-items: center;
-    padding: 10px 0; border-bottom: 1px solid var(--border); font-size: 0.9rem;
+    padding: 10px 0; border-bottom: 1px solid var(--card-border); font-size: 0.86rem;
   }
   .signal-row:last-child { border-bottom: none; }
   .badge {
-    display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 0.75rem; font-weight: 600;
+    display: inline-block; padding: 2px 8px; border-radius: 6px; font-size: 0.7rem; font-weight: 600;
   }
-  .badge.long { background: rgba(63,185,80,0.15); color: var(--green); }
-  .badge.short { background: rgba(248,81,73,0.15); color: var(--red); }
-  .badge.tier1 { background: rgba(139,148,158,0.2); color: var(--muted); }
-  .badge.tier2 { background: rgba(210,153,34,0.15); color: var(--yellow); }
-  .badge.tier3 { background: rgba(248,81,73,0.15); color: var(--red); }
+  .badge.long { background: rgba(61,220,132,0.15); color: var(--green); }
+  .badge.short { background: rgba(255,92,108,0.15); color: var(--red); }
+  .badge.tier1 { background: rgba(139,148,168,0.18); color: var(--muted); }
+  .badge.tier2 { background: rgba(247,201,72,0.15); color: var(--yellow); }
+  .badge.tier3 { background: rgba(255,92,108,0.15); color: var(--red); }
   .outcome { font-weight: 700; }
   .outcome.richtig { color: var(--green); }
   .outcome.falsch { color: var(--red); }
   .outcome.neutral { color: var(--muted); }
   .settings-item {
     display: flex; justify-content: space-between; align-items: center;
-    padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 0.9rem;
+    padding: 9px 0; border-bottom: 1px solid var(--card-border); font-size: 0.86rem;
   }
   .settings-item:last-child { border-bottom: none; }
-  .settings-item .desc { color: var(--muted); font-size: 0.8rem; }
+  .settings-item .desc { color: var(--muted); font-size: 0.74rem; }
   a.btn {
-    display: inline-block; background: var(--blue); color: #fff; text-decoration: none;
-    padding: 4px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 600;
+    display: inline-block; background: linear-gradient(135deg, var(--gold), #d97b06);
+    color: #1a1206; text-decoration: none; font-weight: 700;
+    padding: 8px 14px; border-radius: 8px; font-size: 0.8rem;
+    box-shadow: 0 4px 14px rgba(247,147,26,0.35);
   }
-  .empty { color: var(--muted); text-align: center; padding: 20px 0; font-size: 0.9rem; }
-  .footer { color: var(--muted); font-size: 0.75rem; text-align: center; margin-top: 24px; }
-  .footer a { color: var(--blue); }
-  .loading { text-align: center; color: var(--muted); padding: 40px 0; }
+  a.btn.ghost {
+    background: rgba(255,255,255,0.05); color: var(--text); font-weight: 600;
+    border: 1px solid var(--card-border); box-shadow: none;
+  }
+  .empty { color: var(--muted); text-align: center; padding: 20px 0; font-size: 0.88rem; }
+  .footer-note {
+    position: fixed; bottom: 8px; left: 0; right: 0;
+    text-align: center; color: var(--muted); font-size: 0.68rem;
+    z-index: 4; pointer-events: none; padding: 0 12px;
+  }
+  .footer-note a { color: var(--cyan); pointer-events: auto; }
+  @media (max-width: 640px) {
+    /* Icon-only dock on mobile: labels would run past the viewport edge. */
+    .orb-btn .orb-label { display: none; }
+    .orb-btn { width: 56px; height: 56px; margin: -28px 0 0 -28px; }
+    .orb-btn svg { width: 21px; height: 21px; }
+    /* Disclaimer lives in the "Mehr" panel on mobile; the fixed footer would collide with the dock. */
+    .footer-note { display: none; }
+  }
+  .loading-msg {
+    position: fixed; top: 50%; left: 0; right: 0; text-align: center;
+    color: var(--muted); font-size: 0.85rem; z-index: 3; transform: translateY(60px);
+  }
+  .last-updated { opacity: 0.7; font-size: 0.78em; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .orb-btn, .panel { transition: none; }
+  }
 </style>
 </head>
 <body>
 
-<h1>📊 Crypto Signal Bot</h1>
-<p class="subtitle">Persönliches Dashboard – aktualisiert bei jedem Bot-Lauf (alle 5 Min)</p>
+<canvas id="scene-canvas"></canvas>
 
-<div id="loading" class="loading">Lade Daten...</div>
-
-<div id="content" style="display:none">
-
-  <div class="cards">
-    <div class="card">
-      <div class="label">Aktive Signale (7 Tage)</div>
-      <div class="value" id="stat-total">–</div>
-    </div>
-    <div class="card">
-      <div class="label">Trefferquote</div>
-      <div class="value green" id="stat-accuracy">–</div>
-    </div>
-    <div class="card">
-      <div class="label">Richtig / Falsch</div>
-      <div class="value" id="stat-rf">–</div>
-    </div>
-  </div>
-
-  <section>
-    <h2>🕐 Letzte Signale</h2>
-    <div id="recent-signals"></div>
-  </section>
-
-  <section>
-    <h2>⚙️ Aktuelle Einstellungen</h2>
-    <div class="settings-item">
-      <div><div>Beobachtete Coins</div><div class="desc">TOP_N_COINS</div></div>
-      <div>150</div>
-    </div>
-    <div class="settings-item">
-      <div><div>Push ab Stufe</div><div class="desc">NOTIFY_MIN_TIER</div></div>
-      <div>2</div>
-    </div>
-    <div class="settings-item">
-      <div><div>Kerzenintervall</div><div class="desc">TIMEFRAME</div></div>
-      <div>4h</div>
-    </div>
-    <div class="settings-item">
-      <div><div>Scan-Takt</div><div class="desc">GitHub Actions Cron</div></div>
-      <div>alle 5 Min</div>
-    </div>
-    <div class="settings-item">
-      <div><div>Auswertung nach</div><div class="desc">OUTCOME_CHECK_HOURS</div></div>
-      <div>12h</div>
-    </div>
-    <div style="margin-top:14px; text-align:center;">
-      <a class="btn" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot/edit/main/src/config.py" target="_blank">Einstellungen bearbeiten →</a>
-    </div>
-  </section>
-
-  <section>
-    <h2>🔗 Schnellzugriff</h2>
-    <div style="display:flex; flex-wrap:wrap; gap:8px;">
-      <a class="btn" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot/actions" target="_blank">Bot-Läufe ansehen</a>
-      <a class="btn" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot" target="_blank">Repository öffnen</a>
-    </div>
-  </section>
-
+<div class="top-bar">
+  <h1>Crypto Signal Bot</h1>
+  <p>Live-Dashboard · aktualisiert bei jedem Bot-Lauf <span id="last-updated" class="last-updated"></span></p>
 </div>
 
-<div class="footer">
-  Kein Finanzrat. Alle Daten dienen nur der Orientierung.<br>
-  <a href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot" target="_blank">Quellcode auf GitHub</a>
+<div class="stage">
+  <div class="ring" id="ring">
+    <svg class="thread-svg" id="thread-svg" aria-hidden="true"></svg>
+    <button class="orb-btn stat" id="btn-stat" data-panel="panel-stat" aria-label="Statistik öffnen">
+      <svg viewBox="0 0 24 24"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>
+      <span class="orb-label">Statistik</span>
+    </button>
+    <button class="orb-btn signals" id="btn-signals" data-panel="panel-signals" aria-label="Signale öffnen">
+      <svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>
+      <span class="orb-label">Signale</span>
+    </button>
+    <button class="orb-btn settings" id="btn-settings" data-panel="panel-settings" aria-label="Einstellungen öffnen">
+      <svg viewBox="0 0 24 24"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg>
+      <span class="orb-label">Einstellungen</span>
+    </button>
+    <button class="orb-btn more" id="btn-more" data-panel="panel-more" aria-label="Mehr öffnen">
+      <svg viewBox="0 0 24 24"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>
+      <span class="orb-label">Mehr</span>
+    </button>
+  </div>
+</div>
+
+<div class="loading-msg" id="loading">Lade Daten…</div>
+
+<div class="panel-backdrop" id="panel-backdrop"></div>
+
+<div class="panel" id="panel-stat" style="--accent: var(--cyan);">
+  <div class="panel-head">
+    <h2><svg viewBox="0 0 24 24"><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg>Statistik</h2>
+    <button class="panel-close" aria-label="Schliessen"><svg viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+  </div>
+  <div class="panel-body">
+    <div class="cards">
+      <div class="card"><div class="label">Aktive Signale (7 Tage)</div><div class="value" id="stat-total">–</div></div>
+      <div class="card"><div class="label">Trefferquote</div><div class="value green" id="stat-accuracy">–</div></div>
+      <div class="card"><div class="label">Richtig / Falsch</div><div class="value" id="stat-rf">–</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-signals" style="--accent: var(--gold);">
+  <div class="panel-head">
+    <h2><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/><path d="M12 7v5l4 2"/></svg>Letzte Signale</h2>
+    <button class="panel-close" aria-label="Schliessen"><svg viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+  </div>
+  <div class="panel-body">
+    <div id="recent-signals"></div>
+  </div>
+</div>
+
+<div class="panel" id="panel-settings" style="--accent: #b98cff;">
+  <div class="panel-head">
+    <h2><svg viewBox="0 0 24 24"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg>Aktuelle Einstellungen</h2>
+    <button class="panel-close" aria-label="Schliessen"><svg viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+  </div>
+  <div class="panel-body">
+    <div class="settings-item"><div><div>Beobachtete Coins</div><div class="desc">TOP_N_COINS</div></div><div>150</div></div>
+    <div class="settings-item"><div><div>Push ab Stufe</div><div class="desc">NOTIFY_MIN_TIER</div></div><div>2</div></div>
+    <div class="settings-item"><div><div>Kerzenintervall</div><div class="desc">TIMEFRAME</div></div><div>4h</div></div>
+    <div class="settings-item"><div><div>Scan-Takt</div><div class="desc">GitHub Actions Cron</div></div><div>alle 5 Min</div></div>
+    <div class="settings-item"><div><div>Auswertung nach</div><div class="desc">OUTCOME_CHECK_HOURS</div></div><div>12h</div></div>
+    <div style="margin-top:16px; text-align:center;">
+      <a class="btn" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot/edit/main/src/config.py" target="_blank" rel="noopener">Einstellungen bearbeiten →</a>
+    </div>
+  </div>
+</div>
+
+<div class="panel" id="panel-more" style="--accent: #ff6ea6;">
+  <div class="panel-head">
+    <h2><svg viewBox="0 0 24 24"><rect width="7" height="7" x="3" y="3" rx="1"/><rect width="7" height="7" x="14" y="3" rx="1"/><rect width="7" height="7" x="14" y="14" rx="1"/><rect width="7" height="7" x="3" y="14" rx="1"/></svg>Schnellzugriff</h2>
+    <button class="panel-close" aria-label="Schliessen"><svg viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg></button>
+  </div>
+  <div class="panel-body">
+    <div style="display:flex; flex-wrap:wrap; gap:8px;">
+      <a class="btn ghost" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot/actions" target="_blank" rel="noopener">Bot-Läufe ansehen</a>
+      <a class="btn ghost" href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot" target="_blank" rel="noopener">Repository öffnen</a>
+    </div>
+    <p style="color:var(--muted); font-size:0.78rem; margin-top:18px; line-height:1.5;">
+      Kein Finanzrat. Alle Daten dienen nur der Orientierung.
+    </p>
+  </div>
+</div>
+
+<div class="footer-note">
+  Kein Finanzrat · <a href="https://github.com/lorisvollenweider-pixel/crypto-signal-bot" target="_blank" rel="noopener">Quellcode auf GitHub</a>
 </div>
 
 <script>
+/* ---------------- Datenlogik (übernommen & erweitert) ---------------- */
 const REPO_RAW = "https://raw.githubusercontent.com/lorisvollenweider-pixel/crypto-signal-bot/main";
 
-async function loadDashboard() {
+const REFRESH_INTERVAL_MS = 60000;
+let lastFetchAt = 0;
+
+async function loadDashboard(isInitial = true) {
   try {
     const res = await fetch(`${REPO_RAW}/data/signal_history.json?t=${Date.now()}`);
     const history = await res.json();
@@ -168,7 +509,6 @@ async function loadDashboard() {
     const evaluated = recentAll.filter(e => e.checked);
     const richtig = evaluated.filter(e => e.outcome === "richtig").length;
     const falsch = evaluated.filter(e => e.outcome === "falsch").length;
-    const neutral = evaluated.filter(e => e.outcome === "neutral").length;
 
     const accuracyBase = richtig + falsch;
     const accuracyPct = accuracyBase > 0 ? Math.round((richtig / accuracyBase) * 100) : null;
@@ -198,21 +538,746 @@ async function loadDashboard() {
           <div><strong>${e.symbol}</strong> ${dirBadge} ${tierBadge}</div>
           <div style="text-align:right">
             <div>${outcomeHtml}</div>
-            <div style="color:var(--muted); font-size:0.75rem;">${dateStr}</div>
+            <div style="color:var(--muted); font-size:0.72rem;">${dateStr}</div>
           </div>
         </div>`;
       }).join("");
     }
 
     document.getElementById("loading").style.display = "none";
-    document.getElementById("content").style.display = "block";
+    lastFetchAt = Date.now();
+    document.getElementById("last-updated").textContent =
+      "· aktualisiert um " + new Date().toLocaleTimeString("de-CH", { hour: "2-digit", minute: "2-digit" });
   } catch (err) {
-    document.getElementById("loading").textContent =
-      "Konnte Daten nicht laden. Läuft der Bot schon mindestens einmal? (" + err.message + ")";
+    if (isInitial) {
+      document.getElementById("loading").textContent =
+        "Konnte Daten nicht laden. Läuft der Bot schon mindestens einmal? (" + err.message + ")";
+    } else {
+      // Ein einzelner fehlgeschlagener Hintergrund-Refresh soll die zuletzt geladenen Daten nicht verdecken.
+      console.warn("Dashboard-Refresh fehlgeschlagen:", err);
+    }
+  }
+}
+loadDashboard();
+
+setInterval(() => {
+  if (!document.hidden) loadDashboard(false);
+}, REFRESH_INTERVAL_MS);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden && Date.now() - lastFetchAt > REFRESH_INTERVAL_MS) {
+    loadDashboard(false);
+  }
+});
+
+/* ---------------- Panels ---------------- */
+const backdrop = document.getElementById("panel-backdrop");
+const panels = Array.from(document.querySelectorAll(".panel"));
+let openPanelId = null;
+
+function closeAllPanels() {
+  panels.forEach(p => p.classList.remove("open"));
+  backdrop.classList.remove("open");
+  openPanelId = null;
+  onPanelStateChange(false);
+}
+function openPanel(id) {
+  panels.forEach(p => p.classList.toggle("open", p.id === id));
+  backdrop.classList.add("open");
+  openPanelId = id;
+  onPanelStateChange(true);
+}
+document.querySelectorAll(".orb-btn").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const id = btn.dataset.panel;
+    if (openPanelId === id) closeAllPanels();
+    else openPanel(id);
+  });
+});
+document.querySelectorAll(".panel-close").forEach(btn => {
+  btn.addEventListener("click", closeAllPanels);
+});
+backdrop.addEventListener("click", closeAllPanels);
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeAllPanels();
+});
+
+// Hook for the 3D scene to pause rendering while a panel is open (filled in later step).
+function onPanelStateChange(isOpen) {
+  if (window.__sceneSetPaused) window.__sceneSetPaused(isOpen);
+}
+
+/* ---------------- Button ring layout + digital thread connectors ---------------- */
+const THREAD_COLORS = { stat: "#00e5c7", signals: "#f7931a", settings: "#b98cff", more: "#ff6ea6" };
+const threadSvg = document.getElementById("thread-svg");
+
+function updateThreads(positions) {
+  const w = window.innerWidth, h = window.innerHeight;
+  threadSvg.setAttribute("viewBox", `0 0 ${w} ${h}`);
+  const cx = w / 2, cy = h / 2;
+  threadSvg.innerHTML = positions.map(({ x, y, color }) => `
+    <line class="thread-core" x1="${cx}" y1="${cy}" x2="${cx + x}" y2="${cy + y}" stroke="${color}"></line>
+    <line class="thread-line" x1="${cx}" y1="${cy}" x2="${cx + x}" y2="${cy + y}" stroke="${color}" style="color:${color}"></line>
+  `).join("");
+}
+
+function layoutRing() {
+  const w = window.innerWidth;
+  const btns = Array.from(document.querySelectorAll(".orb-btn"));
+  const positions = [];
+  if (w <= 640) {
+    // Dock at bottom
+    const gap = 76;
+    const total = (btns.length - 1) * gap;
+    btns.forEach((btn, i) => {
+      const x = -total / 2 + i * gap;
+      const y = window.innerHeight / 2 - 96;
+      btn.style.setProperty("--tx", `${x}px`);
+      btn.style.setProperty("--ty", `${y}px`);
+      positions.push({ x, y, color: THREAD_COLORS[btn.classList[1]] || "#00e5c7" });
+    });
+  } else {
+    const radius = Math.min(250, window.innerWidth * 0.24);
+    btns.forEach((btn, i) => {
+      const angle = (-90 + i * (360 / btns.length)) * (Math.PI / 180);
+      const x = Math.cos(angle) * radius;
+      const y = Math.sin(angle) * radius;
+      btn.style.setProperty("--tx", `${x}px`);
+      btn.style.setProperty("--ty", `${y}px`);
+      positions.push({ x, y, color: THREAD_COLORS[btn.classList[1]] || "#00e5c7" });
+    });
+  }
+  updateThreads(positions);
+}
+layoutRing();
+window.addEventListener("resize", layoutRing);
+</script>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module">
+import * as THREE from "three";
+import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
+import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
+
+const canvas = document.getElementById("scene-canvas");
+const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
+const isLowPower = (navigator.hardwareConcurrency || 4) <= 4;
+
+/* ---------------- Renderer / Scene / Camera ---------------- */
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: "high-performance" });
+renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, isLowPower ? 1.75 : 2));
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+renderer.toneMappingExposure = 1.08;
+
+const scene = new THREE.Scene();
+
+const camera = new THREE.PerspectiveCamera(32, window.innerWidth / window.innerHeight, 0.1, 100);
+camera.position.set(0, 0, 7.2);
+
+function resize() {
+  const w = window.innerWidth, h = window.innerHeight;
+  camera.aspect = w / h;
+  camera.updateProjectionMatrix();
+  renderer.setSize(w, h);
+}
+resize();
+window.addEventListener("resize", resize);
+
+/* ---------------- Environment (PBR reflections) ---------------- */
+const pmremGenerator = new THREE.PMREMGenerator(renderer);
+pmremGenerator.compileEquirectangularShader();
+const envRenderTarget = pmremGenerator.fromScene(new RoomEnvironment(), 0.035);
+scene.environment = envRenderTarget.texture;
+pmremGenerator.dispose();
+
+/* ---------------- Lights ---------------- */
+const keyLight = new THREE.DirectionalLight(0xffb066, 2.6);
+keyLight.position.set(3.2, 4.2, 4.8);
+scene.add(keyLight);
+
+const lavaLight = new THREE.PointLight(0xff5e1a, 3.2, 8, 2);
+lavaLight.position.set(0, 0, 2.2);
+scene.add(lavaLight);
+
+const rimLight = new THREE.DirectionalLight(0x5fe8d4, 1.1);
+rimLight.position.set(-4, -1.4, -3.2);
+scene.add(rimLight);
+
+const fillLight = new THREE.AmbientLight(0x2a1420, 0.4);
+scene.add(fillLight);
+
+/* ---------------- Coin body (Lathe-based, PBR gold) ---------------- */
+const COIN_RADIUS = 0.54;
+const COIN_THICKNESS = 0.15;
+const COIN_BEVEL = 0.05;
+const LATHE_SEGMENTS = isLowPower ? 72 : 112;
+
+function buildCoinGeometry(radius, thickness, bevel, segments) {
+  const h = thickness / 2;
+  const points = [
+    new THREE.Vector2(0, -h),
+    new THREE.Vector2(radius * 0.9, -h),
+    new THREE.Vector2(radius, -h + bevel),
+    new THREE.Vector2(radius * 1.015, 0),
+    new THREE.Vector2(radius, h - bevel),
+    new THREE.Vector2(radius * 0.9, h),
+    new THREE.Vector2(0, h),
+  ];
+  const geo = new THREE.LatheGeometry(points, segments);
+  geo.rotateX(Math.PI / 2);
+  return geo;
+}
+
+const coinGeometry = buildCoinGeometry(COIN_RADIUS, COIN_THICKNESS, COIN_BEVEL, LATHE_SEGMENTS);
+const coinMaterial = new THREE.MeshPhysicalMaterial({
+  color: new THREE.Color(0xc7440f),
+  metalness: 0.82,
+  roughness: 0.32,
+  clearcoat: 0.5,
+  clearcoatRoughness: 0.18,
+  envMapIntensity: 1.4,
+  emissive: new THREE.Color(0xff5e1a),
+  emissiveIntensity: 0.5,
+});
+const coinMesh = new THREE.Mesh(coinGeometry, coinMaterial);
+
+const coinGroup = new THREE.Group();
+coinGroup.add(coinMesh);
+coinGroup.rotation.x = 0.12;
+scene.add(coinGroup);
+
+/* Rim glow shell: a slightly larger backside-only copy for a plasma-edge halo (classic sci-fi rim-light hack). */
+const rimGlowMesh = new THREE.Mesh(
+  coinGeometry,
+  new THREE.MeshBasicMaterial({
+    color: new THREE.Color(0xff8a3c),
+    side: THREE.BackSide,
+    transparent: true,
+    opacity: 0.55,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+  })
+);
+rimGlowMesh.scale.setScalar(1.06);
+coinGroup.add(rimGlowMesh);
+
+/* ---------------- Engraved ₿ logo (Font Awesome "bitcoin-sign", CC BY 4.0) ---------------- */
+// Vector glyph, not a bitmap: stays crisp at any zoom, unlike a canvas-drawn "B".
+const BTC_GLYPH_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M48 32C48 14.3 62.3 0 80 0s32 14.3 32 32V64h32V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64c0 1.5-.1 3.1-.3 4.5C254.1 82.2 288 125.1 288 176c0 24.2-7.7 46.6-20.7 64.9c31.7 19.8 52.7 55 52.7 95.1c0 61.9-50.1 112-112 112v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V448H112v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V448H41.7C18.7 448 0 429.3 0 406.3V288 265.7 224 101.6C0 80.8 16.8 64 37.6 64H48V32zM64 224H176c26.5 0 48-21.5 48-48s-21.5-48-48-48H64v96zm112 64H64v96H208c26.5 0 48-21.5 48-48s-21.5-48-48-48H176z"/></svg>`;
+
+function buildLogoGeometry(extrudeDepth) {
+  const svgData = new SVGLoader().parse(BTC_GLYPH_SVG);
+  const shapes = [];
+  svgData.paths.forEach((path) => shapes.push(...SVGLoader.createShapes(path)));
+
+  const geo = new THREE.ExtrudeGeometry(shapes, {
+    depth: extrudeDepth,
+    bevelEnabled: true,
+    bevelThickness: extrudeDepth * 0.24,
+    bevelSize: extrudeDepth * 0.2,
+    bevelSegments: 3,
+    curveSegments: 18,
+  });
+  geo.computeBoundingBox();
+  const bb = geo.boundingBox;
+  const cx = (bb.min.x + bb.max.x) / 2;
+  const cy = (bb.min.y + bb.max.y) / 2;
+  geo.translate(-cx, -cy, 0);
+  geo.scale(1, -1, 1); // SVG y-down -> three.js y-up
+
+  const targetHeight = COIN_RADIUS * 1.05;
+  const svgHeight = bb.max.y - bb.min.y;
+  const s = targetHeight / svgHeight;
+  geo.scale(s, s, s);
+  geo.computeBoundingBox();
+  return geo;
+}
+
+const LOGO_DEPTH = COIN_THICKNESS * 0.4;
+const logoGeometry = buildLogoGeometry(LOGO_DEPTH);
+const logoBB = logoGeometry.boundingBox;
+const logoMaterial = new THREE.MeshPhysicalMaterial({
+  color: new THREE.Color(0xffcf8a),
+  metalness: 0.7,
+  roughness: 0.28,
+  clearcoat: 0.25,
+  envMapIntensity: 1.2,
+  emissive: new THREE.Color(0xff9a3d),
+  emissiveIntensity: 0.85,
+  side: THREE.DoubleSide,
+});
+
+const logoFront = new THREE.Mesh(logoGeometry, logoMaterial);
+logoFront.position.z = COIN_THICKNESS / 2 - logoBB.min.z;
+coinGroup.add(logoFront);
+
+const logoBack = new THREE.Mesh(logoGeometry, logoMaterial);
+logoBack.position.z = -COIN_THICKNESS / 2 + logoBB.min.z;
+logoBack.rotation.x = Math.PI; // face outward on the reverse side
+coinGroup.add(logoBack);
+
+/* ---------------- Raised trim ring near the rim: reeded/notched edge like a milled coin ---------------- */
+function createReededTexture() {
+  const w = 512, h = 32;
+  const c = document.createElement("canvas");
+  c.width = w; c.height = h;
+  const ctx = c.getContext("2d");
+  ctx.fillStyle = "#ffe0ad";
+  ctx.fillRect(0, 0, w, h);
+  const notches = 72;
+  for (let i = 0; i < notches; i++) {
+    const x = (i / notches) * w;
+    const grad = ctx.createLinearGradient(x, 0, x + w / notches, 0);
+    grad.addColorStop(0, "rgba(90,35,0,0.85)");
+    grad.addColorStop(0.5, "rgba(255,235,190,0.9)");
+    grad.addColorStop(1, "rgba(90,35,0,0.85)");
+    ctx.fillStyle = grad;
+    ctx.fillRect(x, 0, w / notches, h);
+  }
+  const tex = new THREE.CanvasTexture(c);
+  tex.wrapS = THREE.RepeatWrapping;
+  tex.wrapT = THREE.RepeatWrapping;
+  tex.colorSpace = THREE.SRGBColorSpace;
+  return tex;
+}
+const reededTexture = createReededTexture();
+const ringMaterial = new THREE.MeshPhysicalMaterial({
+  color: new THREE.Color(0xffcf8a),
+  map: reededTexture,
+  metalness: 0.9,
+  roughness: 0.35,
+  envMapIntensity: 1.2,
+  emissive: new THREE.Color(0xff8a3c),
+  emissiveIntensity: 0.4,
+});
+const trimGeometry = new THREE.TorusGeometry(COIN_RADIUS * 0.93, COIN_THICKNESS * 0.06, 10, 96);
+const trimFront = new THREE.Mesh(trimGeometry, ringMaterial);
+trimFront.position.z = COIN_THICKNESS / 2;
+coinGroup.add(trimFront);
+const trimBack = new THREE.Mesh(trimGeometry, ringMaterial);
+trimBack.position.z = -COIN_THICKNESS / 2;
+coinGroup.add(trimBack);
+
+/* ---------------- Etched circuit-trace detail on the coin faces ---------------- */
+function createCircuitTexture(size = 512) {
+  const c = document.createElement("canvas");
+  c.width = c.height = size;
+  const ctx = c.getContext("2d");
+  ctx.save();
+  ctx.beginPath();
+  ctx.arc(size / 2, size / 2, size / 2 - 6, 0, Math.PI * 2);
+  ctx.clip();
+
+  const grid = 16;
+  const step = size / grid;
+  ctx.lineCap = "round";
+  ctx.lineWidth = 2;
+  for (let i = 0; i < 60; i++) {
+    let x = Math.floor(Math.random() * grid) * step;
+    let y = Math.floor(Math.random() * grid) * step;
+    ctx.beginPath();
+    ctx.moveTo(x, y);
+    const segs = 2 + Math.floor(Math.random() * 4);
+    for (let s = 0; s < segs; s++) {
+      if (Math.random() > 0.5) x += (Math.random() > 0.5 ? 1 : -1) * step;
+      else y += (Math.random() > 0.5 ? 1 : -1) * step;
+      x = Math.max(step * 0.5, Math.min(size - step * 0.5, x));
+      y = Math.max(step * 0.5, Math.min(size - step * 0.5, y));
+      ctx.lineTo(x, y);
+    }
+    ctx.strokeStyle = `rgba(255,214,160,${0.18 + Math.random() * 0.3})`;
+    ctx.stroke();
+    if (Math.random() > 0.55) {
+      ctx.fillStyle = `rgba(255,214,160,${0.25 + Math.random() * 0.3})`;
+      ctx.fillRect(x - 3, y - 3, 6, 6);
+    }
+  }
+  ctx.restore();
+  const tex = new THREE.CanvasTexture(c);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  return tex;
+}
+const circuitTexture = createCircuitTexture();
+const circuitMaterial = new THREE.MeshBasicMaterial({
+  map: circuitTexture,
+  transparent: true,
+  opacity: 0.6,
+  depthWrite: false,
+});
+const circuitGeometry = new THREE.CircleGeometry(COIN_RADIUS * 0.85, 64);
+const circuitFront = new THREE.Mesh(circuitGeometry, circuitMaterial);
+circuitFront.position.z = COIN_THICKNESS / 2 + 0.004;
+coinGroup.add(circuitFront);
+const circuitBack = new THREE.Mesh(circuitGeometry, circuitMaterial);
+circuitBack.position.z = -COIN_THICKNESS / 2 - 0.004;
+circuitBack.rotation.y = Math.PI;
+coinGroup.add(circuitBack);
+
+/* ---------------- Helper: soft radial-gradient canvas texture ---------------- */
+function createRadialTexture(stops, size = 256) {
+  const c = document.createElement("canvas");
+  c.width = c.height = size;
+  const ctx = c.getContext("2d");
+  const grad = ctx.createRadialGradient(size / 2, size / 2, 0, size / 2, size / 2, size / 2);
+  stops.forEach(([offset, color]) => grad.addColorStop(offset, color));
+  ctx.fillStyle = grad;
+  ctx.fillRect(0, 0, size, size);
+  const tex = new THREE.CanvasTexture(c);
+  tex.colorSpace = THREE.SRGBColorSpace;
+  return tex;
+}
+
+/* ---------------- Electromagnetic field: soft glow halo + HUD dial rings ---------------- */
+const glowTexture = createRadialTexture([
+  [0.0, "rgba(255,120,40,0)"],
+  [0.68, "rgba(255,120,40,0)"],
+  [0.8, "rgba(255,138,60,0.85)"],
+  [0.9, "rgba(0,229,199,0.35)"],
+  [1.0, "rgba(255,120,40,0)"],
+]);
+const energyRing = new THREE.Mesh(
+  new THREE.RingGeometry(COIN_RADIUS * 1.5, COIN_RADIUS * 2.15, 96),
+  new THREE.MeshBasicMaterial({
+    map: glowTexture,
+    transparent: true,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+    side: THREE.DoubleSide,
+    opacity: 0.85,
+  })
+);
+energyRing.rotation.x = -0.28;
+scene.add(energyRing);
+
+function createDashTexture(count, duty, color) {
+  const w = 1024, h = 16;
+  const c = document.createElement("canvas");
+  c.width = w; c.height = h;
+  const ctx = c.getContext("2d");
+  ctx.clearRect(0, 0, w, h);
+  ctx.fillStyle = color;
+  const seg = w / count;
+  for (let i = 0; i < count; i++) {
+    ctx.fillRect(i * seg, 0, seg * duty, h);
+  }
+  const tex = new THREE.CanvasTexture(c);
+  tex.wrapS = THREE.RepeatWrapping;
+  tex.colorSpace = THREE.SRGBColorSpace;
+  return tex;
+}
+
+const hudRingGroup = new THREE.Group();
+hudRingGroup.rotation.x = -0.28;
+scene.add(hudRingGroup);
+
+const hudDashOuter = new THREE.Mesh(
+  new THREE.RingGeometry(COIN_RADIUS * 2.28, COIN_RADIUS * 2.4, 128),
+  new THREE.MeshBasicMaterial({
+    map: createDashTexture(36, 0.55, "#ff8a3c"),
+    transparent: true,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+    side: THREE.DoubleSide,
+    opacity: 0.9,
+  })
+);
+hudRingGroup.add(hudDashOuter);
+
+const hudDashInner = new THREE.Mesh(
+  new THREE.RingGeometry(COIN_RADIUS * 1.28, COIN_RADIUS * 1.36, 128),
+  new THREE.MeshBasicMaterial({
+    map: createDashTexture(64, 0.35, "#00e5c7"),
+    transparent: true,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+    side: THREE.DoubleSide,
+    opacity: 0.7,
+  })
+);
+hudRingGroup.add(hudDashInner);
+
+const hudTicks = new THREE.Mesh(
+  new THREE.RingGeometry(COIN_RADIUS * 2.5, COIN_RADIUS * 2.56, 128),
+  new THREE.MeshBasicMaterial({
+    map: createDashTexture(90, 0.12, "#ffcf8a"),
+    transparent: true,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+    side: THREE.DoubleSide,
+    opacity: 0.55,
+  })
+);
+hudRingGroup.add(hudTicks);
+
+/* ---------------- Organic energy tendrils: wandering plasma threads, not a rigid geometric shell ---------------- */
+const TENDRIL_COUNT = isLowPower ? 11 : 20;
+const TENDRIL_SEGMENTS = 7; // control points per tendril, including the anchor near the coin
+
+const tendrilGroup = new THREE.Group();
+scene.add(tendrilGroup);
+const tendrilData = [];
+
+for (let i = 0; i < TENDRIL_COUNT; i++) {
+  const theta = Math.random() * Math.PI * 2;
+  const phi = Math.PI / 2 + (Math.random() - 0.5) * 2.0;
+  const baseR = COIN_RADIUS * (1.1 + Math.random() * 0.2);
+  const outR = COIN_RADIUS * (1.9 + Math.random() * 1.4);
+  const dirX = Math.sin(phi) * Math.cos(theta);
+  const dirY = Math.cos(phi) * 0.75;
+  const dirZ = Math.sin(phi) * Math.sin(theta) * 0.55;
+
+  const seeds = [];
+  for (let p = 0; p < TENDRIL_SEGMENTS; p++) {
+    seeds.push({
+      fx: 0.25 + Math.random() * 0.6, fy: 0.25 + Math.random() * 0.6, fz: 0.25 + Math.random() * 0.6,
+      px: Math.random() * 10, py: Math.random() * 10, pz: Math.random() * 10,
+    });
+  }
+
+  const positions = new Float32Array(TENDRIL_SEGMENTS * 3);
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+  const isCyan = Math.random() > 0.5;
+  const material = new THREE.LineBasicMaterial({
+    color: isCyan ? 0x5fe8d4 : 0xff8a3c,
+    transparent: true,
+    opacity: 0.38 + Math.random() * 0.3,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+  });
+  const line = new THREE.Line(geometry, material);
+  tendrilGroup.add(line);
+  tendrilData.push({ line, dirX, dirY, dirZ, baseR, outR, seeds });
+}
+
+function updateTendrils(t, infX, infY) {
+  for (const td of tendrilData) {
+    const pos = td.line.geometry.attributes.position.array;
+    for (let p = 0; p < TENDRIL_SEGMENTS; p++) {
+      const f = p / (TENDRIL_SEGMENTS - 1);
+      const r = td.baseR + (td.outR - td.baseR) * f;
+      const s = td.seeds[p];
+      const amp = COIN_RADIUS * 0.18 * f; // anchor stays put, the far tip wanders the most
+      const wx = Math.sin(t * s.fx + s.px) * amp;
+      const wy = Math.sin(t * s.fy + s.py) * amp;
+      const wz = Math.sin(t * s.fz + s.pz) * amp * 0.6;
+      const idx = p * 3;
+      pos[idx] = td.dirX * r + wx + infX * f * 0.9;
+      pos[idx + 1] = td.dirY * r + wy + infY * f * 0.9;
+      pos[idx + 2] = td.dirZ * r + wz;
+    }
+    td.line.geometry.attributes.position.needsUpdate = true;
   }
 }
 
-loadDashboard();
+/* ---------------- Particle starfield ---------------- */
+const PARTICLE_COUNT = isLowPower ? 320 : 700;
+const particleGeometry = new THREE.BufferGeometry();
+const particlePositions = new Float32Array(PARTICLE_COUNT * 3);
+const particleColors = new Float32Array(PARTICLE_COUNT * 3);
+const cyan = new THREE.Color(0x00e5c7);
+const gold = new THREE.Color(0xf7931a);
+for (let i = 0; i < PARTICLE_COUNT; i++) {
+  const radius = 3.2 + Math.random() * 5.5;
+  const theta = Math.random() * Math.PI * 2;
+  const phi = Math.acos(Math.random() * 2 - 1);
+  particlePositions[i * 3] = radius * Math.sin(phi) * Math.cos(theta);
+  particlePositions[i * 3 + 1] = radius * Math.sin(phi) * Math.sin(theta) * 0.6;
+  particlePositions[i * 3 + 2] = radius * Math.cos(phi) * 0.6 - 1.5;
+  const mixed = cyan.clone().lerp(gold, Math.random());
+  particleColors[i * 3] = mixed.r;
+  particleColors[i * 3 + 1] = mixed.g;
+  particleColors[i * 3 + 2] = mixed.b;
+}
+particleGeometry.setAttribute("position", new THREE.BufferAttribute(particlePositions, 3));
+particleGeometry.setAttribute("color", new THREE.BufferAttribute(particleColors, 3));
+
+const particleTexture = createRadialTexture([
+  [0.0, "rgba(255,255,255,1)"],
+  [0.35, "rgba(255,255,255,0.7)"],
+  [1.0, "rgba(255,255,255,0)"],
+]);
+const particles = new THREE.Points(
+  particleGeometry,
+  new THREE.PointsMaterial({
+    size: 0.045,
+    map: particleTexture,
+    vertexColors: true,
+    transparent: true,
+    opacity: 0.75,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+    sizeAttenuation: true,
+  })
+);
+scene.add(particles);
+
+/* ---------------- Soft contact shadow beneath the coin ---------------- */
+const shadowTexture = createRadialTexture([
+  [0.0, "rgba(0,0,0,0.55)"],
+  [0.6, "rgba(0,0,0,0.28)"],
+  [1.0, "rgba(0,0,0,0)"],
+]);
+const shadowSprite = new THREE.Sprite(
+  new THREE.SpriteMaterial({ map: shadowTexture, transparent: true, depthWrite: false, opacity: 0.9 })
+);
+shadowSprite.scale.set(COIN_RADIUS * 3.1, COIN_RADIUS * 1.4, 1);
+shadowSprite.position.set(0, -COIN_RADIUS * 1.35, -0.6);
+scene.add(shadowSprite);
+
+/* ---------------- Interaction: coin looks toward the cursor, no idle spin ---------------- */
+let pointerX = 0, pointerY = 0;
+let targetTiltY = 0, targetTiltX = 0;
+let targetPosX = 0, targetPosY = 0;
+
+if (!isCoarsePointer) {
+  window.addEventListener("pointermove", (e) => {
+    pointerX = (e.clientX / window.innerWidth) * 2 - 1;
+    pointerY = (e.clientY / window.innerHeight) * 2 - 1;
+    // The coin actively turns toward the cursor, like a HUD element tracking your focus.
+    targetTiltY = pointerX * 0.6;
+    targetTiltX = pointerY * 0.34;
+    targetPosX = pointerX * 0.22;
+    targetPosY = -pointerY * 0.13;
+  });
+}
+
+/* ---------------- Static-discharge sparks: ambient, and bursting when the cursor is near the coin ---------------- */
+const activeSparks = [];
+let sparkTimer = 0.6;
+let hoverBoost = 0;
+
+function spawnSpark(nearCursor) {
+  const theta = Math.random() * Math.PI * 2;
+  let start, end;
+  if (nearCursor) {
+    const ox = coinGroup.position.x * 2.4, oy = coinGroup.position.y * 2.4;
+    const r = COIN_RADIUS * (0.55 + Math.random() * 0.3);
+    start = new THREE.Vector3(ox + Math.cos(theta) * r * 0.4, oy + Math.sin(theta) * r * 0.4 * 0.75, 0.35);
+    end = new THREE.Vector3(ox + Math.cos(theta) * r, oy + Math.sin(theta) * r * 0.75, 0.35);
+  } else {
+    const r1 = COIN_RADIUS * (0.98 + Math.random() * 0.4);
+    const r2 = r1 + COIN_RADIUS * (0.3 + Math.random() * 0.6);
+    start = new THREE.Vector3(Math.cos(theta) * r1, Math.sin(theta) * r1 * 0.75, (Math.random() - 0.5) * COIN_RADIUS * 0.4);
+    end = new THREE.Vector3(Math.cos(theta) * r2, Math.sin(theta) * r2 * 0.75, (Math.random() - 0.5) * COIN_RADIUS * 0.4);
+  }
+  const segments = 5;
+  const dir = end.clone().sub(start);
+  const perp = new THREE.Vector3(-dir.y, dir.x, 0.4).normalize();
+  const positions = new Float32Array((segments + 1) * 3);
+  for (let i = 0; i <= segments; i++) {
+    const f = i / segments;
+    const p = start.clone().lerp(end, f);
+    if (i !== 0 && i !== segments) p.addScaledVector(perp, (Math.random() - 0.5) * COIN_RADIUS * 0.16);
+    positions[i * 3] = p.x;
+    positions[i * 3 + 1] = p.y;
+    positions[i * 3 + 2] = p.z;
+  }
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute("position", new THREE.BufferAttribute(positions, 3));
+  const material = new THREE.LineBasicMaterial({
+    color: Math.random() > 0.5 ? 0xaef6ff : 0xffd9a0,
+    transparent: true,
+    opacity: 0.95,
+    blending: THREE.AdditiveBlending,
+    depthWrite: false,
+  });
+  const line = new THREE.Line(geometry, material);
+  scene.add(line);
+  activeSparks.push({ line, life: 0, maxLife: 0.16 + Math.random() * 0.18 });
+}
+
+function updateSparks(dt) {
+  if (!isCoarsePointer) {
+    const dist = Math.hypot(pointerX, pointerY);
+    const target = dist < 0.32 ? 1 : 0;
+    hoverBoost += (target - hoverBoost) * Math.min(dt * 5, 1);
+  }
+  sparkTimer -= dt;
+  if (sparkTimer <= 0) {
+    if (!reduceMotion) {
+      const rate = 0.8 + hoverBoost * 4.5; // sparks per second, more while hovering the coin
+      spawnSpark(hoverBoost > 0.5 && Math.random() < 0.75);
+      sparkTimer = (1 / rate) * (0.6 + Math.random() * 0.8);
+    } else {
+      sparkTimer = 1;
+    }
+  }
+  for (let i = activeSparks.length - 1; i >= 0; i--) {
+    const s = activeSparks[i];
+    s.life += dt;
+    const f = s.life / s.maxLife;
+    s.line.material.opacity = Math.max(0, 0.95 * (1 - f));
+    if (f >= 1) {
+      scene.remove(s.line);
+      s.line.geometry.dispose();
+      s.line.material.dispose();
+      activeSparks.splice(i, 1);
+    }
+  }
+}
+
+/* ---------------- Pause hooks (panel open, tab hidden) ---------------- */
+let panelPaused = false;
+let tabHidden = document.hidden;
+let rafId = null;
+
+window.__sceneSetPaused = (isOpen) => {
+  panelPaused = isOpen;
+  ensureLoop();
+};
+document.addEventListener("visibilitychange", () => {
+  tabHidden = document.hidden;
+  ensureLoop();
+});
+
+function isActive() {
+  return !panelPaused && !tabHidden;
+}
+
+let lastTime = performance.now();
+let elapsed = 0;
+function tick(now) {
+  rafId = null;
+  const dt = Math.min((now - lastTime) / 1000, 0.1);
+  lastTime = now;
+  elapsed += dt;
+
+  const follow = Math.min(dt * 6, 1);
+  coinGroup.rotation.y += (targetTiltY - coinGroup.rotation.y) * follow;
+  coinGroup.rotation.x += (0.12 + targetTiltX - coinGroup.rotation.x) * follow;
+  coinGroup.position.x += (targetPosX - coinGroup.position.x) * follow;
+  coinGroup.position.y += (targetPosY - coinGroup.position.y) * follow;
+
+  if (!reduceMotion) {
+    energyRing.rotation.z += dt * 0.1;
+    hudRingGroup.rotation.z -= dt * 0.16;
+    hudDashInner.rotation.z += dt * 0.3;
+    hudTicks.rotation.z -= dt * 0.05;
+    // The tendrils lean gently toward wherever the cursor is pointing, on top of their own drift.
+    updateTendrils(elapsed, coinGroup.position.x * 2.4, coinGroup.position.y * 2.4);
+    particles.rotation.y += dt * 0.035;
+  }
+  updateSparks(dt);
+
+  renderer.render(scene, camera);
+  ensureLoop();
+}
+function ensureLoop() {
+  if (rafId !== null) return;
+  if (!isActive()) return;
+  lastTime = performance.now();
+  rafId = requestAnimationFrame(tick);
+}
+ensureLoop();
 </script>
 
 </body>
