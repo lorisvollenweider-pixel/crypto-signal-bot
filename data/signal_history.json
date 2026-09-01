@@ -1438,7 +1438,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "USD1",
@@ -1646,7 +1646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.47
+    "best_favorable_pct": 1.96
   },
   {
     "symbol": "ENA",
@@ -1697,7 +1697,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "ETC",
@@ -1766,7 +1766,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.87
   },
   {
     "symbol": "ATOM",
@@ -1783,7 +1783,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.3
   },
   {
     "symbol": "RENDER",
@@ -1800,7 +1800,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.61
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "ARB",
@@ -2004,7 +2004,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 1.62
   },
   {
     "symbol": "FET",
@@ -2158,7 +2158,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "FF",
@@ -2176,7 +2176,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.48
+    "best_favorable_pct": 16.11
   },
   {
     "symbol": "ENS",
@@ -2598,7 +2598,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 2.39
   },
   {
     "symbol": "LUNC",
@@ -2616,7 +2616,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "ETH",
@@ -2667,7 +2667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "LTC",
@@ -2684,7 +2684,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "JST",
@@ -2755,7 +2755,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "ALGO",
@@ -2789,7 +2789,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "TIA",
@@ -2822,6 +2822,76 @@
     "stop_loss": 0.09437564709743333,
     "take_profit": 0.11448870580513336,
     "timestamp": "2026-09-01T15:08:25.660574+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.68
+  },
+  {
+    "symbol": "BNB",
+    "kucoin_symbol": "BNB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 686.707,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 696.2086685606163,
+    "take_profit": 667.7036628787675,
+    "timestamp": "2026-09-01T15:45:05.246648+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.04605,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.04485757089309723,
+    "take_profit": 0.04843485821380554,
+    "timestamp": "2026-09-01T15:45:06.525837+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.12193,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.11680416120660032,
+    "take_profit": 0.13218167758679933,
+    "timestamp": "2026-09-01T15:45:07.650553+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CFX",
+    "kucoin_symbol": "CFX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.04691,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.048291446908655736,
+    "take_profit": 0.04414710618268853,
+    "timestamp": "2026-09-01T15:45:07.650577+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
