@@ -1834,7 +1834,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.64
   },
   {
     "symbol": "FLR",
@@ -3397,7 +3397,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "BTT",
@@ -3449,7 +3449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 1.96
   },
   {
     "symbol": "ALGO",
@@ -3466,7 +3466,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "LDO",
@@ -3536,7 +3536,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "DCR",
@@ -3571,7 +3571,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "GRAM",
@@ -3585,6 +3585,149 @@
     "stop_loss": 1.3719859348195174,
     "take_profit": 1.2250281303609651,
     "timestamp": "2026-09-01T19:25:25.402580+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.3
+  },
+  {
+    "symbol": "TRX",
+    "kucoin_symbol": "TRX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.3238,
+    "reasons": [
+      "RSI \u00fcberverkauft (18.6)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.32054952442604556,
+    "take_profit": 0.3303009511479088,
+    "timestamp": "2026-09-01T19:38:03.288674+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.7255,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.7513931113434704,
+    "take_profit": 0.6737137773130593,
+    "timestamp": "2026-09-01T19:38:04.500617+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "XAUT",
+    "kucoin_symbol": "XAUT-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 4332.88,
+    "reasons": [
+      "RSI \u00fcberverkauft (21.4)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 4289.681576962718,
+    "take_profit": 4419.276846074565,
+    "timestamp": "2026-09-01T19:38:04.500638+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 4341.99,
+    "reasons": [
+      "RSI \u00fcberverkauft (23.3)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 4297.221808380254,
+    "take_profit": 4431.526383239492,
+    "timestamp": "2026-09-01T19:38:05.535736+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 1.598e-06,
+    "reasons": [
+      "RSI \u00fcberverkauft (27.4)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 1.5689265362616752e-06,
+    "take_profit": 1.6561469274766496e-06,
+    "timestamp": "2026-09-01T19:38:06.577254+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.38
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 63.61,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (2.3x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 65.18714809980801,
+    "take_profit": 60.45570380038396,
+    "timestamp": "2026-09-01T19:38:07.676635+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TIA",
+    "kucoin_symbol": "TIA-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.3506,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.3366488319314577,
+    "take_profit": 0.3785023361370846,
+    "timestamp": "2026-09-01T19:38:08.721061+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.01602,
+    "reasons": [
+      "RSI \u00fcberverkauft (16.3)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.015866575739936814,
+    "take_profit": 0.01632684852012637,
+    "timestamp": "2026-09-01T19:38:08.721085+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
