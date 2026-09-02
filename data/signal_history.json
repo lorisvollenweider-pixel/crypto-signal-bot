@@ -5861,9 +5861,9 @@
     "stop_loss": 0.44474368858303037,
     "take_profit": 0.4944126228339392,
     "timestamp": "2026-09-02T09:50:53.790356+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.34,
     "best_favorable_pct": 1.34
   },
   {
@@ -5985,7 +5985,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.22
+    "best_favorable_pct": 3.6
   },
   {
     "symbol": "VIRTUAL",
@@ -7492,7 +7492,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "USDD",
@@ -7562,7 +7562,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.78
+    "best_favorable_pct": 3.2
   },
   {
     "symbol": "U",
@@ -7667,7 +7667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "XLM",
@@ -7854,7 +7854,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "TIA",
@@ -7888,7 +7888,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.76
+    "best_favorable_pct": 3.28
   },
   {
     "symbol": "MON",
@@ -7957,7 +7957,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.96
   },
   {
     "symbol": "BNB",
@@ -7976,5 +7976,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "PIEVERSE",
+    "kucoin_symbol": "PIEVERSE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.1336,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.1902765080125748,
+    "take_profit": 1.0202469839748503,
+    "timestamp": "2026-09-02T21:50:52.904618+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
