@@ -5566,7 +5566,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.47
+    "best_favorable_pct": 3.66
   },
   {
     "symbol": "JST",
@@ -5705,7 +5705,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "ONDO",
@@ -6714,7 +6714,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "MORPHO",
@@ -6838,7 +6838,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "JST",
@@ -6869,6 +6869,42 @@
     "stop_loss": 0.007855824498734528,
     "take_profit": 0.008894351002530942,
     "timestamp": "2026-09-02T15:18:35.041702+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.69
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.13766,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.13144401877570955,
+    "take_profit": 0.15009196244858092,
+    "timestamp": "2026-09-02T15:37:15.453103+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.98e-07,
+    "reasons": [
+      "RSI \u00fcberkauft (70.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.0283422903389403e-07,
+    "take_profit": 2.883315419322119e-07,
+    "timestamp": "2026-09-02T15:37:16.662371+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
