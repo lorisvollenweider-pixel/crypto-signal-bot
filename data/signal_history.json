@@ -5965,9 +5965,9 @@
     "stop_loss": 95.32592464621048,
     "take_profit": 104.06815070757904,
     "timestamp": "2026-09-02T10:38:47.184647+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.72,
     "best_favorable_pct": 1.72
   },
   {
@@ -5982,9 +5982,9 @@
     "stop_loss": 0.07244191645175892,
     "take_profit": 0.06598616709648217,
     "timestamp": "2026-09-02T10:38:47.184695+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.81,
     "best_favorable_pct": 3.81
   },
   {
@@ -6000,9 +6000,9 @@
     "stop_loss": 0.7086227300735879,
     "take_profit": 0.6146545398528243,
     "timestamp": "2026-09-02T10:38:47.184723+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.61,
     "best_favorable_pct": 1.61
   },
   {
@@ -7492,7 +7492,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "USDD",
@@ -7544,7 +7544,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "KITE",
@@ -7633,7 +7633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "LINK",
@@ -7992,7 +7992,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.99
+    "best_favorable_pct": 2.46
   },
   {
     "symbol": "AKE",
@@ -8098,7 +8098,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "KITE",
@@ -8113,6 +8113,40 @@
     "stop_loss": 0.14920588249790992,
     "take_profit": 0.1276782350041801,
     "timestamp": "2026-09-02T22:36:57.928467+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.48
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 99.68,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 96.85790057201885,
+    "take_profit": 105.32419885596232,
+    "timestamp": "2026-09-02T22:49:14.435283+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 13.94,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 13.45923783207539,
+    "take_profit": 14.901524335849219,
+    "timestamp": "2026-09-02T22:49:14.435337+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
