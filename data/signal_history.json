@@ -3133,9 +3133,9 @@
     "stop_loss": 0.10873365201416382,
     "take_profit": 0.12375269597167234,
     "timestamp": "2026-09-01T16:53:48.659166+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.98,
     "best_favorable_pct": 1.98
   },
   {
@@ -3818,7 +3818,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.27
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "AAVE",
@@ -4425,7 +4425,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.05
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "FET",
@@ -4493,7 +4493,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "BTT",
@@ -4719,7 +4719,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.77
+    "best_favorable_pct": 1.81
   },
   {
     "symbol": "U",
@@ -4910,7 +4910,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "AAVE",
@@ -5030,7 +5030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "LDO",
@@ -5081,7 +5081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "UNI",
@@ -5116,7 +5116,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "ICP",
@@ -5167,7 +5167,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "PENDLE",
@@ -5221,5 +5221,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.19
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.7033,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.6850961345085482,
+    "take_profit": 0.7397077309829037,
+    "timestamp": "2026-09-02T05:06:40.851294+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
   }
 ]
