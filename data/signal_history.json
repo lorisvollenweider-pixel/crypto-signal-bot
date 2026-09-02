@@ -4167,7 +4167,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.75
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "NEAR",
@@ -4323,7 +4323,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.3
+    "best_favorable_pct": 2.05
   },
   {
     "symbol": "WLFI",
@@ -4561,7 +4561,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.41
+    "best_favorable_pct": 2.76
   },
   {
     "symbol": "LTC",
@@ -4683,7 +4683,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.91
+    "best_favorable_pct": 2.82
   },
   {
     "symbol": "PENGU",
@@ -4825,7 +4825,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.25
+    "best_favorable_pct": 8.58
   },
   {
     "symbol": "ETH",
@@ -5099,7 +5099,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.93
+    "best_favorable_pct": 7.77
   },
   {
     "symbol": "SHIB",
@@ -5583,7 +5583,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.33
+    "best_favorable_pct": 3.6
   },
   {
     "symbol": "INJ",
@@ -6193,6 +6193,42 @@
     "stop_loss": 0.21472099065258032,
     "take_profit": 0.1894580186948394,
     "timestamp": "2026-09-02T11:38:53.965738+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.58
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1062,
+    "reasons": [
+      "RSI \u00fcberkauft (71.8)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1085729148626139,
+    "take_profit": 0.10145417027477222,
+    "timestamp": "2026-09-02T11:51:33.011337+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.7742,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.8542277940409702,
+    "take_profit": 1.6141444119180597,
+    "timestamp": "2026-09-02T11:51:34.282285+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
