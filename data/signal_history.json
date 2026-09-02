@@ -4787,9 +4787,9 @@
     "stop_loss": 0.10358030756582297,
     "take_profit": 0.09715938486835408,
     "timestamp": "2026-09-02T03:07:10.026252+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.24,
     "best_favorable_pct": 0.24
   },
   {
@@ -4804,9 +4804,9 @@
     "stop_loss": 0.007953928233182429,
     "take_profit": 0.009043143533635141,
     "timestamp": "2026-09-02T03:07:10.026280+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.45,
     "best_favorable_pct": 1.45
   },
   {
@@ -4825,7 +4825,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.7
+    "best_favorable_pct": 9.9
   },
   {
     "symbol": "ETH",
@@ -5013,7 +5013,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.85
+    "best_favorable_pct": 3.12
   },
   {
     "symbol": "SPX",
@@ -5081,7 +5081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.67
+    "best_favorable_pct": 2.98
   },
   {
     "symbol": "UNI",
@@ -5307,7 +5307,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.23
+    "best_favorable_pct": 4.47
   },
   {
     "symbol": "ONDO",
@@ -5341,7 +5341,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.25
+    "best_favorable_pct": 2.43
   },
   {
     "symbol": "ETHFI",
@@ -5358,7 +5358,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.79
+    "best_favorable_pct": 9.43
   },
   {
     "symbol": "FF",
@@ -5566,7 +5566,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.41
+    "best_favorable_pct": 3.47
   },
   {
     "symbol": "JST",
@@ -5670,7 +5670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 10.21
+    "best_favorable_pct": 10.36
   },
   {
     "symbol": "BONK",
@@ -5846,7 +5846,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.89
+    "best_favorable_pct": 2.91
   },
   {
     "symbol": "AERO",
@@ -6003,7 +6003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "DOGE",
@@ -6336,7 +6336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "STX",
@@ -6750,7 +6750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "BNB",
@@ -6786,7 +6786,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 0.98
   },
   {
     "symbol": "USDG",
@@ -6803,7 +6803,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "BDX",
@@ -6818,6 +6818,57 @@
     "stop_loss": 0.07962922502004956,
     "take_profit": 0.07585154995990089,
     "timestamp": "2026-09-02T14:41:10.983720+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9999,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.0004105638586462,
+    "take_profit": 0.9988788722827076,
+    "timestamp": "2026-09-02T15:18:35.041654+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1065,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)"
+    ],
+    "stop_loss": 0.10885650671905181,
+    "take_profit": 0.10178698656189636,
+    "timestamp": "2026-09-02T15:18:35.041682+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.008202,
+    "reasons": [
+      "RSI \u00fcberverkauft (28.4)"
+    ],
+    "stop_loss": 0.007855824498734528,
+    "take_profit": 0.008894351002530942,
+    "timestamp": "2026-09-02T15:18:35.041702+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
