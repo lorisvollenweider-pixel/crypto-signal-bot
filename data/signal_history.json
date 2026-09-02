@@ -5879,9 +5879,9 @@
     "stop_loss": 1.4524028613446403,
     "take_profit": 1.3071942773107195,
     "timestamp": "2026-09-02T10:03:20.034957+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.0,
     "best_favorable_pct": 1.0
   },
   {
@@ -6942,7 +6942,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.62
+    "best_favorable_pct": 2.9
   },
   {
     "symbol": "BCH",
@@ -6977,7 +6977,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "PAXG",
@@ -6994,7 +6994,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "MORPHO",
@@ -7492,7 +7492,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 1.0
   },
   {
     "symbol": "USDD",
@@ -7562,7 +7562,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.2
+    "best_favorable_pct": 3.45
   },
   {
     "symbol": "U",
@@ -7888,7 +7888,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.28
+    "best_favorable_pct": 3.52
   },
   {
     "symbol": "MON",
@@ -7957,7 +7957,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.96
+    "best_favorable_pct": 2.2
   },
   {
     "symbol": "BNB",
@@ -7989,6 +7989,23 @@
     "stop_loss": 1.1902765080125748,
     "take_profit": 1.0202469839748503,
     "timestamp": "2026-09-02T21:50:52.904618+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.34
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.013944,
+    "reasons": [
+      "Volumen-Spike (6.4x Durchschnitt)"
+    ],
+    "stop_loss": 0.018894099869044605,
+    "take_profit": 0.00404380026191079,
+    "timestamp": "2026-09-02T22:03:05.120597+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
