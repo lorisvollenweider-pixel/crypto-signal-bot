@@ -5985,7 +5985,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.6
+    "best_favorable_pct": 3.64
   },
   {
     "symbol": "VIRTUAL",
@@ -6302,7 +6302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 2.72
   },
   {
     "symbol": "ETC",
@@ -6750,7 +6750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.12
+    "best_favorable_pct": 2.98
   },
   {
     "symbol": "BNB",
@@ -6942,7 +6942,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.9
+    "best_favorable_pct": 3.15
   },
   {
     "symbol": "BCH",
@@ -7029,7 +7029,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.12
+    "best_favorable_pct": 2.98
   },
   {
     "symbol": "ALGO",
@@ -7236,7 +7236,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "FIL",
@@ -7253,7 +7253,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.8
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "HTX",
@@ -7338,7 +7338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "PYUSD",
@@ -7355,7 +7355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "HTX",
@@ -7492,7 +7492,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.0
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "USDD",
@@ -7544,7 +7544,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "KITE",
@@ -7633,7 +7633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "LINK",
@@ -7871,7 +7871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "KITE",
@@ -7992,7 +7992,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 1.99
   },
   {
     "symbol": "AKE",
@@ -8010,5 +8010,60 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BNB",
+    "kucoin_symbol": "BNB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 685.804,
+    "reasons": [
+      "Volumen-Spike (2.2x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 695.2456570963583,
+    "take_profit": 666.9206858072835,
+    "timestamp": "2026-09-02T22:21:12.358956+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BCH",
+    "kucoin_symbol": "BCH-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 242.79,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 249.32328424302088,
+    "take_profit": 229.72343151395822,
+    "timestamp": "2026-09-02T22:21:13.514617+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.16
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0156333,
+    "reasons": [
+      "RSI \u00fcberkauft (70.9)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (7.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.020583399869044602,
+    "take_profit": 0.00573310026191079,
+    "timestamp": "2026-09-02T22:21:14.542220+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
   }
 ]
