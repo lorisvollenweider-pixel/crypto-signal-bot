@@ -3713,7 +3713,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.17
+    "best_favorable_pct": 2.37
   },
   {
     "symbol": "SUN",
@@ -4476,7 +4476,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "PIEVERSE",
@@ -4595,7 +4595,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "XAUT",
@@ -4825,6 +4825,143 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.92
+    "best_favorable_pct": 2.37
+  },
+  {
+    "symbol": "ETH",
+    "kucoin_symbol": "ETH-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2412.88,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2364.2518831013504,
+    "take_profit": 2510.136233797299,
+    "timestamp": "2026-09-02T04:03:47.557192+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0003,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 1.0000765139722463,
+    "take_profit": 1.0007469720555076,
+    "timestamp": "2026-09-02T04:03:47.557215+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RAIN",
+    "kucoin_symbol": "RAIN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.017248,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.01673366326939769,
+    "take_profit": 0.018276673461204616,
+    "timestamp": "2026-09-02T04:03:47.557232+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "LINK",
+    "kucoin_symbol": "LINK-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 11.2037,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 10.902111971718027,
+    "take_profit": 11.806876056563947,
+    "timestamp": "2026-09-02T04:03:47.557242+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "XAUT",
+    "kucoin_symbol": "XAUT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4306.65,
+    "reasons": [
+      "RSI \u00fcberverkauft (18.9)"
+    ],
+    "stop_loss": 4264.94801669419,
+    "take_profit": 4390.053966611618,
+    "timestamp": "2026-09-02T04:03:47.557262+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AAVE",
+    "kucoin_symbol": "AAVE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 130.977,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 135.56438650929192,
+    "take_profit": 121.8022269814162,
+    "timestamp": "2026-09-02T04:03:47.557292+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4315.67,
+    "reasons": [
+      "RSI \u00fcberverkauft (20.6)"
+    ],
+    "stop_loss": 4273.036005867811,
+    "take_profit": 4400.93798826438,
+    "timestamp": "2026-09-02T04:03:48.812686+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "CFX",
+    "kucoin_symbol": "CFX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0468,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.04551336772101978,
+    "take_profit": 0.04937326455796045,
+    "timestamp": "2026-09-02T04:03:48.812770+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
