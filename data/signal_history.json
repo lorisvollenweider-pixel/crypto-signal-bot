@@ -2457,9 +2457,9 @@
     "stop_loss": 1.000492691943625,
     "take_profit": 0.9990146161127499,
     "timestamp": "2026-09-01T13:47:36.788539+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.02,
     "best_favorable_pct": 0.02
   },
   {
@@ -2475,9 +2475,9 @@
     "stop_loss": 0.18252668371371644,
     "take_profit": 0.16774663257256714,
     "timestamp": "2026-09-01T13:59:38.959115+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.14,
     "best_favorable_pct": 2.14
   },
   {
@@ -2492,9 +2492,9 @@
     "stop_loss": 0.008438069431423488,
     "take_profit": 0.009514861137153021,
     "timestamp": "2026-09-01T13:59:40.038199+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.41,
     "best_favorable_pct": 0.41
   },
   {
@@ -2510,9 +2510,9 @@
     "stop_loss": 0.0281804696894712,
     "take_profit": 0.026559060621057607,
     "timestamp": "2026-09-01T13:59:40.038215+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.33,
     "best_favorable_pct": 0.33
   },
   {
@@ -2964,7 +2964,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.41
+    "best_favorable_pct": 1.62
   },
   {
     "symbol": "PYUSD",
@@ -3102,7 +3102,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.9
+    "best_favorable_pct": 3.98
   },
   {
     "symbol": "PENDLE",
@@ -3449,7 +3449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.55
+    "best_favorable_pct": 8.7
   },
   {
     "symbol": "ALGO",
@@ -3536,7 +3536,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "DCR",
@@ -3588,7 +3588,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.44
+    "best_favorable_pct": 1.66
   },
   {
     "symbol": "TRX",
@@ -3852,7 +3852,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.73
+    "best_favorable_pct": 3.37
   },
   {
     "symbol": "PYUSD",
@@ -3922,7 +3922,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "KAS",
@@ -4080,7 +4080,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "ZRO",
@@ -4132,7 +4132,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "AVAX",
@@ -4220,7 +4220,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 1.53
   },
   {
     "symbol": "NFT",
@@ -4238,7 +4238,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "BTC",
@@ -4289,7 +4289,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.54
+    "best_favorable_pct": 0.86
   },
   {
     "symbol": "XLM",
@@ -4391,7 +4391,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "CAKE",
@@ -4649,5 +4649,76 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.17
+  },
+  {
+    "symbol": "XLM",
+    "kucoin_symbol": "XLM-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1736,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.17851921560561523,
+    "take_profit": 0.16376156878876957,
+    "timestamp": "2026-09-02T02:06:37.067870+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1099,
+    "reasons": [
+      "RSI \u00fcberkauft (70.1)"
+    ],
+    "stop_loss": 0.1171613976901025,
+    "take_profit": 0.09537720461979497,
+    "timestamp": "2026-09-02T02:06:38.355037+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.008267,
+    "reasons": [
+      "RSI \u00fcberverkauft (28.8)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.00790392823318243,
+    "take_profit": 0.008993143533635142,
+    "timestamp": "2026-09-02T02:06:38.355066+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.63
+  },
+  {
+    "symbol": "AERO",
+    "kucoin_symbol": "AERO-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.4638,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.4470123444351271,
+    "take_profit": 0.4973753111297458,
+    "timestamp": "2026-09-02T02:06:39.580882+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
