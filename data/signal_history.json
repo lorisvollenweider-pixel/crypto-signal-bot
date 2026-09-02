@@ -3466,7 +3466,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.47
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "LDO",
@@ -4374,7 +4374,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.64
+    "best_favorable_pct": 1.89
   },
   {
     "symbol": "QNT",
@@ -4493,7 +4493,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.53
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "BTT",
@@ -4595,7 +4595,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 1.0
   },
   {
     "symbol": "XAUT",
@@ -4701,7 +4701,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.72
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "AERO",
@@ -4807,7 +4807,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "CRV",
@@ -4893,7 +4893,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "XAUT",
@@ -4910,7 +4910,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "AAVE",
@@ -4962,7 +4962,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "MORPHO",
@@ -5081,7 +5081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "UNI",
@@ -5185,7 +5185,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "LUNC",
@@ -5204,5 +5204,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.8589,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.9333036547440021,
+    "take_profit": 1.710092690511996,
+    "timestamp": "2026-09-02T04:53:03.894896+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.19
   }
 ]
