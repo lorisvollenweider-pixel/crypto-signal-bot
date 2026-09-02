@@ -6017,9 +6017,9 @@
     "stop_loss": 0.0781418871542635,
     "take_profit": 0.08440622569147298,
     "timestamp": "2026-09-02T10:52:20.505995+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.04,
     "best_favorable_pct": 2.04
   },
   {
@@ -6034,9 +6034,9 @@
     "stop_loss": 0.19888193336843543,
     "take_profit": 0.17883613326312917,
     "timestamp": "2026-09-02T10:52:20.506012+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -6051,9 +6051,9 @@
     "stop_loss": 0.9998357082676638,
     "take_profit": 1.0015285834646723,
     "timestamp": "2026-09-02T10:52:20.506024+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -6068,9 +6068,9 @@
     "stop_loss": 0.7311803310914056,
     "take_profit": 0.6529393378171888,
     "timestamp": "2026-09-02T10:52:20.506034+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -6085,9 +6085,9 @@
     "stop_loss": 0.7149200060314492,
     "take_profit": 0.6575599879371015,
     "timestamp": "2026-09-02T10:52:20.506044+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -6103,9 +6103,9 @@
     "stop_loss": 4.778880750388205e-05,
     "take_profit": 5.184238499223591e-05,
     "timestamp": "2026-09-02T10:52:20.506080+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.6,
     "best_favorable_pct": 3.6
   },
   {
@@ -6120,9 +6120,9 @@
     "stop_loss": 0.04744883846750186,
     "take_profit": 0.043402323064996286,
     "timestamp": "2026-09-02T10:52:21.845165+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -7338,7 +7338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "PYUSD",
@@ -8045,7 +8045,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "AKE",
@@ -8150,6 +8150,58 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "DOGE",
+    "kucoin_symbol": "DOGE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.08106,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.07905500388646679,
+    "take_profit": 0.08506999222706642,
+    "timestamp": "2026-09-02T23:00:39.039288+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.7368,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.7105987866070668,
+    "take_profit": 0.7892024267858665,
+    "timestamp": "2026-09-02T23:00:39.039320+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.4862,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.578031855057035,
+    "take_profit": 0.30253628988592995,
+    "timestamp": "2026-09-02T23:00:40.237685+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.29
   }
 ]
