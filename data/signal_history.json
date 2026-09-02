@@ -4009,9 +4009,9 @@
     "stop_loss": 0.8035637087407165,
     "take_profit": 0.7004725825185669,
     "timestamp": "2026-09-01T23:32:48.805005+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.27,
     "best_favorable_pct": 0.27
   },
   {
@@ -4595,7 +4595,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.53
+    "best_favorable_pct": 1.69
   },
   {
     "symbol": "XAUT",
@@ -4613,7 +4613,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "PAXG",
@@ -4631,7 +4631,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "KCS",
@@ -4910,7 +4910,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "AAVE",
@@ -4945,7 +4945,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "CFX",
@@ -5099,7 +5099,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.87
+    "best_favorable_pct": 5.93
   },
   {
     "symbol": "SHIB",
@@ -5583,7 +5583,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.63
+    "best_favorable_pct": 3.33
   },
   {
     "symbol": "INJ",
@@ -5794,7 +5794,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "LINK",
@@ -5900,7 +5900,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "ATOM",
@@ -6020,7 +6020,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "ADA",
@@ -6106,7 +6106,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "CFX",
@@ -6156,6 +6156,43 @@
     "stop_loss": 0.007807564308204774,
     "take_profit": 0.008867871383590452,
     "timestamp": "2026-09-02T11:06:15.520387+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.81
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.02738,
+    "reasons": [
+      "Volumen-Spike (2.2x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.02827857252748034,
+    "take_profit": 0.025582854945039323,
+    "timestamp": "2026-09-02T11:38:52.873124+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SYRUP",
+    "kucoin_symbol": "SYRUP-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2063,
+    "reasons": [
+      "RSI \u00fcberkauft (73.4)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (2.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.21472099065258032,
+    "take_profit": 0.1894580186948394,
+    "timestamp": "2026-09-02T11:38:53.965738+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
