@@ -4773,7 +4773,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 4.12
   },
   {
     "symbol": "JST",
@@ -4825,7 +4825,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.29
+    "best_favorable_pct": 9.62
   },
   {
     "symbol": "ETH",
@@ -5237,7 +5237,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.36
+    "best_favorable_pct": 4.65
   },
   {
     "symbol": "U",
@@ -5358,7 +5358,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.43
+    "best_favorable_pct": 8.51
   },
   {
     "symbol": "FF",
@@ -5670,7 +5670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.99
+    "best_favorable_pct": 9.81
   },
   {
     "symbol": "BONK",
@@ -5776,7 +5776,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.73
+    "best_favorable_pct": 12.36
   },
   {
     "symbol": "ETH",
@@ -6054,7 +6054,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "SUI",
@@ -6627,7 +6627,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "SUN",
@@ -6661,7 +6661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "PYTH",
@@ -6697,7 +6697,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.77
+    "best_favorable_pct": 3.58
   },
   {
     "symbol": "CC",
@@ -6787,5 +6787,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.82
+  },
+  {
+    "symbol": "USDG",
+    "kucoin_symbol": "USDG-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0008,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.0013775735869592,
+    "take_profit": 0.9996448528260815,
+    "timestamp": "2026-09-02T14:41:10.983690+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BDX",
+    "kucoin_symbol": "BDX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.07837,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.07962922502004956,
+    "take_profit": 0.07585154995990089,
+    "timestamp": "2026-09-02T14:41:10.983720+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
