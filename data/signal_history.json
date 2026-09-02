@@ -4147,9 +4147,9 @@
     "stop_loss": 7.351635090194522,
     "take_profit": 6.863729819610956,
     "timestamp": "2026-09-02T00:40:20.121366+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.85,
     "best_favorable_pct": 1.85
   },
   {
@@ -4164,9 +4164,9 @@
     "stop_loss": 1.5003898488233454,
     "take_profit": 1.3819203023533098,
     "timestamp": "2026-09-02T00:40:21.303386+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.31,
     "best_favorable_pct": 1.31
   },
   {
@@ -4613,7 +4613,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.55
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "PAXG",
@@ -4910,7 +4910,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "AAVE",
@@ -5358,7 +5358,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.81
+    "best_favorable_pct": 8.43
   },
   {
     "symbol": "FF",
@@ -6141,7 +6141,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "PENGU",
@@ -6177,7 +6177,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "SYRUP",
@@ -6214,7 +6214,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "PENDLE",
@@ -6232,7 +6232,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "BTC",
@@ -6302,7 +6302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "ETC",
@@ -6388,7 +6388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "XRP",
@@ -6405,7 +6405,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "USDS",
@@ -6439,7 +6439,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "LDO",
@@ -6454,6 +6454,23 @@
     "stop_loss": 0.37532524495540265,
     "take_profit": 0.3272495100891948,
     "timestamp": "2026-09-02T12:29:23.785404+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.7
+  },
+  {
+    "symbol": "SYRUP",
+    "kucoin_symbol": "SYRUP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.2081,
+    "reasons": [
+      "RSI \u00fcberkauft (73.7)"
+    ],
+    "stop_loss": 0.21660568230611021,
+    "take_profit": 0.1910886353877796,
+    "timestamp": "2026-09-02T12:49:29.551658+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
