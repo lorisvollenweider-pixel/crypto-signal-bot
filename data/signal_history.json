@@ -2998,7 +2998,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "DOT",
@@ -3976,7 +3976,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.75
+    "best_favorable_pct": 1.75
   },
   {
     "symbol": "PYTH",
@@ -4097,7 +4097,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "KITE",
@@ -4202,7 +4202,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "PYTH",
@@ -4238,7 +4238,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "BTC",
@@ -4544,7 +4544,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "CRV",
@@ -4701,7 +4701,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "AERO",
@@ -4720,5 +4720,59 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.63
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.9998,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (3.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.9995219569129338,
+    "take_profit": 1.0003560861741325,
+    "timestamp": "2026-09-02T02:53:03.807011+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 63.986,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 65.61721257488807,
+    "take_profit": 60.723574850223855,
+    "timestamp": "2026-09-02T02:53:05.006120+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CASHCAT",
+    "kucoin_symbol": "CASHCAT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2548,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.2972652832452117,
+    "take_profit": 0.16986943350957673,
+    "timestamp": "2026-09-02T02:53:06.202972+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
