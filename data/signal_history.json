@@ -2878,7 +2878,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.72
+    "best_favorable_pct": 3.08
   },
   {
     "symbol": "CFX",
@@ -3713,7 +3713,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.74
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "SUN",
@@ -4115,7 +4115,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "DCR",
@@ -4425,7 +4425,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "FET",
@@ -4476,7 +4476,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "PIEVERSE",
@@ -4527,7 +4527,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "TAO",
@@ -4719,7 +4719,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.4
+    "best_favorable_pct": 1.77
   },
   {
     "symbol": "U",
@@ -4808,5 +4808,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.3
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.3928,
+    "reasons": [
+      "RSI \u00fcberkauft (77.8)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.41388637698709774,
+    "take_profit": 0.3506272460258045,
+    "timestamp": "2026-09-02T03:38:48.078378+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
