@@ -5389,9 +5389,9 @@
     "stop_loss": 0.07762820451838467,
     "take_profit": 0.08141359096323067,
     "timestamp": "2026-09-02T06:57:55.658002+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.34,
     "best_favorable_pct": 0.34
   },
   {
@@ -5407,9 +5407,9 @@
     "stop_loss": 0.05788591084468653,
     "take_profit": 0.049768178310626944,
     "timestamp": "2026-09-02T06:57:55.658031+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.04,
     "best_favorable_pct": 3.04
   },
   {
@@ -5583,7 +5583,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.46
+    "best_favorable_pct": 4.88
   },
   {
     "symbol": "INJ",
@@ -7063,7 +7063,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "AKE",
@@ -7423,7 +7423,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "ALGO",
@@ -7454,6 +7454,41 @@
     "stop_loss": 0.11166482208447685,
     "take_profit": 0.08624035583104632,
     "timestamp": "2026-09-02T18:49:10.961894+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.61
+  },
+  {
+    "symbol": "BDX",
+    "kucoin_symbol": "BDX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0787,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.07743109910017204,
+    "take_profit": 0.08123780179965594,
+    "timestamp": "2026-09-02T19:00:41.457056+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.2
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0491,
+    "reasons": [
+      "RSI \u00fcberkauft (70.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.050724340099026134,
+    "take_profit": 0.04585131980194773,
+    "timestamp": "2026-09-02T19:00:41.457085+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
