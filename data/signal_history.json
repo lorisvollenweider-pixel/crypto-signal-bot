@@ -5650,9 +5650,9 @@
     "stop_loss": 50.161367659742076,
     "take_profit": 46.707264680515834,
     "timestamp": "2026-09-02T08:35:08.151866+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.88,
     "best_favorable_pct": 0.88
   },
   {
@@ -5667,9 +5667,9 @@
     "stop_loss": 0.3157606089206966,
     "take_profit": 0.17907878215860684,
     "timestamp": "2026-09-02T08:35:09.453129+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 10.36,
     "best_favorable_pct": 10.36
   },
   {
@@ -5684,9 +5684,9 @@
     "stop_loss": 3.150626365696391e-06,
     "take_profit": 2.6687472686072183e-06,
     "timestamp": "2026-09-02T08:35:09.453141+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.61,
     "best_favorable_pct": 3.61
   },
   {
@@ -5829,7 +5829,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "VIRTUAL",
@@ -6106,7 +6106,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.99
+    "best_favorable_pct": 3.05
   },
   {
     "symbol": "CFX",
@@ -6977,7 +6977,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "PAXG",
@@ -7423,7 +7423,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "ALGO",
@@ -7562,7 +7562,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.13
+    "best_favorable_pct": 2.11
   },
   {
     "symbol": "U",
@@ -7769,7 +7769,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "KCS",
@@ -7820,7 +7820,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.62
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "DASH",
@@ -7871,7 +7871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "KITE",
@@ -7888,7 +7888,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.2
+    "best_favorable_pct": 2.19
   },
   {
     "symbol": "MON",
@@ -7905,7 +7905,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "STABLE",
@@ -7937,6 +7937,23 @@
     "stop_loss": 0.019785580548456697,
     "take_profit": 0.0179988389030866,
     "timestamp": "2026-09-02T20:25:18.478044+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "APT",
+    "kucoin_symbol": "APT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.5857,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.6086593048209182,
+    "take_profit": 0.5397813903581634,
+    "timestamp": "2026-09-02T20:41:32.080400+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
