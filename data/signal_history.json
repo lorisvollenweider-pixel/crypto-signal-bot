@@ -9970,7 +9970,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.62
+    "best_favorable_pct": 5.81
   },
   {
     "symbol": "FF",
@@ -10230,7 +10230,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.83
+    "best_favorable_pct": 3.0
   },
   {
     "symbol": "VVV",
@@ -10265,7 +10265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.27
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "ETC",
@@ -11118,7 +11118,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.88
   },
   {
     "symbol": "USD1",
@@ -11188,7 +11188,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "PEPE",
@@ -11650,7 +11650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "AVAX",
@@ -11774,7 +11774,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.36
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "TIA",
@@ -11792,7 +11792,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.72
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "XPL",
@@ -11896,7 +11896,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.97
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "FET",
@@ -12216,7 +12216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "ETHFI",
@@ -12394,7 +12394,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "PYUSD",
@@ -12517,7 +12517,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.92
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "USDE",
@@ -12551,7 +12551,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "DASH",
@@ -12585,7 +12585,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "HYPE",
@@ -12671,7 +12671,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "BTC",
@@ -12759,7 +12759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "PONS",
@@ -12777,7 +12777,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "BTT",
@@ -12792,6 +12792,40 @@
     "stop_loss": 3.0910559203692364e-07,
     "take_profit": 2.922888159261527e-07,
     "timestamp": "2026-09-03T21:28:17.861345+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDG",
+    "kucoin_symbol": "USDG-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9996,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.9990259982924552,
+    "take_profit": 1.0007480034150897,
+    "timestamp": "2026-09-03T21:42:07.482418+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SKY",
+    "kucoin_symbol": "SKY-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.06913,
+    "reasons": [
+      "Volumen-Spike (3.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.07121721545693367,
+    "take_profit": 0.06495556908613263,
+    "timestamp": "2026-09-03T21:42:07.482451+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
