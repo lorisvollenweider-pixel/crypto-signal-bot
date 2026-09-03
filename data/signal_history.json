@@ -8081,7 +8081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.92
+    "best_favorable_pct": 3.24
   },
   {
     "symbol": "VVV",
@@ -8946,7 +8946,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "RENDER",
@@ -8981,7 +8981,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.47
+    "best_favorable_pct": 3.48
   },
   {
     "symbol": "BDX",
@@ -9278,7 +9278,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "RAIN",
@@ -9296,7 +9296,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "ADA",
@@ -9314,7 +9314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.61
   },
   {
     "symbol": "USDE",
@@ -9525,7 +9525,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "USDE",
@@ -9576,7 +9576,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "ENA",
@@ -9610,7 +9610,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.08
+    "best_favorable_pct": 4.68
   },
   {
     "symbol": "AI",
@@ -9712,7 +9712,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "ICP",
@@ -9781,7 +9781,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "PENGU",
@@ -9863,6 +9863,59 @@
     "stop_loss": 0.6398490353012122,
     "take_profit": 0.5620019293975757,
     "timestamp": "2026-09-03T08:41:47.165486+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0287,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.027857671493105435,
+    "take_profit": 0.03038465701378913,
+    "timestamp": "2026-09-03T08:56:05.511447+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CAKE",
+    "kucoin_symbol": "CAKE-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 1.963,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.9017909031815865,
+    "take_profit": 2.0854181936368272,
+    "timestamp": "2026-09-03T08:56:05.511471+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.31
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.5181,
+    "reasons": [
+      "RSI \u00fcberkauft (72.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.607931039094239,
+    "take_profit": 0.33843792181152216,
+    "timestamp": "2026-09-03T08:56:06.571744+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
