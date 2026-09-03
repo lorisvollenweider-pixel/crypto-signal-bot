@@ -10192,9 +10192,9 @@
     "stop_loss": 0.6576610004359672,
     "take_profit": 0.7402779991280656,
     "timestamp": "2026-09-03T11:31:37.174560+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.74,
     "best_favorable_pct": 4.74
   },
   {
@@ -10210,9 +10210,9 @@
     "stop_loss": 0.02123671493321049,
     "take_profit": 0.019086570133579023,
     "timestamp": "2026-09-03T11:31:38.630495+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -10961,7 +10961,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.7
+    "best_favorable_pct": 4.84
   },
   {
     "symbol": "SUI",
@@ -11382,7 +11382,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.64
+    "best_favorable_pct": 5.47
   },
   {
     "symbol": "BTT",
@@ -11473,7 +11473,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.3
+    "best_favorable_pct": 3.12
   },
   {
     "symbol": "UB",
@@ -11508,7 +11508,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.93
+    "best_favorable_pct": 2.12
   },
   {
     "symbol": "AVAX",
@@ -11932,7 +11932,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "BTT",
@@ -12463,7 +12463,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.65
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "XPL",
@@ -12568,7 +12568,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.97
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "TIA",
@@ -12602,7 +12602,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 2.75
   },
   {
     "symbol": "HBAR",
@@ -12829,7 +12829,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "XLM",
@@ -13057,7 +13057,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "BCH",
@@ -13091,7 +13091,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "AVAX",
@@ -13108,7 +13108,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "ETC",
@@ -13159,7 +13159,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "SOL",
@@ -13213,5 +13213,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 87.735,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 90.45426603594329,
+    "take_profit": 82.29646792811342,
+    "timestamp": "2026-09-03T23:41:56.695739+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.02986,
+    "reasons": [
+      "RSI \u00fcberkauft (70.6)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.030721023763286975,
+    "take_profit": 0.028137952473426053,
+    "timestamp": "2026-09-03T23:41:57.981681+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
   }
 ]
