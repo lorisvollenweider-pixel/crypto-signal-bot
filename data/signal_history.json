@@ -9880,9 +9880,9 @@
     "stop_loss": 0.027857671493105435,
     "take_profit": 0.03038465701378913,
     "timestamp": "2026-09-03T08:56:05.511447+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.08,
     "best_favorable_pct": 4.08
   },
   {
@@ -9898,10 +9898,10 @@
     "stop_loss": 1.9017909031815865,
     "take_profit": 2.0854181936368272,
     "timestamp": "2026-09-03T08:56:05.511471+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 2.19
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.29,
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "PONS",
@@ -9916,9 +9916,9 @@
     "stop_loss": 0.607931039094239,
     "take_profit": 0.33843792181152216,
     "timestamp": "2026-09-03T08:56:06.571744+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.83,
     "best_favorable_pct": 0.83
   },
   {
@@ -9970,7 +9970,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.32
+    "best_favorable_pct": 5.62
   },
   {
     "symbol": "FF",
@@ -11118,7 +11118,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "USD1",
@@ -11650,7 +11650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "AVAX",
@@ -11703,7 +11703,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.98
+    "best_favorable_pct": 2.09
   },
   {
     "symbol": "USDS",
@@ -11896,7 +11896,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "FET",
@@ -12110,7 +12110,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "UNI",
@@ -12127,7 +12127,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "CRO",
@@ -12144,7 +12144,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 1.31
   },
   {
     "symbol": "CAKE",
@@ -12216,7 +12216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "ETHFI",
@@ -12568,7 +12568,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "TIA",
@@ -12620,7 +12620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "STABLE",
@@ -12637,7 +12637,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "PONS",
@@ -12672,5 +12672,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTC",
+    "kucoin_symbol": "BTC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 81457.1,
+    "reasons": [
+      "RSI \u00fcberkauft (73.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 82919.56576737642,
+    "take_profit": 78532.16846524716,
+    "timestamp": "2026-09-03T20:55:55.619192+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
   }
 ]
