@@ -7989,9 +7989,9 @@
     "stop_loss": 1.1902765080125748,
     "take_profit": 1.0202469839748503,
     "timestamp": "2026-09-02T21:50:52.904618+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.89,
     "best_favorable_pct": 3.89
   },
   {
@@ -8339,7 +8339,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "PEPE",
@@ -9296,7 +9296,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "ADA",
@@ -9525,7 +9525,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "USDE",
@@ -9866,7 +9866,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 2.02
   },
   {
     "symbol": "KAS",
@@ -9933,6 +9933,57 @@
     "stop_loss": 1.6108618818827729e-06,
     "take_profit": 1.6862762362344545e-06,
     "timestamp": "2026-09-03T09:14:18.838607+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.7635,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.7348742848474893,
+    "take_profit": 0.8207514303050213,
+    "timestamp": "2026-09-03T09:58:43.729852+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AERO",
+    "kucoin_symbol": "AERO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4873,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.4701382662495668,
+    "take_profit": 0.5216234675008665,
+    "timestamp": "2026-09-03T09:58:43.729906+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.10785,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.09694245404464497,
+    "take_profit": 0.12966509191071007,
+    "timestamp": "2026-09-03T09:58:43.729924+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
