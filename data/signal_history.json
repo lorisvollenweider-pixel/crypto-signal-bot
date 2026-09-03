@@ -9610,7 +9610,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.33
+    "best_favorable_pct": 6.59
   },
   {
     "symbol": "AI",
@@ -9644,7 +9644,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.45
+    "best_favorable_pct": 3.85
   },
   {
     "symbol": "LINK",
@@ -9849,7 +9849,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "APT",
@@ -9901,7 +9901,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "PONS",
@@ -10961,7 +10961,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.27
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "SUI",
@@ -11720,7 +11720,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "XLM",
@@ -11966,7 +11966,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "ENA",
@@ -12073,7 +12073,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "LDO",
@@ -12144,7 +12144,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "CAKE",
@@ -12198,7 +12198,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.7
   },
   {
     "symbol": "LINK",
@@ -12233,7 +12233,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "XPL",
@@ -12252,6 +12252,60 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.72
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.1725,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.16128684412436223,
+    "take_profit": 0.19492631175127553,
+    "timestamp": "2026-09-03T19:33:59.811891+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.4004,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.3836055850978002,
+    "take_profit": 0.43398882980439957,
+    "timestamp": "2026-09-03T19:34:06.026028+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.1117,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 1.1744033620490484,
+    "take_profit": 0.9862932759019031,
+    "timestamp": "2026-09-03T19:34:07.192559+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
   }
 ]
