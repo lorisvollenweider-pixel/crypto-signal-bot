@@ -6607,9 +6607,9 @@
     "stop_loss": 0.9991586279526855,
     "take_profit": 1.001382744094629,
     "timestamp": "2026-09-02T13:37:44.466648+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -6624,9 +6624,9 @@
     "stop_loss": 208.96427188492646,
     "take_profit": 230.67145623014704,
     "timestamp": "2026-09-02T13:37:44.466676+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.99,
     "best_favorable_pct": 0.99
   },
   {
@@ -6641,9 +6641,9 @@
     "stop_loss": 0.01592395575460223,
     "take_profit": 0.01633208849079554,
     "timestamp": "2026-09-02T13:37:44.466717+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.43,
     "best_favorable_pct": 1.43
   },
   {
@@ -7718,7 +7718,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.58
+    "best_favorable_pct": 2.7
   },
   {
     "symbol": "SUI",
@@ -7854,7 +7854,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "TIA",
@@ -8081,7 +8081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.0
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "VVV",
@@ -8442,7 +8442,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.56
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "AKE",
@@ -8476,7 +8476,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.97
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "USDS",
@@ -8510,7 +8510,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "USDE",
@@ -8563,7 +8563,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "XRP",
@@ -8615,7 +8615,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "AVAX",
@@ -8700,6 +8700,23 @@
     "stop_loss": 0.14732367440256744,
     "take_profit": 0.16645265119486513,
     "timestamp": "2026-09-03T01:32:08.544050+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01629,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.016139213918651762,
+    "take_profit": 0.016591572162696477,
+    "timestamp": "2026-09-03T01:47:36.174852+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
