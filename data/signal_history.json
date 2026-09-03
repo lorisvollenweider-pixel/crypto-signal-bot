@@ -9101,9 +9101,9 @@
     "stop_loss": 7.514094692363126,
     "take_profit": 6.978910615273749,
     "timestamp": "2026-09-03T05:50:11.829496+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -9119,9 +9119,9 @@
     "stop_loss": 0.027712176022585817,
     "take_profit": 0.03034564795482837,
     "timestamp": "2026-09-03T05:50:12.988847+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.99,
     "best_favorable_pct": 3.99
   },
   {
@@ -9137,9 +9137,9 @@
     "stop_loss": 0.6264215762562247,
     "take_profit": 0.5531568474875503,
     "timestamp": "2026-09-03T05:50:14.098048+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.58,
     "best_favorable_pct": 0.58
   },
   {
@@ -9593,7 +9593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 16.15
+    "best_favorable_pct": 17.4
   },
   {
     "symbol": "CAKE",
@@ -9970,7 +9970,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.18
+    "best_favorable_pct": 3.37
   },
   {
     "symbol": "FF",
@@ -10489,7 +10489,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.73
+    "best_favorable_pct": 6.84
   },
   {
     "symbol": "AKE",
@@ -10732,7 +10732,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.07
+    "best_favorable_pct": 5.17
   },
   {
     "symbol": "ADA",
@@ -10889,7 +10889,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 11.69
+    "best_favorable_pct": 12.89
   },
   {
     "symbol": "BTC",
@@ -11047,7 +11047,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "LUNC",
@@ -11896,7 +11896,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "FET",
@@ -11966,7 +11966,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "ENA",
@@ -12016,6 +12016,24 @@
     "stop_loss": 0.40584626789923955,
     "take_profit": 0.3583074642015209,
     "timestamp": "2026-09-03T17:46:55.335085+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "ETC",
+    "kucoin_symbol": "ETC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 7.6216,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 7.811027878633339,
+    "take_profit": 7.242744242733323,
+    "timestamp": "2026-09-03T17:58:24.327284+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
