@@ -9470,9 +9470,9 @@
     "stop_loss": 0.07791147772828791,
     "take_profit": 0.07274704454342415,
     "timestamp": "2026-09-03T07:37:13.111149+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.38,
     "best_favorable_pct": 0.38
   },
   {
@@ -9508,7 +9508,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.77
+    "best_favorable_pct": 4.83
   },
   {
     "symbol": "RAIN",
@@ -9644,7 +9644,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.85
+    "best_favorable_pct": 4.81
   },
   {
     "symbol": "LINK",
@@ -10334,7 +10334,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.62
+    "best_favorable_pct": 4.69
   },
   {
     "symbol": "SOL",
@@ -10489,7 +10489,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.84
+    "best_favorable_pct": 7.0
   },
   {
     "symbol": "AKE",
@@ -10680,7 +10680,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 14.55
+    "best_favorable_pct": 14.57
   },
   {
     "symbol": "ETH",
@@ -10961,7 +10961,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.74
+    "best_favorable_pct": 2.7
   },
   {
     "symbol": "SUI",
@@ -11984,7 +11984,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.71
+    "best_favorable_pct": 2.82
   },
   {
     "symbol": "VVV",
@@ -12073,7 +12073,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.79
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "LDO",
@@ -12144,7 +12144,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.54
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "CAKE",
@@ -12198,7 +12198,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.7
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "LINK",
@@ -12306,6 +12306,42 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.02806,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.027670122331491485,
+    "take_profit": 0.028839755337017034,
+    "timestamp": "2026-09-03T19:45:23.923583+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1603,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.16648022846923466,
+    "take_profit": 0.14793954306153068,
+    "timestamp": "2026-09-03T19:45:25.333468+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.25
   }
 ]
