@@ -8078,9 +8078,9 @@
     "stop_loss": 1.4111681254544968,
     "take_profit": 1.5252637490910066,
     "timestamp": "2026-09-02T22:36:57.928416+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.24,
     "best_favorable_pct": 3.24
   },
   {
@@ -8095,9 +8095,9 @@
     "stop_loss": 15.308703202791163,
     "take_profit": 17.373593594417674,
     "timestamp": "2026-09-02T22:36:57.928444+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.13,
     "best_favorable_pct": 3.13
   },
   {
@@ -8113,10 +8113,10 @@
     "stop_loss": 0.14920588249790992,
     "take_profit": 0.1276782350041801,
     "timestamp": "2026-09-02T22:36:57.928467+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 3.6
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.67,
+    "best_favorable_pct": 3.67
   },
   {
     "symbol": "SOL",
@@ -8563,7 +8563,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.06
+    "best_favorable_pct": 3.14
   },
   {
     "symbol": "XRP",
@@ -8840,7 +8840,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.66
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "KCS",
@@ -9278,7 +9278,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.55
+    "best_favorable_pct": 2.34
   },
   {
     "symbol": "RAIN",
@@ -9296,7 +9296,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "ADA",
@@ -9525,7 +9525,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.55
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "USDE",
@@ -9576,7 +9576,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.13
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "ENA",
@@ -10022,6 +10022,75 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 1.9
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 2.4225,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2.2987853571326715,
+    "take_profit": 2.669929285734656,
+    "timestamp": "2026-09-03T10:47:22.868874+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.492,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.4553536970718284,
+    "take_profit": 1.5652926058563432,
+    "timestamp": "2026-09-03T10:47:24.144234+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 16.171,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 15.525331263325779,
+    "take_profit": 17.46233747334844,
+    "timestamp": "2026-09-03T10:47:24.144248+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XPL",
+    "kucoin_symbol": "XPL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0884,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.08395810021240004,
+    "take_profit": 0.09728379957519995,
+    "timestamp": "2026-09-03T10:47:24.144286+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
