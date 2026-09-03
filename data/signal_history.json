@@ -8476,7 +8476,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.2
+    "best_favorable_pct": 7.78
   },
   {
     "symbol": "USDS",
@@ -8546,7 +8546,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.31
   },
   {
     "symbol": "LIT",
@@ -8580,7 +8580,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.72
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "GRAM",
@@ -8650,7 +8650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.4
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "INJ",
@@ -8667,7 +8667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.89
+    "best_favorable_pct": 3.39
   },
   {
     "symbol": "PONS",
@@ -9593,7 +9593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "CAKE",
@@ -9610,7 +9610,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.42
+    "best_favorable_pct": 5.69
   },
   {
     "symbol": "AI",
@@ -9644,7 +9644,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "LINK",
@@ -9781,7 +9781,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.07
+    "best_favorable_pct": 2.26
   },
   {
     "symbol": "PENGU",
@@ -9901,7 +9901,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.27
   },
   {
     "symbol": "PONS",
@@ -9953,7 +9953,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "AERO",
@@ -10177,7 +10177,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.66
+    "best_favorable_pct": 5.45
   },
   {
     "symbol": "VIRTUAL",
@@ -10249,5 +10249,74 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.7348,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.7589340399293362,
+    "take_profit": 0.6865319201413277,
+    "timestamp": "2026-09-03T11:56:58.635873+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETC",
+    "kucoin_symbol": "ETC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 7.4013,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 7.575900000237756,
+    "take_profit": 7.052099999524487,
+    "timestamp": "2026-09-03T11:56:58.635908+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 65.783,
+    "reasons": [
+      "RSI \u00fcberkauft (70.6)"
+    ],
+    "stop_loss": 67.60603125956507,
+    "take_profit": 62.136937480869854,
+    "timestamp": "2026-09-03T11:56:59.816062+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MON",
+    "kucoin_symbol": "MON-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.02552,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.024334140631255514,
+    "take_profit": 0.02789171873748898,
+    "timestamp": "2026-09-03T11:56:59.816129+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
