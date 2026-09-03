@@ -10160,7 +10160,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.8
+    "best_favorable_pct": 5.99
   },
   {
     "symbol": "TRUMP",
@@ -10265,7 +10265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.73
+    "best_favorable_pct": 2.35
   },
   {
     "symbol": "ETC",
@@ -11118,7 +11118,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.88
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "USD1",
@@ -11188,7 +11188,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "PEPE",
@@ -11527,7 +11527,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "LIT",
@@ -11668,7 +11668,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "MORPHO",
@@ -11774,7 +11774,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "TIA",
@@ -12055,7 +12055,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "WLD",
@@ -12198,7 +12198,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.92
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "LINK",
@@ -12216,7 +12216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "ETHFI",
@@ -12306,7 +12306,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "XDC",
@@ -12394,7 +12394,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.09
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "PYUSD",
@@ -12446,7 +12446,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.66
   },
   {
     "symbol": "ZRO",
@@ -12517,7 +12517,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.26
   },
   {
     "symbol": "USDE",
@@ -12826,6 +12826,59 @@
     "stop_loss": 0.07121721545693367,
     "take_profit": 0.06495556908613263,
     "timestamp": "2026-09-03T21:42:07.482451+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XLM",
+    "kucoin_symbol": "XLM-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1863,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.18116602131171888,
+    "take_profit": 0.19656795737656224,
+    "timestamp": "2026-09-03T21:53:20.964984+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 51.76,
+    "reasons": [
+      "RSI \u00fcberkauft (70.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 52.85649341193114,
+    "take_profit": 49.56701317613772,
+    "timestamp": "2026-09-03T21:53:20.965005+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SHIB",
+    "kucoin_symbol": "SHIB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 5.443e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (70.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 5.593060272232991e-06,
+    "take_profit": 5.142879455534018e-06,
+    "timestamp": "2026-09-03T21:53:22.125921+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
