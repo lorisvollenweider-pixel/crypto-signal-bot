@@ -14470,9 +14470,9 @@
     "stop_loss": 1.0015842190985158,
     "take_profit": 0.9923315618029684,
     "timestamp": "2026-09-04T07:57:09.960334+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.12,
     "best_favorable_pct": 0.12
   },
   {
@@ -14487,9 +14487,9 @@
     "stop_loss": 0.00407939789914748,
     "take_profit": 0.0049182042017050405,
     "timestamp": "2026-09-04T07:57:09.960368+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.57,
     "best_favorable_pct": 0.57
   },
   {
@@ -14505,9 +14505,9 @@
     "stop_loss": 0.3090209951612523,
     "take_profit": 0.16225800967749537,
     "timestamp": "2026-09-04T07:57:09.960412+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.84,
     "best_favorable_pct": 5.84
   },
   {
@@ -15153,7 +15153,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.36
+    "best_favorable_pct": 4.49
   },
   {
     "symbol": "VVV",
@@ -15241,7 +15241,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.93
+    "best_favorable_pct": 8.31
   },
   {
     "symbol": "XPL",
@@ -15413,7 +15413,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.52
+    "best_favorable_pct": 3.65
   },
   {
     "symbol": "ALGO",
@@ -15532,7 +15532,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "CC",
@@ -17083,7 +17083,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 1.21
   },
   {
     "symbol": "USDS",
@@ -17119,6 +17119,162 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 1.8
+  },
+  {
+    "symbol": "TAO",
+    "kucoin_symbol": "TAO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 224.2,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 231.7717722616091,
+    "take_profit": 209.0564554767818,
+    "timestamp": "2026-09-04T20:13:14.129089+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "AAVE",
+    "kucoin_symbol": "AAVE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 130.291,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 134.91642017848608,
+    "take_profit": 121.04015964302783,
+    "timestamp": "2026-09-04T20:13:14.129110+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "MNT",
+    "kucoin_symbol": "MNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.5693,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.585796914506014,
+    "take_profit": 0.536306170987972,
+    "timestamp": "2026-09-04T20:13:15.278713+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PUMP",
+    "kucoin_symbol": "PUMP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.004263,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.003994705675936037,
+    "take_profit": 0.0047995886481279285,
+    "timestamp": "2026-09-04T20:13:15.278735+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 55.71,
+    "reasons": [
+      "RSI \u00fcberkauft (77.2)"
+    ],
+    "stop_loss": 59.47342029375325,
+    "take_profit": 48.18315941249351,
+    "timestamp": "2026-09-04T20:13:15.278766+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.006689,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.006900105531780002,
+    "take_profit": 0.006266788936439994,
+    "timestamp": "2026-09-04T20:13:15.278773+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.353,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.3718667314880739,
+    "take_profit": 0.3152665370238521,
+    "timestamp": "2026-09-04T20:13:15.278786+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.25
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.008307,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.008691292637198608,
+    "take_profit": 0.007538414725602786,
+    "timestamp": "2026-09-04T20:13:15.278797+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1546,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.16042712005194204,
+    "take_profit": 0.14294575989611585,
+    "timestamp": "2026-09-04T20:13:16.362599+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
