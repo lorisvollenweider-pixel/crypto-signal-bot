@@ -14092,7 +14092,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.65
+    "best_favorable_pct": 3.7
   },
   {
     "symbol": "PIEVERSE",
@@ -14647,7 +14647,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "USDE",
@@ -14716,7 +14716,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.45
+    "best_favorable_pct": 8.7
   },
   {
     "symbol": "SPX",
@@ -15135,7 +15135,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "QNT",
@@ -15515,7 +15515,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.37
+    "best_favorable_pct": 10.24
   },
   {
     "symbol": "XMR",
@@ -16265,7 +16265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "WLD",
@@ -16564,7 +16564,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "ETHFI",
@@ -16636,7 +16636,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "TIA",
@@ -16685,6 +16685,75 @@
     "stop_loss": 0.12027340733450083,
     "take_profit": 0.13842218533099832,
     "timestamp": "2026-09-04T15:34:51.181582+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.46
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.40002,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.4496194976396395,
+    "take_profit": 1.3008210047207214,
+    "timestamp": "2026-09-04T15:48:19.812402+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BCH",
+    "kucoin_symbol": "BCH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 251.14,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 259.29995740196904,
+    "take_profit": 234.82008519606194,
+    "timestamp": "2026-09-04T15:48:19.812439+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.7496,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.7806671145074227,
+    "take_profit": 0.6874657709851549,
+    "timestamp": "2026-09-04T15:48:19.812455+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 52.32,
+    "reasons": [
+      "RSI \u00fcberkauft (70.9)",
+      "Volumen-Spike (2.6x Durchschnitt)"
+    ],
+    "stop_loss": 56.07977550933479,
+    "take_profit": 44.80044898133042,
+    "timestamp": "2026-09-04T15:48:19.812499+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
