@@ -13765,7 +13765,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 1.97
   },
   {
     "symbol": "BTT",
@@ -13887,7 +13887,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.74
+    "best_favorable_pct": 8.14
   },
   {
     "symbol": "LIT",
@@ -14385,7 +14385,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.47
   },
   {
     "symbol": "FET",
@@ -14612,7 +14612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "SEI",
@@ -14996,7 +14996,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "UNI",
@@ -15030,7 +15030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "LIT",
@@ -15101,7 +15101,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.55
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "MON",
@@ -15153,7 +15153,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "VVV",
@@ -15171,7 +15171,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "STABLE",
@@ -15188,7 +15188,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.32
   },
   {
     "symbol": "ASTER",
@@ -15241,7 +15241,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 2.55
   },
   {
     "symbol": "XPL",
@@ -15259,7 +15259,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "SYRUP",
@@ -15274,6 +15274,91 @@
     "stop_loss": 0.23410844540586725,
     "take_profit": 0.20258310918826547,
     "timestamp": "2026-09-04T11:38:01.695583+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CC",
+    "kucoin_symbol": "CC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.11119,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.11521207996439262,
+    "take_profit": 0.10314584007121477,
+    "timestamp": "2026-09-04T12:03:31.714542+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.10648,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.09724903892452255,
+    "take_profit": 0.12494192215095493,
+    "timestamp": "2026-09-04T12:03:31.714602+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0133914,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.017115599461233602,
+    "take_profit": 0.005943001077532798,
+    "timestamp": "2026-09-04T12:03:31.714614+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FLOKI",
+    "kucoin_symbol": "FLOKI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.685e-05,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 2.7781575062804437e-05,
+    "take_profit": 2.4986849874391122e-05,
+    "timestamp": "2026-09-04T12:03:31.714628+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TWT",
+    "kucoin_symbol": "TWT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.6167,
+    "reasons": [
+      "RSI \u00fcberkauft (77.4)"
+    ],
+    "stop_loss": 0.6451874258610811,
+    "take_profit": 0.5597251482778378,
+    "timestamp": "2026-09-04T12:03:31.714635+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
