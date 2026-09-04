@@ -13173,9 +13173,9 @@
     "stop_loss": 101.03868778532114,
     "take_profit": 110.40262442935772,
     "timestamp": "2026-09-03T22:59:48.899218+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.27,
     "best_favorable_pct": 0.27
   },
   {
@@ -13191,9 +13191,9 @@
     "stop_loss": 1000.2598771536116,
     "take_profit": 853.2242456927771,
     "timestamp": "2026-09-03T22:59:48.899240+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.75,
     "best_favorable_pct": 1.75
   },
   {
@@ -13209,9 +13209,9 @@
     "stop_loss": 2.0474674158224833,
     "take_profit": 1.8069651683550336,
     "timestamp": "2026-09-03T22:59:50.113111+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.11,
     "best_favorable_pct": 2.11
   },
   {
@@ -13539,7 +13539,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.35
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "XTZ",
@@ -13609,7 +13609,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.57
+    "best_favorable_pct": 3.48
   },
   {
     "symbol": "RENDER",
@@ -13799,7 +13799,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "ADA",
@@ -14857,7 +14857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 2.01
   },
   {
     "symbol": "USDG",
@@ -14996,7 +14996,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "UNI",
@@ -15030,7 +15030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "LIT",
@@ -15101,7 +15101,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "MON",
@@ -15115,6 +15115,76 @@
     "stop_loss": 0.02591147132893338,
     "take_profit": 0.029897057342133243,
     "timestamp": "2026-09-04T10:52:11.191576+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.59
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9998,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.000013627898317,
+    "take_profit": 0.9993727442033663,
+    "timestamp": "2026-09-04T11:06:09.198868+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 66.738,
+    "reasons": [
+      "RSI \u00fcberkauft (70.9)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 68.40171230481003,
+    "take_profit": 63.41057539037995,
+    "timestamp": "2026-09-04T11:06:09.198928+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 17.188,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 17.780796482684067,
+    "take_profit": 16.00240703463186,
+    "timestamp": "2026-09-04T11:06:10.347265+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.029318,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.02843419589023069,
+    "take_profit": 0.031085608219538624,
+    "timestamp": "2026-09-04T11:06:11.435006+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
