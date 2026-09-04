@@ -10815,9 +10815,9 @@
     "stop_loss": 1.45291081427295,
     "take_profit": 1.3296383714541,
     "timestamp": "2026-09-03T14:36:09.547984+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.07,
     "best_favorable_pct": 0.07
   },
   {
@@ -10833,9 +10833,9 @@
     "stop_loss": 260.2278245785397,
     "take_profit": 239.44435084292064,
     "timestamp": "2026-09-03T14:36:09.548016+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.09,
     "best_favorable_pct": 0.09
   },
   {
@@ -10851,10 +10851,10 @@
     "stop_loss": 0.0800504423459263,
     "take_profit": 0.07464911530814738,
     "timestamp": "2026-09-03T14:36:10.716752+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 0.0
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.1,
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "XAUT",
@@ -10868,9 +10868,9 @@
     "stop_loss": 4418.431923751257,
     "take_profit": 4556.756152497485,
     "timestamp": "2026-09-03T14:36:11.815291+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.72,
     "best_favorable_pct": 0.72
   },
   {
@@ -10886,9 +10886,9 @@
     "stop_loss": 0.14867307757306056,
     "take_profit": 0.17755384485387887,
     "timestamp": "2026-09-03T14:36:11.815314+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 12.89,
     "best_favorable_pct": 12.89
   },
   {
@@ -11437,7 +11437,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.07
+    "best_favorable_pct": 3.26
   },
   {
     "symbol": "ETHFI",
@@ -11879,7 +11879,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "ETHFI",
@@ -12037,7 +12037,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "AVAX",
@@ -12481,7 +12481,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.68
+    "best_favorable_pct": 2.99
   },
   {
     "symbol": "ADA",
@@ -12568,7 +12568,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.69
+    "best_favorable_pct": 3.82
   },
   {
     "symbol": "TIA",
@@ -12620,7 +12620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.4
+    "best_favorable_pct": 1.69
   },
   {
     "symbol": "STABLE",
@@ -12689,7 +12689,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "XRP",
@@ -13125,7 +13125,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "PYTH",
@@ -13248,7 +13248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "DOGE",
@@ -13488,7 +13488,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "XDC",
@@ -13765,7 +13765,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "BTT",
@@ -13782,7 +13782,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "AI",
@@ -13796,6 +13796,24 @@
     "stop_loss": 0.019843714925737378,
     "take_profit": 0.018692570148525253,
     "timestamp": "2026-09-04T02:31:57.277386+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ADA",
+    "kucoin_symbol": "ADA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.224,
+    "reasons": [
+      "RSI \u00fcberkauft (77.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.23206174466350743,
+    "take_profit": 0.20787651067298513,
+    "timestamp": "2026-09-04T02:46:03.787863+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
