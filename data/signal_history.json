@@ -15132,9 +15132,9 @@
     "stop_loss": 1.000013627898317,
     "take_profit": 0.9993727442033663,
     "timestamp": "2026-09-04T11:06:09.198868+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -15150,9 +15150,9 @@
     "stop_loss": 68.40171230481003,
     "take_profit": 63.41057539037995,
     "timestamp": "2026-09-04T11:06:09.198928+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.9,
     "best_favorable_pct": 4.9
   },
   {
@@ -15168,9 +15168,9 @@
     "stop_loss": 17.780796482684067,
     "take_profit": 16.00240703463186,
     "timestamp": "2026-09-04T11:06:10.347265+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.0,
     "best_favorable_pct": 1.0
   },
   {
@@ -15185,9 +15185,9 @@
     "stop_loss": 0.02843419589023069,
     "take_profit": 0.031085608219538624,
     "timestamp": "2026-09-04T11:06:11.435006+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.32,
     "best_favorable_pct": 1.32
   },
   {
@@ -15277,7 +15277,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.26
+    "best_favorable_pct": 3.35
   },
   {
     "symbol": "CC",
@@ -15810,7 +15810,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "CRO",
@@ -16126,7 +16126,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.99
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "PEPE",
@@ -16654,7 +16654,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "PENDLE",
@@ -17432,7 +17432,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "FET",
@@ -17485,7 +17485,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 2.39
   },
   {
     "symbol": "PENGU",
@@ -17520,7 +17520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.26
+    "best_favorable_pct": 2.52
   },
   {
     "symbol": "ZEC",
@@ -17590,5 +17590,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.44
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.028896,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.0280098357501281,
+    "take_profit": 0.030668328499743807,
+    "timestamp": "2026-09-04T23:12:16.760018+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
