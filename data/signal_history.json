@@ -15810,7 +15810,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "CRO",
@@ -16003,7 +16003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "RAIN",
@@ -16038,7 +16038,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "PENGU",
@@ -16056,7 +16056,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 1.07
   },
   {
     "symbol": "STX",
@@ -16074,7 +16074,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "VIRTUAL",
@@ -16092,7 +16092,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.67
   },
   {
     "symbol": "XPL",
@@ -16109,7 +16109,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "SYRUP",
@@ -16123,6 +16123,41 @@
     "stop_loss": 0.2321110562184941,
     "take_profit": 0.19787788756301183,
     "timestamp": "2026-09-04T13:50:12.288935+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.554e-06,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 3.714493969578919e-06,
+    "take_profit": 3.233012060842163e-06,
+    "timestamp": "2026-09-04T14:01:28.840701+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1547,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.1609492476137574,
+    "take_profit": 0.14220150477248525,
+    "timestamp": "2026-09-04T14:01:28.840763+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
