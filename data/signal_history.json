@@ -14382,9 +14382,9 @@
     "stop_loss": 0.14901674950459007,
     "take_profit": 0.11446650099081988,
     "timestamp": "2026-09-04T07:11:18.434823+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.25,
     "best_favorable_pct": 6.25
   },
   {
@@ -14400,9 +14400,9 @@
     "stop_loss": 0.16317300179927025,
     "take_profit": 0.14465399640145948,
     "timestamp": "2026-09-04T07:11:18.434854+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.5,
     "best_favorable_pct": 3.5
   },
   {
@@ -16688,7 +16688,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "XRP",
@@ -16997,7 +16997,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "ETHFI",
@@ -17049,5 +17049,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.0672,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.1676310810659065,
+    "take_profit": 1.8663378378681876,
+    "timestamp": "2026-09-04T19:21:30.188562+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.34
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1326,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.14402369209196572,
+    "take_profit": 0.10975261581606854,
+    "timestamp": "2026-09-04T19:21:31.273866+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
