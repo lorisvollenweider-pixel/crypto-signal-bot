@@ -14783,9 +14783,9 @@
     "stop_loss": 1063.977588348435,
     "take_profit": 910.4748233031303,
     "timestamp": "2026-09-04T09:02:05.080363+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.28,
     "best_favorable_pct": 4.28
   },
   {
@@ -14801,9 +14801,9 @@
     "stop_loss": 56.935397465836026,
     "take_profit": 46.659205068327935,
     "timestamp": "2026-09-04T09:02:06.115303+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 7.23,
     "best_favorable_pct": 7.23
   },
   {
@@ -14819,9 +14819,9 @@
     "stop_loss": 0.028655528260465402,
     "take_profit": 0.027408943479069196,
     "timestamp": "2026-09-04T09:02:07.143212+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.41,
     "best_favorable_pct": 2.41
   },
   {
@@ -14836,9 +14836,9 @@
     "stop_loss": 0.05036440286858137,
     "take_profit": 0.04522119426283726,
     "timestamp": "2026-09-04T09:02:08.171030+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.19,
     "best_favorable_pct": 4.19
   },
   {
@@ -15223,7 +15223,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "PONS",
@@ -15532,7 +15532,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "CC",
@@ -15671,7 +15671,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.89
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "ETHFI",
@@ -16265,7 +16265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "WLD",
@@ -16688,7 +16688,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.8
+    "best_favorable_pct": 2.19
   },
   {
     "symbol": "XRP",
@@ -16844,7 +16844,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.98
+    "best_favorable_pct": 1.21
   },
   {
     "symbol": "LIT",
@@ -17119,7 +17119,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.21
+    "best_favorable_pct": 2.78
   },
   {
     "symbol": "TAO",
@@ -17154,7 +17154,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "MNT",
@@ -17188,7 +17188,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "DASH",
@@ -17324,6 +17324,41 @@
     "stop_loss": 0.27666452388996654,
     "take_profit": 0.236870952220067,
     "timestamp": "2026-09-04T20:28:56.336085+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AAVE",
+    "kucoin_symbol": "AAVE-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 129.84,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 134.5137416070575,
+    "take_profit": 120.49251678588499,
+    "timestamp": "2026-09-04T21:09:46.285148+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.04691,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.048626234397219525,
+    "take_profit": 0.04347753120556096,
+    "timestamp": "2026-09-04T21:09:47.549333+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
