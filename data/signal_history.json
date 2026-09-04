@@ -12213,9 +12213,9 @@
     "stop_loss": 11.494525441869893,
     "take_profit": 12.612849116260215,
     "timestamp": "2026-09-03T19:22:06.643952+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.92,
     "best_favorable_pct": 0.92
   },
   {
@@ -12230,9 +12230,9 @@
     "stop_loss": 0.5680246772119673,
     "take_profit": 0.6678506455760654,
     "timestamp": "2026-09-03T19:22:07.963901+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.03,
     "best_favorable_pct": 0.03
   },
   {
@@ -12249,9 +12249,9 @@
     "stop_loss": 0.09182284133257136,
     "take_profit": 0.10735431733485727,
     "timestamp": "2026-09-03T19:22:07.963940+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.72,
     "best_favorable_pct": 0.72
   },
   {
@@ -12637,7 +12637,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "PONS",
@@ -13074,7 +13074,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "HBAR",
@@ -13748,7 +13748,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "TAO",
@@ -14317,7 +14317,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "DCR",
@@ -14368,7 +14368,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "ARB",
@@ -14385,7 +14385,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "FET",
@@ -14400,6 +14400,24 @@
     "stop_loss": 0.16317300179927025,
     "take_profit": 0.14465399640145948,
     "timestamp": "2026-09-04T07:11:18.434854+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.995,
+    "reasons": [
+      "RSI \u00fcberverkauft (28.7)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.9919157809014842,
+    "take_profit": 1.0011684381970316,
+    "timestamp": "2026-09-04T07:28:08.656161+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
