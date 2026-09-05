@@ -18637,9 +18637,9 @@
     "stop_loss": 0.5840524090802943,
     "take_profit": 0.49929518183941124,
     "timestamp": "2026-09-05T05:55:19.276329+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.23,
     "best_favorable_pct": 0.23
   },
   {
@@ -18727,7 +18727,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.48
+    "best_favorable_pct": 1.54
   },
   {
     "symbol": "SUI",
@@ -18796,7 +18796,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.22
+    "best_favorable_pct": 2.46
   },
   {
     "symbol": "DOT",
@@ -19094,7 +19094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "SKY",
@@ -19111,7 +19111,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "TAO",
@@ -19318,7 +19318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.86
+    "best_favorable_pct": 8.09
   },
   {
     "symbol": "SEI",
@@ -19650,7 +19650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "NIGHT",
@@ -19702,7 +19702,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.13
+    "best_favorable_pct": 5.57
   },
   {
     "symbol": "HTX",
@@ -19855,7 +19855,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "USDS",
@@ -20338,7 +20338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "ARB",
@@ -20355,7 +20355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.54
+    "best_favorable_pct": 5.8
   },
   {
     "symbol": "CAKE",
@@ -20423,7 +20423,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "STX",
@@ -20440,7 +20440,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.81
   },
   {
     "symbol": "TIA",
@@ -20474,7 +20474,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.36
+    "best_favorable_pct": 2.93
   },
   {
     "symbol": "MORPHO",
@@ -20614,7 +20614,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "BNB",
@@ -20664,6 +20664,58 @@
     "stop_loss": 2.60234905829295,
     "take_profit": 2.2986018834141007,
     "timestamp": "2026-09-05T17:40:11.496637+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DOGE",
+    "kucoin_symbol": "DOGE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.09327,
+    "reasons": [
+      "RSI \u00fcberkauft (74.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.09633346517953592,
+    "take_profit": 0.08714306964092819,
+    "timestamp": "2026-09-05T18:04:51.357572+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 3.643e-06,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 3.49302213293241e-06,
+    "take_profit": 3.94295573413518e-06,
+    "timestamp": "2026-09-05T18:04:52.531229+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TIA",
+    "kucoin_symbol": "TIA-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.3699,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.3565346064981143,
+    "take_profit": 0.3966307870037714,
+    "timestamp": "2026-09-05T18:04:52.531464+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
