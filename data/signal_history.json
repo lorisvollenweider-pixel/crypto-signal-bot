@@ -16702,9 +16702,9 @@
     "stop_loss": 1.4496194976396395,
     "take_profit": 1.3008210047207214,
     "timestamp": "2026-09-04T15:48:19.812402+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.57,
     "best_favorable_pct": 0.57
   },
   {
@@ -16719,9 +16719,9 @@
     "stop_loss": 259.29995740196904,
     "take_profit": 234.82008519606194,
     "timestamp": "2026-09-04T15:48:19.812439+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.48,
     "best_favorable_pct": 2.48
   },
   {
@@ -16736,9 +16736,9 @@
     "stop_loss": 0.7806671145074227,
     "take_profit": 0.6874657709851549,
     "timestamp": "2026-09-04T15:48:19.812455+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.09,
     "best_favorable_pct": 0.09
   },
   {
@@ -16754,9 +16754,9 @@
     "stop_loss": 56.07977550933479,
     "take_profit": 44.80044898133042,
     "timestamp": "2026-09-04T15:48:19.812499+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -17657,7 +17657,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.09
+    "best_favorable_pct": 4.17
   },
   {
     "symbol": "KCS",
@@ -17777,7 +17777,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "RENDER",
@@ -18263,7 +18263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.0
+    "best_favorable_pct": 1.24
   },
   {
     "symbol": "UB",
@@ -18298,5 +18298,57 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "BNB",
+    "kucoin_symbol": "BNB-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 723.699,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 710.3775923794901,
+    "take_profit": 750.3418152410196,
+    "timestamp": "2026-09-05T03:52:46.269398+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.39921,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.4422880458951015,
+    "take_profit": 1.3130539082097972,
+    "timestamp": "2026-09-05T03:52:46.269420+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 67.0,
+    "reasons": [
+      "RSI \u00fcberkauft (86.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 72.0733257005034,
+    "take_profit": 56.85334859899318,
+    "timestamp": "2026-09-05T03:52:46.269469+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.25
   }
 ]
