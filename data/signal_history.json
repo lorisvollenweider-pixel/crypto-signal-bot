@@ -18603,9 +18603,9 @@
     "stop_loss": 54.07806852740233,
     "take_profit": 50.393862945195345,
     "timestamp": "2026-09-05T05:31:33.362414+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.17,
     "best_favorable_pct": 0.17
   },
   {
@@ -18620,9 +18620,9 @@
     "stop_loss": 5.0321229649341195,
     "take_profit": 4.152754070131761,
     "timestamp": "2026-09-05T05:31:33.362452+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.27,
     "best_favorable_pct": 3.27
   },
   {
@@ -19041,7 +19041,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.29
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "NEAR",
@@ -19650,7 +19650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "NIGHT",
@@ -20148,7 +20148,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.98
+    "best_favorable_pct": 2.16
   },
   {
     "symbol": "AKE",
@@ -20338,7 +20338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "ARB",
@@ -20491,7 +20491,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "ATOM",
@@ -20508,7 +20508,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "TRX",
@@ -20596,7 +20596,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "WLFI",
@@ -20632,7 +20632,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "TRX",
@@ -20646,6 +20646,24 @@
     "stop_loss": 0.3370829616264426,
     "take_profit": 0.32843407674711483,
     "timestamp": "2026-09-05T17:27:20.181996+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.5011,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.60234905829295,
+    "take_profit": 2.2986018834141007,
+    "timestamp": "2026-09-05T17:40:11.496637+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
