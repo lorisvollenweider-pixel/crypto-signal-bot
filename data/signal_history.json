@@ -17965,9 +17965,9 @@
     "stop_loss": 254.0802387160361,
     "take_profit": 230.04952256792782,
     "timestamp": "2026-09-05T01:16:38.884640+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.07,
     "best_favorable_pct": 0.07
   },
   {
@@ -17982,9 +17982,9 @@
     "stop_loss": 16.64089698539272,
     "take_profit": 13.878206029214562,
     "timestamp": "2026-09-05T01:16:40.127379+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -18727,7 +18727,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.26
+    "best_favorable_pct": 1.32
   },
   {
     "symbol": "SUI",
@@ -18796,7 +18796,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 2.22
   },
   {
     "symbol": "DOT",
@@ -19094,7 +19094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.88
   },
   {
     "symbol": "SKY",
@@ -19318,7 +19318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.71
   },
   {
     "symbol": "SEI",
@@ -19615,7 +19615,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.21
+    "best_favorable_pct": 2.71
   },
   {
     "symbol": "ICP",
@@ -19650,7 +19650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "NIGHT",
@@ -19667,7 +19667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.56
   },
   {
     "symbol": "XAUT",
@@ -19941,7 +19941,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "KITE",
@@ -19959,5 +19959,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SHIB",
+    "kucoin_symbol": "SHIB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 5.524e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 5.677009504597516e-06,
+    "take_profit": 5.2179809908049665e-06,
+    "timestamp": "2026-09-05T13:29:07.174193+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
   }
 ]
