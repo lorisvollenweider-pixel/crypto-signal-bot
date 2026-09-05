@@ -17119,7 +17119,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.72
+    "best_favorable_pct": 3.82
   },
   {
     "symbol": "TAO",
@@ -17606,7 +17606,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "LDO",
@@ -17657,7 +17657,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.42
+    "best_favorable_pct": 9.35
   },
   {
     "symbol": "KCS",
@@ -17794,7 +17794,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.14
+    "best_favorable_pct": 3.97
   },
   {
     "symbol": "XDC",
@@ -17828,7 +17828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.01
+    "best_favorable_pct": 3.14
   },
   {
     "symbol": "TWT",
@@ -18124,7 +18124,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.72
+    "best_favorable_pct": 2.54
   },
   {
     "symbol": "CAKE",
@@ -18314,7 +18314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "XRP",
@@ -18452,7 +18452,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.6
+    "best_favorable_pct": 4.45
   },
   {
     "symbol": "ZRO",
@@ -18623,7 +18623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.0
+    "best_favorable_pct": 2.51
   },
   {
     "symbol": "ETHFI",
@@ -18710,7 +18710,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.98
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "XLM",
@@ -18727,7 +18727,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "SUI",
@@ -18744,7 +18744,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "INJ",
@@ -18796,7 +18796,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "DOT",
@@ -18811,6 +18811,77 @@
     "stop_loss": 0.9460788626953764,
     "take_profit": 0.8420422746092472,
     "timestamp": "2026-09-05T06:48:10.427603+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 1.492,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.4442652211292637,
+    "take_profit": 1.5874695577414726,
+    "timestamp": "2026-09-05T06:59:13.281977+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "BDX",
+    "kucoin_symbol": "BDX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.07956,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.08060703884015297,
+    "take_profit": 0.07746592231969408,
+    "timestamp": "2026-09-05T06:59:14.403212+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.3
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.008489,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.00811264818904429,
+    "take_profit": 0.009241703621911417,
+    "timestamp": "2026-09-05T06:59:14.403235+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BONK",
+    "kucoin_symbol": "BONK-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.335e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 3.5104602671719753e-06,
+    "take_profit": 2.9840794656560485e-06,
+    "timestamp": "2026-09-05T06:59:15.483753+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
