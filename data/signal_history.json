@@ -16633,9 +16633,9 @@
     "stop_loss": 0.003974462617586723,
     "take_profit": 0.0048340747648265535,
     "timestamp": "2026-09-04T15:34:48.780962+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.7,
     "best_favorable_pct": 2.7
   },
   {
@@ -16651,9 +16651,9 @@
     "stop_loss": 0.364373786084224,
     "take_profit": 0.3197524278315519,
     "timestamp": "2026-09-04T15:34:49.999036+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.29,
     "best_favorable_pct": 0.29
   },
   {
@@ -16668,9 +16668,9 @@
     "stop_loss": 1.9854427601410314,
     "take_profit": 1.717414479717937,
     "timestamp": "2026-09-04T15:34:51.181567+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -16685,10 +16685,10 @@
     "stop_loss": 0.12027340733450083,
     "take_profit": 0.13842218533099832,
     "timestamp": "2026-09-04T15:34:51.181582+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 5.29
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.66,
+    "best_favorable_pct": 5.66
   },
   {
     "symbol": "XRP",
@@ -17657,7 +17657,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.72
+    "best_favorable_pct": 4.09
   },
   {
     "symbol": "KCS",
@@ -17777,7 +17777,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "RENDER",
@@ -18002,7 +18002,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 1.68
   },
   {
     "symbol": "NEAR",
@@ -18263,6 +18263,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.87
+    "best_favorable_pct": 1.0
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.133478,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1395161010649063,
+    "take_profit": 0.12140179787018744,
+    "timestamp": "2026-09-05T03:40:57.584522+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.9345,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 2.016278482165032,
+    "take_profit": 1.7709430356699358,
+    "timestamp": "2026-09-05T03:40:57.584540+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
   }
 ]
