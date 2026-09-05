@@ -19543,9 +19543,9 @@
     "stop_loss": 1.4221467259317995,
     "take_profit": 1.5627065481364013,
     "timestamp": "2026-09-05T11:30:33.817750+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.82,
     "best_favorable_pct": 0.82
   },
   {
@@ -19702,7 +19702,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.57
+    "best_favorable_pct": 5.88
   },
   {
     "symbol": "HTX",
@@ -19838,7 +19838,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.15
+    "best_favorable_pct": 5.39
   },
   {
     "symbol": "SOL",
@@ -19889,7 +19889,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.56
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "ETC",
@@ -20474,7 +20474,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.93
+    "best_favorable_pct": 3.16
   },
   {
     "symbol": "MORPHO",
@@ -20685,7 +20685,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.6
+    "best_favorable_pct": 3.89
   },
   {
     "symbol": "PEPE",
@@ -20979,7 +20979,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.35
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "BCH",
@@ -21341,7 +21341,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "KCS",
@@ -21448,7 +21448,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "ARB",
@@ -21538,7 +21538,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "STABLE",
@@ -21556,5 +21556,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.1724,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.16266320359312691,
+    "take_profit": 0.19187359281374616,
+    "timestamp": "2026-09-05T23:41:33.421725+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "SKY",
+    "kucoin_symbol": "SKY-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.07061,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.06865880545647846,
+    "take_profit": 0.07451238908704311,
+    "timestamp": "2026-09-05T23:41:34.567954+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
