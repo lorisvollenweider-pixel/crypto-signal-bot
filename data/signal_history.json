@@ -17028,9 +17028,9 @@
     "stop_loss": 4470.90615125494,
     "take_profit": 4312.967697490122,
     "timestamp": "2026-09-04T18:09:22.830278+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -17606,7 +17606,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "LDO",
@@ -17657,7 +17657,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.07
+    "best_favorable_pct": 7.53
   },
   {
     "symbol": "KCS",
@@ -17794,7 +17794,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.65
+    "best_favorable_pct": 2.93
   },
   {
     "symbol": "XDC",
@@ -17828,7 +17828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.28
+    "best_favorable_pct": 2.29
   },
   {
     "symbol": "TWT",
@@ -17950,7 +17950,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.21
+    "best_favorable_pct": 4.27
   },
   {
     "symbol": "BCH",
@@ -18002,7 +18002,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 3.26
   },
   {
     "symbol": "NEAR",
@@ -18124,7 +18124,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.51
   },
   {
     "symbol": "CAKE",
@@ -18211,7 +18211,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.25
+    "best_favorable_pct": 2.31
   },
   {
     "symbol": "HYPE",
@@ -18452,7 +18452,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 2.75
   },
   {
     "symbol": "ZRO",
@@ -18520,7 +18520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.37
+    "best_favorable_pct": 2.62
   },
   {
     "symbol": "BONK",
@@ -18623,7 +18623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "ETHFI",
@@ -18641,5 +18641,75 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9984,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.001118667746212,
+    "take_profit": 0.9929626645075759,
+    "timestamp": "2026-09-05T06:14:21.903189+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 53.49,
+    "reasons": [
+      "RSI \u00fcberkauft (72.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 54.79521138454519,
+    "take_profit": 50.87957723090963,
+    "timestamp": "2026-09-05T06:14:21.903209+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 4434.27,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 4477.85190509623,
+    "take_profit": 4347.10618980754,
+    "timestamp": "2026-09-05T06:14:23.226353+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 2.652,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2.5390623147337936,
+    "take_profit": 2.8778753705324127,
+    "timestamp": "2026-09-05T06:14:23.226380+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
