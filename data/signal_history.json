@@ -17116,9 +17116,9 @@
     "stop_loss": 19.155111193801517,
     "take_profit": 16.961777612396965,
     "timestamp": "2026-09-04T19:56:01.698178+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.21,
     "best_favorable_pct": 4.21
   },
   {
@@ -17327,7 +17327,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "AAVE",
@@ -17537,7 +17537,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.93
   },
   {
     "symbol": "MORPHO",
@@ -17606,7 +17606,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.48
   },
   {
     "symbol": "LDO",
@@ -18176,7 +18176,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.05
+    "best_favorable_pct": 4.11
   },
   {
     "symbol": "XLM",
@@ -18297,7 +18297,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "BNB",
@@ -18314,7 +18314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.0
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "XRP",
@@ -18349,7 +18349,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "BTC",
@@ -18761,7 +18761,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.7
+    "best_favorable_pct": 1.92
   },
   {
     "symbol": "UB",
@@ -18903,7 +18903,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "TAO",
@@ -18921,7 +18921,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.55
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "U",
@@ -18955,7 +18955,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.34
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "PENGU",
@@ -18990,7 +18990,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "SYRUP",
@@ -19007,7 +19007,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "BNB",
@@ -19060,6 +19060,57 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.23
+  },
+  {
+    "symbol": "GRAM",
+    "kucoin_symbol": "GRAM-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.431,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 1.38994598714332,
+    "take_profit": 1.5131080257133602,
+    "timestamp": "2026-09-05T08:08:58.123966+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0566,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.055375550488228974,
+    "take_profit": 0.05904889902354204,
+    "timestamp": "2026-09-05T08:08:58.123992+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SKY",
+    "kucoin_symbol": "SKY-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.06779,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.06604523450425086,
+    "take_profit": 0.0712795309914983,
+    "timestamp": "2026-09-05T08:08:58.124005+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
