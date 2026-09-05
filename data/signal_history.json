@@ -19528,7 +19528,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "RENDER",
@@ -19650,7 +19650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.45
+    "best_favorable_pct": 2.49
   },
   {
     "symbol": "NIGHT",
@@ -19821,7 +19821,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 0.96
   },
   {
     "symbol": "TWT",
@@ -19838,7 +19838,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.72
+    "best_favorable_pct": 4.7
   },
   {
     "symbol": "SOL",
@@ -20338,7 +20338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.76
+    "best_favorable_pct": 1.82
   },
   {
     "symbol": "ARB",
@@ -20596,7 +20596,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.03
+    "best_favorable_pct": 1.34
   },
   {
     "symbol": "WLFI",
@@ -20857,7 +20857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "FF",
@@ -20996,7 +20996,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "LTC",
@@ -21151,7 +21151,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "LIT",
@@ -21168,7 +21168,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.59
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "XDC",
@@ -21220,7 +21220,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "SKY",
@@ -21238,7 +21238,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "APT",
@@ -21272,7 +21272,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.22
+    "best_favorable_pct": 3.35
   },
   {
     "symbol": "MON",
@@ -21303,6 +21303,59 @@
     "stop_loss": 3.054575016961253e-07,
     "take_profit": 2.9058499660774944e-07,
     "timestamp": "2026-09-05T21:54:29.727185+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 54.71,
+    "reasons": [
+      "RSI \u00fcberkauft (73.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 56.254329033560026,
+    "take_profit": 51.62134193287995,
+    "timestamp": "2026-09-05T22:09:46.031416+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "GRAM",
+    "kucoin_symbol": "GRAM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.444,
+    "reasons": [
+      "RSI \u00fcberkauft (70.8)"
+    ],
+    "stop_loss": 1.482566405514656,
+    "take_profit": 1.366867188970688,
+    "timestamp": "2026-09-05T22:09:47.133054+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KCS",
+    "kucoin_symbol": "KCS-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 7.28,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 7.153378188241936,
+    "take_profit": 7.53324362351613,
+    "timestamp": "2026-09-05T22:09:47.133107+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
