@@ -16245,9 +16245,9 @@
     "stop_loss": 104.29664541855122,
     "take_profit": 94.97670916289754,
     "timestamp": "2026-09-04T14:34:45.064352+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.65,
     "best_favorable_pct": 0.65
   },
   {
@@ -16262,9 +16262,9 @@
     "stop_loss": 214.65624510058024,
     "take_profit": 239.02750979883953,
     "timestamp": "2026-09-04T14:34:46.340147+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.99,
     "best_favorable_pct": 2.99
   },
   {
@@ -16279,9 +16279,9 @@
     "stop_loss": 0.3921817963871113,
     "take_profit": 0.34273640722577736,
     "timestamp": "2026-09-04T14:34:46.340190+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.14,
     "best_favorable_pct": 1.14
   },
   {
@@ -16297,9 +16297,9 @@
     "stop_loss": 0.15954924761375738,
     "take_profit": 0.14080150477248524,
     "timestamp": "2026-09-04T14:34:46.340255+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.17,
     "best_favorable_pct": 1.17
   },
   {
@@ -17520,7 +17520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 22.58
+    "best_favorable_pct": 25.1
   },
   {
     "symbol": "ZEC",
@@ -17623,7 +17623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.56
+    "best_favorable_pct": 2.61
   },
   {
     "symbol": "PONS",
@@ -17657,7 +17657,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "KCS",
@@ -17794,7 +17794,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "XDC",
@@ -17828,7 +17828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.57
   },
   {
     "symbol": "TWT",
@@ -17950,7 +17950,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.91
   },
   {
     "symbol": "BCH",
@@ -18072,7 +18072,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.93
+    "best_favorable_pct": 11.09
   },
   {
     "symbol": "NIGHT",
@@ -18124,7 +18124,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "CAKE",
@@ -18158,7 +18158,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "DCR",
@@ -18194,5 +18194,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.22
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.1599,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.1537925227120969,
+    "take_profit": 0.1721149545758062,
+    "timestamp": "2026-09-05T02:42:55.937720+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
