@@ -17879,7 +17879,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "BONK",
@@ -17950,7 +17950,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.88
+    "best_favorable_pct": 7.2
   },
   {
     "symbol": "BCH",
@@ -18072,7 +18072,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.46
+    "best_favorable_pct": 15.56
   },
   {
     "symbol": "NIGHT",
@@ -18211,7 +18211,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.94
+    "best_favorable_pct": 5.19
   },
   {
     "symbol": "HYPE",
@@ -18263,7 +18263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.01
+    "best_favorable_pct": 2.21
   },
   {
     "symbol": "UB",
@@ -18297,7 +18297,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "BNB",
@@ -18417,7 +18417,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "ASTER",
@@ -19145,7 +19145,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "DASH",
@@ -19230,7 +19230,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.28
+    "best_favorable_pct": 2.48
   },
   {
     "symbol": "DCR",
@@ -19265,7 +19265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.07
+    "best_favorable_pct": 2.31
   },
   {
     "symbol": "RENDER",
@@ -19388,5 +19388,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.64
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.02793,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.028374375958322613,
+    "take_profit": 0.027041248083354775,
+    "timestamp": "2026-09-05T11:01:44.219838+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.01665,
+    "reasons": [
+      "Volumen-Spike (3.7x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.01649598082535479,
+    "take_profit": 0.016958038349290425,
+    "timestamp": "2026-09-05T11:01:45.472548+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
