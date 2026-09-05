@@ -19438,9 +19438,9 @@
     "stop_loss": 768.1290233476499,
     "take_profit": 721.9919533047002,
     "timestamp": "2026-09-05T11:18:34.744839+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.73,
     "best_favorable_pct": 0.73
   },
   {
@@ -19455,9 +19455,9 @@
     "stop_loss": 0.3893690119545181,
     "take_profit": 0.43806197609096387,
     "timestamp": "2026-09-05T11:18:35.971740+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.02,
     "best_favorable_pct": 0.02
   },
   {
@@ -19472,9 +19472,9 @@
     "stop_loss": 0.031044574397357166,
     "take_profit": 0.028000851205285667,
     "timestamp": "2026-09-05T11:18:35.971773+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.13,
     "best_favorable_pct": 0.13
   },
   {
@@ -19490,9 +19490,9 @@
     "stop_loss": 1.4262538687889423,
     "take_profit": 1.5664922624221156,
     "timestamp": "2026-09-05T11:18:35.971788+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.54,
     "best_favorable_pct": 0.54
   },
   {
@@ -19507,9 +19507,9 @@
     "stop_loss": 0.02834805724818192,
     "take_profit": 0.030810885503636164,
     "timestamp": "2026-09-05T11:18:37.133102+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.08,
     "best_favorable_pct": 0.08
   },
   {
@@ -19525,9 +19525,9 @@
     "stop_loss": 0.6633873842587114,
     "take_profit": 0.740225231482577,
     "timestamp": "2026-09-05T11:18:37.133139+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.22,
     "best_favorable_pct": 1.22
   },
   {
@@ -20685,7 +20685,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.58
+    "best_favorable_pct": 3.6
   },
   {
     "symbol": "PEPE",
@@ -20839,7 +20839,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.33
   },
   {
     "symbol": "SKY",
@@ -20857,7 +20857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.41
+    "best_favorable_pct": 3.08
   },
   {
     "symbol": "FF",
@@ -20979,7 +20979,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.33
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "BCH",
@@ -21238,7 +21238,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.75
+    "best_favorable_pct": 2.41
   },
   {
     "symbol": "APT",
@@ -21504,7 +21504,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "PUMP",
@@ -21522,5 +21522,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.03059,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.03154327106896199,
+    "take_profit": 0.02868345786207602,
+    "timestamp": "2026-09-05T23:29:02.081226+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.028583,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.027828675104328685,
+    "take_profit": 0.030091649791342632,
+    "timestamp": "2026-09-05T23:29:02.081247+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
   }
 ]
