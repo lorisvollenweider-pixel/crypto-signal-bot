@@ -18483,9 +18483,9 @@
     "stop_loss": 134.77813295193744,
     "take_profit": 121.88973409612514,
     "timestamp": "2026-09-05T04:23:19.297967+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.86,
     "best_favorable_pct": 0.86
   },
   {
@@ -18500,9 +18500,9 @@
     "stop_loss": 1.5750619422702445,
     "take_profit": 1.460576115459511,
     "timestamp": "2026-09-05T04:23:19.298001+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.17,
     "best_favorable_pct": 0.17
   },
   {
@@ -18517,9 +18517,9 @@
     "stop_loss": 1.116384883509463,
     "take_profit": 0.9493302329810742,
     "timestamp": "2026-09-05T04:23:19.298027+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.37,
     "best_favorable_pct": 3.37
   },
   {
@@ -18534,9 +18534,9 @@
     "stop_loss": 3.4541031243148324e-06,
     "take_profit": 2.9437937513703346e-06,
     "timestamp": "2026-09-05T04:23:19.298034+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.22,
     "best_favorable_pct": 1.22
   },
   {
@@ -19650,7 +19650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "NIGHT",
@@ -19702,7 +19702,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.52
+    "best_favorable_pct": 2.87
   },
   {
     "symbol": "HTX",
@@ -19924,7 +19924,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.09
+    "best_favorable_pct": 2.12
   },
   {
     "symbol": "SUN",
@@ -20200,7 +20200,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "HTX",
@@ -20270,7 +20270,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "RAIN",
@@ -20338,7 +20338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "ARB",
@@ -20355,7 +20355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 2.34
   },
   {
     "symbol": "CAKE",
@@ -20423,7 +20423,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "STX",
@@ -20454,6 +20454,57 @@
     "stop_loss": 0.37566896493045715,
     "take_profit": 0.3376620701390857,
     "timestamp": "2026-09-05T16:04:24.969491+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.7994,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.8397676237130873,
+    "take_profit": 0.7186647525738254,
+    "timestamp": "2026-09-05T16:35:04.530888+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.5123,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.6114062011500927,
+    "take_profit": 2.314087597699815,
+    "timestamp": "2026-09-05T16:35:04.530912+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.5501,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.5875550998725787,
+    "take_profit": 1.4751898002548427,
+    "timestamp": "2026-09-05T16:35:04.530940+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
