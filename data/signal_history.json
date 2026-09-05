@@ -17637,9 +17637,9 @@
     "stop_loss": 0.8282003093868854,
     "take_profit": 0.47569938122622923,
     "timestamp": "2026-09-04T23:37:11.193389+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.23,
     "best_favorable_pct": 9.23
   },
   {
@@ -17828,7 +17828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.96
+    "best_favorable_pct": 4.31
   },
   {
     "symbol": "TWT",
@@ -18072,7 +18072,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.56
+    "best_favorable_pct": 16.01
   },
   {
     "symbol": "NIGHT",
@@ -18263,7 +18263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.21
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "UB",
@@ -18885,7 +18885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 1.83
   },
   {
     "symbol": "SOL",
@@ -19230,7 +19230,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.96
+    "best_favorable_pct": 4.28
   },
   {
     "symbol": "DCR",
@@ -19441,7 +19441,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "WLD",
@@ -19475,7 +19475,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "RENDER",
@@ -19493,7 +19493,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "STABLE",
@@ -19528,7 +19528,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "RENDER",
@@ -19546,6 +19546,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.34
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.7809,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.7490385628688098,
+    "take_profit": 0.8446228742623807,
+    "timestamp": "2026-09-05T11:42:11.588543+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.8526,
+    "reasons": [
+      "RSI \u00fcberkauft (78.7)"
+    ],
+    "stop_loss": 0.9825793384558992,
+    "take_profit": 0.5926413230882017,
+    "timestamp": "2026-09-05T11:42:12.811142+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
   }
 ]
