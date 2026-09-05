@@ -17377,9 +17377,9 @@
     "stop_loss": 0.028069804390562524,
     "take_profit": 0.026720391218874952,
     "timestamp": "2026-09-04T21:25:03.159805+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.22,
     "best_favorable_pct": 0.22
   },
   {
@@ -17674,7 +17674,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "ADA",
@@ -18176,7 +18176,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.11
+    "best_favorable_pct": 4.23
   },
   {
     "symbol": "XLM",
@@ -18280,7 +18280,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 3.64
   },
   {
     "symbol": "PENDLE",
@@ -18779,7 +18779,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.28
+    "best_favorable_pct": 9.13
   },
   {
     "symbol": "SHIB",
@@ -18955,7 +18955,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.17
+    "best_favorable_pct": 6.62
   },
   {
     "symbol": "PENGU",
@@ -19248,7 +19248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.39
+    "best_favorable_pct": 2.38
   },
   {
     "symbol": "FET",
@@ -19265,7 +19265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "RENDER",
@@ -19283,7 +19283,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "BDX",
@@ -19335,6 +19335,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.23
+  },
+  {
+    "symbol": "CAKE",
+    "kucoin_symbol": "CAKE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.14,
+    "reasons": [
+      "RSI \u00fcberkauft (71.6)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 2.2234834844084124,
+    "take_profit": 1.9730330311831756,
+    "timestamp": "2026-09-05T09:33:08.332987+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.11631,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1255479466433015,
+    "take_profit": 0.09783410671339704,
+    "timestamp": "2026-09-05T09:33:09.550874+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
