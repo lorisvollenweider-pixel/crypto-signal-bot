@@ -18155,9 +18155,9 @@
     "stop_loss": 3.635389600955802e-06,
     "take_profit": 3.1752207980883955e-06,
     "timestamp": "2026-09-05T02:12:26.236774+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.8,
     "best_favorable_pct": 0.8
   },
   {
@@ -18173,9 +18173,9 @@
     "stop_loss": 18.662325556821294,
     "take_profit": 15.20534888635742,
     "timestamp": "2026-09-05T02:12:26.236826+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.57,
     "best_favorable_pct": 4.57
   },
   {
@@ -19060,7 +19060,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "GRAM",
@@ -19179,7 +19179,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.54
+    "best_favorable_pct": 1.64
   },
   {
     "symbol": "CRV",
@@ -19301,7 +19301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.25
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "DOGE",
@@ -19615,7 +19615,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.61
+    "best_favorable_pct": 3.69
   },
   {
     "symbol": "ICP",
@@ -19667,7 +19667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 1.88
   },
   {
     "symbol": "XAUT",
@@ -19702,7 +19702,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "HTX",
@@ -19941,7 +19941,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "KITE",
@@ -20027,7 +20027,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "JST",
@@ -20059,6 +20059,24 @@
     "stop_loss": 0.29419921034552093,
     "take_profit": 0.17630157930895815,
     "timestamp": "2026-09-05T14:05:30.852156+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 1.42
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9461,
+    "reasons": [
+      "RSI \u00fcberkauft (82.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.0788915285661922,
+    "take_profit": 0.6805169428676159,
+    "timestamp": "2026-09-05T14:21:05.119694+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
