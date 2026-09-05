@@ -18190,9 +18190,9 @@
     "stop_loss": 0.18416627485316342,
     "take_profit": 0.16926745029367318,
     "timestamp": "2026-09-05T02:28:01.410029+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.22,
     "best_favorable_pct": 0.22
   },
   {
@@ -18314,7 +18314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.87
+    "best_favorable_pct": 6.16
   },
   {
     "symbol": "XRP",
@@ -18589,7 +18589,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "LTC",
@@ -19301,7 +19301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.59
   },
   {
     "symbol": "DOGE",
@@ -19667,7 +19667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.88
+    "best_favorable_pct": 2.7
   },
   {
     "symbol": "XAUT",
@@ -20077,6 +20077,40 @@
     "stop_loss": 1.0788915285661922,
     "take_profit": 0.6805169428676159,
     "timestamp": "2026-09-05T14:21:05.119694+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.89
+  },
+  {
+    "symbol": "USDD",
+    "kucoin_symbol": "USDD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.999,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.9968995163204677,
+    "take_profit": 1.0032009673590647,
+    "timestamp": "2026-09-05T14:33:13.848185+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 17.419,
+    "reasons": [
+      "Volumen-Spike (2.4x Durchschnitt)"
+    ],
+    "stop_loss": 18.122452573461874,
+    "take_profit": 16.012094853076253,
+    "timestamp": "2026-09-05T14:33:13.848215+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
