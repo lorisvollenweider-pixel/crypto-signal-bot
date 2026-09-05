@@ -17606,7 +17606,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "LDO",
@@ -17657,7 +17657,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.53
+    "best_favorable_pct": 8.34
   },
   {
     "symbol": "KCS",
@@ -17828,7 +17828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.29
+    "best_favorable_pct": 2.52
   },
   {
     "symbol": "TWT",
@@ -18002,7 +18002,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.26
+    "best_favorable_pct": 3.59
   },
   {
     "symbol": "NEAR",
@@ -18452,7 +18452,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.75
+    "best_favorable_pct": 3.56
   },
   {
     "symbol": "ZRO",
@@ -18623,7 +18623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.88
   },
   {
     "symbol": "ETHFI",
@@ -18710,6 +18710,75 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.94
+  },
+  {
+    "symbol": "XLM",
+    "kucoin_symbol": "XLM-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1823,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.1773616864370738,
+    "take_profit": 0.19217662712585237,
+    "timestamp": "2026-09-05T06:33:40.441989+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.7778,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.7494928584234162,
+    "take_profit": 0.8344142831531677,
+    "timestamp": "2026-09-05T06:33:40.442013+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "INJ",
+    "kucoin_symbol": "INJ-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4.834,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 4.6574785883679795,
+    "take_profit": 5.187042823264041,
+    "timestamp": "2026-09-05T06:33:40.442059+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.141535,
+    "reasons": [
+      "RSI \u00fcberkauft (70.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.14793424764947147,
+    "take_profit": 0.12873650470105705,
+    "timestamp": "2026-09-05T06:33:40.442091+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
