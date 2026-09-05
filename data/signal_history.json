@@ -17289,9 +17289,9 @@
     "stop_loss": 0.8994607648215992,
     "take_profit": 0.8062784703568016,
     "timestamp": "2026-09-04T20:28:55.139467+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.06,
     "best_favorable_pct": 0.06
   },
   {
@@ -17307,9 +17307,9 @@
     "stop_loss": 7.566968292486331,
     "take_profit": 6.998563415027339,
     "timestamp": "2026-09-04T20:28:55.139485+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.08,
     "best_favorable_pct": 0.08
   },
   {
@@ -17324,9 +17324,9 @@
     "stop_loss": 0.27666452388996654,
     "take_profit": 0.236870952220067,
     "timestamp": "2026-09-04T20:28:56.336085+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.84,
     "best_favorable_pct": 0.84
   },
   {
@@ -18038,7 +18038,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "ONDO",
@@ -18297,7 +18297,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "BNB",
@@ -18314,7 +18314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.15
+    "best_favorable_pct": 3.62
   },
   {
     "symbol": "XRP",
@@ -18675,7 +18675,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "PAXG",
@@ -18692,7 +18692,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "ICP",
@@ -18955,7 +18955,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.64
+    "best_favorable_pct": 3.73
   },
   {
     "symbol": "PENGU",
@@ -19007,7 +19007,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.26
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "BNB",
@@ -19162,7 +19162,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "SPX",
@@ -19179,7 +19179,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "CRV",
@@ -19214,5 +19214,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.75,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.7220599914402382,
+    "take_profit": 0.8058800171195235,
+    "timestamp": "2026-09-05T08:40:18.225790+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 17.22,
+    "reasons": [
+      "RSI \u00fcberkauft (73.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 18.641005251690423,
+    "take_profit": 14.37798949661915,
+    "timestamp": "2026-09-05T08:40:18.225838+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.41
   }
 ]
