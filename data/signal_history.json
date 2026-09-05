@@ -17342,9 +17342,9 @@
     "stop_loss": 134.5137416070575,
     "take_profit": 120.49251678588499,
     "timestamp": "2026-09-04T21:09:46.285148+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.38,
     "best_favorable_pct": 0.38
   },
   {
@@ -17359,9 +17359,9 @@
     "stop_loss": 0.048626234397219525,
     "take_profit": 0.04347753120556096,
     "timestamp": "2026-09-04T21:09:47.549333+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.62,
     "best_favorable_pct": 0.62
   },
   {
@@ -17674,7 +17674,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "ADA",
@@ -17828,7 +17828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.26
+    "best_favorable_pct": 3.56
   },
   {
     "symbol": "TWT",
@@ -18072,7 +18072,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 14.8
+    "best_favorable_pct": 15.46
   },
   {
     "symbol": "NIGHT",
@@ -18263,7 +18263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 2.01
   },
   {
     "symbol": "UB",
@@ -18280,7 +18280,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "PENDLE",
@@ -18314,7 +18314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.69
+    "best_favorable_pct": 3.8
   },
   {
     "symbol": "XRP",
@@ -18520,7 +18520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.08
+    "best_favorable_pct": 3.34
   },
   {
     "symbol": "BONK",
@@ -18675,7 +18675,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "PAXG",
@@ -18727,7 +18727,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "SUI",
@@ -18779,7 +18779,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.92
+    "best_favorable_pct": 6.28
   },
   {
     "symbol": "SHIB",
@@ -18955,7 +18955,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.38
+    "best_favorable_pct": 6.17
   },
   {
     "symbol": "PENGU",
@@ -19094,7 +19094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "SKY",
@@ -19162,7 +19162,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "SPX",
@@ -19248,7 +19248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.39
   },
   {
     "symbol": "FET",
@@ -19283,7 +19283,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "BDX",
@@ -19301,6 +19301,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.33
+  },
+  {
+    "symbol": "DOGE",
+    "kucoin_symbol": "DOGE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.08612,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.08377013887866626,
+    "take_profit": 0.09081972224266749,
+    "timestamp": "2026-09-05T09:20:28.428061+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.05
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.04786,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.0494828005259788,
+    "take_profit": 0.044614398948042394,
+    "timestamp": "2026-09-05T09:20:28.428139+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
   }
 ]
