@@ -17063,9 +17063,9 @@
     "stop_loss": 2.1676310810659065,
     "take_profit": 1.8663378378681876,
     "timestamp": "2026-09-04T19:21:30.188562+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.34,
     "best_favorable_pct": 0.34
   },
   {
@@ -17080,9 +17080,9 @@
     "stop_loss": 0.14402369209196572,
     "take_profit": 0.10975261581606854,
     "timestamp": "2026-09-04T19:21:31.273866+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.04,
     "best_favorable_pct": 2.04
   },
   {
@@ -17537,7 +17537,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.14
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "MORPHO",
@@ -17606,7 +17606,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.26
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "LDO",
@@ -17794,7 +17794,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.04
+    "best_favorable_pct": 4.25
   },
   {
     "symbol": "XDC",
@@ -17828,7 +17828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.14
+    "best_favorable_pct": 3.2
   },
   {
     "symbol": "TWT",
@@ -17950,7 +17950,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.35
+    "best_favorable_pct": 5.61
   },
   {
     "symbol": "BCH",
@@ -18002,7 +18002,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.11
+    "best_favorable_pct": 4.46
   },
   {
     "symbol": "NEAR",
@@ -18124,7 +18124,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.61
+    "best_favorable_pct": 2.82
   },
   {
     "symbol": "CAKE",
@@ -18211,7 +18211,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.38
+    "best_favorable_pct": 3.63
   },
   {
     "symbol": "HYPE",
@@ -18314,7 +18314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "XRP",
@@ -18520,7 +18520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.78
+    "best_favorable_pct": 2.81
   },
   {
     "symbol": "BONK",
@@ -18623,7 +18623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.85
+    "best_favorable_pct": 2.87
   },
   {
     "symbol": "ETHFI",
@@ -18744,7 +18744,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "INJ",
@@ -18761,7 +18761,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.7
+    "best_favorable_pct": 1.26
   },
   {
     "symbol": "UB",
@@ -18814,7 +18814,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "RENDER",
@@ -18832,7 +18832,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "BDX",
@@ -18849,7 +18849,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "PENGU",
@@ -18867,7 +18867,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 2.34
   },
   {
     "symbol": "BONK",
@@ -18955,7 +18955,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "PENGU",
@@ -18973,6 +18973,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 1.41
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 102.53,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 105.11383658303976,
+    "take_profit": 97.36232683392049,
+    "timestamp": "2026-09-05T07:30:10.055959+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "SYRUP",
+    "kucoin_symbol": "SYRUP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.2147,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.22614871170248074,
+    "take_profit": 0.19180257659503852,
+    "timestamp": "2026-09-05T07:30:10.056035+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
