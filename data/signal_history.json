@@ -15931,9 +15931,9 @@
     "stop_loss": 730.3198399018677,
     "take_profit": 686.7423201962646,
     "timestamp": "2026-09-04T13:20:32.233814+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.75,
     "best_favorable_pct": 0.75
   },
   {
@@ -15949,9 +15949,9 @@
     "stop_loss": 4455.5682997021095,
     "take_profit": 4295.4634005957805,
     "timestamp": "2026-09-04T13:20:32.233858+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -15966,9 +15966,9 @@
     "stop_loss": 1.1340088842210914,
     "take_profit": 0.9416822315578175,
     "timestamp": "2026-09-04T13:20:33.406779+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.77,
     "best_favorable_pct": 3.77
   },
   {
@@ -17520,7 +17520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.25
+    "best_favorable_pct": 6.91
   },
   {
     "symbol": "ZEC",
@@ -17537,7 +17537,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "MORPHO",
@@ -17623,7 +17623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "PONS",
@@ -17982,6 +17982,42 @@
     "stop_loss": 16.64089698539272,
     "take_profit": 13.878206029214562,
     "timestamp": "2026-09-05T01:16:40.127379+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 51.84,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 50.69835213918992,
+    "take_profit": 54.12329572162016,
+    "timestamp": "2026-09-05T01:30:21.900159+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.2262,
+    "reasons": [
+      "RSI \u00fcberkauft (73.4)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.3458170393667674,
+    "take_profit": 1.9869659212664654,
+    "timestamp": "2026-09-05T01:30:21.900176+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
