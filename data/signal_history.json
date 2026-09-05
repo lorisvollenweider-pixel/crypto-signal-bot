@@ -19021,9 +19021,9 @@
     "stop_loss": 750.8299016426397,
     "take_profit": 707.7591967147206,
     "timestamp": "2026-09-05T07:42:17.036680+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -19038,9 +19038,9 @@
     "stop_loss": 244.63582888896877,
     "take_profit": 270.3883422220624,
     "timestamp": "2026-09-05T07:42:17.036703+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.94,
     "best_favorable_pct": 1.94
   },
   {
@@ -19057,9 +19057,9 @@
     "stop_loss": 2.354590917051738,
     "take_profit": 1.9880181658965241,
     "timestamp": "2026-09-05T07:42:17.036719+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.56,
     "best_favorable_pct": 2.56
   },
   {
@@ -19632,7 +19632,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "KCS",
@@ -19838,7 +19838,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.41
+    "best_favorable_pct": 3.49
   },
   {
     "symbol": "SOL",
@@ -20080,7 +20080,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.72
+    "best_favorable_pct": 7.58
   },
   {
     "symbol": "USDD",
@@ -20131,7 +20131,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "LIT",
@@ -20304,7 +20304,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "DOT",
@@ -20355,7 +20355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.65
+    "best_favorable_pct": 12.58
   },
   {
     "symbol": "CAKE",
@@ -20406,7 +20406,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "PENGU",
@@ -20440,7 +20440,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.5
+    "best_favorable_pct": 4.61
   },
   {
     "symbol": "TIA",
@@ -20578,7 +20578,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "BCH",
@@ -20685,7 +20685,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.51
+    "best_favorable_pct": 2.54
   },
   {
     "symbol": "PEPE",
@@ -20875,7 +20875,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.39
+    "best_favorable_pct": 3.47
   },
   {
     "symbol": "AERO",
@@ -20889,6 +20889,42 @@
     "stop_loss": 0.5600748370056204,
     "take_profit": 0.5019503259887591,
     "timestamp": "2026-09-05T19:33:13.333097+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.149,
+    "reasons": [
+      "RSI \u00fcberkauft (74.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.16041317282012818,
+    "take_profit": 0.1261736543597436,
+    "timestamp": "2026-09-05T19:44:35.753586+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AERO",
+    "kucoin_symbol": "AERO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.5432,
+    "reasons": [
+      "RSI \u00fcberkauft (71.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.5628962655770491,
+    "take_profit": 0.503807468845902,
+    "timestamp": "2026-09-05T19:44:37.107672+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
