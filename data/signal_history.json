@@ -17654,9 +17654,9 @@
     "stop_loss": 2.3729344239961927,
     "take_profit": 2.6641311520076156,
     "timestamp": "2026-09-05T00:00:28.827029+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.47,
     "best_favorable_pct": 9.47
   },
   {
@@ -17671,9 +17671,9 @@
     "stop_loss": 6.9447367416425845,
     "take_profit": 7.353526516714832,
     "timestamp": "2026-09-05T00:00:28.827056+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.28,
     "best_favorable_pct": 0.28
   },
   {
@@ -18263,7 +18263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 3.49
   },
   {
     "symbol": "UB",
@@ -18537,7 +18537,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "FET",
@@ -18885,7 +18885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.89
+    "best_favorable_pct": 2.1
   },
   {
     "symbol": "SOL",
@@ -18955,7 +18955,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.72
+    "best_favorable_pct": 7.72
   },
   {
     "symbol": "PENGU",
@@ -19230,7 +19230,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.85
+    "best_favorable_pct": 5.92
   },
   {
     "symbol": "DCR",
@@ -19301,7 +19301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "DOGE",
@@ -19318,7 +19318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "SEI",
@@ -19564,7 +19564,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "PONS",
@@ -19595,6 +19595,75 @@
     "stop_loss": 0.09159892568922537,
     "take_profit": 0.10150214862154924,
     "timestamp": "2026-09-05T11:53:44.275978+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.2777,
+    "reasons": [
+      "RSI \u00fcberkauft (75.5)"
+    ],
+    "stop_loss": 2.3921050782724933,
+    "take_profit": 2.048889843455013,
+    "timestamp": "2026-09-05T12:10:00.527945+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.633,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2.5240156932810467,
+    "take_profit": 2.8509686134379066,
+    "timestamp": "2026-09-05T12:10:00.527984+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KCS",
+    "kucoin_symbol": "KCS-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 7.101,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 6.980364551863609,
+    "take_profit": 7.342270896272782,
+    "timestamp": "2026-09-05T12:10:00.527999+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.02185,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.021000635358049965,
+    "take_profit": 0.023548729283900074,
+    "timestamp": "2026-09-05T12:10:01.648019+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
