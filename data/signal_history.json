@@ -16977,9 +16977,9 @@
     "stop_loss": 557.4979224379587,
     "take_profit": 455.08415512408277,
     "timestamp": "2026-09-04T17:15:50.121065+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.6,
     "best_favorable_pct": 1.6
   },
   {
@@ -17154,7 +17154,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "MNT",
@@ -17345,7 +17345,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "SEI",
@@ -17777,7 +17777,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "RENDER",
@@ -18486,7 +18486,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "ATOM",
@@ -18520,7 +18520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "BONK",
@@ -18537,7 +18537,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "FET",
@@ -18555,6 +18555,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.61
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1625,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.17227352132548363,
+    "take_profit": 0.1429529573490328,
+    "timestamp": "2026-09-05T05:17:35.339166+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9986,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.9999043123311323,
+    "take_profit": 0.9959913753377355,
+    "timestamp": "2026-09-05T05:17:35.339207+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
