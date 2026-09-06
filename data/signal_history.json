@@ -21168,7 +21168,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.26
+    "best_favorable_pct": 6.6
   },
   {
     "symbol": "XDC",
@@ -21289,7 +21289,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "BTT",
@@ -22273,7 +22273,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.94
+    "best_favorable_pct": 10.95
   },
   {
     "symbol": "JUP",
@@ -23020,7 +23020,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "NEAR",
@@ -23299,5 +23299,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.72
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.6071,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.6459212519085131,
+    "take_profit": 1.5294574961829734,
+    "timestamp": "2026-09-06T09:11:45.426919+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AERO",
+    "kucoin_symbol": "AERO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.5485,
+    "reasons": [
+      "RSI \u00fcberkauft (70.6)"
+    ],
+    "stop_loss": 0.5680936964925246,
+    "take_profit": 0.5093126070149507,
+    "timestamp": "2026-09-06T09:11:45.426952+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
