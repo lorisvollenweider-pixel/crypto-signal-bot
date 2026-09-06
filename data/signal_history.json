@@ -21605,9 +21605,9 @@
     "stop_loss": 1.0474970322841146,
     "take_profit": 0.6440059354317709,
     "timestamp": "2026-09-05T23:52:55.813137+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.63,
     "best_favorable_pct": 5.63
   },
   {
@@ -22501,7 +22501,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.22
+    "best_favorable_pct": 5.76
   },
   {
     "symbol": "POL",
@@ -22620,7 +22620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.13
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "LUNC",
@@ -22862,7 +22862,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.03
+    "best_favorable_pct": 6.52
   },
   {
     "symbol": "QNT",
@@ -22932,7 +22932,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.26
+    "best_favorable_pct": 1.77
   },
   {
     "symbol": "BCH",
@@ -23540,7 +23540,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "CFX",
@@ -23558,7 +23558,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "ZRO",
@@ -23593,7 +23593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "HTX",
@@ -23695,6 +23695,41 @@
     "stop_loss": 0.3853780023625492,
     "take_profit": 0.4397439952749016,
     "timestamp": "2026-09-06T11:43:47.018027+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.35
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9244,
+    "reasons": [
+      "RSI \u00fcberkauft (74.6)"
+    ],
+    "stop_loss": 1.0569837754840379,
+    "take_profit": 0.6592324490319244,
+    "timestamp": "2026-09-06T11:54:55.726806+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.02781,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.028244661592560717,
+    "take_profit": 0.026940676814878568,
+    "timestamp": "2026-09-06T11:54:55.726830+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
