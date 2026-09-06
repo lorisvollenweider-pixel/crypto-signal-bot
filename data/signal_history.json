@@ -22773,9 +22773,9 @@
     "stop_loss": 0.9968796007425339,
     "take_profit": 1.003240798514932,
     "timestamp": "2026-09-06T05:37:55.440827+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -24361,7 +24361,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "ETH",
@@ -24531,7 +24531,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.88
+    "best_favorable_pct": 2.81
   },
   {
     "symbol": "KCS",
@@ -24602,7 +24602,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "FLR",
@@ -24636,7 +24636,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.89
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "XDC",
@@ -24706,7 +24706,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.84
+    "best_favorable_pct": 2.92
   },
   {
     "symbol": "LUNC",
@@ -24724,7 +24724,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "PIEVERSE",
@@ -24741,7 +24741,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "UNI",
@@ -24775,7 +24775,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "SKY",
@@ -24827,6 +24827,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.7
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1223.473,
+    "reasons": [
+      "RSI \u00fcberkauft (81.8)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1295.7100172073349,
+    "take_profit": 1078.99896558533,
+    "timestamp": "2026-09-06T17:39:51.130792+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
