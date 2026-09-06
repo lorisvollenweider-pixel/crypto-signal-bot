@@ -20962,7 +20962,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.16
+    "best_favorable_pct": 2.45
   },
   {
     "symbol": "DOGE",
@@ -21448,7 +21448,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.41
+    "best_favorable_pct": 2.43
   },
   {
     "symbol": "ARB",
@@ -21467,7 +21467,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.92
+    "best_favorable_pct": 11.02
   },
   {
     "symbol": "JST",
@@ -21625,7 +21625,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.21
+    "best_favorable_pct": 2.25
   },
   {
     "symbol": "PAXG",
@@ -22273,7 +22273,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.73
+    "best_favorable_pct": 7.94
   },
   {
     "symbol": "JUP",
@@ -22501,7 +22501,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 2.64
   },
   {
     "symbol": "POL",
@@ -22552,7 +22552,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.14
+    "best_favorable_pct": 2.58
   },
   {
     "symbol": "CRV",
@@ -22897,7 +22897,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "INJ",
@@ -22950,7 +22950,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "PYUSD",
@@ -23070,6 +23070,76 @@
     "stop_loss": 0.4000061346694214,
     "take_profit": 0.3567877306611571,
     "timestamp": "2026-09-06T07:54:03.460139+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9998,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.9996144078237529,
+    "take_profit": 1.0001711843524943,
+    "timestamp": "2026-09-06T08:10:14.755768+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2016,
+    "reasons": [
+      "RSI \u00fcberkauft (88.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.2172038303742365,
+    "take_profit": 0.17039233925152705,
+    "timestamp": "2026-09-06T08:10:14.755812+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.474,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.5139531903836927,
+    "take_profit": 1.3940936192326148,
+    "timestamp": "2026-09-06T08:10:15.801656+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 1.0709,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.019802090744087,
+    "take_profit": 1.1730958185118256,
+    "timestamp": "2026-09-06T08:10:15.801688+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
