@@ -20522,9 +20522,9 @@
     "stop_loss": 0.3319277526592717,
     "take_profit": 0.3405444946814566,
     "timestamp": "2026-09-05T16:46:18.308078+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -20540,9 +20540,9 @@
     "stop_loss": 7.009468069800961,
     "take_profit": 5.9148638603980785,
     "timestamp": "2026-09-05T16:46:18.308102+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -21608,7 +21608,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.07
+    "best_favorable_pct": 4.47
   },
   {
     "symbol": "UNI",
@@ -21625,7 +21625,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "PAXG",
@@ -22396,7 +22396,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "AVAX",
@@ -22449,7 +22449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "AAVE",
@@ -22484,7 +22484,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.97
   },
   {
     "symbol": "DOT",
@@ -22518,7 +22518,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "KCS",
@@ -22603,7 +22603,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "STX",
@@ -22654,7 +22654,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "SKY",
@@ -22668,6 +22668,77 @@
     "stop_loss": 0.06869646882630409,
     "take_profit": 0.07440706234739179,
     "timestamp": "2026-09-06T04:42:13.218518+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.72
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1146.575,
+    "reasons": [
+      "RSI \u00fcberkauft (80.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1207.0234020399948,
+    "take_profit": 1025.6781959200107,
+    "timestamp": "2026-09-06T04:54:08.622843+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.43
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.5821,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.6809151684009063,
+    "take_profit": 2.384469663198188,
+    "timestamp": "2026-09-06T04:54:09.885361+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1113,
+    "reasons": [
+      "RSI \u00fcberkauft (72.9)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.11295267483521634,
+    "take_profit": 0.1079946503295673,
+    "timestamp": "2026-09-06T04:54:09.885433+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0906,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 1.0363554961686705,
+    "take_profit": 1.199089007662659,
+    "timestamp": "2026-09-06T04:54:10.915021+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
