@@ -23415,9 +23415,9 @@
     "stop_loss": 0.40370280639622297,
     "take_profit": 0.3595943872075541,
     "timestamp": "2026-09-06T09:53:10.141677+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.13,
     "best_favorable_pct": 0.13
   },
   {
@@ -23750,7 +23750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 1.7
   },
   {
     "symbol": "XMR",
@@ -23992,7 +23992,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.59
+    "best_favorable_pct": 2.64
   },
   {
     "symbol": "LDO",
@@ -24706,7 +24706,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.71
+    "best_favorable_pct": 4.85
   },
   {
     "symbol": "LUNC",
@@ -24898,7 +24898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "LINK",
@@ -25230,7 +25230,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "FET",
@@ -25248,7 +25248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "RAY",
@@ -25282,7 +25282,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "PYUSD",
@@ -25367,6 +25367,92 @@
     "stop_loss": 5.056545988948617,
     "take_profit": 5.594908022102764,
     "timestamp": "2026-09-06T21:44:14.403635+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 7.789,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 7.956623250672631,
+    "take_profit": 7.453753498654737,
+    "timestamp": "2026-09-06T21:55:42.533063+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0566,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.055467928178158786,
+    "take_profit": 0.05886414364368243,
+    "timestamp": "2026-09-06T21:55:42.533091+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.423,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.4399976279384801,
+    "take_profit": 0.3890047441230398,
+    "timestamp": "2026-09-06T21:55:42.533105+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.04961,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.04799512850976111,
+    "take_profit": 0.052839742980477784,
+    "timestamp": "2026-09-06T21:55:43.774125+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01681,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.016662039066551077,
+    "take_profit": 0.01710592186689784,
+    "timestamp": "2026-09-06T21:55:43.774141+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
