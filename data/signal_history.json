@@ -21570,9 +21570,9 @@
     "stop_loss": 0.16266320359312691,
     "take_profit": 0.19187359281374616,
     "timestamp": "2026-09-05T23:41:33.421725+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 8.93,
     "best_favorable_pct": 8.93
   },
   {
@@ -21588,9 +21588,9 @@
     "stop_loss": 0.06865880545647846,
     "take_profit": 0.07451238908704311,
     "timestamp": "2026-09-05T23:41:34.567954+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.76,
     "best_favorable_pct": 1.76
   },
   {
@@ -21694,7 +21694,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.72
+    "best_favorable_pct": 5.81
   },
   {
     "symbol": "CFX",
@@ -22501,7 +22501,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.72
+    "best_favorable_pct": 5.22
   },
   {
     "symbol": "POL",
@@ -23401,7 +23401,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "TIA",
@@ -23505,7 +23505,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "FET",
@@ -23641,6 +23641,60 @@
     "stop_loss": 0.027596293880041995,
     "take_profit": 0.02959041223991601,
     "timestamp": "2026-09-06T11:31:30.103357+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.11198,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.1101784903565593,
+    "take_profit": 0.11558301928688139,
+    "timestamp": "2026-09-06T11:43:44.546739+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.51,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.554238904669407,
+    "take_profit": 1.4215221906611861,
+    "timestamp": "2026-09-06T11:43:45.805906+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
+  },
+  {
+    "symbol": "LDO",
+    "kucoin_symbol": "LDO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4035,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.3853780023625492,
+    "take_profit": 0.4397439952749016,
+    "timestamp": "2026-09-06T11:43:47.018027+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
