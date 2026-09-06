@@ -21501,9 +21501,9 @@
     "stop_loss": 0.02087905179713104,
     "take_profit": 0.01962189640573792,
     "timestamp": "2026-09-05T22:58:39.771200+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.76,
     "best_favorable_pct": 1.76
   },
   {
@@ -21591,7 +21591,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 1.76
   },
   {
     "symbol": "PONS",
@@ -21694,7 +21694,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.99
+    "best_favorable_pct": 5.72
   },
   {
     "symbol": "CFX",
@@ -21711,7 +21711,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 2.4
   },
   {
     "symbol": "XAUT",
@@ -21796,7 +21796,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "USDE",
@@ -21939,7 +21939,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "PENDLE",
@@ -22060,7 +22060,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "USDG",
@@ -22095,7 +22095,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.8
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "APT",
@@ -22290,7 +22290,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.24
+    "best_favorable_pct": 16.25
   },
   {
     "symbol": "ETHFI",
@@ -22326,7 +22326,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 11.75
+    "best_favorable_pct": 12.73
   },
   {
     "symbol": "FIL",
@@ -22432,7 +22432,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.53
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "HYPE",
@@ -22501,7 +22501,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.23
+    "best_favorable_pct": 4.25
   },
   {
     "symbol": "POL",
@@ -22620,7 +22620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "LUNC",
@@ -22671,7 +22671,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.67
+    "best_favorable_pct": 1.77
   },
   {
     "symbol": "ZEC",
@@ -22897,7 +22897,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "INJ",
@@ -22950,7 +22950,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "PYUSD",
@@ -23143,7 +23143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.75
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "ZEC",
@@ -23194,7 +23194,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "MNT",
@@ -23401,7 +23401,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "TIA",
@@ -23484,6 +23484,77 @@
     "stop_loss": 0.4291364522851865,
     "take_profit": 0.3825270954296271,
     "timestamp": "2026-09-06T10:49:48.685013+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1188.15,
+    "reasons": [
+      "RSI \u00fcberkauft (82.8)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1252.6516767641674,
+    "take_profit": 1059.1466464716657,
+    "timestamp": "2026-09-06T11:01:08.008452+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.172,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1788072046210519,
+    "take_profit": 0.15838559075789616,
+    "timestamp": "2026-09-06T11:01:09.122126+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.17
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0237,
+    "reasons": [
+      "RSI \u00fcberkauft (74.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.02480603726470639,
+    "take_profit": 0.02148792547058722,
+    "timestamp": "2026-09-06T11:01:09.122142+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
+  },
+  {
+    "symbol": "CFX",
+    "kucoin_symbol": "CFX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.05028,
+    "reasons": [
+      "RSI \u00fcberkauft (70.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.05164953132390347,
+    "take_profit": 0.04754093735219305,
+    "timestamp": "2026-09-06T11:01:10.164499+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
