@@ -22074,9 +22074,9 @@
     "stop_loss": 0.9993523746988735,
     "take_profit": 1.000695250602253,
     "timestamp": "2026-09-06T01:43:26.310343+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -22092,9 +22092,9 @@
     "stop_loss": 0.06930267190190689,
     "take_profit": 0.07502465619618622,
     "timestamp": "2026-09-06T01:43:26.310366+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.19,
     "best_favorable_pct": 1.19
   },
   {
@@ -22110,9 +22110,9 @@
     "stop_loss": 0.6550936157029482,
     "take_profit": 0.5828127685941036,
     "timestamp": "2026-09-06T01:43:27.453833+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.63,
     "best_favorable_pct": 2.63
   },
   {
@@ -22127,9 +22127,9 @@
     "stop_loss": 0.24496125811939154,
     "take_profit": 0.22677748376121692,
     "timestamp": "2026-09-06T01:43:28.569375+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.26,
     "best_favorable_pct": 1.26
   },
   {
@@ -23715,7 +23715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 2.0
   },
   {
     "symbol": "XDC",
@@ -23750,7 +23750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "XMR",
@@ -23768,7 +23768,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.34
   },
   {
     "symbol": "USDS",
@@ -23958,7 +23958,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "BDX",
@@ -24027,7 +24027,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "CRO",
@@ -24045,5 +24045,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "VIRTUAL",
+    "kucoin_symbol": "VIRTUAL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.7066,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.6811000822305601,
+    "take_profit": 0.7575998355388799,
+    "timestamp": "2026-09-06T13:44:52.922493+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XTZ",
+    "kucoin_symbol": "XTZ-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.2369,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.2426736206833934,
+    "take_profit": 0.22535275863321316,
+    "timestamp": "2026-09-06T13:44:52.922525+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
