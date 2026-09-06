@@ -23312,9 +23312,9 @@
     "stop_loss": 1.6459212519085131,
     "take_profit": 1.5294574961829734,
     "timestamp": "2026-09-06T09:11:45.426919+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.28,
     "best_favorable_pct": 2.28
   },
   {
@@ -23329,9 +23329,9 @@
     "stop_loss": 0.5680936964925246,
     "take_profit": 0.5093126070149507,
     "timestamp": "2026-09-06T09:11:45.426952+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.82,
     "best_favorable_pct": 1.82
   },
   {
@@ -23975,7 +23975,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "NIGHT",
@@ -24061,7 +24061,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "XTZ",
@@ -24254,7 +24254,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "ALGO",
@@ -24497,7 +24497,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "ASTER",
@@ -24827,7 +24827,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "ZEC",
@@ -25266,5 +25266,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 1.04
+  },
+  {
+    "symbol": "ONDO",
+    "kucoin_symbol": "ONDO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.38484,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.39653439366078386,
+    "take_profit": 0.3614512126784324,
+    "timestamp": "2026-09-06T21:21:02.870212+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
   }
 ]
