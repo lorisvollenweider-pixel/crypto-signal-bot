@@ -22807,9 +22807,9 @@
     "stop_loss": 0.9952075459296402,
     "take_profit": 1.0014849081407193,
     "timestamp": "2026-09-06T06:23:24.725730+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.25,
     "best_favorable_pct": 0.25
   },
   {
@@ -22824,9 +22824,9 @@
     "stop_loss": 0.2401543460303257,
     "take_profit": 0.20849130793934859,
     "timestamp": "2026-09-06T06:23:24.725774+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -22842,9 +22842,9 @@
     "stop_loss": 0.0068345239078221424,
     "take_profit": 0.006250952184355715,
     "timestamp": "2026-09-06T06:23:24.725793+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.45,
     "best_favorable_pct": 0.45
   },
   {
@@ -22859,9 +22859,9 @@
     "stop_loss": 0.019202276600170085,
     "take_profit": 0.006188946799659829,
     "timestamp": "2026-09-06T06:23:25.823661+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 8.44,
     "best_favorable_pct": 8.44
   },
   {
@@ -23715,7 +23715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.35
+    "best_favorable_pct": 13.24
   },
   {
     "symbol": "XDC",
@@ -24636,7 +24636,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.66
+    "best_favorable_pct": 2.82
   },
   {
     "symbol": "XDC",
@@ -24670,7 +24670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "ZRO",
@@ -24863,5 +24863,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.19
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.03052,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.03141666608152555,
+    "take_profit": 0.02872666783694889,
+    "timestamp": "2026-09-06T18:23:38.410546+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
