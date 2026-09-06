@@ -21518,9 +21518,9 @@
     "stop_loss": 0.00365968114821063,
     "take_profit": 0.004416637703578739,
     "timestamp": "2026-09-05T23:15:57.720373+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.19,
     "best_favorable_pct": 5.19
   },
   {
@@ -21796,7 +21796,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "USDE",
@@ -21939,7 +21939,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "PENDLE",
@@ -22060,7 +22060,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "USDG",
@@ -22290,7 +22290,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 16.25
+    "best_favorable_pct": 20.55
   },
   {
     "symbol": "ETHFI",
@@ -22326,7 +22326,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.73
+    "best_favorable_pct": 16.91
   },
   {
     "symbol": "FIL",
@@ -22449,7 +22449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.12
+    "best_favorable_pct": 2.25
   },
   {
     "symbol": "AAVE",
@@ -22501,7 +22501,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.25
+    "best_favorable_pct": 4.57
   },
   {
     "symbol": "POL",
@@ -22603,7 +22603,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.86
   },
   {
     "symbol": "STX",
@@ -22742,7 +22742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "PENDLE",
@@ -23003,7 +23003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "DCR",
@@ -23143,7 +23143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "ZEC",
@@ -23401,7 +23401,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "TIA",
@@ -23505,7 +23505,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "FET",
@@ -23522,7 +23522,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "NIGHT",
@@ -23540,7 +23540,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "CFX",
@@ -23555,6 +23555,41 @@
     "stop_loss": 0.05164953132390347,
     "take_profit": 0.04754093735219305,
     "timestamp": "2026-09-06T11:01:10.164499+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 1.0938,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.0397770907440873,
+    "take_profit": 1.201845818511826,
+    "timestamp": "2026-09-06T11:18:21.377499+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CFX",
+    "kucoin_symbol": "CFX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.05015,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.05153131703818919,
+    "take_profit": 0.047387365923621624,
+    "timestamp": "2026-09-06T11:18:22.474131+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
