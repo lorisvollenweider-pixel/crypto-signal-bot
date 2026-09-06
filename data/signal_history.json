@@ -20250,9 +20250,9 @@
     "stop_loss": 2.305295248629705,
     "take_profit": 2.03140950274059,
     "timestamp": "2026-09-05T15:40:17.377249+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -20338,7 +20338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.92
+    "best_favorable_pct": 1.96
   },
   {
     "symbol": "ARB",
@@ -20423,7 +20423,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.47
+    "best_favorable_pct": 4.64
   },
   {
     "symbol": "STX",
@@ -20649,7 +20649,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "MORPHO",
@@ -20702,7 +20702,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 1.21
   },
   {
     "symbol": "TIA",
@@ -20736,7 +20736,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "USDD",
@@ -20770,7 +20770,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "PUMP",
@@ -20788,7 +20788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.89
+    "best_favorable_pct": 3.3
   },
   {
     "symbol": "QNT",
@@ -20945,7 +20945,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "BNB",
@@ -21359,7 +21359,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "AAVE",
@@ -21521,7 +21521,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.58
+    "best_favorable_pct": 4.93
   },
   {
     "symbol": "KAS",
@@ -22202,7 +22202,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.58
+    "best_favorable_pct": 1.61
   },
   {
     "symbol": "USDS",
@@ -22308,7 +22308,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "JUP",
@@ -22362,6 +22362,58 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.84
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.43047,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 1.3938808572287313,
+    "take_profit": 1.503648285542537,
+    "timestamp": "2026-09-06T03:42:50.585342+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 106.68,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 109.28365827054358,
+    "take_profit": 101.47268345891287,
+    "timestamp": "2026-09-06T03:42:50.585363+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 7.735,
+    "reasons": [
+      "RSI \u00fcberkauft (73.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 7.891430185303252,
+    "take_profit": 7.422139629393499,
+    "timestamp": "2026-09-06T03:42:50.585390+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.05
   }
 ]
