@@ -23466,9 +23466,9 @@
     "stop_loss": 1.453723416875052,
     "take_profit": 1.3435531662498965,
     "timestamp": "2026-09-06T10:23:45.796921+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.21,
     "best_favorable_pct": 0.21
   },
   {
@@ -23750,7 +23750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.73
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "XMR",
@@ -23958,7 +23958,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "BDX",
@@ -24149,7 +24149,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.78
+    "best_favorable_pct": 2.04
   },
   {
     "symbol": "XMR",
@@ -24653,7 +24653,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "STX",
@@ -24706,7 +24706,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.1
+    "best_favorable_pct": 6.35
   },
   {
     "symbol": "LUNC",
@@ -24741,7 +24741,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.88
+    "best_favorable_pct": 2.48
   },
   {
     "symbol": "UNI",
@@ -24862,7 +24862,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "KAS",
@@ -24898,7 +24898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "LINK",
@@ -25109,7 +25109,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "NIGHT",
@@ -25143,7 +25143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "ZEC",
@@ -25195,7 +25195,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "DASH",
@@ -25248,7 +25248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "RAY",
@@ -25282,7 +25282,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.44
+    "best_favorable_pct": 1.48
   },
   {
     "symbol": "PYUSD",
@@ -25335,7 +25335,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 0.88
   },
   {
     "symbol": "DOT",
@@ -25422,7 +25422,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 1.99
   },
   {
     "symbol": "SEI",
@@ -25474,7 +25474,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "TIA",
@@ -25510,5 +25510,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9994,
+    "reasons": [
+      "Volumen-Spike (5.4x Durchschnitt)"
+    ],
+    "stop_loss": 0.9985303777997733,
+    "take_profit": 1.0011392444004532,
+    "timestamp": "2026-09-06T22:26:43.952645+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 1.0869,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.0327948109557221,
+    "take_profit": 1.1951103780885555,
+    "timestamp": "2026-09-06T22:26:43.952720+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
   }
 ]
