@@ -21148,9 +21148,9 @@
     "stop_loss": 0.15788252369533698,
     "take_profit": 0.17683495260932608,
     "timestamp": "2026-09-05T20:52:16.894426+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.13,
     "best_favorable_pct": 2.13
   },
   {
@@ -22008,7 +22008,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "FIL",
@@ -22290,7 +22290,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.1
+    "best_favorable_pct": 7.51
   },
   {
     "symbol": "ETHFI",
@@ -22326,7 +22326,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.9
+    "best_favorable_pct": 4.26
   },
   {
     "symbol": "FIL",
@@ -22897,7 +22897,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.34
   },
   {
     "symbol": "INJ",
@@ -23263,7 +23263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "RAY",
@@ -23281,5 +23281,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RAY",
+    "kucoin_symbol": "RAY-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.1006,
+    "reasons": [
+      "RSI \u00fcberkauft (77.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.172584775519842,
+    "take_profit": 0.9566304489603159,
+    "timestamp": "2026-09-06T08:55:10.452195+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.72
   }
 ]
