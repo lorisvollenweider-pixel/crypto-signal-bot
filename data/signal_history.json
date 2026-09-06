@@ -22686,9 +22686,9 @@
     "stop_loss": 1207.0234020399948,
     "take_profit": 1025.6781959200107,
     "timestamp": "2026-09-06T04:54:08.622843+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.43,
     "best_favorable_pct": 0.43
   },
   {
@@ -22703,9 +22703,9 @@
     "stop_loss": 2.6809151684009063,
     "take_profit": 2.384469663198188,
     "timestamp": "2026-09-06T04:54:09.885361+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.72,
     "best_favorable_pct": 2.72
   },
   {
@@ -22722,9 +22722,9 @@
     "stop_loss": 0.11295267483521634,
     "take_profit": 0.1079946503295673,
     "timestamp": "2026-09-06T04:54:09.885433+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.49,
     "best_favorable_pct": 0.49
   },
   {
@@ -22739,9 +22739,9 @@
     "stop_loss": 1.0363554961686705,
     "take_profit": 1.199089007662659,
     "timestamp": "2026-09-06T04:54:10.915021+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.77,
     "best_favorable_pct": 1.77
   },
   {
@@ -22914,7 +22914,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.35
+    "best_favorable_pct": 2.49
   },
   {
     "symbol": "AKE",
@@ -23715,7 +23715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 11.8
+    "best_favorable_pct": 12.35
   },
   {
     "symbol": "XDC",
@@ -24254,7 +24254,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "ALGO",
@@ -24514,7 +24514,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "MORPHO",
@@ -24531,7 +24531,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.26
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "KCS",
@@ -24706,7 +24706,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "LUNC",
@@ -24758,7 +24758,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 1.95
   },
   {
     "symbol": "LUNC",
@@ -24792,6 +24792,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.26
+  },
+  {
+    "symbol": "TAO",
+    "kucoin_symbol": "TAO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 252.01,
+    "reasons": [
+      "RSI \u00fcberkauft (71.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 261.08319057422705,
+    "take_profit": 233.86361885154594,
+    "timestamp": "2026-09-06T16:56:47.354323+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
   }
 ]
