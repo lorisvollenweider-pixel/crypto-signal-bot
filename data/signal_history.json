@@ -22323,9 +22323,9 @@
     "stop_loss": 0.224247171033682,
     "take_profit": 0.25590565793263603,
     "timestamp": "2026-09-06T03:27:39.543206+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 19.97,
     "best_favorable_pct": 19.97
   },
   {
@@ -22341,9 +22341,9 @@
     "stop_loss": 0.78060812920718,
     "take_profit": 0.8828837415856399,
     "timestamp": "2026-09-06T03:27:40.766276+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.44,
     "best_favorable_pct": 0.44
   },
   {
@@ -22359,9 +22359,9 @@
     "stop_loss": 0.3607420432945692,
     "take_profit": 0.4152159134108616,
     "timestamp": "2026-09-06T03:27:41.929505+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.53,
     "best_favorable_pct": 1.53
   },
   {
@@ -22759,7 +22759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "USDD",
@@ -23003,7 +23003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.57
+    "best_favorable_pct": 3.6
   },
   {
     "symbol": "DCR",
@@ -23212,7 +23212,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "WLD",
@@ -23332,7 +23332,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.7
+    "best_favorable_pct": 1.82
   },
   {
     "symbol": "WLFI",
@@ -23366,7 +23366,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.78
+    "best_favorable_pct": 3.43
   },
   {
     "symbol": "JUP",
@@ -23469,7 +23469,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "WLD",
@@ -23487,7 +23487,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.35
+    "best_favorable_pct": 1.62
   },
   {
     "symbol": "ZEC",
@@ -23768,7 +23768,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.71
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "USDS",
@@ -23888,7 +23888,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.93
+    "best_favorable_pct": 4.17
   },
   {
     "symbol": "PENGU",
@@ -24114,7 +24114,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.53
+    "best_favorable_pct": 2.77
   },
   {
     "symbol": "ICP",
@@ -24167,7 +24167,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "MORPHO",
@@ -24307,6 +24307,42 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 1.57
+  },
+  {
+    "symbol": "JUP",
+    "kucoin_symbol": "JUP-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2646,
+    "reasons": [
+      "RSI \u00fcberkauft (72.8)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (3.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.2808319858031022,
+    "take_profit": 0.23213602839379557,
+    "timestamp": "2026-09-06T15:37:12.681545+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.11936,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.11158142162022498,
+    "take_profit": 0.13491715675955002,
+    "timestamp": "2026-09-06T15:37:13.928031+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
