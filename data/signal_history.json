@@ -22145,9 +22145,9 @@
     "stop_loss": 251.9469530788275,
     "take_profit": 276.43609384234503,
     "timestamp": "2026-09-06T01:55:31.211318+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.5,
     "best_favorable_pct": 1.5
   },
   {
@@ -22163,9 +22163,9 @@
     "stop_loss": 0.20887663132171266,
     "take_profit": 0.16244673735657464,
     "timestamp": "2026-09-06T01:55:32.401781+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.9,
     "best_favorable_pct": 2.9
   },
   {
@@ -22449,7 +22449,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.83
+    "best_favorable_pct": 3.96
   },
   {
     "symbol": "AAVE",
@@ -22742,7 +22742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.77
   },
   {
     "symbol": "PENDLE",
@@ -23143,7 +23143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.47
+    "best_favorable_pct": 3.64
   },
   {
     "symbol": "ZEC",
@@ -23540,7 +23540,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.08
+    "best_favorable_pct": 3.12
   },
   {
     "symbol": "CFX",
@@ -23576,7 +23576,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "CFX",
@@ -23698,7 +23698,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.02
+    "best_favorable_pct": 3.12
   },
   {
     "symbol": "PONS",
@@ -23715,7 +23715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.0
+    "best_favorable_pct": 2.33
   },
   {
     "symbol": "XDC",
@@ -23750,7 +23750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "XMR",
@@ -24061,7 +24061,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "XTZ",
@@ -24075,6 +24075,77 @@
     "stop_loss": 0.2426736206833934,
     "take_profit": 0.22535275863321316,
     "timestamp": "2026-09-06T13:44:52.922525+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.4668,
+    "reasons": [
+      "RSI \u00fcberkauft (77.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 2.6052326084692274,
+    "take_profit": 2.189934783061546,
+    "timestamp": "2026-09-06T13:56:02.361082+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "DOT",
+    "kucoin_symbol": "DOT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9759,
+    "reasons": [
+      "RSI \u00fcberkauft (73.6)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.011707426041027,
+    "take_profit": 0.904285147917946,
+    "timestamp": "2026-09-06T13:56:03.599948+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.782,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 2.8918673081869737,
+    "take_profit": 2.5622653836260527,
+    "timestamp": "2026-09-06T13:56:04.627466+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BONK",
+    "kucoin_symbol": "BONK-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.433e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.6147625792958927e-06,
+    "take_profit": 3.069474841408215e-06,
+    "timestamp": "2026-09-06T13:56:05.656022+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
