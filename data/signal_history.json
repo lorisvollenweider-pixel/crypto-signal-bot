@@ -20267,9 +20267,9 @@
     "stop_loss": 52.10272981338518,
     "take_profit": 56.47454037322965,
     "timestamp": "2026-09-05T15:51:33.328644+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.84,
     "best_favorable_pct": 2.84
   },
   {
@@ -20788,7 +20788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.3
+    "best_favorable_pct": 3.55
   },
   {
     "symbol": "QNT",
@@ -21521,7 +21521,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.93
+    "best_favorable_pct": 5.19
   },
   {
     "symbol": "KAS",
@@ -21642,7 +21642,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "ICP",
@@ -22290,7 +22290,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.29
+    "best_favorable_pct": 3.34
   },
   {
     "symbol": "ETHFI",
@@ -22326,7 +22326,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "FIL",
@@ -22344,7 +22344,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "CRV",
@@ -22396,7 +22396,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "AVAX",
@@ -22414,6 +22414,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.19
+  },
+  {
+    "symbol": "SKY",
+    "kucoin_symbol": "SKY-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.0714,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.06947338618762118,
+    "take_profit": 0.07525322762475765,
+    "timestamp": "2026-09-06T03:54:31.874864+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
