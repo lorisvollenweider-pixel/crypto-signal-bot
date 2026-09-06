@@ -22429,9 +22429,9 @@
     "stop_loss": 0.06947338618762118,
     "take_profit": 0.07525322762475765,
     "timestamp": "2026-09-06T03:54:31.874864+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.92,
     "best_favorable_pct": 0.92
   },
   {
@@ -23698,7 +23698,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.44
+    "best_favorable_pct": 5.13
   },
   {
     "symbol": "PONS",
@@ -23768,7 +23768,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.11
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "USDS",
@@ -23923,7 +23923,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "U",
@@ -24167,7 +24167,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "MORPHO",
@@ -24340,6 +24340,24 @@
     "stop_loss": 0.11158142162022498,
     "take_profit": 0.13491715675955002,
     "timestamp": "2026-09-06T15:37:13.928031+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.31
+  },
+  {
+    "symbol": "TIA",
+    "kucoin_symbol": "TIA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.3961,
+    "reasons": [
+      "RSI \u00fcberkauft (70.5)",
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.4131440078714378,
+    "take_profit": 0.36201198425712444,
+    "timestamp": "2026-09-06T15:59:30.799308+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
