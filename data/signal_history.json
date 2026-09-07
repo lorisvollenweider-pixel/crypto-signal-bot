@@ -27105,9 +27105,9 @@
     "stop_loss": 0.05642343597835366,
     "take_profit": 0.06037312804329268,
     "timestamp": "2026-09-07T05:33:24.894542+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.33,
     "best_favorable_pct": 0.33
   },
   {
@@ -27122,9 +27122,9 @@
     "stop_loss": 0.6026059852398361,
     "take_profit": 0.6742880295203275,
     "timestamp": "2026-09-07T05:33:24.894595+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.87,
     "best_favorable_pct": 2.87
   },
   {
@@ -28466,7 +28466,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.23
+    "best_favorable_pct": 5.32
   },
   {
     "symbol": "DOT",
@@ -28952,7 +28952,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.98
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "KAS",
@@ -28970,7 +28970,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.9
+    "best_favorable_pct": 2.01
   },
   {
     "symbol": "USD1",
@@ -29092,7 +29092,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "CFX",
@@ -29161,7 +29161,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "AVAX",
@@ -29267,7 +29267,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "CAKE",
@@ -29301,7 +29301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "BCH",
@@ -29422,7 +29422,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "SUN",
@@ -29594,7 +29594,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "ICP",
@@ -29664,7 +29664,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "STX",
@@ -29752,7 +29752,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "ETC",
@@ -29806,5 +29806,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.03557,
+    "reasons": [
+      "RSI \u00fcberkauft (78.9)"
+    ],
+    "stop_loss": 0.03722352741240127,
+    "take_profit": 0.032262945175197455,
+    "timestamp": "2026-09-07T17:40:28.297737+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.2
   }
 ]
