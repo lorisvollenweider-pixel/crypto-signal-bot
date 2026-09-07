@@ -24755,10 +24755,10 @@
     "stop_loss": 7.844062957461628,
     "take_profit": 6.4992740850767445,
     "timestamp": "2026-09-06T16:33:41.424292+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 5.41
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.77,
+    "best_favorable_pct": 5.77
   },
   {
     "symbol": "LUNC",
@@ -24772,9 +24772,9 @@
     "stop_loss": 5.269155488833286e-05,
     "take_profit": 4.926689022333428e-05,
     "timestamp": "2026-09-06T16:33:41.424370+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.2,
     "best_favorable_pct": 1.2
   },
   {
@@ -25317,7 +25317,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 2.28
   },
   {
     "symbol": "QNT",
@@ -25667,7 +25667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.13
+    "best_favorable_pct": 3.15
   },
   {
     "symbol": "NIGHT",
@@ -25840,7 +25840,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.33
+    "best_favorable_pct": 7.54
   },
   {
     "symbol": "KCS",
@@ -25908,7 +25908,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.73
+    "best_favorable_pct": 1.81
   },
   {
     "symbol": "PENGU",
@@ -26012,7 +26012,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "RAIN",
@@ -26240,7 +26240,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "AAVE",
@@ -26275,7 +26275,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "XTZ",
@@ -26676,7 +26676,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "GRAM",
@@ -26728,7 +26728,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "PEPE",
@@ -26814,7 +26814,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "ASTER",
@@ -26831,7 +26831,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "MORPHO",
@@ -26848,7 +26848,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "ICP",
@@ -26882,7 +26882,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "FLR",
@@ -26896,6 +26896,40 @@
     "stop_loss": 0.006438251605024943,
     "take_profit": 0.006953496789950114,
     "timestamp": "2026-09-07T04:27:19.899596+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.45
+  },
+  {
+    "symbol": "PIEVERSE",
+    "kucoin_symbol": "PIEVERSE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.1025,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.0500798433882808,
+    "take_profit": 1.2073403132234388,
+    "timestamp": "2026-09-07T04:44:38.394113+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LUNC",
+    "kucoin_symbol": "LUNC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 5.112e-05,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 5.2297976498684794e-05,
+    "take_profit": 4.876404700263041e-05,
+    "timestamp": "2026-09-07T04:44:38.394133+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
