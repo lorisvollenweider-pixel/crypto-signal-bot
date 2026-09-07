@@ -24789,9 +24789,9 @@
     "stop_loss": 0.06819070403527136,
     "take_profit": 0.07439859192945729,
     "timestamp": "2026-09-06T16:45:46.219538+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.3,
     "best_favorable_pct": 0.3
   },
   {
@@ -24807,9 +24807,9 @@
     "stop_loss": 261.08319057422705,
     "take_profit": 233.86361885154594,
     "timestamp": "2026-09-06T16:56:47.354323+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.47,
     "best_favorable_pct": 0.47
   },
   {
@@ -24898,7 +24898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "LINK",
@@ -25317,7 +25317,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.28
+    "best_favorable_pct": 2.77
   },
   {
     "symbol": "QNT",
@@ -25667,7 +25667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.15
+    "best_favorable_pct": 3.33
   },
   {
     "symbol": "NIGHT",
@@ -25840,7 +25840,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.54
+    "best_favorable_pct": 7.8
   },
   {
     "symbol": "KCS",
@@ -25891,7 +25891,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.11
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "ETHFI",
@@ -25908,7 +25908,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.81
+    "best_favorable_pct": 1.92
   },
   {
     "symbol": "PENGU",
@@ -26012,7 +26012,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "RAIN",
@@ -26240,7 +26240,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.04
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "AAVE",
@@ -26275,7 +26275,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "XTZ",
@@ -26343,7 +26343,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.95
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "PYTH",
@@ -26728,7 +26728,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.8
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "PEPE",
@@ -26933,6 +26933,59 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "SKY",
+    "kucoin_symbol": "SKY-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.06964,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.06773904886947611,
+    "take_profit": 0.07344190226104777,
+    "timestamp": "2026-09-07T04:57:53.401884+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.7986,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.8288147112050477,
+    "take_profit": 0.7381705775899045,
+    "timestamp": "2026-09-07T04:57:53.401914+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.02866,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.028229550727856316,
+    "take_profit": 0.029520898544287372,
+    "timestamp": "2026-09-07T04:57:54.674283+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
   }
 ]
