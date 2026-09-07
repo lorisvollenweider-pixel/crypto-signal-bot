@@ -25523,9 +25523,9 @@
     "stop_loss": 0.9985303777997733,
     "take_profit": 1.0011392444004532,
     "timestamp": "2026-09-06T22:26:43.952645+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.03,
     "best_favorable_pct": 0.03
   },
   {
@@ -25541,9 +25541,9 @@
     "stop_loss": 1.0327948109557221,
     "take_profit": 1.1951103780885555,
     "timestamp": "2026-09-06T22:26:43.952720+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.11,
     "best_favorable_pct": 6.11
   },
   {
@@ -26728,7 +26728,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.49
+    "best_favorable_pct": 5.72
   },
   {
     "symbol": "PEPE",
@@ -26882,7 +26882,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.73
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "FLR",
@@ -27003,7 +27003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "TAO",
@@ -27160,7 +27160,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.64
+    "best_favorable_pct": 3.75
   },
   {
     "symbol": "BDX",
@@ -27212,7 +27212,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.69
+    "best_favorable_pct": 3.89
   },
   {
     "symbol": "WLD",
@@ -27319,7 +27319,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "DOGE",
@@ -27388,7 +27388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.31
+    "best_favorable_pct": 2.69
   },
   {
     "symbol": "BONK",
@@ -27456,7 +27456,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.04
+    "best_favorable_pct": 4.08
   },
   {
     "symbol": "XDC",
@@ -27560,7 +27560,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "KAS",
@@ -27648,7 +27648,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "XLM",
@@ -27684,7 +27684,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "ONDO",
@@ -27770,7 +27770,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "USDG",
@@ -27784,6 +27784,24 @@
     "stop_loss": 1.0004821089521212,
     "take_profit": 0.9993357820957578,
     "timestamp": "2026-09-07T10:18:30.396903+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VIRTUAL",
+    "kucoin_symbol": "VIRTUAL-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.7262,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.6974729352395598,
+    "take_profit": 0.7836541295208803,
+    "timestamp": "2026-09-07T10:34:54.728653+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
