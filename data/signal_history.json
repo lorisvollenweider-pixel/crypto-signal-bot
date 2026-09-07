@@ -27715,9 +27715,9 @@
     "stop_loss": 4.714025045240204,
     "take_profit": 3.894949909519592,
     "timestamp": "2026-09-07T09:44:05.196221+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.26,
     "best_favorable_pct": 1.26
   },
   {
@@ -28052,7 +28052,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "LDO",
@@ -29004,7 +29004,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.36
+    "best_favorable_pct": 15.95
   },
   {
     "symbol": "OP",
@@ -29074,7 +29074,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.24
+    "best_favorable_pct": 12.71
   },
   {
     "symbol": "NIGHT",
@@ -29525,7 +29525,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "XDC",
@@ -29788,7 +29788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 10.7
+    "best_favorable_pct": 14.22
   },
   {
     "symbol": "OP",
@@ -30001,7 +30001,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.81
+    "best_favorable_pct": 4.97
   },
   {
     "symbol": "MON",
@@ -30105,7 +30105,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "MORPHO",
@@ -30176,7 +30176,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "BDX",
@@ -30348,7 +30348,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "PENDLE",
@@ -30384,7 +30384,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "PIEVERSE",
@@ -30402,5 +30402,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.34
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.2273,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 2.1237756111773853,
+    "take_profit": 2.4343487776452295,
+    "timestamp": "2026-09-07T21:45:57.357762+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
