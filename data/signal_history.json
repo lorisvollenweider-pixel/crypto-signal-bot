@@ -24895,10 +24895,10 @@
     "stop_loss": 0.017189031310047988,
     "take_profit": 0.01607293737990402,
     "timestamp": "2026-09-06T18:39:32.504911+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 0.75
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.84,
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "LINK",
@@ -25823,7 +25823,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "ARB",
@@ -25977,7 +25977,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.39
+    "best_favorable_pct": 2.18
   },
   {
     "symbol": "PIEVERSE",
@@ -26030,7 +26030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "LTC",
@@ -26065,7 +26065,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.87
+    "best_favorable_pct": 4.96
   },
   {
     "symbol": "KAS",
@@ -26223,7 +26223,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.21
+    "best_favorable_pct": 2.43
   },
   {
     "symbol": "ADA",
@@ -26831,7 +26831,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "MORPHO",
@@ -26882,7 +26882,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "FLR",
@@ -26986,7 +26986,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.81
+    "best_favorable_pct": 2.44
   },
   {
     "symbol": "HYPE",
@@ -27003,7 +27003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "TAO",
@@ -27160,7 +27160,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "BDX",
@@ -27177,7 +27177,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "UNI",
@@ -27248,6 +27248,42 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.77
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.6059,
+    "reasons": [
+      "Volumen-Spike (2.5x Durchschnitt)"
+    ],
+    "stop_loss": 1.566053951117611,
+    "take_profit": 1.6855920977647783,
+    "timestamp": "2026-09-07T06:49:27.035222+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.02936,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.028854550727856317,
+    "take_profit": 0.030370898544287372,
+    "timestamp": "2026-09-07T06:49:27.035250+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
