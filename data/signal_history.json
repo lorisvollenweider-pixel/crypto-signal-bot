@@ -23972,9 +23972,9 @@
     "stop_loss": 0.07769489487422934,
     "take_profit": 0.08176021025154132,
     "timestamp": "2026-09-06T12:50:11.778791+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.29,
     "best_favorable_pct": 0.29
   },
   {
@@ -23989,9 +23989,9 @@
     "stop_loss": 0.022076473222076454,
     "take_profit": 0.025267053555847095,
     "timestamp": "2026-09-06T12:50:11.778824+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.83,
     "best_favorable_pct": 5.83
   },
   {
@@ -24007,9 +24007,9 @@
     "stop_loss": 0.43178288159838996,
     "take_profit": 0.37843423680321997,
     "timestamp": "2026-09-06T12:50:11.778838+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.97,
     "best_favorable_pct": 0.97
   },
   {
@@ -24741,7 +24741,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.44
+    "best_favorable_pct": 8.94
   },
   {
     "symbol": "UNI",
@@ -24845,7 +24845,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.92
+    "best_favorable_pct": 2.42
   },
   {
     "symbol": "ENS",
@@ -25109,7 +25109,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "NIGHT",
@@ -25160,7 +25160,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.89
   },
   {
     "symbol": "WLD",
@@ -25650,7 +25650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "PYTH",
@@ -25891,7 +25891,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "ETHFI",
@@ -25925,7 +25925,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "INJ",
@@ -26047,7 +26047,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.16
   },
   {
     "symbol": "DOT",
@@ -26082,7 +26082,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "RENDER",
@@ -26099,7 +26099,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "PIEVERSE",
@@ -26119,5 +26119,58 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "LINK",
+    "kucoin_symbol": "LINK-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 13.1176,
+    "reasons": [
+      "RSI \u00fcberkauft (78.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 13.552768954946885,
+    "take_profit": 12.247262090106231,
+    "timestamp": "2026-09-07T00:59:37.389212+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TAO",
+    "kucoin_symbol": "TAO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 264.06,
+    "reasons": [
+      "RSI \u00fcberkauft (73.3)"
+    ],
+    "stop_loss": 275.0901592046066,
+    "take_profit": 241.99968159078682,
+    "timestamp": "2026-09-07T00:59:38.727618+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KCS",
+    "kucoin_symbol": "KCS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 7.113,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 7.223128803059811,
+    "take_profit": 6.892742393880379,
+    "timestamp": "2026-09-07T00:59:38.727654+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
