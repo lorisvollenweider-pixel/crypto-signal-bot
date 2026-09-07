@@ -25227,9 +25227,9 @@
     "stop_loss": 8.00194467924406,
     "take_profit": 7.50711064151188,
     "timestamp": "2026-09-06T20:52:15.449565+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.22,
     "best_favorable_pct": 1.22
   },
   {
@@ -25245,9 +25245,9 @@
     "stop_loss": 0.18420406801573713,
     "take_profit": 0.1631918639685257,
     "timestamp": "2026-09-06T20:52:16.714554+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.61,
     "best_favorable_pct": 3.61
   },
   {
@@ -25262,9 +25262,9 @@
     "stop_loss": 1.338545271442124,
     "take_profit": 0.9964094571157518,
     "timestamp": "2026-09-06T20:52:17.743275+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.41,
     "best_favorable_pct": 3.41
   },
   {
@@ -27142,7 +27142,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "MNT",
@@ -27319,7 +27319,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "DOGE",
@@ -27388,7 +27388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "BONK",
@@ -27543,7 +27543,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "SUI",
@@ -27596,5 +27596,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.05
+  },
+  {
+    "symbol": "FLR",
+    "kucoin_symbol": "FLR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.00659,
+    "reasons": [
+      "Volumen-Spike (2.6x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.00675990383506172,
+    "take_profit": 0.006250192329876563,
+    "timestamp": "2026-09-07T09:05:49.211137+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.12223,
+    "reasons": [
+      "Volumen-Spike (2.4x Durchschnitt)"
+    ],
+    "stop_loss": 0.1269100267085234,
+    "take_profit": 0.11286994658295327,
+    "timestamp": "2026-09-07T09:05:50.293707+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
