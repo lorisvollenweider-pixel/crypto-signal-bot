@@ -27928,9 +27928,9 @@
     "stop_loss": 0.004176932644633634,
     "take_profit": 0.005092134710732732,
     "timestamp": "2026-09-07T11:20:10.184103+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.92,
     "best_favorable_pct": 1.92
   },
   {
@@ -27946,9 +27946,9 @@
     "stop_loss": 3.1006284116579454,
     "take_profit": 2.6847431766841097,
     "timestamp": "2026-09-07T11:20:11.287678+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.09,
     "best_favorable_pct": 2.09
   },
   {
@@ -27963,9 +27963,9 @@
     "stop_loss": 0.02835206012315774,
     "take_profit": 0.03022687975368452,
     "timestamp": "2026-09-07T11:20:12.317404+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.59,
     "best_favorable_pct": 1.59
   },
   {
@@ -27981,9 +27981,9 @@
     "stop_loss": 0.6266190657497865,
     "take_profit": 0.5407618685004268,
     "timestamp": "2026-09-07T11:20:12.317419+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.96,
     "best_favorable_pct": 3.96
   },
   {
@@ -27998,9 +27998,9 @@
     "stop_loss": 0.18399041323468934,
     "take_profit": 0.16151917353062129,
     "timestamp": "2026-09-07T11:20:13.347606+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.4,
     "best_favorable_pct": 0.4
   },
   {
@@ -29388,7 +29388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "INJ",
@@ -30613,5 +30613,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.65
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.029332,
+    "reasons": [
+      "Volumen-Spike (4.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.028577869949558857,
+    "take_profit": 0.03084026010088229,
+    "timestamp": "2026-09-07T23:25:50.543432+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1824,
+    "reasons": [
+      "RSI \u00fcberkauft (73.1)"
+    ],
+    "stop_loss": 0.19090275818416635,
+    "take_profit": 0.1653944836316673,
+    "timestamp": "2026-09-07T23:25:50.543465+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
   }
 ]
