@@ -26585,9 +26585,9 @@
     "stop_loss": 1.6231540512944167,
     "take_profit": 1.5050918974111667,
     "timestamp": "2026-09-07T03:53:29.796101+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.22,
     "best_favorable_pct": 0.22
   },
   {
@@ -26603,9 +26603,9 @@
     "stop_loss": 5.228132865676821e-05,
     "take_profit": 4.8527342686463575e-05,
     "timestamp": "2026-09-07T03:53:29.796148+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.33,
     "best_favorable_pct": 0.33
   },
   {
@@ -26641,7 +26641,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "BCH",
@@ -26676,7 +26676,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.19
+    "best_favorable_pct": 2.56
   },
   {
     "symbol": "GRAM",
@@ -26693,7 +26693,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 1.9
   },
   {
     "symbol": "SUI",
@@ -26797,7 +26797,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "XMR",
@@ -27160,7 +27160,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.72
+    "best_favorable_pct": 5.01
   },
   {
     "symbol": "BDX",
@@ -27194,7 +27194,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.22
+    "best_favorable_pct": 3.6
   },
   {
     "symbol": "PUMP",
@@ -27302,7 +27302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.1
+    "best_favorable_pct": 3.21
   },
   {
     "symbol": "JST",
@@ -27543,7 +27543,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.19
+    "best_favorable_pct": 3.6
   },
   {
     "symbol": "SUI",
@@ -27595,7 +27595,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.0
+    "best_favorable_pct": 2.29
   },
   {
     "symbol": "FLR",
@@ -27701,7 +27701,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.06
+    "best_favorable_pct": 3.2
   },
   {
     "symbol": "LIT",
@@ -27823,7 +27823,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.2
+    "best_favorable_pct": 3.57
   },
   {
     "symbol": "PYTH",
@@ -28173,7 +28173,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "WLD",
@@ -28535,7 +28535,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 1.52
   },
   {
     "symbol": "PIEVERSE",
@@ -28690,7 +28690,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.23
+    "best_favorable_pct": 2.52
   },
   {
     "symbol": "DOT",
@@ -28829,7 +28829,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.63
+    "best_favorable_pct": 1.84
   },
   {
     "symbol": "SOL",
@@ -29056,7 +29056,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "AERO",
@@ -29249,7 +29249,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "BTC",
@@ -29267,7 +29267,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "CAKE",
@@ -29285,5 +29285,177 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "TRX",
+    "kucoin_symbol": "TRX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.334,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.33636640111789257,
+    "take_profit": 0.3292671977642149,
+    "timestamp": "2026-09-07T16:02:59.615028+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BCH",
+    "kucoin_symbol": "BCH-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 260.79,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 252.96190897269048,
+    "take_profit": 276.4461820546191,
+    "timestamp": "2026-09-07T16:02:59.615064+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.33
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 8.084,
+    "reasons": [
+      "RSI \u00fcberkauft (73.6)"
+    ],
+    "stop_loss": 8.287533154296941,
+    "take_profit": 7.676933691406116,
+    "timestamp": "2026-09-07T16:03:00.788957+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.4572,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.561956525235003,
+    "take_profit": 2.2476869495299936,
+    "timestamp": "2026-09-07T16:03:00.788984+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETC",
+    "kucoin_symbol": "ETC-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 7.8533,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 7.625916262957114,
+    "take_profit": 8.308067474085771,
+    "timestamp": "2026-09-07T16:03:00.789007+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ALGO",
+    "kucoin_symbol": "ALGO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0957,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.09271831021801182,
+    "take_profit": 0.10166337956397635,
+    "timestamp": "2026-09-07T16:03:01.894410+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "INJ",
+    "kucoin_symbol": "INJ-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 5.716,
+    "reasons": [
+      "RSI \u00fcberkauft (81.2)"
+    ],
+    "stop_loss": 5.9342826509795366,
+    "take_profit": 5.279434698040928,
+    "timestamp": "2026-09-07T16:03:01.894437+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.134933,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.1415964142450813,
+    "take_profit": 0.12160617150983742,
+    "timestamp": "2026-09-07T16:03:01.894466+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.01682,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.016974909411659935,
+    "take_profit": 0.01651018117668013,
+    "timestamp": "2026-09-07T16:03:01.894478+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LUNC",
+    "kucoin_symbol": "LUNC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 5.349e-05,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 5.173459908892942e-05,
+    "take_profit": 5.7000801822141143e-05,
+    "timestamp": "2026-09-07T16:03:01.894490+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
