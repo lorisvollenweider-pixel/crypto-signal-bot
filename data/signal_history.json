@@ -26947,9 +26947,9 @@
     "stop_loss": 0.06773904886947611,
     "take_profit": 0.07344190226104777,
     "timestamp": "2026-09-07T04:57:53.401884+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.23,
     "best_favorable_pct": 0.23
   },
   {
@@ -26965,9 +26965,9 @@
     "stop_loss": 0.8288147112050477,
     "take_profit": 0.7381705775899045,
     "timestamp": "2026-09-07T04:57:53.401914+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -26983,9 +26983,9 @@
     "stop_loss": 0.028229550727856316,
     "take_profit": 0.029520898544287372,
     "timestamp": "2026-09-07T04:57:54.674283+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.29,
     "best_favorable_pct": 4.29
   },
   {
@@ -28310,7 +28310,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.2
+    "best_favorable_pct": 1.27
   },
   {
     "symbol": "CC",
@@ -29267,7 +29267,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "CAKE",
@@ -29388,7 +29388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "INJ",
@@ -29542,7 +29542,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "TIA",
@@ -29576,7 +29576,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "SUI",
@@ -29594,7 +29594,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "ICP",
@@ -29645,6 +29645,43 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.21
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.8655,
+    "reasons": [
+      "RSI \u00fcberkauft (74.4)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.9017617842992767,
+    "take_profit": 0.7929764314014469,
+    "timestamp": "2026-09-07T17:08:00.245172+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STX",
+    "kucoin_symbol": "STX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2868,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.299415833748795,
+    "take_profit": 0.26156833250241,
+    "timestamp": "2026-09-07T17:08:01.494405+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
   }
 ]
