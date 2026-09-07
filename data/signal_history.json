@@ -24286,9 +24286,9 @@
     "stop_loss": 86.61477705598746,
     "take_profit": 93.62344588802507,
     "timestamp": "2026-09-06T15:06:58.898687+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.33,
     "best_favorable_pct": 0.33
   },
   {
@@ -24304,9 +24304,9 @@
     "stop_loss": 1.4366779948273607,
     "take_profit": 1.1322440103452784,
     "timestamp": "2026-09-06T15:06:59.992187+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.24,
     "best_favorable_pct": 9.24
   },
   {
@@ -24550,7 +24550,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "QNT",
@@ -25667,7 +25667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.27
+    "best_favorable_pct": 1.72
   },
   {
     "symbol": "NIGHT",
@@ -25840,7 +25840,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.42
+    "best_favorable_pct": 2.74
   },
   {
     "symbol": "KCS",
@@ -25857,7 +25857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "VVV",
@@ -26012,7 +26012,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "RAIN",
@@ -26047,7 +26047,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.24
+    "best_favorable_pct": 3.35
   },
   {
     "symbol": "DOT",
@@ -26065,7 +26065,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.69
+    "best_favorable_pct": 3.97
   },
   {
     "symbol": "KAS",
@@ -26171,7 +26171,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "MNT",
@@ -26343,7 +26343,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "PYTH",
@@ -26413,7 +26413,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "XLM",
@@ -26431,7 +26431,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "WLFI",
@@ -26467,7 +26467,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "PIEVERSE",
@@ -26487,5 +26487,56 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9992,
+    "reasons": [
+      "Volumen-Spike (2.3x Durchschnitt)"
+    ],
+    "stop_loss": 1.0010248519880047,
+    "take_profit": 0.9955502960239906,
+    "timestamp": "2026-09-07T03:21:47.897268+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ALGO",
+    "kucoin_symbol": "ALGO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0944,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.09742033067920977,
+    "take_profit": 0.08835933864158046,
+    "timestamp": "2026-09-07T03:21:47.897313+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9989,
+    "reasons": [
+      "Volumen-Spike (8.5x Durchschnitt)"
+    ],
+    "stop_loss": 0.9974027397433639,
+    "take_profit": 1.001894520513272,
+    "timestamp": "2026-09-07T03:21:47.897334+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
