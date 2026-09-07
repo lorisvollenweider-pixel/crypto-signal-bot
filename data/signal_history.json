@@ -25699,9 +25699,9 @@
     "stop_loss": 0.21593640255795277,
     "take_profit": 0.2386271948840945,
     "timestamp": "2026-09-06T23:43:58.054552+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.3,
     "best_favorable_pct": 1.3
   },
   {
@@ -25717,9 +25717,9 @@
     "stop_loss": 0.40079367937506954,
     "take_profit": 0.36457264124986094,
     "timestamp": "2026-09-06T23:43:58.054590+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.43,
     "best_favorable_pct": 2.43
   },
   {
@@ -26030,7 +26030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "LTC",
@@ -27388,7 +27388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.62
+    "best_favorable_pct": 5.07
   },
   {
     "symbol": "BONK",
@@ -27684,7 +27684,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "ONDO",
@@ -27701,7 +27701,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.9
+    "best_favorable_pct": 2.2
   },
   {
     "symbol": "LIT",
@@ -27949,7 +27949,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.89
   },
   {
     "symbol": "STABLE",
@@ -27966,7 +27966,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "ETHFI",
@@ -28001,7 +28001,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "USDC",
@@ -28052,7 +28052,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "LDO",
@@ -28070,5 +28070,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 55.76,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 54.02176201836765,
+    "take_profit": 59.23647596326469,
+    "timestamp": "2026-09-07T11:51:25.434063+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
   }
 ]
