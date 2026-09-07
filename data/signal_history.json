@@ -25157,9 +25157,9 @@
     "stop_loss": 1285.962543843314,
     "take_profit": 1080.9709123133719,
     "timestamp": "2026-09-06T20:41:04.356352+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.46,
     "best_favorable_pct": 3.46
   },
   {
@@ -25174,9 +25174,9 @@
     "stop_loss": 0.42925834222419434,
     "take_profit": 0.38138331555161126,
     "timestamp": "2026-09-06T20:41:04.356417+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.04,
     "best_favorable_pct": 1.04
   },
   {
@@ -25192,10 +25192,10 @@
     "stop_loss": 0.11326321243077178,
     "take_profit": 0.10800357513845642,
     "timestamp": "2026-09-06T20:41:04.356431+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 0.91
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.03,
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "DASH",
@@ -25209,9 +25209,9 @@
     "stop_loss": 76.94767274910609,
     "take_profit": 57.8146545017878,
     "timestamp": "2026-09-06T20:41:05.674711+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.55,
     "best_favorable_pct": 5.55
   },
   {
@@ -27319,7 +27319,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "DOGE",
@@ -27543,7 +27543,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "SUI",
@@ -27579,5 +27579,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1181.765,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)"
+    ],
+    "stop_loss": 1251.5824547628613,
+    "take_profit": 1042.130090474278,
+    "timestamp": "2026-09-07T08:51:54.469293+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.05
   }
 ]
