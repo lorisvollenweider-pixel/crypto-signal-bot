@@ -26728,7 +26728,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 10.33
+    "best_favorable_pct": 10.68
   },
   {
     "symbol": "PEPE",
@@ -26882,7 +26882,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 1.99
   },
   {
     "symbol": "FLR",
@@ -27212,7 +27212,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.31
+    "best_favorable_pct": 8.73
   },
   {
     "symbol": "WLD",
@@ -27388,7 +27388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.44
+    "best_favorable_pct": 4.09
   },
   {
     "symbol": "BONK",
@@ -27456,7 +27456,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.76
+    "best_favorable_pct": 9.0
   },
   {
     "symbol": "XDC",
@@ -27648,7 +27648,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "XLM",
@@ -27684,7 +27684,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.16
   },
   {
     "symbol": "ONDO",
@@ -27701,7 +27701,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.74
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "LIT",
@@ -27823,7 +27823,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "PYTH",
@@ -27842,5 +27842,77 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 65.242,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 66.90067232100343,
+    "take_profit": 61.924655357993146,
+    "timestamp": "2026-09-07T11:00:40.111396+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.8179,
+    "reasons": [
+      "Volumen-Spike (3.9x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.849682460099148,
+    "take_profit": 0.7543350798017039,
+    "timestamp": "2026-09-07T11:00:41.511506+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "FLR",
+    "kucoin_symbol": "FLR-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.00663,
+    "reasons": [
+      "Volumen-Spike (2.7x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.006459024736366852,
+    "take_profit": 0.006971950527266295,
+    "timestamp": "2026-09-07T11:00:42.671533+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STX",
+    "kucoin_symbol": "STX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2759,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.2878479390421089,
+    "take_profit": 0.25200412191578203,
+    "timestamp": "2026-09-07T11:00:43.847375+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.29
   }
 ]
