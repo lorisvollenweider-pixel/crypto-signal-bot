@@ -25279,9 +25279,9 @@
     "stop_loss": 0.39653439366078386,
     "take_profit": 0.3614512126784324,
     "timestamp": "2026-09-06T21:21:02.870212+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.48,
     "best_favorable_pct": 1.48
   },
   {
@@ -25544,7 +25544,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.41
+    "best_favorable_pct": 5.7
   },
   {
     "symbol": "USDS",
@@ -26728,7 +26728,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.46
+    "best_favorable_pct": 4.49
   },
   {
     "symbol": "PEPE",
@@ -27003,7 +27003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "TAO",
@@ -27091,7 +27091,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "CRO",
@@ -27125,7 +27125,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "VIRTUAL",
@@ -27142,7 +27142,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.44
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "MNT",
@@ -27212,7 +27212,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 2.69
   },
   {
     "symbol": "WLD",
@@ -27388,7 +27388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 1.93
   },
   {
     "symbol": "BONK",
@@ -27405,7 +27405,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "XLM",
@@ -27456,7 +27456,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.03
+    "best_favorable_pct": 3.04
   },
   {
     "symbol": "XDC",
@@ -27543,7 +27543,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "SUI",
@@ -27560,7 +27560,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "KAS",
@@ -27630,6 +27630,77 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 87.462,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 85.17482670681936,
+    "take_profit": 92.03634658636128,
+    "timestamp": "2026-09-07T09:26:00.934084+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XLM",
+    "kucoin_symbol": "XLM-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1907,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.19603543438826998,
+    "take_profit": 0.1800291312234601,
+    "timestamp": "2026-09-07T09:26:02.191826+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 7.951,
+    "reasons": [
+      "RSI \u00fcberkauft (70.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 8.154001276287662,
+    "take_profit": 7.544997447424673,
+    "timestamp": "2026-09-07T09:26:03.423882+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.21
+  },
+  {
+    "symbol": "ONDO",
+    "kucoin_symbol": "ONDO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.39324,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.4069030004610066,
+    "take_profit": 0.36591399907798683,
+    "timestamp": "2026-09-07T09:26:04.646711+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
