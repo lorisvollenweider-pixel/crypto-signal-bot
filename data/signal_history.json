@@ -28567,9 +28567,9 @@
     "stop_loss": 253.8696281947052,
     "take_profit": 278.68074361058956,
     "timestamp": "2026-09-07T13:03:22.589926+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.81,
     "best_favorable_pct": 1.81
   },
   {
@@ -28584,9 +28584,9 @@
     "stop_loss": 5.391667934567919e-06,
     "take_profit": 5.845664130864163e-06,
     "timestamp": "2026-09-07T13:03:22.589953+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -28601,9 +28601,9 @@
     "stop_loss": 0.9994082522137633,
     "take_profit": 1.0008834955724735,
     "timestamp": "2026-09-07T13:03:22.589961+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.06,
     "best_favorable_pct": 0.06
   },
   {
@@ -28618,9 +28618,9 @@
     "stop_loss": 277.14631362388866,
     "take_profit": 240.40737275222264,
     "timestamp": "2026-09-07T13:03:22.589968+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.32,
     "best_favorable_pct": 3.32
   },
   {
@@ -28635,9 +28635,9 @@
     "stop_loss": 0.1066456945879363,
     "take_profit": 0.11244861082412738,
     "timestamp": "2026-09-07T13:03:22.589990+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.4,
     "best_favorable_pct": 0.4
   },
   {
@@ -28652,9 +28652,9 @@
     "stop_loss": 0.6274609754123185,
     "take_profit": 0.544478049175363,
     "timestamp": "2026-09-07T13:03:22.590002+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.25,
     "best_favorable_pct": 4.25
   },
   {
@@ -28670,9 +28670,9 @@
     "stop_loss": 0.0540478810629098,
     "take_profit": 0.06203423787418041,
     "timestamp": "2026-09-07T13:03:22.590011+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -29388,7 +29388,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.4
+    "best_favorable_pct": 3.34
   },
   {
     "symbol": "INJ",
@@ -30279,7 +30279,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.53
+    "best_favorable_pct": 3.34
   },
   {
     "symbol": "VVV",
@@ -30487,7 +30487,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "USDG",
@@ -30540,7 +30540,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "XLM",
@@ -30715,7 +30715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.96
   },
   {
     "symbol": "BNB",
@@ -30732,7 +30732,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.25
   },
   {
     "symbol": "XAUT",
@@ -30972,7 +30972,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "BDX",
@@ -31109,7 +31109,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.67
   },
   {
     "symbol": "XPL",
@@ -31123,6 +31123,23 @@
     "stop_loss": 0.08914912931700801,
     "take_profit": 0.102801741365984,
     "timestamp": "2026-09-08T00:53:24.610359+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BCH",
+    "kucoin_symbol": "BCH-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 262.22,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 253.67086900066147,
+    "take_profit": 279.31826199867714,
+    "timestamp": "2026-09-08T01:08:22.480707+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
