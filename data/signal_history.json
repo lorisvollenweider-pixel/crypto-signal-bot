@@ -32008,9 +32008,9 @@
     "stop_loss": 67.44775856797386,
     "take_profit": 62.41748286405227,
     "timestamp": "2026-09-08T06:23:44.411235+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.32,
     "best_favorable_pct": 0.32
   },
   {
@@ -32551,7 +32551,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.88
+    "best_favorable_pct": 4.19
   },
   {
     "symbol": "TRX",
@@ -32728,7 +32728,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.44
+    "best_favorable_pct": 3.76
   },
   {
     "symbol": "USELESS",
@@ -33003,7 +33003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.88
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "ALGO",
@@ -33452,7 +33452,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 10.57
+    "best_favorable_pct": 11.45
   },
   {
     "symbol": "HBAR",
@@ -33647,7 +33647,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.76
+    "best_favorable_pct": 2.86
   },
   {
     "symbol": "XRP",
@@ -33718,7 +33718,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 1.99
   },
   {
     "symbol": "POL",
@@ -33754,7 +33754,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 1.66
   },
   {
     "symbol": "USELESS",
@@ -33771,7 +33771,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.44
+    "best_favorable_pct": 9.26
   },
   {
     "symbol": "MORPHO",
@@ -33788,7 +33788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "DCR",
@@ -34031,7 +34031,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "XRP",
@@ -34081,6 +34081,78 @@
     "stop_loss": 0.017051961113261647,
     "take_profit": 0.016536077773476706,
     "timestamp": "2026-09-08T18:15:50.146415+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.3
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 22.574,
+    "reasons": [
+      "RSI \u00fcberkauft (71.0)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (5.5x Durchschnitt)"
+    ],
+    "stop_loss": 24.34292044344657,
+    "take_profit": 19.036159113106866,
+    "timestamp": "2026-09-08T18:37:05.036979+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETHFI",
+    "kucoin_symbol": "ETHFI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.6137,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.6448910871705845,
+    "take_profit": 0.5513178256588311,
+    "timestamp": "2026-09-08T18:37:06.096516+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.1394,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 2.24924146155544,
+    "take_profit": 1.9197170768891205,
+    "timestamp": "2026-09-08T18:37:07.129074+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 17.15,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (3.1x Durchschnitt)"
+    ],
+    "stop_loss": 18.51374648889604,
+    "take_profit": 14.422507022207917,
+    "timestamp": "2026-09-08T18:37:07.129092+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
