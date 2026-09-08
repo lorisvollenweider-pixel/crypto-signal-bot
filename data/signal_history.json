@@ -32060,9 +32060,9 @@
     "stop_loss": 0.026849623647389943,
     "take_profit": 0.022380752705220112,
     "timestamp": "2026-09-08T07:00:10.253975+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.75,
     "best_favorable_pct": 0.75
   },
   {
@@ -32078,9 +32078,9 @@
     "stop_loss": 0.24121397284802373,
     "take_profit": 0.20877205430395254,
     "timestamp": "2026-09-08T07:00:10.253997+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.69,
     "best_favorable_pct": 1.69
   },
   {
@@ -33072,7 +33072,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.05
+    "best_favorable_pct": 4.26
   },
   {
     "symbol": "SEI",
@@ -33683,7 +33683,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.94
+    "best_favorable_pct": 4.2
   },
   {
     "symbol": "AAVE",
@@ -33718,7 +33718,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.48
+    "best_favorable_pct": 3.67
   },
   {
     "symbol": "POL",
@@ -33754,7 +33754,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 2.34
   },
   {
     "symbol": "USELESS",
@@ -33891,7 +33891,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "VET",
@@ -33944,7 +33944,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "LIT",
@@ -34138,7 +34138,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.53
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "DCR",
@@ -34228,5 +34228,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "XTZ",
+    "kucoin_symbol": "XTZ-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.243,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.2502790434052707,
+    "take_profit": 0.22844191318945867,
+    "timestamp": "2026-09-08T19:09:50.334764+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.21
   }
 ]
