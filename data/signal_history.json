@@ -34280,7 +34280,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "BTC",
@@ -34453,7 +34453,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "VIRTUAL",
@@ -34642,7 +34642,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "PYUSD",
@@ -34695,7 +34695,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "HBAR",
@@ -34713,6 +34713,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "ETC",
+    "kucoin_symbol": "ETC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 8.5873,
+    "reasons": [
+      "RSI \u00fcberkauft (70.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 8.940663332727484,
+    "take_profit": 7.880573334545034,
+    "timestamp": "2026-09-08T22:10:02.857076+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
   }
 ]
