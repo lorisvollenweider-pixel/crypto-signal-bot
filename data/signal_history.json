@@ -32759,9 +32759,9 @@
     "stop_loss": 1.0003309233166622,
     "take_profit": 0.9996381533666755,
     "timestamp": "2026-09-08T11:48:16.240624+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -32777,9 +32777,9 @@
     "stop_loss": 0.06923315190917458,
     "take_profit": 0.06352369618165087,
     "timestamp": "2026-09-08T11:48:16.240666+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.01,
     "best_favorable_pct": 1.01
   },
   {
@@ -34262,7 +34262,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.91
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "KITE",
@@ -34538,7 +34538,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "CRO",
@@ -34624,7 +34624,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 2.47
   },
   {
     "symbol": "RAIN",
@@ -34801,7 +34801,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "WLFI",
@@ -34850,6 +34850,41 @@
     "stop_loss": 0.1095019495911044,
     "take_profit": 0.12383610081779123,
     "timestamp": "2026-09-08T23:38:29.419079+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.2
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.00802,
+    "reasons": [
+      "RSI \u00fcberkauft (81.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.008363016090755859,
+    "take_profit": 0.007333967818488282,
+    "timestamp": "2026-09-08T23:50:22.736569+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01691,
+    "reasons": [
+      "Volumen-Spike (3.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.016733499193806123,
+    "take_profit": 0.017263001612387762,
+    "timestamp": "2026-09-08T23:50:23.794737+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
