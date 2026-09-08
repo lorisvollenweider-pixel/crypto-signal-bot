@@ -28757,9 +28757,9 @@
     "stop_loss": 1.0001013983408504,
     "take_profit": 0.9994972033182993,
     "timestamp": "2026-09-07T13:41:24.773409+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -29004,7 +29004,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.95
+    "best_favorable_pct": 16.05
   },
   {
     "symbol": "OP",
@@ -29074,7 +29074,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.71
+    "best_favorable_pct": 12.83
   },
   {
     "symbol": "NIGHT",
@@ -29542,7 +29542,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 1.78
   },
   {
     "symbol": "TIA",
@@ -29645,7 +29645,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "FIL",
@@ -29682,7 +29682,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.11
+    "best_favorable_pct": 4.71
   },
   {
     "symbol": "HYPE",
@@ -29788,7 +29788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 14.22
+    "best_favorable_pct": 14.34
   },
   {
     "symbol": "OP",
@@ -29858,7 +29858,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.86
+    "best_favorable_pct": 7.58
   },
   {
     "symbol": "UNI",
@@ -30001,7 +30001,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.97
+    "best_favorable_pct": 5.16
   },
   {
     "symbol": "MON",
@@ -30105,7 +30105,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "MORPHO",
@@ -30279,7 +30279,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.89
+    "best_favorable_pct": 4.58
   },
   {
     "symbol": "VVV",
@@ -30297,7 +30297,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.43
+    "best_favorable_pct": 3.12
   },
   {
     "symbol": "AKE",
@@ -30487,7 +30487,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "USDG",
@@ -30612,7 +30612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.34
+    "best_favorable_pct": 3.66
   },
   {
     "symbol": "STABLE",
@@ -30697,7 +30697,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "ALGO",
@@ -30750,7 +30750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "RENDER",
@@ -30904,7 +30904,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "ONDO",
@@ -31074,7 +31074,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.67
   },
   {
     "symbol": "INJ",
@@ -31179,7 +31179,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "ENS",
@@ -31196,6 +31196,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.64
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.5009,
+    "reasons": [
+      "RSI \u00fcberkauft (83.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.5279092933673157,
+    "take_profit": 0.4468814132653685,
+    "timestamp": "2026-09-08T01:42:30.112874+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
