@@ -31054,9 +31054,9 @@
     "stop_loss": 0.08857320725971873,
     "take_profit": 0.09708358548056256,
     "timestamp": "2026-09-08T00:53:23.433300+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.19,
     "best_favorable_pct": 0.19
   },
   {
@@ -31071,9 +31071,9 @@
     "stop_loss": 1.1196631539170545,
     "take_profit": 0.9658736921658908,
     "timestamp": "2026-09-08T00:53:23.433342+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.45,
     "best_favorable_pct": 1.45
   },
   {
@@ -31089,9 +31089,9 @@
     "stop_loss": 6.6068436254618375,
     "take_profit": 5.713312749076326,
     "timestamp": "2026-09-08T00:53:23.433369+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.39,
     "best_favorable_pct": 1.39
   },
   {
@@ -31106,9 +31106,9 @@
     "stop_loss": 0.00756519258052573,
     "take_profit": 0.00685661483894854,
     "timestamp": "2026-09-08T00:53:24.610307+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.09,
     "best_favorable_pct": 1.09
   },
   {
@@ -31123,9 +31123,9 @@
     "stop_loss": 0.08914912931700801,
     "take_profit": 0.102801741365984,
     "timestamp": "2026-09-08T00:53:24.610359+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.51,
     "best_favorable_pct": 6.51
   },
   {
@@ -31339,7 +31339,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.25
+    "best_favorable_pct": 4.28
   },
   {
     "symbol": "PYTH",
@@ -31565,7 +31565,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.88
+    "best_favorable_pct": 4.56
   },
   {
     "symbol": "VIRTUAL",
@@ -32028,7 +32028,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.67
+    "best_favorable_pct": 1.69
   },
   {
     "symbol": "WLFI",
@@ -32533,7 +32533,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "XPL",
@@ -32659,7 +32659,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 2.15
   },
   {
     "symbol": "XDC",
@@ -32676,7 +32676,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.7
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "APT",
@@ -32797,7 +32797,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "XLM",
@@ -32848,7 +32848,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "VVV",
@@ -32918,7 +32918,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "BTT",
@@ -32952,7 +32952,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "SHIB",
@@ -33072,7 +33072,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "SEI",
@@ -33090,5 +33090,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DOGE",
+    "kucoin_symbol": "DOGE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.08935,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.08655436604111474,
+    "take_profit": 0.09494126791777052,
+    "timestamp": "2026-09-08T13:02:05.953264+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "DOT",
+    "kucoin_symbol": "DOT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0863,
+    "reasons": [
+      "RSI \u00fcberkauft (73.3)"
+    ],
+    "stop_loss": 1.138626369882615,
+    "take_profit": 0.9816472602347706,
+    "timestamp": "2026-09-08T13:02:05.953295+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
