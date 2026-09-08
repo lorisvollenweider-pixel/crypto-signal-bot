@@ -30432,9 +30432,9 @@
     "stop_loss": 0.6719904605081125,
     "take_profit": 0.5982190789837748,
     "timestamp": "2026-09-07T21:57:08.808561+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.1,
     "best_favorable_pct": 3.1
   },
   {
@@ -31126,7 +31126,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.95
+    "best_favorable_pct": 5.55
   },
   {
     "symbol": "BCH",
@@ -32046,7 +32046,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.54
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "MON",
@@ -32132,7 +32132,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "CAKE",
@@ -32150,7 +32150,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 2.88
   },
   {
     "symbol": "TIA",
@@ -32253,7 +32253,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 2.48
   },
   {
     "symbol": "ATOM",
@@ -32322,7 +32322,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.04
+    "best_favorable_pct": 2.7
   },
   {
     "symbol": "APT",
@@ -32337,6 +32337,40 @@
     "stop_loss": 0.6851599155000749,
     "take_profit": 0.6054801689998501,
     "timestamp": "2026-09-08T09:38:49.545819+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0015,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.9998465346769577,
+    "take_profit": 1.0048069306460847,
+    "timestamp": "2026-09-08T10:10:34.102974+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01693,
+    "reasons": [
+      "Volumen-Spike (4.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.01675460442557922,
+    "take_profit": 0.01728079114884156,
+    "timestamp": "2026-09-08T10:10:34.103071+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
