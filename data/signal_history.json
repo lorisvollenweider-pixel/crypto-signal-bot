@@ -32638,9 +32638,9 @@
     "stop_loss": 0.06097448733430527,
     "take_profit": 0.05628102533138945,
     "timestamp": "2026-09-08T11:34:01.831308+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.6,
     "best_favorable_pct": 1.6
   },
   {
@@ -32656,9 +32656,9 @@
     "stop_loss": 7.811832199186562,
     "take_profit": 8.604335601626877,
     "timestamp": "2026-09-08T11:34:02.983606+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 8.94,
     "best_favorable_pct": 8.94
   },
   {
@@ -32673,9 +32673,9 @@
     "stop_loss": 0.029291339599743695,
     "take_profit": 0.02730732080051261,
     "timestamp": "2026-09-08T11:34:04.108943+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.98,
     "best_favorable_pct": 0.98
   },
   {
@@ -32690,9 +32690,9 @@
     "stop_loss": 0.6799063440715035,
     "take_profit": 0.5958873118569931,
     "timestamp": "2026-09-08T11:34:04.108960+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.65,
     "best_favorable_pct": 2.65
   },
   {
@@ -32707,9 +32707,9 @@
     "stop_loss": 0.1127857305844224,
     "take_profit": 0.12581853883115518,
     "timestamp": "2026-09-08T11:34:04.108984+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -32725,9 +32725,9 @@
     "stop_loss": 0.09041212989541701,
     "take_profit": 0.10657574020916598,
     "timestamp": "2026-09-08T11:34:04.108993+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.11,
     "best_favorable_pct": 5.11
   },
   {
@@ -32742,9 +32742,9 @@
     "stop_loss": 0.2148666844409834,
     "take_profit": 0.3456166311180332,
     "timestamp": "2026-09-08T11:34:05.206290+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 16.78,
     "best_favorable_pct": 16.78
   },
   {
@@ -33038,7 +33038,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.7
   },
   {
     "symbol": "PENGU",
@@ -34624,7 +34624,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "RAIN",
@@ -34801,7 +34801,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "WLFI",
@@ -34815,6 +34815,41 @@
     "stop_loss": 0.05734096218775165,
     "take_profit": 0.0542180756244967,
     "timestamp": "2026-09-08T23:24:35.404682+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.36
+  },
+  {
+    "symbol": "RAIN",
+    "kucoin_symbol": "RAIN-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.016028,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.016421082915465953,
+    "take_profit": 0.015241834169068094,
+    "timestamp": "2026-09-08T23:38:28.219582+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.11428,
+    "reasons": [
+      "Volumen-Spike (3.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.1095019495911044,
+    "take_profit": 0.12383610081779123,
+    "timestamp": "2026-09-08T23:38:29.419079+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
