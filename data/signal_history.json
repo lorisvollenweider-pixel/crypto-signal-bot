@@ -31921,9 +31921,9 @@
     "stop_loss": 77767.64671026712,
     "take_profit": 80652.60657946578,
     "timestamp": "2026-09-08T04:56:00.505254+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.28,
     "best_favorable_pct": 0.28
   },
   {
@@ -33245,7 +33245,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "HYPE",
@@ -33279,7 +33279,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.75
+    "best_favorable_pct": 1.92
   },
   {
     "symbol": "XPL",
@@ -33522,7 +33522,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "BTT",
@@ -33647,7 +33647,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "XRP",
@@ -33683,7 +33683,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.56
+    "best_favorable_pct": 2.16
   },
   {
     "symbol": "AAVE",
@@ -33839,7 +33839,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "U",
@@ -33924,6 +33924,57 @@
     "stop_loss": 0.1504164028064467,
     "take_profit": 0.1260071943871066,
     "timestamp": "2026-09-08T16:54:45.967306+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
+  },
+  {
+    "symbol": "MNT",
+    "kucoin_symbol": "MNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.6416,
+    "reasons": [
+      "RSI \u00fcberkauft (70.8)"
+    ],
+    "stop_loss": 0.6621658234311617,
+    "take_profit": 0.6004683531376763,
+    "timestamp": "2026-09-08T17:11:20.383983+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "LIT",
+    "kucoin_symbol": "LIT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4.888,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 4.585996148113995,
+    "take_profit": 5.4920077037720105,
+    "timestamp": "2026-09-08T17:11:20.384011+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 68.188,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 69.9533300943455,
+    "take_profit": 64.657339811309,
+    "timestamp": "2026-09-08T17:11:20.384021+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
