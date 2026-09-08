@@ -32354,9 +32354,9 @@
     "stop_loss": 0.9998465346769577,
     "take_profit": 1.0048069306460847,
     "timestamp": "2026-09-08T10:10:34.102974+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -32371,9 +32371,9 @@
     "stop_loss": 0.01675460442557922,
     "take_profit": 0.01728079114884156,
     "timestamp": "2026-09-08T10:10:34.103071+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.53,
     "best_favorable_pct": 0.53
   },
   {
@@ -33909,7 +33909,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "FF",
@@ -34262,7 +34262,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "KITE",
@@ -34280,7 +34280,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "BTC",
@@ -34453,7 +34453,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "VIRTUAL",
@@ -34624,7 +34624,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.66
   },
   {
     "symbol": "RAIN",
@@ -34713,7 +34713,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "ETC",
@@ -34732,5 +34732,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.1461,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 1.0859475968018906,
+    "take_profit": 1.2664048063962183,
+    "timestamp": "2026-09-08T22:26:46.051615+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
