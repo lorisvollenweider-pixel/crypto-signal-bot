@@ -32530,9 +32530,9 @@
     "stop_loss": 0.047794232183277295,
     "take_profit": 0.0533615356334454,
     "timestamp": "2026-09-08T10:58:13.940228+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.69,
     "best_favorable_pct": 3.69
   },
   {
@@ -32548,9 +32548,9 @@
     "stop_loss": 0.09001212989541701,
     "take_profit": 0.10617574020916598,
     "timestamp": "2026-09-08T10:58:13.940255+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.56,
     "best_favorable_pct": 5.56
   },
   {
@@ -32935,7 +32935,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "CC",
@@ -33540,7 +33540,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.53
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "BNB",
@@ -34521,7 +34521,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "USDG",
@@ -34642,7 +34642,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "PYUSD",
@@ -34695,7 +34695,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.0
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "HBAR",
@@ -34745,6 +34745,59 @@
     "stop_loss": 1.0859475968018906,
     "take_profit": 1.2664048063962183,
     "timestamp": "2026-09-08T22:26:46.051615+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.844,
+    "reasons": [
+      "RSI \u00fcberkauft (82.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.9086481686473689,
+    "take_profit": 1.7147036627052628,
+    "timestamp": "2026-09-08T23:08:52.654660+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.14905,
+    "reasons": [
+      "RSI \u00fcberkauft (86.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.15853559517339505,
+    "take_profit": 0.13007880965320984,
+    "timestamp": "2026-09-08T23:08:53.941109+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0494,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.047321075290448905,
+    "take_profit": 0.05355784941910218,
+    "timestamp": "2026-09-08T23:08:55.018161+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
