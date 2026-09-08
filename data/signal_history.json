@@ -32098,7 +32098,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.72
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "TRX",
@@ -32551,7 +32551,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.14
+    "best_favorable_pct": 3.88
   },
   {
     "symbol": "TRX",
@@ -32728,7 +32728,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.71
+    "best_favorable_pct": 3.44
   },
   {
     "symbol": "USELESS",
@@ -33452,7 +33452,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.81
+    "best_favorable_pct": 10.57
   },
   {
     "symbol": "HBAR",
@@ -33771,7 +33771,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.51
+    "best_favorable_pct": 8.44
   },
   {
     "symbol": "MORPHO",
@@ -33927,7 +33927,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "MNT",
@@ -33961,7 +33961,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "QNT",
@@ -34014,7 +34014,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "SUN",
@@ -34028,6 +34028,59 @@
     "stop_loss": 0.01703196111326165,
     "take_profit": 0.016516077773476707,
     "timestamp": "2026-09-08T17:43:39.535070+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 1.43637,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.4003970573074238,
+    "take_profit": 1.508315885385152,
+    "timestamp": "2026-09-08T18:15:48.888575+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.688e-06,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.7102634543888747e-06,
+    "take_profit": 1.6434730912222508e-06,
+    "timestamp": "2026-09-08T18:15:50.146361+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.01688,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.017051961113261647,
+    "take_profit": 0.016536077773476706,
+    "timestamp": "2026-09-08T18:15:50.146415+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
