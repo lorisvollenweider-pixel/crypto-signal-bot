@@ -36181,9 +36181,9 @@
     "stop_loss": 1.003722682088412,
     "take_profit": 0.9985546358231763,
     "timestamp": "2026-09-09T06:56:39.752570+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.53,
     "best_favorable_pct": 0.53
   },
   {
@@ -36199,9 +36199,9 @@
     "stop_loss": 28.824211727319213,
     "take_profit": 22.592576545361574,
     "timestamp": "2026-09-09T06:56:40.996758+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.99,
     "best_favorable_pct": 9.99
   },
   {
@@ -37950,7 +37950,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "PEPE",
@@ -37986,7 +37986,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "POL",
@@ -38105,7 +38105,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "NEAR",
@@ -38123,7 +38123,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "ZRO",
@@ -38140,7 +38140,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "QNT",
@@ -38157,7 +38157,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "USDS",
@@ -38175,5 +38175,24 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 3.595e-06,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 3.7375656686968714e-06,
+    "take_profit": 3.309868662606257e-06,
+    "timestamp": "2026-09-09T18:57:12.615480+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
