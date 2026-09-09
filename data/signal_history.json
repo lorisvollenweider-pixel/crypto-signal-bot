@@ -35627,9 +35627,9 @@
     "stop_loss": 88.01069303355206,
     "take_profit": 81.13261393289591,
     "timestamp": "2026-09-09T02:29:23.682608+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.7,
     "best_favorable_pct": 0.7
   },
   {
@@ -36255,7 +36255,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 5.43
   },
   {
     "symbol": "HYPE",
@@ -36893,7 +36893,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "MON",
@@ -37170,7 +37170,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 2.03
   },
   {
     "symbol": "APT",
@@ -37188,7 +37188,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.36
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "FLR",
@@ -37242,7 +37242,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 2.03
   },
   {
     "symbol": "ATOM",
@@ -37259,7 +37259,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "XPL",
@@ -37273,6 +37273,24 @@
     "stop_loss": 0.0905308583259164,
     "take_profit": 0.1078382833481672,
     "timestamp": "2026-09-09T14:19:33.770024+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.52
+  },
+  {
+    "symbol": "RAY",
+    "kucoin_symbol": "RAY-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.4024,
+    "reasons": [
+      "RSI \u00fcberkauft (70.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.5414839604415744,
+    "take_profit": 1.1242320791168514,
+    "timestamp": "2026-09-09T14:37:14.907378+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
