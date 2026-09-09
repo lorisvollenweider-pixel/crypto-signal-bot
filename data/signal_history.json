@@ -34868,9 +34868,9 @@
     "stop_loss": 0.008363016090755859,
     "take_profit": 0.007333967818488282,
     "timestamp": "2026-09-08T23:50:22.736569+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.14,
     "best_favorable_pct": 4.14
   },
   {
@@ -34885,9 +34885,9 @@
     "stop_loss": 0.016733499193806123,
     "take_profit": 0.017263001612387762,
     "timestamp": "2026-09-08T23:50:23.794737+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.47,
     "best_favorable_pct": 0.47
   },
   {
@@ -35007,7 +35007,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "ETC",
@@ -35299,7 +35299,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "WLD",
@@ -35419,7 +35419,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.09
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "WLFI",
@@ -35473,7 +35473,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.3
+    "best_favorable_pct": 1.78
   },
   {
     "symbol": "MORPHO",
@@ -35647,7 +35647,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "CRO",
@@ -36026,7 +36026,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.22
+    "best_favorable_pct": 8.63
   },
   {
     "symbol": "QNT",
@@ -36445,7 +36445,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "POL",
@@ -36549,7 +36549,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "BTT",
@@ -36584,7 +36584,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "HBAR",
@@ -36601,7 +36601,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "WLFI",
@@ -36619,7 +36619,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "PYUSD",
@@ -36670,7 +36670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "ZEC",
@@ -36689,5 +36689,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.56
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 4413.15,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (3.0x Durchschnitt)"
+    ],
+    "stop_loss": 4374.6356158330145,
+    "take_profit": 4490.178768333971,
+    "timestamp": "2026-09-09T11:53:20.552062+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
