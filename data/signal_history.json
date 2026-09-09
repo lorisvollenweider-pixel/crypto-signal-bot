@@ -34504,7 +34504,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.39
   },
   {
     "symbol": "STABLE",
@@ -34677,7 +34677,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.77
+    "best_favorable_pct": 5.94
   },
   {
     "symbol": "RAIN",
@@ -35007,7 +35007,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.24
   },
   {
     "symbol": "ETC",
@@ -35299,7 +35299,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "WLD",
@@ -35401,7 +35401,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.85
+    "best_favorable_pct": 3.02
   },
   {
     "symbol": "PAXG",
@@ -35419,7 +35419,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.03
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "WLFI",
@@ -36130,7 +36130,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.05
+    "best_favorable_pct": 1.53
   },
   {
     "symbol": "RAY",
@@ -36166,7 +36166,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.61
+    "best_favorable_pct": 2.98
   },
   {
     "symbol": "USDD",
@@ -36203,5 +36203,58 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.0986,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.0954867682327624,
+    "take_profit": 0.10482646353447518,
+    "timestamp": "2026-09-09T07:49:51.612949+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.8818,
+    "reasons": [
+      "RSI \u00fcberkauft (77.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.9553706780433784,
+    "take_profit": 1.734658643913243,
+    "timestamp": "2026-09-09T07:49:52.809332+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RAY",
+    "kucoin_symbol": "RAY-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.3315,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 1.1908922934018897,
+    "take_profit": 1.6127154131962205,
+    "timestamp": "2026-09-09T07:49:53.985388+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
