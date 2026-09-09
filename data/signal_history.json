@@ -33242,9 +33242,9 @@
     "stop_loss": 57.091635540437565,
     "take_profit": 50.576728919124875,
     "timestamp": "2026-09-08T13:56:43.487750+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.73,
     "best_favorable_pct": 1.73
   },
   {
@@ -33961,7 +33961,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "QNT",
@@ -34418,7 +34418,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.85
+    "best_favorable_pct": 5.44
   },
   {
     "symbol": "U",
@@ -34624,7 +34624,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.01
+    "best_favorable_pct": 3.95
   },
   {
     "symbol": "RAIN",
@@ -34801,7 +34801,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.4
   },
   {
     "symbol": "WLFI",
@@ -34853,7 +34853,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "VET",
@@ -34871,7 +34871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "SUN",
@@ -35162,7 +35162,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.66
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "PEPE",
@@ -35214,7 +35214,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.22
+    "best_favorable_pct": 1.52
   },
   {
     "symbol": "FF",
@@ -35333,7 +35333,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "BDX",
@@ -35350,7 +35350,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.66
   },
   {
     "symbol": "PENGU",
@@ -35490,7 +35490,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "ATOM",
@@ -35578,7 +35578,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 2.28
   },
   {
     "symbol": "XPL",
@@ -35595,6 +35595,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.3
+  },
+  {
+    "symbol": "BDX",
+    "kucoin_symbol": "BDX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.07639,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.7)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.07489969077859174,
+    "take_profit": 0.07937061844281652,
+    "timestamp": "2026-09-09T02:11:36.697526+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
