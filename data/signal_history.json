@@ -34569,9 +34569,9 @@
     "stop_loss": 1.3788709693709171,
     "take_profit": 1.4857580612581658,
     "timestamp": "2026-09-08T20:56:17.925305+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.98,
     "best_favorable_pct": 1.98
   },
   {
@@ -34586,9 +34586,9 @@
     "stop_loss": 0.7761996564918133,
     "take_profit": 0.8803006870163731,
     "timestamp": "2026-09-08T20:56:17.925340+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.12,
     "best_favorable_pct": 2.12
   },
   {
@@ -34603,9 +34603,9 @@
     "stop_loss": 5.435385617685183e-05,
     "take_profit": 4.915228764629634e-05,
     "timestamp": "2026-09-08T20:56:17.925400+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.13,
     "best_favorable_pct": 0.13
   },
   {
@@ -34621,9 +34621,9 @@
     "stop_loss": 0.23585889168450389,
     "take_profit": 0.25668221663099217,
     "timestamp": "2026-09-08T20:56:17.925409+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.86,
     "best_favorable_pct": 4.86
   },
   {
@@ -35144,7 +35144,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "CRO",
@@ -35888,7 +35888,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.97
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "APT",
@@ -36148,7 +36148,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.59
+    "best_favorable_pct": 10.7
   },
   {
     "symbol": "USELESS",
@@ -36376,7 +36376,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "ADA",
@@ -36480,5 +36480,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1254.031,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1324.3856155956962,
+    "take_profit": 1113.3217688086077,
+    "timestamp": "2026-09-09T09:10:00.893221+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
   }
 ]
