@@ -35592,9 +35592,9 @@
     "stop_loss": 0.09429843296658623,
     "take_profit": 0.11170313406682753,
     "timestamp": "2026-09-09T01:54:58.619761+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.3,
     "best_favorable_pct": 0.3
   },
   {
@@ -35613,7 +35613,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "HYPE",
@@ -36009,7 +36009,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.52
+    "best_favorable_pct": 1.78
   },
   {
     "symbol": "XTZ",
@@ -36043,7 +36043,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.09
+    "best_favorable_pct": 2.34
   },
   {
     "symbol": "USELESS",
@@ -36341,7 +36341,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 2.23
   },
   {
     "symbol": "BTC",
@@ -36445,7 +36445,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.34
+    "best_favorable_pct": 2.42
   },
   {
     "symbol": "POL",
@@ -36584,7 +36584,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.64
+    "best_favorable_pct": 1.72
   },
   {
     "symbol": "HBAR",
@@ -36723,7 +36723,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "SOL",
@@ -36791,7 +36791,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "NEAR",
@@ -36808,7 +36808,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.88
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "ARB",
@@ -37188,7 +37188,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "FLR",
@@ -37207,5 +37207,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 25.323,
+    "reasons": [
+      "RSI \u00fcberkauft (70.2)",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 27.97373393234736,
+    "take_profit": 20.02153213530528,
+    "timestamp": "2026-09-09T13:59:29.558274+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.9525,
+    "reasons": [
+      "RSI \u00fcberkauft (80.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 2.038207770917029,
+    "take_profit": 1.781084458165941,
+    "timestamp": "2026-09-09T13:59:30.710658+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
   }
 ]
