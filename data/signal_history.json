@@ -36040,9 +36040,9 @@
     "stop_loss": 70.58544258654699,
     "take_profit": 65.32211482690603,
     "timestamp": "2026-09-09T05:42:44.033626+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.17,
     "best_favorable_pct": 3.17
   },
   {
@@ -36057,9 +36057,9 @@
     "stop_loss": 0.354364176906645,
     "take_profit": 0.21731164618670998,
     "timestamp": "2026-09-09T05:42:44.033666+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 15.75,
     "best_favorable_pct": 15.75
   },
   {
@@ -36757,7 +36757,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "CC",
@@ -36961,7 +36961,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.54
+    "best_favorable_pct": 1.69
   },
   {
     "symbol": "STX",
@@ -37206,7 +37206,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "VVV",
@@ -38054,7 +38054,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.54
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "AVAX",
@@ -38071,7 +38071,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "XTZ",
@@ -38088,7 +38088,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "ALGO",
@@ -38123,7 +38123,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "ZRO",
@@ -38141,5 +38141,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 66.985,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 68.87872002802402,
+    "take_profit": 63.19755994395195,
+    "timestamp": "2026-09-09T17:51:25.651840+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
