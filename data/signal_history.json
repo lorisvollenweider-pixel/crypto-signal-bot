@@ -34815,9 +34815,9 @@
     "stop_loss": 0.05734096218775165,
     "take_profit": 0.0542180756244967,
     "timestamp": "2026-09-08T23:24:35.404682+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.24,
     "best_favorable_pct": 1.24
   },
   {
@@ -34833,9 +34833,9 @@
     "stop_loss": 0.016421082915465953,
     "take_profit": 0.015241834169068094,
     "timestamp": "2026-09-08T23:38:28.219582+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.22,
     "best_favorable_pct": 1.22
   },
   {
@@ -34850,9 +34850,9 @@
     "stop_loss": 0.1095019495911044,
     "take_profit": 0.12383610081779123,
     "timestamp": "2026-09-08T23:38:29.419079+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.58,
     "best_favorable_pct": 1.58
   },
   {
@@ -36009,7 +36009,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.72
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "XTZ",
@@ -36043,7 +36043,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.29
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "USELESS",
@@ -36549,7 +36549,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.55
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "BTT",
@@ -36601,7 +36601,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "WLFI",
@@ -36670,6 +36670,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.71
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1270.148,
+    "reasons": [
+      "RSI \u00fcberkauft (70.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1342.426365595696,
+    "take_profit": 1125.5912688086075,
+    "timestamp": "2026-09-09T11:39:14.686189+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.56
   }
 ]
