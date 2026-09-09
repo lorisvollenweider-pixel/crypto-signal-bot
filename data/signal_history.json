@@ -34728,10 +34728,10 @@
     "stop_loss": 8.940663332727484,
     "take_profit": 7.880573334545034,
     "timestamp": "2026-09-08T22:10:02.857076+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 2.38
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.02,
+    "best_favorable_pct": 2.74
   },
   {
     "symbol": "ZRO",
@@ -35024,7 +35024,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.21
+    "best_favorable_pct": 3.57
   },
   {
     "symbol": "ARB",
@@ -35316,7 +35316,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.13
+    "best_favorable_pct": 2.54
   },
   {
     "symbol": "SKY",
@@ -35888,7 +35888,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.88
+    "best_favorable_pct": 3.03
   },
   {
     "symbol": "APT",
@@ -36026,7 +36026,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 2.85
   },
   {
     "symbol": "QNT",
@@ -36341,7 +36341,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "BTC",
@@ -36376,7 +36376,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.16
   },
   {
     "symbol": "ADA",
@@ -36549,6 +36549,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.27
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.165e-07,
+    "reasons": [
+      "RSI \u00fcberkauft (72.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.2276439171603777e-07,
+    "take_profit": 3.039712165679245e-07,
+    "timestamp": "2026-09-09T10:19:20.797129+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
