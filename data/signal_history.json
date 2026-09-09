@@ -34171,9 +34171,9 @@
     "stop_loss": 1.4645261569782904,
     "take_profit": 1.3565976860434192,
     "timestamp": "2026-09-08T18:54:28.659421+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.17,
     "best_favorable_pct": 1.17
   },
   {
@@ -34189,9 +34189,9 @@
     "stop_loss": 4338.389794266677,
     "take_profit": 4441.620411466646,
     "timestamp": "2026-09-08T18:54:29.881040+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.69,
     "best_favorable_pct": 0.69
   },
   {
@@ -34207,9 +34207,9 @@
     "stop_loss": 4337.167748541514,
     "take_profit": 4446.9745029169735,
     "timestamp": "2026-09-08T18:54:30.923211+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.77,
     "best_favorable_pct": 0.77
   },
   {
@@ -34224,9 +34224,9 @@
     "stop_loss": 0.09643492202434337,
     "take_profit": 0.10803015595131327,
     "timestamp": "2026-09-08T18:54:31.965987+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.69,
     "best_favorable_pct": 1.69
   },
   {
@@ -34504,7 +34504,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "STABLE",
@@ -34677,7 +34677,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.37
+    "best_favorable_pct": 5.45
   },
   {
     "symbol": "RAIN",
@@ -34731,7 +34731,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.21
   },
   {
     "symbol": "ZRO",
@@ -34871,7 +34871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "SUN",
@@ -35024,7 +35024,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 2.06
   },
   {
     "symbol": "ARB",
@@ -35248,7 +35248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.4
+    "best_favorable_pct": 3.99
   },
   {
     "symbol": "SYRUP",
@@ -35350,7 +35350,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.17
+    "best_favorable_pct": 2.54
   },
   {
     "symbol": "PENGU",
@@ -35401,7 +35401,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.46
+    "best_favorable_pct": 2.51
   },
   {
     "symbol": "PAXG",
@@ -36112,7 +36112,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "ETHFI",
@@ -36130,7 +36130,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "RAY",
@@ -36148,7 +36148,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 3.58
   },
   {
     "symbol": "USELESS",
@@ -36167,5 +36167,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.65
+  },
+  {
+    "symbol": "USDD",
+    "kucoin_symbol": "USDD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.002,
+    "reasons": [
+      "RSI \u00fcberkauft (75.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.003722682088412,
+    "take_profit": 0.9985546358231763,
+    "timestamp": "2026-09-09T06:56:39.752570+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.27
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 26.747,
+    "reasons": [
+      "RSI \u00fcberkauft (86.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 28.824211727319213,
+    "take_profit": 22.592576545361574,
+    "timestamp": "2026-09-09T06:56:40.996758+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
