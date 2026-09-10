@@ -39221,7 +39221,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "TAO",
@@ -39972,7 +39972,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.91
+    "best_favorable_pct": 0.97
   },
   {
     "symbol": "XRP",
@@ -40576,7 +40576,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "PEPE",
@@ -41027,7 +41027,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "SEI",
@@ -41059,6 +41059,78 @@
     "stop_loss": 0.1144114815955812,
     "take_profit": 0.0995570368088376,
     "timestamp": "2026-09-10T11:44:55.376299+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 52.2,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 50.462453025601114,
+    "take_profit": 55.67509394879779,
+    "timestamp": "2026-09-10T11:56:51.941690+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AAVE",
+    "kucoin_symbol": "AAVE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 122.889,
+    "reasons": [
+      "RSI \u00fcberverkauft (30.0)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 118.3137909653348,
+    "take_profit": 132.0394180693304,
+    "timestamp": "2026-09-10T11:56:51.941724+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.03829,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.03605395165861355,
+    "take_profit": 0.04276209668277288,
+    "timestamp": "2026-09-10T11:56:53.037633+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.093,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.0x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.09685504665366897,
+    "take_profit": 0.08528990669266208,
+    "timestamp": "2026-09-10T11:56:54.079216+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
