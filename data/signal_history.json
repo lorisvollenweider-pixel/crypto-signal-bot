@@ -40143,9 +40143,9 @@
     "stop_loss": 0.05552716698353488,
     "take_profit": 0.05874566603293024,
     "timestamp": "2026-09-10T04:46:12.072694+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.71,
     "best_favorable_pct": 0.71
   },
   {
@@ -40160,9 +40160,9 @@
     "stop_loss": 0.32519294705959156,
     "take_profit": 0.37591410588081686,
     "timestamp": "2026-09-10T04:46:12.072738+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.51,
     "best_favorable_pct": 2.51
   },
   {
@@ -40177,9 +40177,9 @@
     "stop_loss": 1.1195669525852778,
     "take_profit": 0.9303660948294445,
     "timestamp": "2026-09-10T04:46:12.072753+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.51,
     "best_favorable_pct": 2.51
   },
   {
@@ -40889,7 +40889,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 1.07
   },
   {
     "symbol": "TRX",
@@ -41275,7 +41275,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.65
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "RENDER",
@@ -41309,7 +41309,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "ETH",
@@ -41327,7 +41327,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "XRP",
@@ -41655,7 +41655,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.51
   },
   {
     "symbol": "XMR",
@@ -41831,7 +41831,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "HYPE",
@@ -42302,7 +42302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "USDG",
@@ -42353,7 +42353,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "HYPE",
@@ -42371,7 +42371,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.65
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "CC",
@@ -42389,7 +42389,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "HBAR",
@@ -42406,7 +42406,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "ASTER",
@@ -42424,7 +42424,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "SKY",
@@ -42442,7 +42442,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "PYTH",
@@ -42459,7 +42459,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "ASTER",
@@ -42476,6 +42476,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.33
+  },
+  {
+    "symbol": "ETH",
+    "kucoin_symbol": "ETH-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2446.97,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2493.7176407933216,
+    "take_profit": 2353.4747184133566,
+    "timestamp": "2026-09-10T16:57:34.934545+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0336,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.0964637606835015,
+    "take_profit": 0.9078724786329972,
+    "timestamp": "2026-09-10T16:57:36.166517+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
