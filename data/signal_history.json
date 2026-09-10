@@ -40245,9 +40245,9 @@
     "stop_loss": 243.9766137025316,
     "take_profit": 267.0567725949367,
     "timestamp": "2026-09-10T05:59:20.992212+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -42251,7 +42251,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "BNB",
@@ -42336,7 +42336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "SPX",
@@ -42511,7 +42511,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "SOL",
@@ -42564,7 +42564,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "XTZ",
@@ -42598,7 +42598,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "TUSD",
@@ -42630,6 +42630,40 @@
     "stop_loss": 0.6713152051394748,
     "take_profit": 0.5788695897210502,
     "timestamp": "2026-09-10T17:56:43.333113+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 1.09
+  },
+  {
+    "symbol": "XAUT",
+    "kucoin_symbol": "XAUT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4342.1,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 4300.630751485927,
+    "take_profit": 4425.038497028147,
+    "timestamp": "2026-09-10T18:17:08.337572+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4347.29,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 4303.451340957463,
+    "take_profit": 4434.967318085074,
+    "timestamp": "2026-09-10T18:17:08.337606+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
