@@ -37221,9 +37221,9 @@
     "stop_loss": 27.97373393234736,
     "take_profit": 20.02153213530528,
     "timestamp": "2026-09-09T13:59:29.558274+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 11.44,
     "best_favorable_pct": 11.44
   },
   {
@@ -37239,10 +37239,10 @@
     "stop_loss": 2.038207770917029,
     "take_profit": 1.781084458165941,
     "timestamp": "2026-09-09T13:59:30.710658+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 5.99
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.44,
+    "best_favorable_pct": 6.38
   },
   {
     "symbol": "ATOM",
@@ -37259,7 +37259,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.92
+    "best_favorable_pct": 5.3
   },
   {
     "symbol": "XPL",
@@ -37569,7 +37569,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.18
+    "best_favorable_pct": 4.25
   },
   {
     "symbol": "HTX",
@@ -37898,7 +37898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.72
+    "best_favorable_pct": 2.77
   },
   {
     "symbol": "BCH",
@@ -38434,7 +38434,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.59
+    "best_favorable_pct": 1.77
   },
   {
     "symbol": "KITE",
@@ -38664,7 +38664,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.96
+    "best_favorable_pct": 1.99
   },
   {
     "symbol": "SPX",
@@ -38716,7 +38716,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "ADA",
@@ -39083,7 +39083,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "ETH",
@@ -39306,7 +39306,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "STABLE",
@@ -39375,7 +39375,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "LUNC",
@@ -39461,7 +39461,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.64
   },
   {
     "symbol": "SUN",
@@ -39564,7 +39564,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "DOGE",
@@ -39601,7 +39601,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "ARB",
@@ -39616,6 +39616,40 @@
     "stop_loss": 0.13231073175736316,
     "take_profit": 0.1730785364852737,
     "timestamp": "2026-09-10T01:48:37.465948+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 56.95,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 52.015429305628814,
+    "take_profit": 66.81914138874238,
+    "timestamp": "2026-09-10T02:00:18.230147+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.007616,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.007253402928876734,
+    "take_profit": 0.008341194142246532,
+    "timestamp": "2026-09-10T02:00:18.230170+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
