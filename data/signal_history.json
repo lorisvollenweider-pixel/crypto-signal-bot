@@ -39083,7 +39083,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.14
+    "best_favorable_pct": 6.47
   },
   {
     "symbol": "ETH",
@@ -40627,7 +40627,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "ZRO",
@@ -40679,7 +40679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "XTZ",
@@ -40745,6 +40745,58 @@
     "stop_loss": 0.761197761817394,
     "take_profit": 0.867704476365212,
     "timestamp": "2026-09-10T08:59:34.795698+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.55
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0004,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.000613278594468,
+    "take_profit": 0.9999734428110639,
+    "timestamp": "2026-09-10T09:19:49.417236+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.0526,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.1157242593379502,
+    "take_profit": 0.9263514813240996,
+    "timestamp": "2026-09-10T09:19:49.417305+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "PIEVERSE",
+    "kucoin_symbol": "PIEVERSE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.3468,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 1.2519206401898448,
+    "take_profit": 1.5365587196203103,
+    "timestamp": "2026-09-10T09:19:50.684913+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
