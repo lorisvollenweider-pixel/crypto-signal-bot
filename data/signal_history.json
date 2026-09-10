@@ -39739,9 +39739,9 @@
     "stop_loss": 1.9618613543441041,
     "take_profit": 1.699777291311792,
     "timestamp": "2026-09-10T02:50:59.791844+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.85,
     "best_favorable_pct": 4.85
   },
   {
@@ -40214,7 +40214,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.11
+    "best_favorable_pct": 3.62
   },
   {
     "symbol": "VIRTUAL",
@@ -40679,7 +40679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.7
   },
   {
     "symbol": "XTZ",
@@ -41516,7 +41516,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "BTC",
@@ -41655,7 +41655,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 2.18
   },
   {
     "symbol": "XMR",
@@ -41938,7 +41938,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "MORPHO",
@@ -41955,7 +41955,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "ENA",
@@ -41989,7 +41989,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "VET",
@@ -42006,6 +42006,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.48
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.00834,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.007883757731589931,
+    "take_profit": 0.009252484536820137,
+    "timestamp": "2026-09-10T14:52:34.782665+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XPL",
+    "kucoin_symbol": "XPL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0878,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.08203925836976096,
+    "take_profit": 0.09932148326047809,
+    "timestamp": "2026-09-10T14:52:35.814980+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
