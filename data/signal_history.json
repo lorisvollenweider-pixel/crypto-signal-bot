@@ -40435,9 +40435,9 @@
     "stop_loss": 0.0825127620060066,
     "take_profit": 0.09111447598798679,
     "timestamp": "2026-09-10T07:53:05.404903+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.07,
     "best_favorable_pct": 0.07
   },
   {
@@ -40453,9 +40453,9 @@
     "stop_loss": 0.09987050582558522,
     "take_profit": 0.08945898834882954,
     "timestamp": "2026-09-10T07:53:06.556723+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.81,
     "best_favorable_pct": 5.81
   },
   {
@@ -40470,9 +40470,9 @@
     "stop_loss": 0.656871869575091,
     "take_profit": 0.558856260849818,
     "timestamp": "2026-09-10T07:53:07.668791+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.63,
     "best_favorable_pct": 1.63
   },
   {
@@ -41482,7 +41482,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "CRV",
@@ -41743,7 +41743,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 1.82
   },
   {
     "symbol": "MON",
@@ -42164,7 +42164,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.23
+    "best_favorable_pct": 2.91
   },
   {
     "symbol": "VET",
@@ -42336,7 +42336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "SPX",
@@ -42755,7 +42755,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "KAS",
@@ -42790,5 +42790,75 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 1.94
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 99.7,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 97.06984072011034,
+    "take_profit": 104.96031855977934,
+    "timestamp": "2026-09-10T19:54:53.308980+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.1437,
+    "reasons": [
+      "RSI \u00fcberverkauft (28.2)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.13522001054738292,
+    "take_profit": 0.16065997890523415,
+    "timestamp": "2026-09-10T19:54:54.595608+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.007854,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.008316673830624049,
+    "take_profit": 0.006928652338751902,
+    "timestamp": "2026-09-10T19:54:55.823622+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "APT",
+    "kucoin_symbol": "APT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.6272,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.6610780381764226,
+    "take_profit": 0.5594439236471546,
+    "timestamp": "2026-09-10T19:54:55.823655+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
