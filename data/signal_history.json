@@ -38051,9 +38051,9 @@
     "stop_loss": 0.05443238185037097,
     "take_profit": 0.05733523629925805,
     "timestamp": "2026-09-09T16:36:23.027214+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.35,
     "best_favorable_pct": 2.35
   },
   {
@@ -38664,7 +38664,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.99
+    "best_favorable_pct": 2.84
   },
   {
     "symbol": "SPX",
@@ -39289,7 +39289,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.62
+    "best_favorable_pct": 2.22
   },
   {
     "symbol": "KCS",
@@ -39619,7 +39619,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.43
+    "best_favorable_pct": 4.04
   },
   {
     "symbol": "DASH",
@@ -39670,7 +39670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.79
+    "best_favorable_pct": 2.8
   },
   {
     "symbol": "U",
@@ -39742,7 +39742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 2.96
   },
   {
     "symbol": "XMR",
@@ -39972,7 +39972,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "XRP",
@@ -39990,7 +39990,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "RAIN",
@@ -40024,7 +40024,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "VVV",
@@ -40058,7 +40058,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.8
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "SPX",
@@ -40076,7 +40076,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "XLM",
@@ -40093,7 +40093,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "U",
@@ -40130,5 +40130,56 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.41
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0566,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.05552716698353488,
+    "take_profit": 0.05874566603293024,
+    "timestamp": "2026-09-10T04:46:12.072694+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.3421,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.32519294705959156,
+    "take_profit": 0.37591410588081686,
+    "timestamp": "2026-09-10T04:46:12.072738+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0565,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.1195669525852778,
+    "take_profit": 0.9303660948294445,
+    "timestamp": "2026-09-10T04:46:12.072753+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.36
   }
 ]
