@@ -39063,9 +39063,9 @@
     "stop_loss": 0.04520090806902364,
     "take_profit": 0.05185818386195272,
     "timestamp": "2026-09-09T23:36:00.722683+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.08,
     "best_favorable_pct": 0.08
   },
   {
@@ -39080,9 +39080,9 @@
     "stop_loss": 0.11820716790001547,
     "take_profit": 0.10414566419996907,
     "timestamp": "2026-09-09T23:36:00.722713+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.47,
     "best_favorable_pct": 6.47
   },
   {
@@ -40334,7 +40334,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "KAS",
@@ -40748,7 +40748,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 1.83
   },
   {
     "symbol": "USDC",
@@ -41007,6 +41007,58 @@
     "stop_loss": 0.5168178015600027,
     "take_profit": 0.4261643968799945,
     "timestamp": "2026-09-10T11:28:38.791859+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETHFI",
+    "kucoin_symbol": "ETHFI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.6447,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.6790456352972521,
+    "take_profit": 0.5760087294054959,
+    "timestamp": "2026-09-10T11:44:55.376260+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.04617,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.04413575168229662,
+    "take_profit": 0.050238496635406756,
+    "timestamp": "2026-09-10T11:44:55.376290+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.26
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.10946,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (5.4x Durchschnitt)"
+    ],
+    "stop_loss": 0.1144114815955812,
+    "take_profit": 0.0995570368088376,
+    "timestamp": "2026-09-10T11:44:55.376299+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
