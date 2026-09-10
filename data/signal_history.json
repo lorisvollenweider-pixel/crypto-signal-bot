@@ -40041,7 +40041,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.4
+    "best_favorable_pct": 4.53
   },
   {
     "symbol": "ALGO",
@@ -40214,7 +40214,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.04
+    "best_favorable_pct": 2.75
   },
   {
     "symbol": "VIRTUAL",
@@ -40299,7 +40299,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 2.51
   },
   {
     "symbol": "HBAR",
@@ -40352,7 +40352,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.52
+    "best_favorable_pct": 4.23
   },
   {
     "symbol": "STABLE",
@@ -40541,7 +40541,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.99
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "SHIB",
@@ -40593,7 +40593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.31
+    "best_favorable_pct": 3.9
   },
   {
     "symbol": "SKY",
@@ -41655,7 +41655,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "XMR",
@@ -41831,7 +41831,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "HYPE",
@@ -41846,6 +41846,77 @@
     "stop_loss": 83.81837183793175,
     "take_profit": 75.66325632413648,
     "timestamp": "2026-09-10T14:00:27.057609+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.44
+  },
+  {
+    "symbol": "ONDO",
+    "kucoin_symbol": "ONDO-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.34856,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.3626141436612588,
+    "take_profit": 0.3204517126774823,
+    "timestamp": "2026-09-10T14:19:40.472676+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9993,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 1.0001660617943167,
+    "take_profit": 0.9975678764113667,
+    "timestamp": "2026-09-10T14:19:41.505686+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETHFI",
+    "kucoin_symbol": "ETHFI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.6722,
+    "reasons": [
+      "RSI \u00fcberkauft (72.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.7109716105238509,
+    "take_profit": 0.5946567789522981,
+    "timestamp": "2026-09-10T14:19:41.505724+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CFX",
+    "kucoin_symbol": "CFX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.04632,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.8)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.04483206501757553,
+    "take_profit": 0.049295869964848936,
+    "timestamp": "2026-09-10T14:19:42.532432+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
