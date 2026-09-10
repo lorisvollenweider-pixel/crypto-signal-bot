@@ -39791,9 +39791,9 @@
     "stop_loss": 79454.90389683361,
     "take_profit": 76156.0922063328,
     "timestamp": "2026-09-10T03:40:23.098237+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.98,
     "best_favorable_pct": 1.98
   },
   {
@@ -39809,9 +39809,9 @@
     "stop_loss": 0.33717128541154334,
     "take_profit": 0.3459574291769133,
     "timestamp": "2026-09-10T03:40:23.098273+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.21,
     "best_favorable_pct": 0.21
   },
   {
@@ -39826,9 +39826,9 @@
     "stop_loss": 0.007191038899009733,
     "take_profit": 0.008339922201980534,
     "timestamp": "2026-09-10T03:40:24.209483+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.24,
     "best_favorable_pct": 1.24
   },
   {
@@ -41275,7 +41275,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "RENDER",
@@ -41760,7 +41760,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.82
+    "best_favorable_pct": 1.86
   },
   {
     "symbol": "U",
@@ -42113,7 +42113,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "PUMP",
@@ -42130,7 +42130,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "HTX",
@@ -42183,5 +42183,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.56
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.030286,
+    "reasons": [
+      "Volumen-Spike (3.2x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.029406537978221823,
+    "take_profit": 0.032044924043556355,
+    "timestamp": "2026-09-10T15:42:41.261013+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.007464,
+    "reasons": [
+      "RSI \u00fcberverkauft (27.1)"
+    ],
+    "stop_loss": 0.007109581137771886,
+    "take_profit": 0.00817283772445623,
+    "timestamp": "2026-09-10T15:42:42.379351+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
   }
 ]
