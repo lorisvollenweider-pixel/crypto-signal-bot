@@ -38190,9 +38190,9 @@
     "stop_loss": 3.7375656686968714e-06,
     "take_profit": 3.309868662606257e-06,
     "timestamp": "2026-09-09T18:57:12.615480+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.67,
     "best_favorable_pct": 4.67
   },
   {
@@ -38468,7 +38468,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "UNI",
@@ -38734,7 +38734,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 2.38
   },
   {
     "symbol": "LTC",
@@ -38891,7 +38891,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "FET",
@@ -39358,7 +39358,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.96
   },
   {
     "symbol": "DCR",
@@ -40076,7 +40076,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.99
+    "best_favorable_pct": 4.54
   },
   {
     "symbol": "XLM",
@@ -40282,6 +40282,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.34
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.03784,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.03992724949815511,
+    "take_profit": 0.03366550100368977,
+    "timestamp": "2026-09-10T07:00:45.987768+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
   }
 ]
