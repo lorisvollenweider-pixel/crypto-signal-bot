@@ -40850,9 +40850,9 @@
     "stop_loss": 0.09845861808224039,
     "take_profit": 0.08808276383551922,
     "timestamp": "2026-09-10T09:51:57.052272+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.42,
     "best_favorable_pct": 4.42
   },
   {
@@ -40868,9 +40868,9 @@
     "stop_loss": 3.3147772289288993e-07,
     "take_profit": 3.0844455421422006e-07,
     "timestamp": "2026-09-10T09:51:58.201036+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.86,
     "best_favorable_pct": 3.86
   },
   {
@@ -40941,7 +40941,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "AAVE",
@@ -41379,7 +41379,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "BCH",
@@ -42459,7 +42459,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.24
+    "best_favorable_pct": 3.43
   },
   {
     "symbol": "ASTER",
@@ -42755,7 +42755,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 1.67
   },
   {
     "symbol": "KAS",
@@ -42772,7 +42772,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "RAY",
@@ -42842,7 +42842,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.59
+    "best_favorable_pct": 1.66
   },
   {
     "symbol": "APT",
@@ -43012,7 +43012,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.62
+    "best_favorable_pct": 0.98
   },
   {
     "symbol": "BTT",
@@ -43065,5 +43065,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "TAO",
+    "kucoin_symbol": "TAO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 240.36,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 252.19648215118457,
+    "take_profit": 216.68703569763093,
+    "timestamp": "2026-09-10T21:52:57.942095+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
   }
 ]
