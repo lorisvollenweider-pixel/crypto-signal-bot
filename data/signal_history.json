@@ -37256,9 +37256,9 @@
     "stop_loss": 2.016107770917029,
     "take_profit": 1.758984458165941,
     "timestamp": "2026-09-09T14:19:33.769974+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.3,
     "best_favorable_pct": 5.3
   },
   {
@@ -37273,9 +37273,9 @@
     "stop_loss": 0.0905308583259164,
     "take_profit": 0.1078382833481672,
     "timestamp": "2026-09-09T14:19:33.770024+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.93,
     "best_favorable_pct": 0.93
   },
   {
@@ -38037,7 +38037,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.63
+    "best_favorable_pct": 2.96
   },
   {
     "symbol": "WLFI",
@@ -38400,7 +38400,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 1.89
   },
   {
     "symbol": "KCS",
@@ -38521,7 +38521,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.28
+    "best_favorable_pct": 4.34
   },
   {
     "symbol": "SHIB",
@@ -39049,7 +39049,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "SEI",
@@ -39083,7 +39083,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.76
   },
   {
     "symbol": "ETH",
@@ -39375,7 +39375,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.79
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "LUNC",
@@ -39461,7 +39461,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.64
+    "best_favorable_pct": 2.47
   },
   {
     "symbol": "SUN",
@@ -39619,7 +39619,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "DASH",
@@ -39636,7 +39636,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "VET",
@@ -39650,6 +39650,42 @@
     "stop_loss": 0.007253402928876734,
     "take_profit": 0.008341194142246532,
     "timestamp": "2026-09-10T02:00:18.230170+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.6
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.2748,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.7)"
+    ],
+    "stop_loss": 2.178788604942708,
+    "take_profit": 2.466822790114584,
+    "timestamp": "2026-09-10T02:20:14.752414+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.9997,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (4.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.9991227005262789,
+    "take_profit": 1.0008545989474422,
+    "timestamp": "2026-09-10T02:20:14.752438+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
