@@ -40262,9 +40262,9 @@
     "stop_loss": 0.9992024465196934,
     "take_profit": 1.0009951069606133,
     "timestamp": "2026-09-10T06:25:10.203308+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -42164,7 +42164,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "VET",
@@ -42616,7 +42616,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "VIRTUAL",
@@ -42664,6 +42664,23 @@
     "stop_loss": 4303.451340957463,
     "take_profit": 4434.967318085074,
     "timestamp": "2026-09-10T18:17:08.337606+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDD",
+    "kucoin_symbol": "USDD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9972,
+    "reasons": [
+      "Volumen-Spike (13.6x Durchschnitt)"
+    ],
+    "stop_loss": 1.0014363403946471,
+    "take_profit": 0.9887273192107058,
+    "timestamp": "2026-09-10T18:35:18.217430+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
