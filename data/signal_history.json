@@ -39561,9 +39561,9 @@
     "stop_loss": 0.02347067583296074,
     "take_profit": 0.02016864833407853,
     "timestamp": "2026-09-10T01:32:54.506785+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.25,
     "best_favorable_pct": 1.25
   },
   {
@@ -39725,7 +39725,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.7
+    "best_favorable_pct": 3.22
   },
   {
     "symbol": "ATOM",
@@ -40299,7 +40299,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "HBAR",
@@ -40352,7 +40352,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.92
+    "best_favorable_pct": 2.52
   },
   {
     "symbol": "STABLE",
@@ -40369,7 +40369,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.9
+    "best_favorable_pct": 4.97
   },
   {
     "symbol": "VET",
@@ -40420,7 +40420,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.73
+    "best_favorable_pct": 3.25
   },
   {
     "symbol": "DOGE",
@@ -40871,7 +40871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.03
+    "best_favorable_pct": 3.55
   },
   {
     "symbol": "SKY",
@@ -40941,7 +40941,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "AAVE",
@@ -41431,7 +41431,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "AVAX",
@@ -41516,7 +41516,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "BTC",
@@ -41568,7 +41568,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "PEPE",
@@ -41603,7 +41603,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "CAKE",
@@ -41637,7 +41637,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.13
+    "best_favorable_pct": 2.78
   },
   {
     "symbol": "KITE",
@@ -41690,7 +41690,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "SUI",
@@ -41707,7 +41707,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "SHIB",
@@ -41725,7 +41725,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "XDC",
@@ -41743,7 +41743,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "MON",
@@ -41760,6 +41760,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.91
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9996,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.9987446524913977,
+    "take_profit": 1.0013106950172048,
+    "timestamp": "2026-09-10T13:33:49.786794+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.030151,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.029301323692507538,
+    "take_profit": 0.03185035261498492,
+    "timestamp": "2026-09-10T13:33:49.786819+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
