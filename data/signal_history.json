@@ -40279,9 +40279,9 @@
     "stop_loss": 0.10310102041984918,
     "take_profit": 0.11062795916030162,
     "timestamp": "2026-09-10T06:45:27.858637+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.34,
     "best_favorable_pct": 0.34
   },
   {
@@ -41379,7 +41379,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "BCH",
@@ -41620,7 +41620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "FF",
@@ -41795,7 +41795,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "SOL",
@@ -42200,7 +42200,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "PENGU",
@@ -42336,7 +42336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.25
+    "best_favorable_pct": 1.56
   },
   {
     "symbol": "SPX",
@@ -42681,6 +42681,77 @@
     "stop_loss": 1.0014363403946471,
     "take_profit": 0.9887273192107058,
     "timestamp": "2026-09-10T18:35:18.217430+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "XMR",
+    "kucoin_symbol": "XMR-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 515.12,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 492.9376777365511,
+    "take_profit": 559.4846445268978,
+    "timestamp": "2026-09-10T18:51:43.545988+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "BCH",
+    "kucoin_symbol": "BCH-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 227.18,
+    "reasons": [
+      "RSI \u00fcberverkauft (20.9)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 217.5909879074831,
+    "take_profit": 246.3580241850338,
+    "timestamp": "2026-09-10T18:51:44.703853+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.10365,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.10128376667574436,
+    "take_profit": 0.10838246664851128,
+    "timestamp": "2026-09-10T18:51:45.794526+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.030348,
+    "reasons": [
+      "RSI \u00fcberkauft (70.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.031226890364758158,
+    "take_profit": 0.028590219270483684,
+    "timestamp": "2026-09-10T18:51:45.794539+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
