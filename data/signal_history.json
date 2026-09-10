@@ -38054,7 +38054,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.99
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "AVAX",
@@ -38365,7 +38365,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.95
+    "best_favorable_pct": 13.28
   },
   {
     "symbol": "XRP",
@@ -38821,7 +38821,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.17
+    "best_favorable_pct": 2.35
   },
   {
     "symbol": "RENDER",
@@ -39169,7 +39169,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "CC",
@@ -39582,7 +39582,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "POL",
@@ -39619,7 +39619,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "DASH",
@@ -39636,7 +39636,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "VET",
@@ -39653,7 +39653,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "MORPHO",
@@ -39670,7 +39670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "U",
@@ -39686,6 +39686,42 @@
     "stop_loss": 0.9991227005262789,
     "take_profit": 1.0008545989474422,
     "timestamp": "2026-09-10T02:20:14.752438+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 3.458e-06,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 3.3101618956467287e-06,
+    "take_profit": 3.7536762087065435e-06,
+    "timestamp": "2026-09-10T02:36:09.246099+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.227e-07,
+    "reasons": [
+      "RSI \u00fcberkauft (76.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.2946966278119545e-07,
+    "take_profit": 3.0916067443760915e-07,
+    "timestamp": "2026-09-10T02:36:10.507007+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
