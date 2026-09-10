@@ -38207,9 +38207,9 @@
     "stop_loss": 132.4695664762904,
     "take_profit": 119.32486704741919,
     "timestamp": "2026-09-09T19:14:14.615761+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.16,
     "best_favorable_pct": 3.16
   },
   {
@@ -38224,9 +38224,9 @@
     "stop_loss": 0.517335385438678,
     "take_profit": 0.903329229122644,
     "timestamp": "2026-09-09T19:14:14.615820+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.31,
     "best_favorable_pct": 5.31
   },
   {
@@ -38278,7 +38278,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.49
+    "best_favorable_pct": 6.15
   },
   {
     "symbol": "DOGE",
@@ -38610,7 +38610,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.77
+    "best_favorable_pct": 4.32
   },
   {
     "symbol": "SKY",
@@ -38664,7 +38664,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.48
+    "best_favorable_pct": 4.54
   },
   {
     "symbol": "SPX",
@@ -39014,7 +39014,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "HBAR",
@@ -39083,7 +39083,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.76
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "ETH",
@@ -39186,7 +39186,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "GRAM",
@@ -39601,7 +39601,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "ARB",
@@ -39794,7 +39794,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "TRX",
@@ -39972,7 +39972,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "XRP",
@@ -40231,7 +40231,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.04
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "BCH",
@@ -40300,5 +40300,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "HBAR",
+    "kucoin_symbol": "HBAR-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.07658,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 0.07870047240436649,
+    "take_profit": 0.072339055191267,
+    "timestamp": "2026-09-10T07:21:49.503974+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
   }
 ]
