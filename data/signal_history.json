@@ -39757,9 +39757,9 @@
     "stop_loss": 492.4369084078402,
     "take_profit": 563.1561831843196,
     "timestamp": "2026-09-10T03:23:10.237892+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.3,
     "best_favorable_pct": 0.3
   },
   {
@@ -39774,9 +39774,9 @@
     "stop_loss": 1.6636407225526676e-06,
     "take_profit": 1.718718554894665e-06,
     "timestamp": "2026-09-10T03:23:11.446481+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.3,
     "best_favorable_pct": 0.3
   },
   {
@@ -40369,7 +40369,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.08
+    "best_favorable_pct": 5.78
   },
   {
     "symbol": "VET",
@@ -40593,7 +40593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.98
+    "best_favorable_pct": 4.51
   },
   {
     "symbol": "SKY",
@@ -41795,7 +41795,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "SOL",
@@ -41849,7 +41849,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "ONDO",
@@ -41938,7 +41938,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "MORPHO",
@@ -42059,7 +42059,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "GRAM",
@@ -42078,5 +42078,110 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.35582,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.3929505282109418,
+    "take_profit": 1.2815589435781165,
+    "timestamp": "2026-09-10T15:25:40.041662+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.0563,
+    "reasons": [
+      "Volumen-Spike (2.4x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.05511702194192827,
+    "take_profit": 0.05866595611614348,
+    "timestamp": "2026-09-10T15:25:41.239357+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PUMP",
+    "kucoin_symbol": "PUMP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.003828,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.003479430754408256,
+    "take_profit": 0.004525138491183488,
+    "timestamp": "2026-09-10T15:25:42.350306+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.673e-06,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.654678969025946e-06,
+    "take_profit": 1.709642061948108e-06,
+    "timestamp": "2026-09-10T15:25:42.350324+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.148,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.1565209829106836,
+    "take_profit": 0.13095803417863283,
+    "timestamp": "2026-09-10T15:25:42.350336+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.008227,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (2.7x Durchschnitt)"
+    ],
+    "stop_loss": 0.0077707577315899315,
+    "take_profit": 0.009139484536820137,
+    "timestamp": "2026-09-10T15:25:42.350363+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.56
   }
 ]
