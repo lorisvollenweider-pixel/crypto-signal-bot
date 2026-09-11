@@ -43774,9 +43774,9 @@
     "stop_loss": 216.733324838696,
     "take_profit": 244.443350322608,
     "timestamp": "2026-09-11T03:21:52.632426+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.67,
     "best_favorable_pct": 4.67
   },
   {
@@ -43791,9 +43791,9 @@
     "stop_loss": 1.000822941252344,
     "take_profit": 0.9983541174953121,
     "timestamp": "2026-09-11T03:21:53.873909+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.06,
     "best_favorable_pct": 0.06
   },
   {
@@ -44830,7 +44830,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.93
+    "best_favorable_pct": 10.62
   },
   {
     "symbol": "FF",
@@ -44848,7 +44848,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.77
+    "best_favorable_pct": 2.81
   },
   {
     "symbol": "AKE",
@@ -44865,7 +44865,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "LDO",
@@ -45107,7 +45107,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.45
+    "best_favorable_pct": 4.11
   },
   {
     "symbol": "ETH",
@@ -45455,7 +45455,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "XRP",
@@ -45506,7 +45506,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "RAY",
@@ -45524,7 +45524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.35
+    "best_favorable_pct": 4.08
   },
   {
     "symbol": "VIRTUAL",
@@ -45647,7 +45647,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "FIL",
@@ -45733,6 +45733,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.22
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.439,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.3694586678284497,
+    "take_profit": 1.578082664343101,
+    "timestamp": "2026-09-11T15:23:44.036100+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
   }
 ]
