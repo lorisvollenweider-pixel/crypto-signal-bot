@@ -44446,9 +44446,9 @@
     "stop_loss": 0.9999888898914326,
     "take_profit": 0.9970222202171347,
     "timestamp": "2026-09-11T10:17:19.329995+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -44465,9 +44465,9 @@
     "stop_loss": 0.055679472454503026,
     "take_profit": 0.051541055090993944,
     "timestamp": "2026-09-11T10:17:19.330028+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 10.13,
     "best_favorable_pct": 10.13
   },
   {
@@ -46376,7 +46376,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.66
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "USDE",
@@ -46742,5 +46742,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "GRAM",
+    "kucoin_symbol": "GRAM-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 1.363,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.3272600373058636,
+    "take_profit": 1.4344799253882725,
+    "timestamp": "2026-09-11T22:25:44.468863+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
