@@ -42804,9 +42804,9 @@
     "stop_loss": 97.06984072011034,
     "take_profit": 104.96031855977934,
     "timestamp": "2026-09-10T19:54:53.308980+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.44,
     "best_favorable_pct": 0.44
   },
   {
@@ -42822,9 +42822,9 @@
     "stop_loss": 0.13522001054738292,
     "take_profit": 0.16065997890523415,
     "timestamp": "2026-09-10T19:54:54.595608+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.51,
     "best_favorable_pct": 2.51
   },
   {
@@ -42839,9 +42839,9 @@
     "stop_loss": 0.008316673830624049,
     "take_profit": 0.006928652338751902,
     "timestamp": "2026-09-10T19:54:55.823622+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.49,
     "best_favorable_pct": 5.49
   },
   {
@@ -42856,9 +42856,9 @@
     "stop_loss": 0.6610780381764226,
     "take_profit": 0.5594439236471546,
     "timestamp": "2026-09-10T19:54:55.823655+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -43168,7 +43168,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "BTC",
@@ -43638,7 +43638,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "CRO",
@@ -44177,5 +44177,74 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0557,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.05694018674021762,
+    "take_profit": 0.05321962651956476,
+    "timestamp": "2026-09-11T08:00:41.287135+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "APT",
+    "kucoin_symbol": "APT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.6328,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.6672008353766394,
+    "take_profit": 0.5639983292467213,
+    "timestamp": "2026-09-11T08:00:42.439073+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RAY",
+    "kucoin_symbol": "RAY-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.6049,
+    "reasons": [
+      "RSI \u00fcberkauft (70.5)"
+    ],
+    "stop_loss": 1.7782203401728771,
+    "take_profit": 1.2582593196542458,
+    "timestamp": "2026-09-11T08:00:42.439100+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LUNC",
+    "kucoin_symbol": "LUNC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 5.021e-05,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 4.876383250924898e-05,
+    "take_profit": 5.310233498150205e-05,
+    "timestamp": "2026-09-11T08:00:42.439126+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
