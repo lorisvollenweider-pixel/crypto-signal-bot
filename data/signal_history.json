@@ -42491,9 +42491,9 @@
     "stop_loss": 2493.7176407933216,
     "take_profit": 2353.4747184133566,
     "timestamp": "2026-09-10T16:57:34.934545+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.37,
     "best_favorable_pct": 0.37
   },
   {
@@ -42508,9 +42508,9 @@
     "stop_loss": 1.0964637606835015,
     "take_profit": 0.9078724786329972,
     "timestamp": "2026-09-10T16:57:36.166517+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.32,
     "best_favorable_pct": 1.32
   },
   {
@@ -42961,7 +42961,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.92
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "TRUMP",
@@ -43012,7 +43012,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.84
+    "best_favorable_pct": 3.15
   },
   {
     "symbol": "BTT",
@@ -43222,7 +43222,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "XTZ",
@@ -43327,7 +43327,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "PEPE",
@@ -43380,7 +43380,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "NIGHT",
@@ -43398,7 +43398,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.88
+    "best_favorable_pct": 3.27
   },
   {
     "symbol": "WLFI",
@@ -43433,7 +43433,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.57
   },
   {
     "symbol": "ETH",
@@ -43553,7 +43553,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.08
+    "best_favorable_pct": 20.95
   },
   {
     "symbol": "LDO",
@@ -43742,7 +43742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "PYUSD",
@@ -43759,7 +43759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "BCH",
@@ -43864,7 +43864,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "PENGU",
@@ -43984,7 +43984,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.95
+    "best_favorable_pct": 1.26
   },
   {
     "symbol": "CFX",
@@ -44018,7 +44018,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "PYTH",
@@ -44032,6 +44032,41 @@
     "stop_loss": 0.04943886882962807,
     "take_profit": 0.056402262340743865,
     "timestamp": "2026-09-11T04:43:01.099580+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0391,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.097506287030639,
+    "take_profit": 0.922287425938722,
+    "timestamp": "2026-09-11T05:12:50.189681+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.12736,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.12183907494102354,
+    "take_profit": 0.13840185011795292,
+    "timestamp": "2026-09-11T05:12:50.189707+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
