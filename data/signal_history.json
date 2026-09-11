@@ -43416,7 +43416,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 3.38
   },
   {
     "symbol": "NIGHT",
@@ -43604,7 +43604,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.07
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "XRP",
@@ -44194,7 +44194,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.72
+    "best_favorable_pct": 3.23
   },
   {
     "symbol": "APT",
@@ -44211,7 +44211,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.59
+    "best_favorable_pct": 2.88
   },
   {
     "symbol": "RAY",
@@ -44313,7 +44313,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.9
+    "best_favorable_pct": 1.91
   },
   {
     "symbol": "UB",
@@ -44381,7 +44381,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "SKY",
@@ -44415,7 +44415,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "JUP",
@@ -44433,5 +44433,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.999,
+    "reasons": [
+      "Volumen-Spike (5.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.9999888898914326,
+    "take_profit": 0.9970222202171347,
+    "timestamp": "2026-09-11T10:17:19.329995+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.0543,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.0x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.055679472454503026,
+    "take_profit": 0.051541055090993944,
+    "timestamp": "2026-09-11T10:17:19.330028+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.74
   }
 ]
