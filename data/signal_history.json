@@ -43183,9 +43183,9 @@
     "stop_loss": 75777.8783272767,
     "take_profit": 79052.14334544659,
     "timestamp": "2026-09-10T22:59:18.797216+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.68,
     "best_favorable_pct": 0.68
   },
   {
@@ -43201,9 +43201,9 @@
     "stop_loss": 2493.9965295906163,
     "take_profit": 2348.986940818767,
     "timestamp": "2026-09-10T22:59:19.870107+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.32,
     "best_favorable_pct": 0.32
   },
   {
@@ -43219,9 +43219,9 @@
     "stop_loss": 76.75117770104764,
     "take_profit": 84.85064459790469,
     "timestamp": "2026-09-10T22:59:20.910526+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.12,
     "best_favorable_pct": 1.12
   },
   {
@@ -43236,9 +43236,9 @@
     "stop_loss": 0.27407009090923135,
     "take_profit": 0.23155981818153737,
     "timestamp": "2026-09-10T22:59:21.953295+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.27,
     "best_favorable_pct": 3.27
   },
   {
@@ -43485,7 +43485,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.55
   },
   {
     "symbol": "BCH",
@@ -43621,7 +43621,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "CC",
@@ -43672,7 +43672,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.55
+    "best_favorable_pct": 3.03
   },
   {
     "symbol": "LINK",
@@ -43966,7 +43966,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.83
+    "best_favorable_pct": 2.93
   },
   {
     "symbol": "UB",
@@ -44432,7 +44432,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "USDE",
@@ -44503,5 +44503,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.6843,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.6)"
+    ],
+    "stop_loss": 0.655841304397109,
+    "take_profit": 0.7412173912057822,
+    "timestamp": "2026-09-11T11:00:25.143535+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
   }
 ]
