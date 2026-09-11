@@ -43739,9 +43739,9 @@
     "stop_loss": 1.0000705960597684,
     "take_profit": 0.9986588078804635,
     "timestamp": "2026-09-11T02:36:38.344022+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.06,
     "best_favorable_pct": 0.06
   },
   {
@@ -44984,7 +44984,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "CRO",
@@ -45247,7 +45247,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "XLM",
@@ -45524,7 +45524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 2.78
   },
   {
     "symbol": "VIRTUAL",
@@ -45558,7 +45558,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "LDO",
@@ -45609,6 +45609,58 @@
     "stop_loss": 0.21631563462429046,
     "take_profit": 0.251968730751419,
     "timestamp": "2026-09-11T14:21:05.728292+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9993,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.2x Durchschnitt)"
+    ],
+    "stop_loss": 1.000250273553569,
+    "take_profit": 0.997399452892862,
+    "timestamp": "2026-09-11T14:36:54.999923+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SHIB",
+    "kucoin_symbol": "SHIB-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 5.309e-06,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 5.119831430668568e-06,
+    "take_profit": 5.687337138662865e-06,
+    "timestamp": "2026-09-11T14:36:56.050767+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.8193,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.7805311567554541,
+    "take_profit": 0.8968376864890917,
+    "timestamp": "2026-09-11T14:36:56.050823+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
