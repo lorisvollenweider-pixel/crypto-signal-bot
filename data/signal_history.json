@@ -41774,9 +41774,9 @@
     "stop_loss": 0.9987446524913977,
     "take_profit": 1.0013106950172048,
     "timestamp": "2026-09-10T13:33:49.786794+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.02,
     "best_favorable_pct": 0.02
   },
   {
@@ -41792,9 +41792,9 @@
     "stop_loss": 0.029301323692507538,
     "take_profit": 0.03185035261498492,
     "timestamp": "2026-09-10T13:33:49.786819+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.74,
     "best_favorable_pct": 0.74
   },
   {
@@ -41849,7 +41849,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.62
+    "best_favorable_pct": 2.7
   },
   {
     "symbol": "ONDO",
@@ -42336,7 +42336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.99
+    "best_favorable_pct": 5.2
   },
   {
     "symbol": "SPX",
@@ -42633,7 +42633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.94
+    "best_favorable_pct": 1.95
   },
   {
     "symbol": "XAUT",
@@ -42772,7 +42772,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.67
+    "best_favorable_pct": 5.21
   },
   {
     "symbol": "RAY",
@@ -42789,7 +42789,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.39
+    "best_favorable_pct": 12.6
   },
   {
     "symbol": "SOL",
@@ -42842,7 +42842,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.96
+    "best_favorable_pct": 4.29
   },
   {
     "symbol": "APT",
@@ -43519,7 +43519,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "AERO",
@@ -43673,5 +43673,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LINK",
+    "kucoin_symbol": "LINK-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 11.459,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.7)"
+    ],
+    "stop_loss": 11.052911317504917,
+    "take_profit": 12.271177364990166,
+    "timestamp": "2026-09-11T01:35:28.128551+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
   }
 ]
