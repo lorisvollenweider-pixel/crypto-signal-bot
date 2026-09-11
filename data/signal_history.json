@@ -44173,9 +44173,9 @@
     "stop_loss": 0.9932066216012299,
     "take_profit": 1.0015867567975403,
     "timestamp": "2026-09-11T07:49:30.283715+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.1,
     "best_favorable_pct": 0.1
   },
   {
@@ -44674,7 +44674,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "HTX",
@@ -46376,7 +46376,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "USDE",
@@ -46442,6 +46442,23 @@
     "stop_loss": 3.197640709800062e-07,
     "take_profit": 3.468718580399876e-07,
     "timestamp": "2026-09-11T19:16:47.475300+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.36163,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 1.408796041549019,
+    "take_profit": 1.2672979169019614,
+    "timestamp": "2026-09-11T19:55:01.685783+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
