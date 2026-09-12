@@ -48460,9 +48460,9 @@
     "stop_loss": 1.0009721148531894,
     "take_profit": 0.9986557702936211,
     "timestamp": "2026-09-12T10:52:03.513374+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -48565,7 +48565,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "UNI",
@@ -49541,7 +49541,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "POL",
@@ -50010,5 +50010,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9997,
+    "reasons": [
+      "Volumen-Spike (3.2x Durchschnitt)"
+    ],
+    "stop_loss": 1.0005130709616625,
+    "take_profit": 0.998073858076675,
+    "timestamp": "2026-09-12T22:53:21.449045+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.699e-06,
+    "reasons": [
+      "Volumen-Spike (4.5x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.725271323563344e-06,
+    "take_profit": 1.6464573528733123e-06,
+    "timestamp": "2026-09-12T22:53:21.449084+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
