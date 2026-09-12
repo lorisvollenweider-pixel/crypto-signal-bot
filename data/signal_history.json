@@ -48371,9 +48371,9 @@
     "stop_loss": 0.028628760176430762,
     "take_profit": 0.026742479647138478,
     "timestamp": "2026-09-12T09:31:01.972477+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.32,
     "best_favorable_pct": 1.32
   },
   {
@@ -48497,7 +48497,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.1
+    "best_favorable_pct": 6.26
   },
   {
     "symbol": "JST",
@@ -48616,7 +48616,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "MNT",
@@ -49197,7 +49197,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "ASTER",
@@ -49661,7 +49661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "FIL",
@@ -49865,6 +49865,59 @@
     "stop_loss": 0.05302084830671171,
     "take_profit": 0.06003830338657659,
     "timestamp": "2026-09-12T21:15:34.459064+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CRO",
+    "kucoin_symbol": "CRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.05967,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.061515613573808366,
+    "take_profit": 0.05597877285238327,
+    "timestamp": "2026-09-12T21:43:44.117018+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.9999,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.9989543216667482,
+    "take_profit": 1.0017913566665035,
+    "timestamp": "2026-09-12T21:43:44.117037+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.02772,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.028281999708560285,
+    "take_profit": 0.026596000582879434,
+    "timestamp": "2026-09-12T21:43:45.356810+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
