@@ -48303,9 +48303,9 @@
     "stop_loss": 0.995708833352279,
     "take_profit": 1.0046823332954422,
     "timestamp": "2026-09-12T08:46:20.264507+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -48320,9 +48320,9 @@
     "stop_loss": 0.47082448022987305,
     "take_profit": 0.5508510395402538,
     "timestamp": "2026-09-12T08:46:20.264529+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.05,
     "best_favorable_pct": 1.05
   },
   {
@@ -48337,9 +48337,9 @@
     "stop_loss": 0.016799983934470613,
     "take_profit": 0.017280032131058776,
     "timestamp": "2026-09-12T08:46:20.264545+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.83,
     "best_favorable_pct": 0.83
   },
   {
@@ -48837,7 +48837,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 2.32
   },
   {
     "symbol": "RAY",
@@ -49661,7 +49661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "FIL",
@@ -49712,7 +49712,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "PONS",
@@ -49800,5 +49800,56 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9986,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.9956321886198494,
+    "take_profit": 1.0045356227603015,
+    "timestamp": "2026-09-12T20:57:16.023764+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SPX",
+    "kucoin_symbol": "SPX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4917,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.4674812762280399,
+    "take_profit": 0.5401374475439202,
+    "timestamp": "2026-09-12T20:57:16.023784+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01704,
+    "reasons": [
+      "Volumen-Spike (3.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.016895442920617995,
+    "take_profit": 0.01732911415876401,
+    "timestamp": "2026-09-12T20:57:16.023800+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
