@@ -48497,7 +48497,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.27
+    "best_favorable_pct": 3.39
   },
   {
     "symbol": "JST",
@@ -48565,7 +48565,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "UNI",
@@ -48718,7 +48718,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.02
+    "best_favorable_pct": 2.09
   },
   {
     "symbol": "JUP",
@@ -49094,7 +49094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "BNB",
@@ -49503,6 +49503,41 @@
     "stop_loss": 0.05333115002978102,
     "take_profit": 0.06064769994043796,
     "timestamp": "2026-09-12T19:03:33.284254+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PUMP",
+    "kucoin_symbol": "PUMP-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.003885,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.003593261078765302,
+    "take_profit": 0.0044684778424693965,
+    "timestamp": "2026-09-12T19:18:12.625218+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 55.4,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 58.57840125064217,
+    "take_profit": 49.04319749871566,
+    "timestamp": "2026-09-12T19:18:13.658735+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
