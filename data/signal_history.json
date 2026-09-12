@@ -47976,9 +47976,9 @@
     "stop_loss": 0.08205286214075122,
     "take_profit": 0.08993427571849756,
     "timestamp": "2026-09-12T07:45:31.543202+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.65,
     "best_favorable_pct": 0.65
   },
   {
@@ -47993,9 +47993,9 @@
     "stop_loss": 0.9990114986868807,
     "take_profit": 1.0010770026262388,
     "timestamp": "2026-09-12T07:45:32.787013+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.03,
     "best_favorable_pct": 0.03
   },
   {
@@ -48010,9 +48010,9 @@
     "stop_loss": 2.2319290972172414,
     "take_profit": 1.922841805565517,
     "timestamp": "2026-09-12T07:45:32.787061+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -48028,9 +48028,9 @@
     "stop_loss": 0.10212355258624585,
     "take_profit": 0.11384289482750828,
     "timestamp": "2026-09-12T07:45:32.787080+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.87,
     "best_favorable_pct": 0.87
   },
   {
@@ -48497,7 +48497,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.05
+    "best_favorable_pct": 5.35
   },
   {
     "symbol": "JST",
@@ -48735,7 +48735,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.9
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "RENDER",
@@ -48991,7 +48991,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.8
+    "best_favorable_pct": 2.12
   },
   {
     "symbol": "KITE",
@@ -49541,7 +49541,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 0.97
   },
   {
     "symbol": "POL",
@@ -49573,6 +49573,57 @@
     "stop_loss": 17.081192316030183,
     "take_profit": 13.927615367939636,
     "timestamp": "2026-09-12T19:43:09.634100+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.1823,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 2.279618031440597,
+    "take_profit": 1.987663937118806,
+    "timestamp": "2026-09-12T19:54:17.553968+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.01701,
+    "reasons": [
+      "Volumen-Spike (4.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.01716220772120363,
+    "take_profit": 0.01670558455759274,
+    "timestamp": "2026-09-12T19:54:17.553987+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.120017,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.11509049819884387,
+    "take_profit": 0.12987000360231227,
+    "timestamp": "2026-09-12T19:54:17.553998+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
