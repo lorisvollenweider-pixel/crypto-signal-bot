@@ -46756,9 +46756,9 @@
     "stop_loss": 1.3272600373058636,
     "take_profit": 1.4344799253882725,
     "timestamp": "2026-09-11T22:25:44.468863+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.25,
     "best_favorable_pct": 1.25
   },
   {
@@ -47169,7 +47169,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 0.98
   },
   {
     "symbol": "AERO",
@@ -47306,7 +47306,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.34
+    "best_favorable_pct": 2.45
   },
   {
     "symbol": "USDD",
@@ -47357,7 +47357,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.55
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "PEPE",
@@ -47408,7 +47408,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "SHIB",
@@ -47459,7 +47459,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "CFX",
@@ -47684,7 +47684,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.07
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "USDS",
@@ -47753,7 +47753,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.34
+    "best_favorable_pct": 1.55
   },
   {
     "symbol": "VIRTUAL",
@@ -47805,7 +47805,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.61
+    "best_favorable_pct": 1.63
   },
   {
     "symbol": "SUN",
@@ -47857,7 +47857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.92
+    "best_favorable_pct": 2.37
   },
   {
     "symbol": "PONS",
@@ -48031,7 +48031,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "XRP",
@@ -48065,7 +48065,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.39
+    "best_favorable_pct": 1.89
   },
   {
     "symbol": "BCH",
@@ -48083,7 +48083,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "UNI",
@@ -48272,7 +48272,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.25
   },
   {
     "symbol": "ALGO",
@@ -48392,7 +48392,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "BNB",
@@ -48410,6 +48410,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.23
+  },
+  {
+    "symbol": "UNI",
+    "kucoin_symbol": "UNI-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 6.3694,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 6.016545981991614,
+    "take_profit": 7.07510803601677,
+    "timestamp": "2026-09-12T10:27:14.821320+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
