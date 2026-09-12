@@ -47491,9 +47491,9 @@
     "stop_loss": 1.000385655983756,
     "take_profit": 0.9998286880324878,
     "timestamp": "2026-09-12T03:47:18.392773+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -47509,9 +47509,9 @@
     "stop_loss": 0.049493296121901696,
     "take_profit": 0.05722340775619661,
     "timestamp": "2026-09-12T03:47:18.392834+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.51,
     "best_favorable_pct": 5.51
   },
   {
@@ -48118,7 +48118,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "PYUSD",
@@ -48169,7 +48169,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "FIL",
@@ -48599,7 +48599,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.48
+    "best_favorable_pct": 2.3
   },
   {
     "symbol": "AAVE",
@@ -48633,7 +48633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "ICP",
@@ -48650,7 +48650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "HTX",
@@ -48786,7 +48786,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.6
+    "best_favorable_pct": 3.19
   },
   {
     "symbol": "AI",
@@ -48855,7 +48855,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.77
   },
   {
     "symbol": "AKE",
@@ -48957,7 +48957,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "KCS",
@@ -49043,7 +49043,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "USDS",
@@ -49146,5 +49146,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.23
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.3407,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.32489664620501596,
+    "take_profit": 0.3723067075899681,
+    "timestamp": "2026-09-12T15:50:39.065249+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RAY",
+    "kucoin_symbol": "RAY-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 1.5482,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.7277599999716649,
+    "take_profit": 1.1890800000566704,
+    "timestamp": "2026-09-12T15:50:39.065277+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
