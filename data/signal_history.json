@@ -46774,9 +46774,9 @@
     "stop_loss": 1.0007137364509184,
     "take_profit": 1.0039725270981634,
     "timestamp": "2026-09-11T22:39:58.752912+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -46791,9 +46791,9 @@
     "stop_loss": 0.5572668589370098,
     "take_profit": 0.6680662821259802,
     "timestamp": "2026-09-11T22:40:00.018891+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.53,
     "best_favorable_pct": 4.53
   },
   {
@@ -47408,7 +47408,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "SHIB",
@@ -47512,7 +47512,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 1.81
   },
   {
     "symbol": "GRAM",
@@ -47649,7 +47649,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "CFX",
@@ -48272,7 +48272,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "ALGO",
@@ -48410,7 +48410,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "UNI",
@@ -48429,5 +48429,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.08
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.31e-07,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 3.3959672652272016e-07,
+    "take_profit": 3.1380654695455964e-07,
+    "timestamp": "2026-09-12T10:41:03.137366+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
