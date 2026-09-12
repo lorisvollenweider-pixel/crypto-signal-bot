@@ -46842,9 +46842,9 @@
     "stop_loss": 0.22654517552271283,
     "take_profit": 0.19100964895457434,
     "timestamp": "2026-09-11T23:31:55.048084+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -47016,7 +47016,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.9
+    "best_favorable_pct": 3.14
   },
   {
     "symbol": "SKY",
@@ -47033,7 +47033,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.24
+    "best_favorable_pct": 3.72
   },
   {
     "symbol": "ARB",
@@ -47391,7 +47391,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.2
+    "best_favorable_pct": 2.8
   },
   {
     "symbol": "BNB",
@@ -47512,7 +47512,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.02
+    "best_favorable_pct": 3.09
   },
   {
     "symbol": "GRAM",
@@ -47805,7 +47805,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.84
+    "best_favorable_pct": 2.91
   },
   {
     "symbol": "SUN",
@@ -48464,5 +48464,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.706e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.7285250474046918e-06,
+    "take_profit": 1.6609499051906164e-06,
+    "timestamp": "2026-09-12T11:32:45.706072+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
