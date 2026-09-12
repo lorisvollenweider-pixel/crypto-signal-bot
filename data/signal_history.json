@@ -45747,9 +45747,9 @@
     "stop_loss": 1.3694586678284497,
     "take_profit": 1.578082664343101,
     "timestamp": "2026-09-11T15:23:44.036100+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.49,
     "best_favorable_pct": 0.49
   },
   {
@@ -46220,7 +46220,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "LDO",
@@ -46376,7 +46376,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.06
+    "best_favorable_pct": 3.3
   },
   {
     "symbol": "USDE",
@@ -46480,7 +46480,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.88
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "LTC",
@@ -46828,7 +46828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.67
+    "best_favorable_pct": 5.63
   },
   {
     "symbol": "SYRUP",
@@ -46931,7 +46931,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "ADA",
@@ -46999,7 +46999,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.47
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "HTX",
@@ -47033,7 +47033,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.0
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "ARB",
@@ -47152,7 +47152,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "LIT",
@@ -47306,7 +47306,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.88
+    "best_favorable_pct": 2.11
   },
   {
     "symbol": "USDD",
@@ -47374,7 +47374,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "SYRUP",
@@ -47460,5 +47460,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.31
+  },
+  {
+    "symbol": "CFX",
+    "kucoin_symbol": "CFX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.04801,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.04632021772581227,
+    "take_profit": 0.051389564548375455,
+    "timestamp": "2026-09-12T03:34:02.395339+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
