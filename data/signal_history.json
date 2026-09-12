@@ -46704,10 +46704,10 @@
     "stop_loss": 0.46170377892803766,
     "take_profit": 0.5528924421439246,
     "timestamp": "2026-09-11T20:44:59.593277+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 1.08
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.1,
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "ETC",
@@ -46897,7 +46897,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "RAIN",
@@ -46914,7 +46914,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.74
+    "best_favorable_pct": 1.75
   },
   {
     "symbol": "XMR",
@@ -47033,7 +47033,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.22
+    "best_favorable_pct": 3.24
   },
   {
     "symbol": "ARB",
@@ -47238,7 +47238,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "KCS",
@@ -47255,7 +47255,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "AERO",
@@ -47306,7 +47306,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.22
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "USDD",
@@ -47425,7 +47425,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "PENDLE",
@@ -47512,7 +47512,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.13
+    "best_favorable_pct": 1.4
   },
   {
     "symbol": "GRAM",
@@ -47805,7 +47805,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "SUN",
@@ -47822,7 +47822,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "RAIN",
@@ -47857,7 +47857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "PONS",
@@ -47874,7 +47874,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 1.72
   },
   {
     "symbol": "USDG",
@@ -48031,7 +48031,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "XRP",
@@ -48083,7 +48083,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "UNI",
@@ -48286,6 +48286,57 @@
     "stop_loss": 0.09691156589699879,
     "take_profit": 0.08427686820600246,
     "timestamp": "2026-09-12T08:31:11.640805+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9987,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.995708833352279,
+    "take_profit": 1.0046823332954422,
+    "timestamp": "2026-09-12T08:46:20.264507+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SPX",
+    "kucoin_symbol": "SPX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4975,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.47082448022987305,
+    "take_profit": 0.5508510395402538,
+    "timestamp": "2026-09-12T08:46:20.264529+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01696,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.016799983934470613,
+    "take_profit": 0.017280032131058776,
+    "timestamp": "2026-09-12T08:46:20.264545+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
