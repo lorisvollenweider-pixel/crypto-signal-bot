@@ -48048,7 +48048,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "XMR",
@@ -48374,7 +48374,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "DCR",
@@ -48497,7 +48497,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.39
+    "best_favorable_pct": 5.05
   },
   {
     "symbol": "JST",
@@ -48565,7 +48565,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.91
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "UNI",
@@ -48633,7 +48633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "ICP",
@@ -48718,7 +48718,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.16
+    "best_favorable_pct": 3.06
   },
   {
     "symbol": "JUP",
@@ -48735,7 +48735,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.37
+    "best_favorable_pct": 1.9
   },
   {
     "symbol": "RENDER",
@@ -48872,7 +48872,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.89
+    "best_favorable_pct": 7.56
   },
   {
     "symbol": "BCH",
@@ -49541,6 +49541,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.81
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.096,
+    "reasons": [
+      "Volumen-Spike (2.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.09935299747162853,
+    "take_profit": 0.08929400505674295,
+    "timestamp": "2026-09-12T19:43:09.634038+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 16.03,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 17.081192316030183,
+    "take_profit": 13.927615367939636,
+    "timestamp": "2026-09-12T19:43:09.634100+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
