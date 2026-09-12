@@ -48407,9 +48407,9 @@
     "stop_loss": 721.5262896259503,
     "take_profit": 766.0754207480993,
     "timestamp": "2026-09-12T10:11:58.266636+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.3,
     "best_favorable_pct": 0.3
   },
   {
@@ -49008,7 +49008,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "USDE",
@@ -49094,7 +49094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.09
+    "best_favorable_pct": 1.21
   },
   {
     "symbol": "BNB",
@@ -49197,7 +49197,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.34
+    "best_favorable_pct": 1.59
   },
   {
     "symbol": "ASTER",
@@ -49993,5 +49993,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.9998039698316167,
+    "take_profit": 1.0003920603367666,
+    "timestamp": "2026-09-12T22:26:11.078623+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
