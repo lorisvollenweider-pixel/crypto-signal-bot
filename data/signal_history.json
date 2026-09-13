@@ -49661,7 +49661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.59
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "FIL",
@@ -49885,7 +49885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "PYUSD",
@@ -50215,7 +50215,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 1.7
   },
   {
     "symbol": "RAY",
@@ -50284,7 +50284,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 1.54
   },
   {
     "symbol": "ETHFI",
@@ -50301,7 +50301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.0
+    "best_favorable_pct": 3.23
   },
   {
     "symbol": "VIRTUAL",
@@ -50421,7 +50421,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 1.31
   },
   {
     "symbol": "KCS",
@@ -50577,7 +50577,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "SOL",
@@ -50594,7 +50594,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "LTC",
@@ -50662,7 +50662,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "DASH",
@@ -50816,7 +50816,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "ICP",
@@ -50869,7 +50869,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "AKE",
@@ -50886,7 +50886,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "NIGHT",
@@ -50900,6 +50900,58 @@
     "stop_loss": 0.020220700374252266,
     "take_profit": 0.02249859925149546,
     "timestamp": "2026-09-13T06:21:35.048464+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.198,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 2.1125091628572887,
+    "take_profit": 2.3689816742854224,
+    "timestamp": "2026-09-13T06:42:32.769905+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1405,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.1492168880042663,
+    "take_profit": 0.12306622399146744,
+    "timestamp": "2026-09-13T06:42:32.769937+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JUP",
+    "kucoin_symbol": "JUP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.2377,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.24914637347009638,
+    "take_profit": 0.21480725305980722,
+    "timestamp": "2026-09-13T06:42:33.839620+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
