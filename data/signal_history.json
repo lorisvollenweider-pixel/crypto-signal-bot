@@ -49402,7 +49402,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.52
+    "best_favorable_pct": 1.92
   },
   {
     "symbol": "PUMP",
@@ -49541,7 +49541,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.48
+    "best_favorable_pct": 1.52
   },
   {
     "symbol": "POL",
@@ -49956,7 +49956,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "PYTH",
@@ -49992,7 +49992,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "USDC",
@@ -50078,7 +50078,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "BTC",
@@ -50181,7 +50181,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "STX",
@@ -50215,7 +50215,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "RAY",
@@ -50301,7 +50301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.61
+    "best_favorable_pct": 2.78
   },
   {
     "symbol": "VIRTUAL",
@@ -50318,7 +50318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "BTT",
@@ -50473,7 +50473,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "DOGE",
@@ -50526,5 +50526,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.376,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.4247375579961685,
+    "take_profit": 1.2785248840076626,
+    "timestamp": "2026-09-13T03:33:20.823930+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LSK",
+    "kucoin_symbol": "LSK-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.585,
+    "reasons": [
+      "RSI \u00fcberkauft (97.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.8472218225861463,
+    "take_profit": 1.0605563548277073,
+    "timestamp": "2026-09-13T03:33:20.823977+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
