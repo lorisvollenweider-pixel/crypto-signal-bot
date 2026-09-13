@@ -49450,9 +49450,9 @@
     "stop_loss": 2.1439830687691677,
     "take_profit": 2.4206338624616652,
     "timestamp": "2026-09-12T17:52:32.893433+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.38,
     "best_favorable_pct": 0.38
   },
   {
@@ -49974,7 +49974,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.04
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "PONS",
@@ -50061,7 +50061,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 1.0
   },
   {
     "symbol": "XRP",
@@ -50095,7 +50095,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "HYPE",
@@ -50112,7 +50112,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "NEAR",
@@ -50507,7 +50507,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "XTZ",
@@ -50628,7 +50628,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "AVAX",
@@ -50645,7 +50645,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "TAO",
@@ -50662,7 +50662,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "DASH",
@@ -50679,7 +50679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.47
+    "best_favorable_pct": 2.02
   },
   {
     "symbol": "VET",
@@ -50730,7 +50730,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "FET",
@@ -50816,7 +50816,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "ICP",
@@ -50834,7 +50834,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "CFX",
@@ -50848,6 +50848,41 @@
     "stop_loss": 0.04737193370533293,
     "take_profit": 0.05174613258933413,
     "timestamp": "2026-09-13T04:58:42.480950+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FLR",
+    "kucoin_symbol": "FLR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.00654,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.006641215648364691,
+    "take_profit": 0.006337568703270619,
+    "timestamp": "2026-09-13T05:56:17.408988+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0137125,
+    "reasons": [
+      "Volumen-Spike (2.2x Durchschnitt)"
+    ],
+    "stop_loss": 0.015807468254123807,
+    "take_profit": 0.00952256349175239,
+    "timestamp": "2026-09-13T05:56:18.462829+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
