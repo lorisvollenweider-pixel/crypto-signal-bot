@@ -50023,9 +50023,9 @@
     "stop_loss": 1.0005130709616625,
     "take_profit": 0.998073858076675,
     "timestamp": "2026-09-12T22:53:21.449045+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.02,
     "best_favorable_pct": 0.02
   },
   {
@@ -50041,9 +50041,9 @@
     "stop_loss": 1.725271323563344e-06,
     "take_profit": 1.6464573528733123e-06,
     "timestamp": "2026-09-12T22:53:21.449084+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.0,
     "best_favorable_pct": 1.0
   },
   {
@@ -50318,7 +50318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "BTT",
@@ -50421,7 +50421,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.65
+    "best_favorable_pct": 2.66
   },
   {
     "symbol": "KCS",
@@ -51026,7 +51026,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "PYUSD",
@@ -51302,7 +51302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.38
+    "best_favorable_pct": 4.24
   },
   {
     "symbol": "APT",
@@ -51354,7 +51354,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "QNT",
@@ -51611,7 +51611,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "BDX",
@@ -51663,7 +51663,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "PONS",
@@ -51716,7 +51716,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.58
+    "best_favorable_pct": 12.41
   },
   {
     "symbol": "SUI",
@@ -51734,5 +51734,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.704e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.7305509142264937e-06,
+    "take_profit": 1.6508981715470124e-06,
+    "timestamp": "2026-09-13T11:05:20.618279+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
