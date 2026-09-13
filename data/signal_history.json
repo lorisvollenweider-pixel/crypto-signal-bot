@@ -50006,9 +50006,9 @@
     "stop_loss": 0.9998039698316167,
     "take_profit": 1.0003920603367666,
     "timestamp": "2026-09-12T22:26:11.078623+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -50078,7 +50078,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "BTC",
@@ -50215,7 +50215,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.9
+    "best_favorable_pct": 8.49
   },
   {
     "symbol": "RAY",
@@ -50301,7 +50301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.16
+    "best_favorable_pct": 6.67
   },
   {
     "symbol": "VIRTUAL",
@@ -50421,7 +50421,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.56
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "KCS",
@@ -50594,7 +50594,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.92
+    "best_favorable_pct": 2.0
   },
   {
     "symbol": "LTC",
@@ -51026,7 +51026,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "PYUSD",
@@ -51097,7 +51097,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.91
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "XLM",
@@ -51131,7 +51131,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "GRAM",
@@ -51165,7 +51165,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "WLFI",
@@ -51216,7 +51216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "STABLE",
@@ -51302,7 +51302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.67
+    "best_favorable_pct": 3.38
   },
   {
     "symbol": "APT",
@@ -51337,7 +51337,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.13
+    "best_favorable_pct": 4.0
   },
   {
     "symbol": "SKY",
@@ -51473,7 +51473,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "ADA",
@@ -51663,7 +51663,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "PONS",
@@ -51678,6 +51678,41 @@
     "stop_loss": 0.6301154353910908,
     "take_profit": 0.38076912921781847,
     "timestamp": "2026-09-13T10:24:59.594058+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.71
+  },
+  {
+    "symbol": "VIRTUAL",
+    "kucoin_symbol": "VIRTUAL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.6121,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.8)"
+    ],
+    "stop_loss": 0.5906025396840178,
+    "take_profit": 0.6550949206319644,
+    "timestamp": "2026-09-13T10:39:58.469088+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LSK",
+    "kucoin_symbol": "LSK-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.1612,
+    "reasons": [
+      "RSI \u00fcberkauft (77.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.49735299732822,
+    "take_profit": 0.48889400534356,
+    "timestamp": "2026-09-13T10:39:58.469119+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
