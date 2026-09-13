@@ -51079,7 +51079,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.25
+    "best_favorable_pct": 3.28
   },
   {
     "symbol": "BNB",
@@ -51371,7 +51371,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.33
   },
   {
     "symbol": "ARB",
@@ -51629,7 +51629,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "UB",
@@ -51646,7 +51646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.6
+    "best_favorable_pct": 8.07
   },
   {
     "symbol": "KCS",
@@ -51768,7 +51768,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.28
+    "best_favorable_pct": 3.57
   },
   {
     "symbol": "DCR",
@@ -51821,7 +51821,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.77
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "XRP",
@@ -51975,7 +51975,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 2.61
   },
   {
     "symbol": "FIL",
@@ -52112,7 +52112,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.53
+    "best_favorable_pct": 3.55
   },
   {
     "symbol": "USDS",
@@ -52146,7 +52146,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.34
+    "best_favorable_pct": 5.41
   },
   {
     "symbol": "FLR",
@@ -52318,7 +52318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "TUSD",
@@ -52437,7 +52437,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "AVAX",
@@ -52697,5 +52697,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 54.85,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 52.099212524614046,
+    "take_profit": 60.35157495077191,
+    "timestamp": "2026-09-13T17:26:18.779308+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1739,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.18088813018959854,
+    "take_profit": 0.1599237396208029,
+    "timestamp": "2026-09-13T17:26:18.779336+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
   }
 ]
