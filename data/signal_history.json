@@ -50866,9 +50866,9 @@
     "stop_loss": 0.006641215648364691,
     "take_profit": 0.006337568703270619,
     "timestamp": "2026-09-13T05:56:17.408988+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.14,
     "best_favorable_pct": 2.14
   },
   {
@@ -50883,9 +50883,9 @@
     "stop_loss": 0.015807468254123807,
     "take_profit": 0.00952256349175239,
     "timestamp": "2026-09-13T05:56:18.462829+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.95,
     "best_favorable_pct": 0.95
   },
   {
@@ -51371,7 +51371,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.33
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "ARB",
@@ -51646,7 +51646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.5
+    "best_favorable_pct": 10.24
   },
   {
     "symbol": "KCS",
@@ -52061,7 +52061,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 0.96
   },
   {
     "symbol": "CC",
@@ -52574,7 +52574,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.83
+    "best_favorable_pct": 11.02
   },
   {
     "symbol": "AVAX",
@@ -52731,7 +52731,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.55
   },
   {
     "symbol": "UB",
@@ -52749,6 +52749,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 1.77
+  },
+  {
+    "symbol": "PYTH",
+    "kucoin_symbol": "PYTH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0571,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.05950035628718416,
+    "take_profit": 0.05229928742563167,
+    "timestamp": "2026-09-13T18:06:29.302898+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0153678,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.017326193419148365,
+    "take_profit": 0.01145101316170327,
+    "timestamp": "2026-09-13T18:06:29.302928+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
