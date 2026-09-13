@@ -50487,9 +50487,9 @@
     "stop_loss": 0.0828430273564478,
     "take_profit": 0.08895394528710437,
     "timestamp": "2026-09-13T02:17:25.428419+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.27,
     "best_favorable_pct": 0.27
   },
   {
@@ -50504,9 +50504,9 @@
     "stop_loss": 3.3136640699844235e-06,
     "take_profit": 3.6896718600311534e-06,
     "timestamp": "2026-09-13T02:17:25.428451+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.13,
     "best_favorable_pct": 1.13
   },
   {
@@ -50628,7 +50628,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.76
   },
   {
     "symbol": "AVAX",
@@ -50834,7 +50834,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "CFX",
@@ -50851,7 +50851,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "FLR",
@@ -51302,7 +51302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.69
+    "best_favorable_pct": 4.93
   },
   {
     "symbol": "APT",
@@ -51371,7 +51371,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "ARB",
@@ -51422,7 +51422,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "DCR",
@@ -51524,7 +51524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.0
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "U",
@@ -51576,7 +51576,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.57
   },
   {
     "symbol": "FET",
@@ -51646,7 +51646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.4
+    "best_favorable_pct": 3.17
   },
   {
     "symbol": "KCS",
@@ -51698,7 +51698,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 1.4
   },
   {
     "symbol": "LSK",
@@ -51716,7 +51716,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 17.55
+    "best_favorable_pct": 20.87
   },
   {
     "symbol": "SUI",
@@ -51768,7 +51768,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.04
+    "best_favorable_pct": 3.17
   },
   {
     "symbol": "DCR",
@@ -51803,7 +51803,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "TAO",
@@ -51821,7 +51821,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "XRP",
@@ -51958,7 +51958,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.75
+    "best_favorable_pct": 1.07
   },
   {
     "symbol": "NEAR",
@@ -51975,7 +51975,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "FIL",
@@ -52095,7 +52095,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "LIT",
@@ -52146,7 +52146,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.39
+    "best_favorable_pct": 2.59
   },
   {
     "symbol": "FLR",
@@ -52164,5 +52164,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "INJ",
+    "kucoin_symbol": "INJ-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 6.114,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 6.4119053824521846,
+    "take_profit": 5.518189235095631,
+    "timestamp": "2026-09-13T14:19:29.755667+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
   }
 ]
