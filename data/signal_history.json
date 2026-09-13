@@ -50795,9 +50795,9 @@
     "stop_loss": 3.375163157631289e-07,
     "take_profit": 3.155673684737422e-07,
     "timestamp": "2026-09-13T04:33:40.755046+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.7,
     "best_favorable_pct": 0.7
   },
   {
@@ -51422,7 +51422,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.2
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "DCR",
@@ -51541,7 +51541,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "VVV",
@@ -51646,7 +51646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.0
+    "best_favorable_pct": 6.07
   },
   {
     "symbol": "KCS",
@@ -51803,7 +51803,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "TAO",
@@ -51924,7 +51924,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "CFX",
@@ -52403,7 +52403,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "USD1",
@@ -52437,7 +52437,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "AVAX",
@@ -52454,7 +52454,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "ETC",
@@ -52488,7 +52488,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "FF",
@@ -52540,7 +52540,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "KITE",
@@ -52557,7 +52557,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.66
   },
   {
     "symbol": "LSK",
@@ -52574,6 +52574,59 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 6.32
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 7.385,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 7.210910745258661,
+    "take_profit": 7.733178509482677,
+    "timestamp": "2026-09-13T16:44:22.917411+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.999,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 0.9999714533562706,
+    "take_profit": 0.997057093287459,
+    "timestamp": "2026-09-13T16:44:24.208191+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.306e-07,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 3.3765997045601916e-07,
+    "take_profit": 3.1648005908796166e-07,
+    "timestamp": "2026-09-13T16:44:25.238581+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
