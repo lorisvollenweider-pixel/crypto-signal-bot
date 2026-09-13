@@ -50917,9 +50917,9 @@
     "stop_loss": 2.1125091628572887,
     "take_profit": 2.3689816742854224,
     "timestamp": "2026-09-13T06:42:32.769905+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.65,
     "best_favorable_pct": 0.65
   },
   {
@@ -50935,9 +50935,9 @@
     "stop_loss": 0.1492168880042663,
     "take_profit": 0.12306622399146744,
     "timestamp": "2026-09-13T06:42:32.769937+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.99,
     "best_favorable_pct": 3.99
   },
   {
@@ -50952,9 +50952,9 @@
     "stop_loss": 0.24914637347009638,
     "take_profit": 0.21480725305980722,
     "timestamp": "2026-09-13T06:42:33.839620+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.1,
     "best_favorable_pct": 2.1
   },
   {
@@ -51216,7 +51216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.9
+    "best_favorable_pct": 3.12
   },
   {
     "symbol": "STABLE",
@@ -51646,7 +51646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 11.0
+    "best_favorable_pct": 11.85
   },
   {
     "symbol": "KCS",
@@ -51803,7 +51803,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "TAO",
@@ -52095,7 +52095,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "LIT",
@@ -52318,7 +52318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.86
   },
   {
     "symbol": "TUSD",
@@ -52437,7 +52437,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "AVAX",
@@ -52644,7 +52644,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "SOL",
@@ -52749,7 +52749,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.47
+    "best_favorable_pct": 3.26
   },
   {
     "symbol": "PYTH",
@@ -52801,7 +52801,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "FIL",
@@ -52820,6 +52820,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 1.1
+  },
+  {
+    "symbol": "CAKE",
+    "kucoin_symbol": "CAKE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.242,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 2.174668363699883,
+    "take_profit": 2.376663272600234,
+    "timestamp": "2026-09-13T18:55:37.756745+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
