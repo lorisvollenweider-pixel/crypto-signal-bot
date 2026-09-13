@@ -49521,9 +49521,9 @@
     "stop_loss": 0.003593261078765302,
     "take_profit": 0.0044684778424693965,
     "timestamp": "2026-09-12T19:18:12.625218+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -49538,9 +49538,9 @@
     "stop_loss": 58.57840125064217,
     "take_profit": 49.04319749871566,
     "timestamp": "2026-09-12T19:18:13.658735+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.52,
     "best_favorable_pct": 1.52
   },
   {
@@ -49593,7 +49593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.03
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "SUN",
@@ -49730,7 +49730,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.63
+    "best_favorable_pct": 3.28
   },
   {
     "symbol": "LDO",
@@ -49938,7 +49938,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "FLR",
@@ -49992,7 +49992,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.01
+    "best_favorable_pct": 5.66
   },
   {
     "symbol": "USDC",
@@ -50215,7 +50215,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.04
+    "best_favorable_pct": 5.66
   },
   {
     "symbol": "RAY",
@@ -50560,7 +50560,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 49.7
+    "best_favorable_pct": 51.93
   },
   {
     "symbol": "BNB",
@@ -50628,7 +50628,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "AVAX",
@@ -50869,7 +50869,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "AKE",
@@ -50920,7 +50920,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "ARB",
@@ -50970,6 +50970,24 @@
     "stop_loss": 3.400806014774146e-07,
     "take_profit": 3.1703879704517075e-07,
     "timestamp": "2026-09-13T06:57:12.123703+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.9961,
+    "reasons": [
+      "RSI \u00fcberverkauft (16.6)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.9932496355602567,
+    "take_profit": 1.0018007288794866,
+    "timestamp": "2026-09-13T07:30:32.893821+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
