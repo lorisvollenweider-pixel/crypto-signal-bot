@@ -51765,9 +51765,9 @@
     "stop_loss": 0.3336929072705492,
     "take_profit": 0.3748141854589016,
     "timestamp": "2026-09-13T11:21:31.699172+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.15,
     "best_favorable_pct": 4.15
   },
   {
@@ -51783,9 +51783,9 @@
     "stop_loss": 17.11981025687499,
     "take_profit": 14.480379486250008,
     "timestamp": "2026-09-13T11:21:31.699199+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -52010,7 +52010,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.61
+    "best_favorable_pct": 3.29
   },
   {
     "symbol": "PONS",
@@ -52574,7 +52574,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.96
+    "best_favorable_pct": 22.31
   },
   {
     "symbol": "AVAX",
@@ -52801,7 +52801,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.31
+    "best_favorable_pct": 3.61
   },
   {
     "symbol": "FIL",
@@ -53266,7 +53266,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.1
+    "best_favorable_pct": 2.39
   },
   {
     "symbol": "QNT",
@@ -53335,7 +53335,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "MON",
@@ -53405,7 +53405,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.25
+    "best_favorable_pct": 1.26
   },
   {
     "symbol": "CRO",
@@ -53457,7 +53457,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "WLD",
@@ -53491,7 +53491,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "ARB",
@@ -53613,7 +53613,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "ENA",
@@ -53630,7 +53630,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "KCS",
@@ -53664,7 +53664,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "INJ",
@@ -53770,7 +53770,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "ARB",
@@ -53805,7 +53805,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "ICP",
@@ -53859,5 +53859,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "CFX",
+    "kucoin_symbol": "CFX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.04698,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.04860201272648073,
+    "take_profit": 0.04373597454703854,
+    "timestamp": "2026-09-13T23:26:19.891555+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
