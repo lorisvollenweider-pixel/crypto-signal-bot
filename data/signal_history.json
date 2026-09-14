@@ -52298,9 +52298,9 @@
     "stop_loss": 0.9998522579343111,
     "take_profit": 1.0023954841313776,
     "timestamp": "2026-09-13T15:55:46.193063+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -52315,9 +52315,9 @@
     "stop_loss": 6.66465522322634,
     "take_profit": 6.97768955354732,
     "timestamp": "2026-09-13T15:55:46.193110+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.14,
     "best_favorable_pct": 2.14
   },
   {
@@ -52332,9 +52332,9 @@
     "stop_loss": 1.0001537569423558,
     "take_profit": 0.9936924861152885,
     "timestamp": "2026-09-13T15:55:46.193133+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -52679,7 +52679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 1.76
   },
   {
     "symbol": "SEI",
@@ -52993,7 +52993,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "UB",
@@ -54310,7 +54310,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "USDS",
@@ -54414,7 +54414,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "LIT",
@@ -54465,7 +54465,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.3
+    "best_favorable_pct": 2.31
   },
   {
     "symbol": "USDE",
@@ -54570,7 +54570,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "LIT",
@@ -54589,5 +54589,90 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.43
+  },
+  {
+    "symbol": "BNB",
+    "kucoin_symbol": "BNB-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 722.59,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 711.1437567971175,
+    "take_profit": 745.4824864057653,
+    "timestamp": "2026-09-14T04:00:32.745787+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0002,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.0023089902218467,
+    "take_profit": 0.9959820195563064,
+    "timestamp": "2026-09-14T04:00:32.745832+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9672,
+    "reasons": [
+      "RSI \u00fcberkauft (75.4)"
+    ],
+    "stop_loss": 1.0217870039740988,
+    "take_profit": 0.8580259920518023,
+    "timestamp": "2026-09-14T04:00:32.745857+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.007155,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.007409531811721863,
+    "take_profit": 0.006645936376556275,
+    "timestamp": "2026-09-14T04:00:32.745878+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MON",
+    "kucoin_symbol": "MON-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0234,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.02429233619257819,
+    "take_profit": 0.021615327614843617,
+    "timestamp": "2026-09-14T04:00:32.745895+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
