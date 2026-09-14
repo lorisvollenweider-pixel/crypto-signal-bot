@@ -52641,9 +52641,9 @@
     "stop_loss": 1.3237340433493274,
     "take_profit": 1.4195419133013452,
     "timestamp": "2026-09-13T17:11:31.942115+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.72,
     "best_favorable_pct": 1.72
   },
   {
@@ -52658,9 +52658,9 @@
     "stop_loss": 98.94927594259549,
     "take_profit": 105.40144811480899,
     "timestamp": "2026-09-13T17:11:31.942136+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.37,
     "best_favorable_pct": 0.37
   },
   {
@@ -52676,9 +52676,9 @@
     "stop_loss": 76.3273151470484,
     "take_profit": 83.32836970590323,
     "timestamp": "2026-09-13T17:11:31.942146+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.92,
     "best_favorable_pct": 1.92
   },
   {
@@ -52693,9 +52693,9 @@
     "stop_loss": 0.04685566779992249,
     "take_profit": 0.042908664400155005,
     "timestamp": "2026-09-13T17:11:33.142783+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.21,
     "best_favorable_pct": 3.21
   },
   {
@@ -52710,9 +52710,9 @@
     "stop_loss": 52.099212524614046,
     "take_profit": 60.35157495077191,
     "timestamp": "2026-09-13T17:26:18.779308+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -52728,9 +52728,9 @@
     "stop_loss": 0.18088813018959854,
     "take_profit": 0.1599237396208029,
     "timestamp": "2026-09-13T17:26:18.779336+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.95,
     "best_favorable_pct": 4.95
   },
   {
@@ -53181,7 +53181,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.4
+    "best_favorable_pct": 1.57
   },
   {
     "symbol": "APT",
@@ -54656,7 +54656,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "MON",
@@ -54707,7 +54707,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "AKE",
@@ -54759,7 +54759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "XAUT",
@@ -54794,7 +54794,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "DCR",
@@ -54864,7 +54864,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "BTT",
@@ -54900,5 +54900,56 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.37631,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.3423284598548098,
+    "take_profit": 1.44427308029038,
+    "timestamp": "2026-09-14T05:28:05.544530+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 101.05,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 98.80798119744885,
+    "take_profit": 105.53403760510228,
+    "timestamp": "2026-09-14T05:28:05.544549+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RAIN",
+    "kucoin_symbol": "RAIN-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.015142,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.015528767847159225,
+    "take_profit": 0.014368464305681545,
+    "timestamp": "2026-09-14T05:28:05.544561+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
