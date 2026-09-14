@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "BTC",
-    "kucoin_symbol": "BTC-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 78659.7,
-    "timestamp": "2026-08-31T14:44:27.452939+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0
-  },
-  {
-    "symbol": "PYTH",
-    "kucoin_symbol": "PYTH-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.04747,
-    "timestamp": "2026-08-31T14:44:27.453004+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 5.35,
-    "best_favorable_pct": 5.35
-  },
-  {
-    "symbol": "LUNC",
-    "kucoin_symbol": "LUNC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 5.046e-05,
-    "timestamp": "2026-08-31T14:44:27.453018+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.97,
-    "best_favorable_pct": 0.85
-  },
-  {
     "symbol": "BNB",
     "kucoin_symbol": "BNB-USDT",
     "direction": "long",
@@ -54035,9 +54000,9 @@
     "stop_loss": 1.0000149831064633,
     "take_profit": 0.9969700337870735,
     "timestamp": "2026-09-14T02:41:33.558044+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -54384,7 +54349,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.4
+    "best_favorable_pct": 2.41
   },
   {
     "symbol": "BNB",
@@ -54505,7 +54470,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "PAXG",
@@ -54800,7 +54765,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.95
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "ZEC",
@@ -54834,7 +54799,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "ADA",
@@ -55228,7 +55193,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 2.5
   },
   {
     "symbol": "XDC",
@@ -55419,7 +55384,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "USDS",
@@ -55628,7 +55593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "AVAX",
@@ -55696,7 +55661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "INJ",
@@ -55798,7 +55763,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "XLM",
@@ -55989,7 +55954,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "FF",
@@ -56075,7 +56040,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 2.86
   },
   {
     "symbol": "AI",
@@ -56094,5 +56059,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XLM",
+    "kucoin_symbol": "XLM-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.1901,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (3.5x Durchschnitt)"
+    ],
+    "stop_loss": 0.18445841265934138,
+    "take_profit": 0.20138317468131722,
+    "timestamp": "2026-09-14T14:49:57.968117+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.05
   }
 ]
