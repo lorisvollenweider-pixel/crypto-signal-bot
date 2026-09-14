@@ -52264,9 +52264,9 @@
     "stop_loss": 0.015713273416053008,
     "take_profit": 0.01445245316789398,
     "timestamp": "2026-09-13T15:43:57.942955+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.01,
     "best_favorable_pct": 1.01
   },
   {
@@ -52281,9 +52281,9 @@
     "stop_loss": 1.0005291219432835,
     "take_profit": 0.9989417561134333,
     "timestamp": "2026-09-13T15:43:57.942988+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -52679,7 +52679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.58
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "SEI",
@@ -53440,7 +53440,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "MORPHO",
@@ -53457,7 +53457,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 2.02
   },
   {
     "symbol": "WLD",
@@ -54224,7 +54224,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "PONS",
@@ -54362,7 +54362,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.83
   },
   {
     "symbol": "FLR",
@@ -54414,7 +54414,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.32
   },
   {
     "symbol": "LIT",
@@ -54431,7 +54431,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.78
+    "best_favorable_pct": 5.14
   },
   {
     "symbol": "CAKE",
@@ -54465,7 +54465,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.58
+    "best_favorable_pct": 2.3
   },
   {
     "symbol": "USDE",
@@ -54570,6 +54570,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.71
+  },
+  {
+    "symbol": "LIT",
+    "kucoin_symbol": "LIT-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 4.645,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 4.353043161353487,
+    "take_profit": 5.228913677293025,
+    "timestamp": "2026-09-14T03:48:54.431351+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.43
   }
 ]
