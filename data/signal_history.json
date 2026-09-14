@@ -52092,9 +52092,9 @@
     "stop_loss": 0.33843083981364264,
     "take_profit": 0.34643832037271477,
     "timestamp": "2026-09-13T13:08:50.043678+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.18,
     "best_favorable_pct": 0.18
   },
   {
@@ -52109,9 +52109,9 @@
     "stop_loss": 3.8358060227231086,
     "take_profit": 4.568387954553783,
     "timestamp": "2026-09-13T13:08:50.043724+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.05,
     "best_favorable_pct": 5.05
   },
   {
@@ -52523,7 +52523,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.68
+    "best_favorable_pct": 2.75
   },
   {
     "symbol": "LUNC",
@@ -53544,7 +53544,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "LUNC",
@@ -53962,7 +53962,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "SUI",
@@ -54100,7 +54100,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "SUI",
@@ -54241,7 +54241,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "SUN",
@@ -54276,7 +54276,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "NIGHT",
@@ -54293,6 +54293,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "TRX",
+    "kucoin_symbol": "TRX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.3387,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.33598300372406725,
+    "take_profit": 0.34413399255186555,
+    "timestamp": "2026-09-14T01:22:25.157025+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
   }
 ]
