@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "U",
-    "kucoin_symbol": "U-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.9993,
-    "timestamp": "2026-08-31T14:10:03.500053+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0
-  },
-  {
     "symbol": "XLM",
     "kucoin_symbol": "XLM-USDT",
     "direction": "short",
@@ -53948,9 +53937,9 @@
     "stop_loss": 5.766669455625116,
     "take_profit": 6.70966108874977,
     "timestamp": "2026-09-14T02:06:12.803236+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.12,
     "best_favorable_pct": 3.12
   },
   {
@@ -53965,9 +53954,9 @@
     "stop_loss": 0.006546957107300501,
     "take_profit": 0.006226085785399,
     "timestamp": "2026-09-14T02:06:13.859075+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -54003,7 +53992,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.05
+    "best_favorable_pct": 2.18
   },
   {
     "symbol": "LIT",
@@ -54366,7 +54355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "TRUMP",
@@ -54539,7 +54528,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "PAXG",
@@ -54834,7 +54823,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "ZEC",
@@ -54851,7 +54840,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "XMR",
@@ -55090,7 +55079,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "APT",
@@ -55262,7 +55251,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "XDC",
@@ -55297,7 +55286,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "XLM",
@@ -55662,7 +55651,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "AVAX",
@@ -55730,7 +55719,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "INJ",
@@ -55832,7 +55821,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "XLM",
@@ -55902,7 +55891,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.25
   },
   {
     "symbol": "TUSD",
@@ -55920,7 +55909,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "USDG",
@@ -56002,6 +55991,58 @@
     "stop_loss": 0.11128051204876602,
     "take_profit": 0.11742897590246795,
     "timestamp": "2026-09-14T13:53:58.286118+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 4280.56,
+    "reasons": [
+      "RSI \u00fcberverkauft (23.8)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 4247.8347674039,
+    "take_profit": 4346.010465192203,
+    "timestamp": "2026-09-14T14:10:19.954134+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1343,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.1261739967946808,
+    "take_profit": 0.15055200641063837,
+    "timestamp": "2026-09-14T14:10:21.414376+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0155,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 1.061748071848471,
+    "take_profit": 0.923003856303058,
+    "timestamp": "2026-09-14T14:10:21.414392+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
