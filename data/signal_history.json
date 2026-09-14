@@ -54402,9 +54402,9 @@
     "stop_loss": 0.1912238599128876,
     "take_profit": 0.1764522801742248,
     "timestamp": "2026-09-14T09:57:58.883591+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -54420,9 +54420,9 @@
     "stop_loss": 0.9997273548169927,
     "take_profit": 1.0014452903660145,
     "timestamp": "2026-09-14T09:57:58.883614+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -54438,9 +54438,9 @@
     "stop_loss": 6.8940246617229635,
     "take_profit": 7.253950676554073,
     "timestamp": "2026-09-14T09:58:00.037448+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.38,
     "best_favorable_pct": 1.38
   },
   {
@@ -54838,7 +54838,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.17
+    "best_favorable_pct": 6.62
   },
   {
     "symbol": "BDX",
@@ -55464,7 +55464,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "AI",
@@ -55898,7 +55898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "SUN",
@@ -56125,7 +56125,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.72
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "ASTER",
@@ -56542,7 +56542,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "ONDO",
@@ -56629,5 +56629,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.08
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.10777,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.11117489842663814,
+    "take_profit": 0.10096020314672374,
+    "timestamp": "2026-09-14T22:09:27.779241+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
