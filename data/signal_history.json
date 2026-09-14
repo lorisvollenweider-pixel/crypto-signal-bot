@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "GRAM",
-    "kucoin_symbol": "GRAM-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.337,
-    "timestamp": "2026-08-31T11:51:45.159662+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0
-  },
-  {
     "symbol": "TRX",
     "kucoin_symbol": "TRX-USDT",
     "direction": "long",
@@ -54296,7 +54285,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "USDG",
@@ -54468,7 +54457,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "AKE",
@@ -54762,7 +54751,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.71
+    "best_favorable_pct": 2.81
   },
   {
     "symbol": "VET",
@@ -54797,7 +54786,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.59
+    "best_favorable_pct": 4.0
   },
   {
     "symbol": "AKE",
@@ -54883,7 +54872,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.15
+    "best_favorable_pct": 3.36
   },
   {
     "symbol": "XDC",
@@ -54954,7 +54943,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "PAXG",
@@ -55539,7 +55528,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.31
   },
   {
     "symbol": "AKE",
@@ -55696,7 +55685,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "XRP",
@@ -55765,6 +55754,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 1.0003,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (3.9x Durchschnitt)"
+    ],
+    "stop_loss": 1.0000963712099837,
+    "take_profit": 1.0007072575800324,
+    "timestamp": "2026-09-14T11:54:35.489383+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
