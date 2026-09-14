@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "FLR",
-    "kucoin_symbol": "FLR-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.00724,
-    "timestamp": "2026-08-31T19:43:32.039734+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0
-  },
-  {
     "symbol": "SHIB",
     "kucoin_symbol": "SHIB-USDT",
     "direction": "long",
@@ -54060,9 +54049,9 @@
     "stop_loss": 0.3389465084009704,
     "take_profit": 0.3871069831980592,
     "timestamp": "2026-09-14T07:38:57.054410+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.65,
     "best_favorable_pct": 0.65
   },
   {
@@ -54439,7 +54428,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.87
+    "best_favorable_pct": 1.0
   },
   {
     "symbol": "HBAR",
@@ -54926,7 +54915,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "DOGE",
@@ -55130,7 +55119,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.38
+    "best_favorable_pct": 3.47
   },
   {
     "symbol": "XLM",
@@ -55740,7 +55729,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 1.66
   },
   {
     "symbol": "JUP",
@@ -55809,7 +55798,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "BDX",
@@ -56001,7 +55990,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "SUI",
@@ -56227,7 +56216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "XAUT",
@@ -56280,6 +56269,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.85
+  },
+  {
+    "symbol": "ADA",
+    "kucoin_symbol": "ADA-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.2125,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.20561859406641755,
+    "take_profit": 0.2262628118671649,
+    "timestamp": "2026-09-14T19:50:43.914092+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.03478,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.03324663124636765,
+    "take_profit": 0.0378467375072647,
+    "timestamp": "2026-09-14T19:50:45.190509+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
