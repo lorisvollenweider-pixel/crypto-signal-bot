@@ -52886,9 +52886,9 @@
     "stop_loss": 0.10017713675065305,
     "take_profit": 0.09184572649869391,
     "timestamp": "2026-09-13T19:49:59.443473+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.64,
     "best_favorable_pct": 1.64
   },
   {
@@ -52904,9 +52904,9 @@
     "stop_loss": 0.1267654452170433,
     "take_profit": 0.14473410956591345,
     "timestamp": "2026-09-13T19:49:59.443511+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.29,
     "best_favorable_pct": 5.29
   },
   {
@@ -52924,7 +52924,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "SOL",
@@ -52976,7 +52976,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "ONDO",
@@ -53440,7 +53440,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "MORPHO",
@@ -53770,7 +53770,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.67
+    "best_favorable_pct": 8.34
   },
   {
     "symbol": "ARB",
@@ -53893,7 +53893,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.71
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "DOGE",
@@ -54397,7 +54397,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.77
+    "best_favorable_pct": 1.89
   },
   {
     "symbol": "HYPE",
@@ -54777,7 +54777,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "TRUMP",
@@ -54916,7 +54916,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.8
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "SOL",
@@ -55018,7 +55018,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "INJ",
@@ -55036,7 +55036,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.5
+    "best_favorable_pct": 2.74
   },
   {
     "symbol": "AKE",
@@ -55173,6 +55173,58 @@
     "stop_loss": 0.3389465084009704,
     "take_profit": 0.3871069831980592,
     "timestamp": "2026-09-14T07:38:57.054410+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 53.87,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 55.50995119021329,
+    "take_profit": 50.59009761957341,
+    "timestamp": "2026-09-14T07:54:28.913582+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 4317.55,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 4288.804790318797,
+    "take_profit": 4375.040419362406,
+    "timestamp": "2026-09-14T07:54:28.913612+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.008001,
+    "reasons": [
+      "Volumen-Spike (2.4x Durchschnitt)"
+    ],
+    "stop_loss": 0.007600631989297082,
+    "take_profit": 0.008801736021405835,
+    "timestamp": "2026-09-14T07:54:30.098010+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
