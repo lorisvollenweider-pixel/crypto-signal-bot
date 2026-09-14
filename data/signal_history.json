@@ -1,16 +1,5 @@
 [
   {
-    "symbol": "XLM",
-    "kucoin_symbol": "XLM-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.1775,
-    "timestamp": "2026-08-31T10:54:06.947616+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0
-  },
-  {
     "symbol": "LIT",
     "kucoin_symbol": "LIT-USDT",
     "direction": "long",
@@ -53704,9 +53693,9 @@
     "stop_loss": 2.866932169744128,
     "take_profit": 2.540135660511744,
     "timestamp": "2026-09-13T22:55:40.198801+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.29,
     "best_favorable_pct": 0.29
   },
   {
@@ -54886,7 +54875,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "VET",
@@ -54903,7 +54892,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.76
+    "best_favorable_pct": 3.47
   },
   {
     "symbol": "INJ",
@@ -55369,7 +55358,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.7
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "CRV",
@@ -55749,7 +55738,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "USDS",
@@ -55804,5 +55793,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.758,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 2.8655888538936742,
+    "take_profit": 2.542822292212651,
+    "timestamp": "2026-09-14T11:00:51.525762+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
   }
 ]
