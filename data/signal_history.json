@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "PYUSD",
-    "kucoin_symbol": "PYUSD-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.9997,
-    "timestamp": "2026-08-31T11:28:46.038103+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.01,
-    "best_favorable_pct": 0.01
-  },
-  {
-    "symbol": "CAKE",
-    "kucoin_symbol": "CAKE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.87,
-    "timestamp": "2026-08-31T11:28:46.038131+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0
-  },
-  {
-    "symbol": "UB",
-    "kucoin_symbol": "UB-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.122812,
-    "timestamp": "2026-08-31T11:28:46.038144+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.09,
-    "best_favorable_pct": 2.88
-  },
-  {
     "symbol": "GRAM",
     "kucoin_symbol": "GRAM-USDT",
     "direction": "short",
@@ -53669,9 +53634,9 @@
     "stop_loss": 0.04860201272648073,
     "take_profit": 0.04373597454703854,
     "timestamp": "2026-09-13T23:26:19.891555+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.62,
     "best_favorable_pct": 0.62
   },
   {
@@ -54210,7 +54175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.58
+    "best_favorable_pct": 1.64
   },
   {
     "symbol": "LIT",
@@ -54555,7 +54520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "XAUT",
@@ -54797,7 +54762,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.71
   },
   {
     "symbol": "VET",
@@ -54832,7 +54797,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.48
+    "best_favorable_pct": 3.59
   },
   {
     "symbol": "AKE",
@@ -54989,7 +54954,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "PAXG",
@@ -55417,7 +55382,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "TRX",
@@ -55469,7 +55434,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.72
+    "best_favorable_pct": 1.54
   },
   {
     "symbol": "XDC",
@@ -55574,7 +55539,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "AKE",
@@ -55780,6 +55745,23 @@
     "stop_loss": 0.6369292291023123,
     "take_profit": 0.5747415417953754,
     "timestamp": "2026-09-14T11:21:14.628649+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0002,
+    "reasons": [
+      "Volumen-Spike (3.1x Durchschnitt)"
+    ],
+    "stop_loss": 1.0000177997814124,
+    "take_profit": 1.0005644004371752,
+    "timestamp": "2026-09-14T11:38:37.522345+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
