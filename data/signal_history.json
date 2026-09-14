@@ -54442,9 +54442,9 @@
     "stop_loss": 0.030275381171983733,
     "take_profit": 0.02756523765603253,
     "timestamp": "2026-09-14T09:23:45.508846+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.15,
     "best_favorable_pct": 5.15
   },
   {
@@ -54460,9 +54460,9 @@
     "stop_loss": 0.02821903979195296,
     "take_profit": 0.026631920416094076,
     "timestamp": "2026-09-14T09:23:45.508865+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.07,
     "best_favorable_pct": 0.07
   },
   {
@@ -54477,9 +54477,9 @@
     "stop_loss": 0.27635805407019093,
     "take_profit": 0.24768389185961806,
     "timestamp": "2026-09-14T09:23:46.696080+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.45,
     "best_favorable_pct": 0.45
   },
   {
@@ -54742,7 +54742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "VIRTUAL",
@@ -55886,7 +55886,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "SUI",
@@ -55921,7 +55921,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "ALGO",
@@ -55973,7 +55973,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.88
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "UNI",
@@ -56147,7 +56147,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "KITE",
@@ -56217,7 +56217,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "ASTER",
@@ -56270,7 +56270,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "ENA",
@@ -56287,7 +56287,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.09
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "ETHFI",
@@ -56356,7 +56356,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.53
   },
   {
     "symbol": "SEI",
@@ -56374,7 +56374,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.95
+    "best_favorable_pct": 1.24
   },
   {
     "symbol": "LUNC",
@@ -56425,7 +56425,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "RENDER",
@@ -56443,7 +56443,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.35
+    "best_favorable_pct": 1.42
   },
   {
     "symbol": "APT",
@@ -56668,7 +56668,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "SPX",
@@ -56702,6 +56702,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.26
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 1.45391,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.4103003602907493,
+    "take_profit": 1.5411292794185014,
+    "timestamp": "2026-09-14T21:23:24.974291+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
