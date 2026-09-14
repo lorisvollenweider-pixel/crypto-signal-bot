@@ -52075,9 +52075,9 @@
     "stop_loss": 0.0982244434823333,
     "take_profit": 0.08867111303533338,
     "timestamp": "2026-09-13T12:53:56.557913+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.87,
     "best_favorable_pct": 0.87
   },
   {
@@ -52318,7 +52318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "TUSD",
@@ -53544,7 +53544,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.25
   },
   {
     "symbol": "LUNC",
@@ -53770,7 +53770,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "ARB",
@@ -53876,7 +53876,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "ETH",
@@ -53910,7 +53910,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "ADA",
@@ -53962,7 +53962,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "SUI",
@@ -54100,7 +54100,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.85
   },
   {
     "symbol": "SUI",
@@ -54153,7 +54153,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "U",
@@ -54224,7 +54224,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "PONS",
@@ -54241,7 +54241,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.86
   },
   {
     "symbol": "SUN",
@@ -54255,6 +54255,41 @@
     "stop_loss": 0.0170643202122907,
     "take_profit": 0.0166913595754186,
     "timestamp": "2026-09-14T00:51:29.683246+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.02761,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.027107706616082687,
+    "take_profit": 0.02861458676783462,
+    "timestamp": "2026-09-14T01:05:05.240663+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01997,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.019285381770468204,
+    "take_profit": 0.021339236459063594,
+    "timestamp": "2026-09-14T01:05:06.495599+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
