@@ -54507,9 +54507,9 @@
     "stop_loss": 7.564729361866921,
     "take_profit": 7.025541276266157,
     "timestamp": "2026-09-14T10:33:30.395936+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -54524,9 +54524,9 @@
     "stop_loss": 0.057348415976297036,
     "take_profit": 0.06284316804740595,
     "timestamp": "2026-09-14T10:33:30.395962+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.52,
     "best_favorable_pct": 1.52
   },
   {
@@ -54541,9 +54541,9 @@
     "stop_loss": 2.4153717888018225,
     "take_profit": 2.1043564223963553,
     "timestamp": "2026-09-14T10:33:30.396003+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.07,
     "best_favorable_pct": 2.07
   },
   {
@@ -55148,7 +55148,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.9
+    "best_favorable_pct": 2.39
   },
   {
     "symbol": "CAKE",
@@ -55481,7 +55481,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "HBAR",
@@ -55567,7 +55567,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "PIEVERSE",
@@ -55706,7 +55706,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "APT",
@@ -55760,7 +55760,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "AAVE",
@@ -55811,7 +55811,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.26
+    "best_favorable_pct": 2.45
   },
   {
     "symbol": "TAO",
@@ -55829,7 +55829,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.15
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "ALGO",
@@ -55846,7 +55846,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.22
+    "best_favorable_pct": 1.33
   },
   {
     "symbol": "XDC",
@@ -55881,7 +55881,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.81
+    "best_favorable_pct": 2.1
   },
   {
     "symbol": "UNI",
@@ -56195,7 +56195,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 2.32
   },
   {
     "symbol": "ETHFI",
@@ -56264,7 +56264,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.43
+    "best_favorable_pct": 2.67
   },
   {
     "symbol": "SEI",
@@ -56282,7 +56282,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.59
+    "best_favorable_pct": 1.68
   },
   {
     "symbol": "LUNC",
@@ -56333,7 +56333,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.81
+    "best_favorable_pct": 1.92
   },
   {
     "symbol": "RENDER",
@@ -56681,7 +56681,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "VET",
@@ -56717,5 +56717,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 7.626,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 7.427831745082169,
+    "take_profit": 8.022336509835663,
+    "timestamp": "2026-09-14T22:45:00.247235+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
