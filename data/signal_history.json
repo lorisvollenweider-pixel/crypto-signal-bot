@@ -52349,9 +52349,9 @@
     "stop_loss": 1.0000587025242316,
     "take_profit": 0.9971825949515367,
     "timestamp": "2026-09-13T16:11:41.728230+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -52366,9 +52366,9 @@
     "stop_loss": 4327.0676689864,
     "take_profit": 4405.5246620272,
     "timestamp": "2026-09-13T16:11:41.728261+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.08,
     "best_favorable_pct": 0.08
   },
   {
@@ -52383,9 +52383,9 @@
     "stop_loss": 1.1075669306828058,
     "take_profit": 1.3125661386343883,
     "timestamp": "2026-09-13T16:11:41.728291+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.47,
     "best_favorable_pct": 2.47
   },
   {
@@ -52783,7 +52783,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.67
+    "best_favorable_pct": 3.79
   },
   {
     "symbol": "DCR",
@@ -53613,7 +53613,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.44
+    "best_favorable_pct": 2.61
   },
   {
     "symbol": "ENA",
@@ -54118,7 +54118,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.78
+    "best_favorable_pct": 2.95
   },
   {
     "symbol": "USDD",
@@ -54224,7 +54224,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 2.04
   },
   {
     "symbol": "PONS",
@@ -54362,7 +54362,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 2.02
   },
   {
     "symbol": "FLR",
@@ -54605,7 +54605,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "PYUSD",
@@ -54639,7 +54639,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "PENGU",
@@ -54670,6 +54670,75 @@
     "stop_loss": 0.02429233619257819,
     "take_profit": 0.021615327614843617,
     "timestamp": "2026-09-14T04:00:32.745895+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RAIN",
+    "kucoin_symbol": "RAIN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.015201,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.0148213035814122,
+    "take_profit": 0.015960392837175597,
+    "timestamp": "2026-09-14T04:21:28.965264+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TIA",
+    "kucoin_symbol": "TIA-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.3581,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.3718865902486981,
+    "take_profit": 0.3305268195026038,
+    "timestamp": "2026-09-14T04:21:28.965314+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0147853,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.016501642627335777,
+    "take_profit": 0.011352614745328442,
+    "timestamp": "2026-09-14T04:21:28.965322+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PIEVERSE",
+    "kucoin_symbol": "PIEVERSE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.1734,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.1075335364587031,
+    "take_profit": 1.3051329270825938,
+    "timestamp": "2026-09-14T04:21:30.405286+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
