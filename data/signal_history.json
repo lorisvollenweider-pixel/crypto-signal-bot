@@ -52589,9 +52589,9 @@
     "stop_loss": 7.210910745258661,
     "take_profit": 7.733178509482677,
     "timestamp": "2026-09-13T16:44:22.917411+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.91,
     "best_favorable_pct": 0.91
   },
   {
@@ -52607,9 +52607,9 @@
     "stop_loss": 0.9999714533562706,
     "take_profit": 0.997057093287459,
     "timestamp": "2026-09-13T16:44:24.208191+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -52624,9 +52624,9 @@
     "stop_loss": 3.3765997045601916e-07,
     "take_profit": 3.1648005908796166e-07,
     "timestamp": "2026-09-13T16:44:25.238581+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.57,
     "best_favorable_pct": 0.57
   },
   {
@@ -53387,7 +53387,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.61
+    "best_favorable_pct": 2.16
   },
   {
     "symbol": "XMR",
@@ -54397,7 +54397,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "HYPE",
@@ -54535,7 +54535,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "USDG",
@@ -54605,7 +54605,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "PYUSD",
@@ -54622,7 +54622,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "FIL",
@@ -54656,7 +54656,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "MON",
@@ -54742,7 +54742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "HBAR",
@@ -54759,7 +54759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "XAUT",
@@ -54812,7 +54812,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.83
   },
   {
     "symbol": "KITE",
@@ -54826,6 +54826,58 @@
     "stop_loss": 0.11144983101254963,
     "take_profit": 0.10158033797490076,
     "timestamp": "2026-09-14T04:39:20.521836+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "BNB",
+    "kucoin_symbol": "BNB-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 725.085,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 713.3453996542603,
+    "take_profit": 748.5642006914795,
+    "timestamp": "2026-09-14T04:54:45.134530+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.028643,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.027744141316605134,
+    "take_profit": 0.030440717366789726,
+    "timestamp": "2026-09-14T04:54:46.350020+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.297e-07,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 3.3607088620301813e-07,
+    "take_profit": 3.169582275939638e-07,
+    "timestamp": "2026-09-14T04:54:46.350062+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
