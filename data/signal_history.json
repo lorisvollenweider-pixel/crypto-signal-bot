@@ -55686,9 +55686,9 @@
     "stop_loss": 100.55634346522669,
     "take_profit": 107.2873130695466,
     "timestamp": "2026-09-14T17:36:47.012508+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.8,
     "best_favorable_pct": 1.8
   },
   {
@@ -55777,7 +55777,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.07
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "USDD",
@@ -56195,7 +56195,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.29
+    "best_favorable_pct": 4.43
   },
   {
     "symbol": "ETHFI",
@@ -56264,7 +56264,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.66
+    "best_favorable_pct": 4.91
   },
   {
     "symbol": "SEI",
@@ -56404,7 +56404,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 20.16
+    "best_favorable_pct": 29.2
   },
   {
     "symbol": "LDO",
@@ -57063,7 +57063,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "DOT",
@@ -57184,7 +57184,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.69
+    "best_favorable_pct": 2.84
   },
   {
     "symbol": "SYRUP",
@@ -57423,7 +57423,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 20.46
+    "best_favorable_pct": 29.18
   },
   {
     "symbol": "ZRO",
@@ -57441,7 +57441,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.95
+    "best_favorable_pct": 2.1
   },
   {
     "symbol": "CRO",
@@ -57808,7 +57808,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "FIL",
@@ -57843,7 +57843,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "FET",
@@ -57947,7 +57947,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "TIA",
@@ -57964,7 +57964,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "AI",
@@ -58016,7 +58016,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "CRO",
@@ -58053,5 +58053,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.08
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 100.91,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 98.55021887286524,
+    "take_profit": 105.62956225426952,
+    "timestamp": "2026-09-15T05:40:53.606554+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "LDO",
+    "kucoin_symbol": "LDO-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.3582,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.3461093063276146,
+    "take_profit": 0.3823813873447708,
+    "timestamp": "2026-09-15T05:40:53.606641+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
