@@ -55878,9 +55878,9 @@
     "stop_loss": 1265.0487414392376,
     "take_profit": 1061.823517121525,
     "timestamp": "2026-09-14T19:02:02.683055+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.87,
     "best_favorable_pct": 4.87
   },
   {
@@ -55895,9 +55895,9 @@
     "stop_loss": 6.912070918499416,
     "take_profit": 5.951558163001167,
     "timestamp": "2026-09-14T19:02:02.683086+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.97,
     "best_favorable_pct": 0.97
   },
   {
@@ -55912,9 +55912,9 @@
     "stop_loss": 0.01710226363778015,
     "take_profit": 0.016765472724439703,
     "timestamp": "2026-09-14T19:02:02.683144+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.24,
     "best_favorable_pct": 0.24
   },
   {
@@ -55931,9 +55931,9 @@
     "stop_loss": 1.4281629768948179,
     "take_profit": 1.5529240462103637,
     "timestamp": "2026-09-14T19:21:43.707591+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.89,
     "best_favorable_pct": 0.89
   },
   {
@@ -55948,9 +55948,9 @@
     "stop_loss": 1.000264980082409,
     "take_profit": 0.9997700398351819,
     "timestamp": "2026-09-14T19:21:44.956032+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.03,
     "best_favorable_pct": 0.03
   },
   {
@@ -55965,9 +55965,9 @@
     "stop_loss": 0.9873301676682819,
     "take_profit": 1.0973396646634364,
     "timestamp": "2026-09-14T19:21:44.956081+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.04,
     "best_favorable_pct": 1.04
   },
   {
@@ -55982,9 +55982,9 @@
     "stop_loss": 1.5426249782830774,
     "take_profit": 1.7390500434338452,
     "timestamp": "2026-09-14T19:21:44.956122+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -56000,9 +56000,9 @@
     "stop_loss": 0.4908832713408838,
     "take_profit": 0.5620334573182323,
     "timestamp": "2026-09-14T19:21:44.956157+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.48,
     "best_favorable_pct": 1.48
   },
   {
@@ -56909,7 +56909,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "CFX",
@@ -57738,7 +57738,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "WLFI",
@@ -57808,7 +57808,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 2.04
   },
   {
     "symbol": "FIL",
@@ -57861,7 +57861,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "SEI",
@@ -58175,7 +58175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "ETC",
@@ -58211,7 +58211,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "JUP",
@@ -58247,6 +58247,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.3523,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.36702462609015596,
+    "take_profit": 0.32285074781968803,
+    "timestamp": "2026-09-15T07:21:49.509608+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.37
   }
 ]
