@@ -1,24 +1,5 @@
 [
   {
-    "symbol": "FIL",
-    "kucoin_symbol": "FIL-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.7692,
-    "reasons": [
-      "RSI \u00fcberkauft (71.2)",
-      "Preis \u00fcber oberem Bollinger Band",
-      "Volumen-Spike (3.0x Durchschnitt)"
-    ],
-    "stop_loss": 0.8035637087407165,
-    "take_profit": 0.7004725825185669,
-    "timestamp": "2026-09-01T23:32:48.805005+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.27,
-    "best_favorable_pct": 0.27
-  },
-  {
     "symbol": "AVAX",
     "kucoin_symbol": "AVAX-USDT",
     "direction": "short",
@@ -56283,9 +56264,9 @@
     "stop_loss": 75852.209983425,
     "take_profit": 79182.78003314999,
     "timestamp": "2026-09-15T11:33:08.938313+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.25,
     "best_favorable_pct": 0.25
   },
   {
@@ -56300,9 +56281,9 @@
     "stop_loss": 0.9999803797525223,
     "take_profit": 1.0006392404949553,
     "timestamp": "2026-09-15T11:33:08.938341+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -56317,9 +56298,9 @@
     "stop_loss": 2.200476066904645,
     "take_profit": 2.43604786619071,
     "timestamp": "2026-09-15T11:33:08.938390+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.83,
     "best_favorable_pct": 0.83
   },
   {
@@ -56335,9 +56316,9 @@
     "stop_loss": 0.5455743433471388,
     "take_profit": 0.6185513133057223,
     "timestamp": "2026-09-15T11:33:08.938415+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.12,
     "best_favorable_pct": 1.12
   },
   {
@@ -56352,9 +56333,9 @@
     "stop_loss": 0.3264947564974071,
     "take_profit": 0.36701048700518585,
     "timestamp": "2026-09-15T11:33:10.054889+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.56,
     "best_favorable_pct": 1.56
   },
   {
@@ -56370,9 +56351,9 @@
     "stop_loss": 0.04461487292582905,
     "take_profit": 0.04088025414834189,
     "timestamp": "2026-09-15T11:33:10.054908+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.8,
     "best_favorable_pct": 3.8
   },
   {
@@ -56772,7 +56753,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.87
+    "best_favorable_pct": 9.93
   },
   {
     "symbol": "LINK",
@@ -57015,7 +56996,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "TAO",
@@ -57755,7 +57736,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.21
+    "best_favorable_pct": 8.24
   },
   {
     "symbol": "TIA",
@@ -60396,7 +60377,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "QNT",
@@ -60451,5 +60432,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.41
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.3193,
+    "reasons": [
+      "Volumen-Spike (3.6x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.33715981147034607,
+    "take_profit": 0.28358037705930783,
+    "timestamp": "2026-09-15T23:43:21.539572+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.0165,
+    "reasons": [
+      "RSI \u00fcberverkauft (24.8)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.016369410743402552,
+    "take_profit": 0.016761178513194898,
+    "timestamp": "2026-09-15T23:43:22.727642+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
