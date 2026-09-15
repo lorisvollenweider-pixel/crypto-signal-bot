@@ -56625,9 +56625,9 @@
     "stop_loss": 1.4103003602907493,
     "take_profit": 1.5411292794185014,
     "timestamp": "2026-09-14T21:23:24.974291+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.08,
     "best_favorable_pct": 0.08
   },
   {
@@ -56716,7 +56716,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.04
+    "best_favorable_pct": 4.27
   },
   {
     "symbol": "AVAX",
@@ -57738,7 +57738,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.97
   },
   {
     "symbol": "WLFI",
@@ -57808,7 +57808,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.76
+    "best_favorable_pct": 2.77
   },
   {
     "symbol": "FIL",
@@ -57947,7 +57947,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.67
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "TIA",
@@ -58547,7 +58547,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "INJ",
@@ -58582,7 +58582,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.91
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "PONS",
@@ -58667,7 +58667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "SHIB",
@@ -58718,7 +58718,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "NEAR",
@@ -58735,7 +58735,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "ONDO",
@@ -58749,6 +58749,42 @@
     "stop_loss": 0.33719226609146635,
     "take_profit": 0.3693754678170673,
     "timestamp": "2026-09-15T09:13:29.169582+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.02919,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (3.5x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.028537815911734106,
+    "take_profit": 0.03049436817653179,
+    "timestamp": "2026-09-15T09:36:24.847306+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.01688,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.01677733415707286,
+    "take_profit": 0.017085331685854282,
+    "timestamp": "2026-09-15T09:36:25.904449+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
