@@ -56643,9 +56643,9 @@
     "stop_loss": 0.11117489842663814,
     "take_profit": 0.10096020314672374,
     "timestamp": "2026-09-14T22:09:27.779241+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.03,
     "best_favorable_pct": 2.03
   },
   {
@@ -56698,7 +56698,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.19
+    "best_favorable_pct": 4.62
   },
   {
     "symbol": "SYRUP",
@@ -56822,7 +56822,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.36
+    "best_favorable_pct": 1.42
   },
   {
     "symbol": "ICP",
@@ -57808,7 +57808,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.92
+    "best_favorable_pct": 3.29
   },
   {
     "symbol": "FIL",
@@ -57861,7 +57861,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.16
+    "best_favorable_pct": 2.29
   },
   {
     "symbol": "SEI",
@@ -57947,7 +57947,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "TIA",
@@ -58175,7 +58175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.92
+    "best_favorable_pct": 2.04
   },
   {
     "symbol": "ETC",
@@ -58228,7 +58228,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "XDC",
@@ -58264,7 +58264,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.01
+    "best_favorable_pct": 4.34
   },
   {
     "symbol": "BNB",
@@ -58823,5 +58823,42 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 62.917,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 61.35600653443569,
+    "take_profit": 66.03898693112862,
+    "timestamp": "2026-09-15T10:27:28.173762+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MON",
+    "kucoin_symbol": "MON-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.02235,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.1x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.02320589019630423,
+    "take_profit": 0.020638219607391536,
+    "timestamp": "2026-09-15T10:27:29.352585+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.22
   }
 ]
