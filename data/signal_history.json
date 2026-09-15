@@ -55233,9 +55233,9 @@
     "stop_loss": 0.18445841265934138,
     "take_profit": 0.20138317468131722,
     "timestamp": "2026-09-14T14:49:57.968117+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.1,
     "best_favorable_pct": 3.1
   },
   {
@@ -55584,7 +55584,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "ETH",
@@ -56125,7 +56125,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.39
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "ASTER",
@@ -56351,7 +56351,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.55
+    "best_favorable_pct": 2.62
   },
   {
     "symbol": "APT",
@@ -56994,7 +56994,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "GRAM",
@@ -57063,7 +57063,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "DOT",
@@ -57389,7 +57389,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "XLM",
@@ -57511,7 +57511,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "FLR",
@@ -57543,6 +57543,41 @@
     "stop_loss": 0.15569442697568436,
     "take_profit": 0.17701114604863127,
     "timestamp": "2026-09-15T02:48:06.234179+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BNB",
+    "kucoin_symbol": "BNB-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 721.708,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 709.6082821940432,
+    "take_profit": 745.9074356119136,
+    "timestamp": "2026-09-15T03:00:51.664020+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.11512,
+    "reasons": [
+      "RSI \u00fcberkauft (70.1)"
+    ],
+    "stop_loss": 0.11713904223332576,
+    "take_profit": 0.11108191553334848,
+    "timestamp": "2026-09-15T03:00:52.863484+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
