@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "BDX",
-    "kucoin_symbol": "BDX-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.07887,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.07762670573516213,
-    "take_profit": 0.08135658852967573,
-    "timestamp": "2026-09-02T11:06:14.352113+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.2,
-    "best_favorable_pct": 0.2
-  },
-  {
-    "symbol": "PENGU",
-    "kucoin_symbol": "PENGU-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.008161,
-    "reasons": [
-      "RSI \u00fcberverkauft (27.6)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.007807564308204774,
-    "take_profit": 0.008867871383590452,
-    "timestamp": "2026-09-02T11:06:15.520387+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.87,
-    "best_favorable_pct": 1.86
-  },
-  {
     "symbol": "KAS",
     "kucoin_symbol": "KAS-USDT",
     "direction": "short",
@@ -58246,9 +58210,9 @@
     "stop_loss": 0.18775343965182129,
     "take_profit": 0.21129312069635742,
     "timestamp": "2026-09-15T22:58:14.520560+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.61,
     "best_favorable_pct": 0.61
   },
   {
@@ -58263,9 +58227,9 @@
     "stop_loss": 0.7029701648244445,
     "take_profit": 0.640359670351111,
     "timestamp": "2026-09-15T22:58:14.520599+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.95,
     "best_favorable_pct": 1.95
   },
   {
@@ -58281,9 +58245,9 @@
     "stop_loss": 59.745755779947416,
     "take_profit": 64.87648844010518,
     "timestamp": "2026-09-15T22:58:14.520623+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -58299,9 +58263,9 @@
     "stop_loss": 0.007138185038078151,
     "take_profit": 0.006294629923843699,
     "timestamp": "2026-09-15T22:58:15.782957+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.5,
     "best_favorable_pct": 1.5
   },
   {
@@ -59037,7 +59001,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.26
   },
   {
     "symbol": "PAXG",
@@ -59054,7 +59018,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.22
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "MORPHO",
@@ -59249,7 +59213,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "DOT",
@@ -59301,7 +59265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "KITE",
@@ -59371,7 +59335,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.61
+    "best_favorable_pct": 1.75
   },
   {
     "symbol": "DASH",
@@ -59560,7 +59524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.98
   },
   {
     "symbol": "MCAT",
@@ -60363,7 +60327,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.1
+    "best_favorable_pct": 3.22
   },
   {
     "symbol": "VVV",
@@ -60380,7 +60344,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 2.62
   },
   {
     "symbol": "KAS",
@@ -60589,7 +60553,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.89
+    "best_favorable_pct": 4.43
   },
   {
     "symbol": "GRAM",
@@ -60795,7 +60759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "LUNC",
@@ -60812,6 +60776,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.54
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 78.721,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 76.12253623067518,
+    "take_profit": 83.91792753864964,
+    "timestamp": "2026-09-16T11:09:56.227997+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
   }
 ]
