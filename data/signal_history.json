@@ -1,39 +1,5 @@
 [
   {
-    "symbol": "SHIB",
-    "kucoin_symbol": "SHIB-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 5.177e-06,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 5.3223677179442196e-06,
-    "take_profit": 4.88626456411156e-06,
-    "timestamp": "2026-09-02T16:58:26.822272+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.81,
-    "best_favorable_pct": 0.81
-  },
-  {
-    "symbol": "FIL",
-    "kucoin_symbol": "FIL-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.7966,
-    "reasons": [
-      "RSI \u00fcberkauft (70.3)"
-    ],
-    "stop_loss": 0.8343438023460252,
-    "take_profit": 0.7211123953079495,
-    "timestamp": "2026-09-02T16:58:26.822313+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.14,
-    "best_favorable_pct": 1.14
-  },
-  {
     "symbol": "HTX",
     "kucoin_symbol": "HTX-USDT",
     "direction": "long",
@@ -58667,9 +58633,9 @@
     "stop_loss": 4.753312246608584e-06,
     "take_profit": 5.217375506782831e-06,
     "timestamp": "2026-09-16T05:03:24.696526+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.22,
     "best_favorable_pct": 0.22
   },
   {
@@ -58684,9 +58650,9 @@
     "stop_loss": 0.999473588056186,
     "take_profit": 1.0016528238876279,
     "timestamp": "2026-09-16T05:03:25.794554+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -59019,7 +58985,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.97
+    "best_favorable_pct": 2.03
   },
   {
     "symbol": "SKY",
@@ -59493,7 +59459,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.25
+    "best_favorable_pct": 7.73
   },
   {
     "symbol": "GRAM",
@@ -59561,7 +59527,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "ONDO",
@@ -59805,7 +59771,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.04
+    "best_favorable_pct": 5.46
   },
   {
     "symbol": "RENDER",
@@ -60484,7 +60450,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.39
+    "best_favorable_pct": 3.18
   },
   {
     "symbol": "AI",
@@ -60674,7 +60640,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "SUN",
@@ -60742,7 +60708,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "ALGO",
@@ -60862,7 +60828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "JUP",
@@ -60945,6 +60911,40 @@
     "stop_loss": 1.0006726100325818,
     "take_profit": 0.9986547799348362,
     "timestamp": "2026-09-16T16:51:27.061574+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "SPX",
+    "kucoin_symbol": "SPX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4417,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.41672332511458954,
+    "take_profit": 0.4916533497708209,
+    "timestamp": "2026-09-16T17:04:09.075294+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0197,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.01910936278459967,
+    "take_profit": 0.020881274430800657,
+    "timestamp": "2026-09-16T17:04:09.075316+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
