@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "U",
-    "kucoin_symbol": "U-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.9998,
-    "reasons": [
-      "Volumen-Spike (3.5x Durchschnitt)"
-    ],
-    "stop_loss": 1.0003638160295691,
-    "take_profit": 0.9986723679408617,
-    "timestamp": "2026-09-02T17:30:10.298850+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "USD1",
     "kucoin_symbol": "USD1-USDT",
     "direction": "short",
@@ -58634,9 +58617,9 @@
     "stop_loss": 0.2954774763690144,
     "take_profit": 0.3453450472619712,
     "timestamp": "2026-09-16T05:21:20.680449+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.9,
     "best_favorable_pct": 0.9
   },
   {
@@ -58651,9 +58634,9 @@
     "stop_loss": 0.158498129086816,
     "take_profit": 0.138403741826368,
     "timestamp": "2026-09-16T05:21:21.949078+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.91,
     "best_favorable_pct": 1.91
   },
   {
@@ -59268,7 +59251,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "TRUMP",
@@ -59877,7 +59860,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.03
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "RENDER",
@@ -59979,7 +59962,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "LUNC",
@@ -60589,7 +60572,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "PENGU",
@@ -60691,7 +60674,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "XDC",
@@ -60725,7 +60708,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "APT",
@@ -60897,7 +60880,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "NIGHT",
@@ -60932,5 +60915,56 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDD",
+    "kucoin_symbol": "USDD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9965,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.9986694191677671,
+    "take_profit": 0.992161161664466,
+    "timestamp": "2026-09-16T17:34:48.967439+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.449,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.9)"
+    ],
+    "stop_loss": 2.3497651075114003,
+    "take_profit": 2.647469784977199,
+    "timestamp": "2026-09-16T17:34:48.967473+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MCAT",
+    "kucoin_symbol": "MCAT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.24177,
+    "reasons": [
+      "RSI \u00fcberverkauft (12.8)"
+    ],
+    "stop_loss": 0.17588269652928218,
+    "take_profit": 0.37354460694143565,
+    "timestamp": "2026-09-16T17:34:48.967532+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
   }
 ]
