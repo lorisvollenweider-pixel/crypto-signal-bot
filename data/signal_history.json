@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "SYRUP",
-    "kucoin_symbol": "SYRUP-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.2081,
-    "reasons": [
-      "RSI \u00fcberkauft (73.7)"
-    ],
-    "stop_loss": 0.21660568230611021,
-    "take_profit": 0.1910886353877796,
-    "timestamp": "2026-09-02T12:49:29.551658+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.64,
-    "best_favorable_pct": 2.64
-  },
-  {
     "symbol": "TRUMP",
     "kucoin_symbol": "TRUMP-USDT",
     "direction": "short",
@@ -58277,9 +58260,9 @@
     "stop_loss": 10.52871400877412,
     "take_profit": 11.68247198245176,
     "timestamp": "2026-09-16T00:53:29.850242+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -58295,9 +58278,9 @@
     "stop_loss": 0.5204148413868259,
     "take_profit": 0.5944703172263481,
     "timestamp": "2026-09-16T00:53:29.850333+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.7,
     "best_favorable_pct": 0.7
   },
   {
@@ -58313,9 +58296,9 @@
     "stop_loss": 0.04058515836932217,
     "take_profit": 0.044649683261355655,
     "timestamp": "2026-09-16T00:53:31.323212+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.1,
     "best_favorable_pct": 1.1
   },
   {
@@ -58334,7 +58317,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.4
+    "best_favorable_pct": 4.72
   },
   {
     "symbol": "BTT",
@@ -58650,7 +58633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.77
+    "best_favorable_pct": 12.57
   },
   {
     "symbol": "STABLE",
@@ -58738,7 +58721,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.7
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "JUP",
@@ -58810,7 +58793,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.33
   },
   {
     "symbol": "VIRTUAL",
@@ -59501,7 +59484,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.05
+    "best_favorable_pct": 2.2
   },
   {
     "symbol": "QNT",
@@ -59833,7 +59816,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.91
+    "best_favorable_pct": 0.96
   },
   {
     "symbol": "SEI",
@@ -60081,7 +60064,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.36
+    "best_favorable_pct": 2.84
   },
   {
     "symbol": "INJ",
@@ -60098,7 +60081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "TRUMP",
@@ -60655,7 +60638,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "XLM",
@@ -60673,7 +60656,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "WLFI",
@@ -60775,7 +60758,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "PIEVERSE",
@@ -60826,6 +60809,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.57
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.9988,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.9933253644283611,
+    "take_profit": 1.0097492711432778,
+    "timestamp": "2026-09-16T12:59:34.745295+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
