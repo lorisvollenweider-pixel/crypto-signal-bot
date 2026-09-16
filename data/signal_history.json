@@ -1,39 +1,5 @@
 [
   {
-    "symbol": "SOL",
-    "kucoin_symbol": "SOL-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 99.68,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 96.85790057201885,
-    "take_profit": 105.32419885596232,
-    "timestamp": "2026-09-02T22:49:14.435283+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.44,
-    "best_favorable_pct": 1.44
-  },
-  {
-    "symbol": "DCR",
-    "kucoin_symbol": "DCR-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 13.94,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 13.45923783207539,
-    "take_profit": 14.901524335849219,
-    "timestamp": "2026-09-02T22:49:14.435337+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.14,
-    "best_favorable_pct": 0.14
-  },
-  {
     "symbol": "DOGE",
     "kucoin_symbol": "DOGE-USDT",
     "direction": "long",
@@ -58979,7 +58945,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.24
+    "best_favorable_pct": 3.46
   },
   {
     "symbol": "TRX",
@@ -59099,7 +59065,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.61
+    "best_favorable_pct": 4.06
   },
   {
     "symbol": "ZRO",
@@ -59133,7 +59099,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.69
+    "best_favorable_pct": 2.9
   },
   {
     "symbol": "SOL",
@@ -59167,7 +59133,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.0
+    "best_favorable_pct": 3.19
   },
   {
     "symbol": "TUSD",
@@ -60102,7 +60068,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.78
+    "best_favorable_pct": 2.28
   },
   {
     "symbol": "USDD",
@@ -60499,7 +60465,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "GRAM",
@@ -60987,7 +60953,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.61
+    "best_favorable_pct": 2.67
   },
   {
     "symbol": "WLFI",
@@ -61110,5 +61076,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.45
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9995,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (4.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.0013226146870855,
+    "take_profit": 0.9958547706258289,
+    "timestamp": "2026-09-16T22:57:07.236132+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.11737,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.11549941264967832,
+    "take_profit": 0.12111117470064336,
+    "timestamp": "2026-09-16T22:57:08.363106+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
