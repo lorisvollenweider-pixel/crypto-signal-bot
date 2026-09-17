@@ -59146,9 +59146,9 @@
     "stop_loss": 0.9986694191677671,
     "take_profit": 0.992161161664466,
     "timestamp": "2026-09-16T17:34:48.967439+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -59163,9 +59163,9 @@
     "stop_loss": 2.3497651075114003,
     "take_profit": 2.647469784977199,
     "timestamp": "2026-09-16T17:34:48.967473+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.55,
     "best_favorable_pct": 5.55
   },
   {
@@ -59180,9 +59180,9 @@
     "stop_loss": 0.17588269652928218,
     "take_profit": 0.37354460694143565,
     "timestamp": "2026-09-16T17:34:48.967532+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 7.59,
     "best_favorable_pct": 7.59
   },
   {
@@ -60889,7 +60889,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.31
+    "best_favorable_pct": 2.48
   },
   {
     "symbol": "USELESS",
@@ -60924,7 +60924,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.58
+    "best_favorable_pct": 3.75
   },
   {
     "symbol": "USDS",
@@ -61148,7 +61148,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "PENGU",
@@ -61217,7 +61217,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "NEAR",
@@ -61268,7 +61268,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "XDC",
@@ -61475,6 +61475,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.56,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2.460080251707083,
+    "take_profit": 2.7598394965858337,
+    "timestamp": "2026-09-17T05:47:02.412645+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "MCAT",
+    "kucoin_symbol": "MCAT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.24888,
+    "reasons": [
+      "RSI \u00fcberverkauft (17.2)"
+    ],
+    "stop_loss": 0.19201055887775043,
+    "take_profit": 0.3626188822444991,
+    "timestamp": "2026-09-17T05:47:02.412708+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
   }
 ]
