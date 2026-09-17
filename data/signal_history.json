@@ -1,75 +1,5 @@
 [
   {
-    "symbol": "PAXG",
-    "kucoin_symbol": "PAXG-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 4490.52,
-    "reasons": [
-      "Volumen-Spike (2.7x Durchschnitt)"
-    ],
-    "stop_loss": 4540.423456263325,
-    "take_profit": 4390.713087473352,
-    "timestamp": "2026-09-03T17:46:53.266648+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.48,
-    "best_favorable_pct": 0.48
-  },
-  {
-    "symbol": "ENA",
-    "kucoin_symbol": "ENA-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.177,
-    "reasons": [
-      "RSI \u00fcberkauft (70.2)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.18802029873278062,
-    "take_profit": 0.15495940253443874,
-    "timestamp": "2026-09-03T17:46:53.266675+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 8.47,
-    "best_favorable_pct": 8.47
-  },
-  {
-    "symbol": "VVV",
-    "kucoin_symbol": "VVV-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 17.253,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 16.591206497188853,
-    "take_profit": 18.57658700562229,
-    "timestamp": "2026-09-03T17:46:54.303503+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.15,
-    "best_favorable_pct": 0.15
-  },
-  {
-    "symbol": "LDO",
-    "kucoin_symbol": "LDO-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.39,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.40584626789923955,
-    "take_profit": 0.3583074642015209,
-    "timestamp": "2026-09-03T17:46:55.335085+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.21,
-    "best_favorable_pct": 1.21
-  },
-  {
     "symbol": "ETC",
     "kucoin_symbol": "ETC-USDT",
     "direction": "short",
@@ -58626,9 +58556,9 @@
     "stop_loss": 2.460080251707083,
     "take_profit": 2.7598394965858337,
     "timestamp": "2026-09-17T05:47:02.412645+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.27,
     "best_favorable_pct": 2.27
   },
   {
@@ -58643,9 +58573,9 @@
     "stop_loss": 0.19201055887775043,
     "take_profit": 0.3626188822444991,
     "timestamp": "2026-09-17T05:47:02.412708+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 214.53,
     "best_favorable_pct": 214.53
   },
   {
@@ -59930,7 +59860,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.03
+    "best_favorable_pct": 4.37
   },
   {
     "symbol": "LUNC",
@@ -60682,7 +60612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "DASH",
@@ -61047,5 +60977,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.609,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2.513707215978731,
+    "take_profit": 2.7995855680425383,
+    "timestamp": "2026-09-17T17:48:06.034705+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.23
   }
 ]
