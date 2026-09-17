@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "TUSD",
-    "kucoin_symbol": "TUSD-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.9973,
-    "reasons": [
-      "Volumen-Spike (4.0x Durchschnitt)"
-    ],
-    "stop_loss": 0.9987057926433719,
-    "take_profit": 0.9944884147132562,
-    "timestamp": "2026-09-03T07:51:14.017374+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.01,
-    "best_favorable_pct": 0.01
-  },
-  {
     "symbol": "BTC",
     "kucoin_symbol": "BTC-USDT",
     "direction": "long",
@@ -59435,9 +59418,9 @@
     "stop_loss": 0.13626543351795825,
     "take_profit": 0.16126913296408354,
     "timestamp": "2026-09-16T19:42:21.396514+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.36,
     "best_favorable_pct": 6.36
   },
   {
@@ -59453,9 +59436,9 @@
     "stop_loss": 0.05346297720663183,
     "take_profit": 0.060174045586736336,
     "timestamp": "2026-09-16T19:42:22.581932+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.4,
     "best_favorable_pct": 4.4
   },
   {
@@ -59822,7 +59805,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "AVAX",
@@ -60015,7 +59998,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "ENA",
@@ -60084,7 +60067,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 1.73
   },
   {
     "symbol": "CAKE",
@@ -60292,7 +60275,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.81
+    "best_favorable_pct": 5.84
   },
   {
     "symbol": "LUNC",
@@ -60813,7 +60796,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 2.15
   },
   {
     "symbol": "ZEC",
@@ -61001,7 +60984,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 1.27
   },
   {
     "symbol": "KCS",
@@ -61192,7 +61175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "ETH",
@@ -61400,7 +61383,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "HBAR",
@@ -61417,7 +61400,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "SHIB",
@@ -61434,7 +61417,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "ASTER",
@@ -61504,7 +61487,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "ETHFI",
@@ -61519,6 +61502,24 @@
     "stop_loss": 0.5667254627337868,
     "take_profit": 0.6722490745324263,
     "timestamp": "2026-09-17T07:38:37.518487+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1371.263,
+    "reasons": [
+      "RSI \u00fcberkauft (75.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1455.736549022242,
+    "take_profit": 1202.3159019555162,
+    "timestamp": "2026-09-17T07:53:00.047096+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
