@@ -1,57 +1,5 @@
 [
   {
-    "symbol": "DOGE",
-    "kucoin_symbol": "DOGE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.08308,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.08100457859353219,
-    "take_profit": 0.08723084281293562,
-    "timestamp": "2026-09-03T11:16:55.727520+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 7.81,
-    "best_favorable_pct": 7.81
-  },
-  {
-    "symbol": "LINK",
-    "kucoin_symbol": "LINK-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 11.2503,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 10.923960037496457,
-    "take_profit": 11.902979925007083,
-    "timestamp": "2026-09-03T11:16:55.727547+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 5.99,
-    "best_favorable_pct": 5.99
-  },
-  {
-    "symbol": "TRUMP",
-    "kucoin_symbol": "TRUMP-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 2.295,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 2.1512622810026025,
-    "take_profit": 2.582475437994795,
-    "timestamp": "2026-09-03T11:16:56.898890+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 9.02,
-    "best_favorable_pct": 9.02
-  },
-  {
     "symbol": "VIRTUAL",
     "kucoin_symbol": "VIRTUAL-USDT",
     "direction": "long",
@@ -59150,9 +59098,9 @@
     "stop_loss": 0.22382416353236495,
     "take_profit": 0.19285167293527009,
     "timestamp": "2026-09-16T23:15:02.011601+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -59623,7 +59571,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.79
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "PONS",
@@ -60195,7 +60143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.73
+    "best_favorable_pct": 6.83
   },
   {
     "symbol": "USDG",
@@ -60297,7 +60245,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.69
+    "best_favorable_pct": 4.32
   },
   {
     "symbol": "PYUSD",
@@ -60730,7 +60678,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "NEAR",
@@ -60939,7 +60887,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "JUP",
@@ -61025,7 +60973,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "WLD",
@@ -61181,7 +61129,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "QNT",
@@ -61252,7 +61200,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.88
   },
   {
     "symbol": "LDO",
@@ -61353,6 +61301,41 @@
     "stop_loss": 0.020134474084224703,
     "take_profit": 0.02213105183155059,
     "timestamp": "2026-09-17T11:05:09.164067+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CC",
+    "kucoin_symbol": "CC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1005,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.09602592974239807,
+    "take_profit": 0.10944814051520386,
+    "timestamp": "2026-09-17T11:22:44.727006+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.059,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (2.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.06039804232541718,
+    "take_profit": 0.056203915349165634,
+    "timestamp": "2026-09-17T11:22:44.727034+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
