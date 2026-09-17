@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "TIA",
-    "kucoin_symbol": "TIA-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.3738,
-    "reasons": [
-      "RSI \u00fcberkauft (71.0)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.3882977089196025,
-    "take_profit": 0.34480458216079496,
-    "timestamp": "2026-09-03T10:34:36.639220+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.5,
-    "best_favorable_pct": 3.5
-  },
-  {
     "symbol": "MORPHO",
     "kucoin_symbol": "MORPHO-USDT",
     "direction": "long",
@@ -59744,7 +59726,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "PONS",
@@ -61373,7 +61355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "LDO",
@@ -61439,6 +61421,23 @@
     "stop_loss": 0.36515397423557255,
     "take_profit": 0.32839205152885487,
     "timestamp": "2026-09-17T10:21:15.929769+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.5272,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 1.5857248721322188,
+    "take_profit": 1.410150255735562,
+    "timestamp": "2026-09-17T10:36:53.886132+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
