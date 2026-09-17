@@ -58877,9 +58877,9 @@
     "stop_loss": 56.576068307619686,
     "take_profit": 47.40786338476064,
     "timestamp": "2026-09-16T15:20:16.002381+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.17,
     "best_favorable_pct": 0.17
   },
   {
@@ -58895,9 +58895,9 @@
     "stop_loss": 0.042758861188532976,
     "take_profit": 0.03883227762293405,
     "timestamp": "2026-09-16T15:20:16.002420+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.53,
     "best_favorable_pct": 0.53
   },
   {
@@ -59105,7 +59105,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.0
+    "best_favorable_pct": 13.39
   },
   {
     "symbol": "PENGU",
@@ -59122,7 +59122,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.22
+    "best_favorable_pct": 5.38
   },
   {
     "symbol": "SUN",
@@ -59190,7 +59190,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 1.81
   },
   {
     "symbol": "ALGO",
@@ -59310,7 +59310,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 1.77
   },
   {
     "symbol": "JUP",
@@ -59498,7 +59498,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.38
+    "best_favorable_pct": 4.51
   },
   {
     "symbol": "LINK",
@@ -59637,7 +59637,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.63
+    "best_favorable_pct": 9.97
   },
   {
     "symbol": "ZEC",
@@ -59776,7 +59776,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.83
+    "best_favorable_pct": 4.34
   },
   {
     "symbol": "MORPHO",
@@ -60053,7 +60053,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.86
+    "best_favorable_pct": 5.37
   },
   {
     "symbol": "ENA",
@@ -60194,7 +60194,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.77
+    "best_favorable_pct": 4.28
   },
   {
     "symbol": "STX",
@@ -60384,7 +60384,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "SUI",
@@ -60769,7 +60769,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.79
+    "best_favorable_pct": 4.06
   },
   {
     "symbol": "ATOM",
@@ -60908,7 +60908,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 1.75
   },
   {
     "symbol": "LUNC",
@@ -61030,7 +61030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.68
   },
   {
     "symbol": "AVAX",
@@ -61081,7 +61081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "PUMP",
@@ -61167,6 +61167,57 @@
     "stop_loss": 4.460687765392786,
     "take_profit": 5.35562446921443,
     "timestamp": "2026-09-17T03:00:51.729941+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 1.24
+  },
+  {
+    "symbol": "CRO",
+    "kucoin_symbol": "CRO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.05804,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.05589874083608408,
+    "take_profit": 0.062322518327831845,
+    "timestamp": "2026-09-17T03:20:42.529592+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 59.24,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 62.85551008951073,
+    "take_profit": 52.00897982097854,
+    "timestamp": "2026-09-17T03:20:42.529647+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "USELESS",
+    "kucoin_symbol": "USELESS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.24715,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.2732973924523176,
+    "take_profit": 0.1948552150953648,
+    "timestamp": "2026-09-17T03:20:42.529689+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
