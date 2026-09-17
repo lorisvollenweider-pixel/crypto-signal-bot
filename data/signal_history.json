@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ETC",
-    "kucoin_symbol": "ETC-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 7.6216,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 7.811027878633339,
-    "take_profit": 7.242744242733323,
-    "timestamp": "2026-09-03T17:58:24.327284+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.3,
-    "best_favorable_pct": 1.3
-  },
-  {
     "symbol": "AVAX",
     "kucoin_symbol": "AVAX-USDT",
     "direction": "long",
@@ -58590,9 +58572,9 @@
     "stop_loss": 214.23602031949918,
     "take_profit": 233.68795936100167,
     "timestamp": "2026-09-17T05:58:47.182875+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 7.87,
     "best_favorable_pct": 7.87
   },
   {
@@ -58608,9 +58590,9 @@
     "stop_loss": 0.023070921484314968,
     "take_profit": 0.025750157031370062,
     "timestamp": "2026-09-17T05:58:47.182928+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.29,
     "best_favorable_pct": 0.29
   },
   {
@@ -58625,9 +58607,9 @@
     "stop_loss": 0.5808369770054371,
     "take_profit": 0.6437260459891258,
     "timestamp": "2026-09-17T05:58:48.255263+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.41,
     "best_favorable_pct": 2.41
   },
   {
@@ -58802,7 +58784,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.49
+    "best_favorable_pct": 5.67
   },
   {
     "symbol": "XRP",
@@ -59165,7 +59147,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.4
+    "best_favorable_pct": 5.57
   },
   {
     "symbol": "MCAT",
@@ -59515,7 +59497,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.44
+    "best_favorable_pct": 2.77
   },
   {
     "symbol": "VVV",
@@ -60958,7 +60940,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "CAKE",
@@ -60976,7 +60958,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.25
   },
   {
     "symbol": "ICP",
@@ -60994,5 +60976,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.23
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1838,
+    "reasons": [
+      "RSI \u00fcberkauft (75.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.19729922071648923,
+    "take_profit": 0.15680155856702155,
+    "timestamp": "2026-09-17T17:59:22.183976+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VIRTUAL",
+    "kucoin_symbol": "VIRTUAL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.6096,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.5894414026769738,
+    "take_profit": 0.6499171946460525,
+    "timestamp": "2026-09-17T17:59:23.294897+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
