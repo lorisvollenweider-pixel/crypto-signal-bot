@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "LTC",
-    "kucoin_symbol": "LTC-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 50.95,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 52.04129732163994,
-    "take_profit": 48.767405356720126,
-    "timestamp": "2026-09-03T13:16:06.483840+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.33,
-    "best_favorable_pct": 0.33
-  },
-  {
-    "symbol": "CAKE",
-    "kucoin_symbol": "CAKE-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.969,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 2.0313289128311296,
-    "take_profit": 1.8443421743377413,
-    "timestamp": "2026-09-03T13:16:07.755424+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.61,
-    "best_favorable_pct": 0.61
-  },
-  {
     "symbol": "ZEC",
     "kucoin_symbol": "ZEC-USDT",
     "direction": "long",
@@ -59295,7 +59260,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.77
+    "best_favorable_pct": 6.17
   },
   {
     "symbol": "LIT",
@@ -59555,7 +59520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.69
   },
   {
     "symbol": "FIL",
@@ -59794,7 +59759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.69
+    "best_favorable_pct": 15.7
   },
   {
     "symbol": "PYUSD",
@@ -60349,7 +60314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.72
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "ETHFI",
@@ -60625,7 +60590,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "ETHFI",
@@ -60870,7 +60835,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "WLFI",
@@ -60888,7 +60853,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.69
   },
   {
     "symbol": "CAKE",
@@ -61165,7 +61130,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "STX",
@@ -61251,7 +61216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "LUNC",
@@ -61265,6 +61230,59 @@
     "stop_loss": 4.826269550327917e-05,
     "take_profit": 5.251460899344165e-05,
     "timestamp": "2026-09-17T13:05:28.553067+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 82.555,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 85.30650308530193,
+    "take_profit": 77.05199382939618,
+    "timestamp": "2026-09-17T13:24:23.793392+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.8707,
+    "reasons": [
+      "RSI \u00fcberkauft (76.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.022481575096265,
+    "take_profit": 2.5671368498074694,
+    "timestamp": "2026-09-17T13:24:23.793422+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 18.5,
+    "reasons": [
+      "RSI \u00fcberkauft (73.8)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 19.48321841347111,
+    "take_profit": 16.533563173057775,
+    "timestamp": "2026-09-17T13:24:25.031894+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
