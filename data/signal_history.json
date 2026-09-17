@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "WLFI",
-    "kucoin_symbol": "WLFI-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.0566,
-    "reasons": [
-      "Volumen-Spike (2.1x Durchschnitt)"
-    ],
-    "stop_loss": 0.05540270812111911,
-    "take_profit": 0.05899458375776177,
-    "timestamp": "2026-09-03T11:45:29.007215+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.0,
-    "best_favorable_pct": 3.0
-  },
-  {
-    "symbol": "VVV",
-    "kucoin_symbol": "VVV-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 16.663,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 15.984224120468635,
-    "take_profit": 18.02055175906273,
-    "timestamp": "2026-09-03T11:45:29.007250+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.7,
-    "best_favorable_pct": 3.7
-  },
-  {
     "symbol": "ASTER",
     "kucoin_symbol": "ASTER-USDT",
     "direction": "short",
@@ -59151,9 +59116,9 @@
     "stop_loss": 6.295679009217018,
     "take_profit": 7.567441981565963,
     "timestamp": "2026-09-16T23:43:57.756455+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.65,
     "best_favorable_pct": 4.65
   },
   {
@@ -59168,9 +59133,9 @@
     "stop_loss": 0.33515355168093447,
     "take_profit": 0.37510289663813107,
     "timestamp": "2026-09-16T23:43:59.269893+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.73,
     "best_favorable_pct": 1.73
   },
   {
@@ -59185,9 +59150,9 @@
     "stop_loss": 0.5275180022666122,
     "take_profit": 0.6012639954667759,
     "timestamp": "2026-09-16T23:43:59.269933+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.89,
     "best_favorable_pct": 0.89
   },
   {
@@ -60107,7 +60072,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.03
+    "best_favorable_pct": 8.29
   },
   {
     "symbol": "USDG",
@@ -60192,7 +60157,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.65
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "DCR",
@@ -61146,7 +61111,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "BDX",
@@ -61250,7 +61215,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "NIGHT",
@@ -61300,6 +61265,24 @@
     "stop_loss": 0.06039804232541718,
     "take_profit": 0.056203915349165634,
     "timestamp": "2026-09-17T11:22:44.727034+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CAKE",
+    "kucoin_symbol": "CAKE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 2.379,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2.2948101205193048,
+    "take_profit": 2.54737975896139,
+    "timestamp": "2026-09-17T11:53:11.988682+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
