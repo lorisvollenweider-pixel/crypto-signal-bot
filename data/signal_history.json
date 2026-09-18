@@ -58283,9 +58283,9 @@
     "stop_loss": 2.2948101205193048,
     "take_profit": 2.54737975896139,
     "timestamp": "2026-09-17T11:53:11.988682+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.95,
     "best_favorable_pct": 3.95
   },
   {
@@ -58527,7 +58527,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.38
+    "best_favorable_pct": 4.1
   },
   {
     "symbol": "AERO",
@@ -58579,7 +58579,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.03
+    "best_favorable_pct": 7.09
   },
   {
     "symbol": "PIEVERSE",
@@ -59244,7 +59244,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "STX",
@@ -59383,7 +59383,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.07
+    "best_favorable_pct": 2.4
   },
   {
     "symbol": "DASH",
@@ -59799,7 +59799,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "PYTH",
@@ -59852,7 +59852,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.34
   },
   {
     "symbol": "PIEVERSE",
@@ -59904,7 +59904,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "ZRO",
@@ -60199,7 +60199,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "DOT",
@@ -60421,6 +60421,93 @@
     "stop_loss": 0.2435054200137424,
     "take_profit": 0.27468915997251525,
     "timestamp": "2026-09-17T23:50:02.509739+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.79
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 1.29605,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.2523599044103384,
+    "take_profit": 1.383430191179323,
+    "timestamp": "2026-09-18T00:01:15.447810+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 7.609,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 7.426006114300819,
+    "take_profit": 7.974987771398363,
+    "timestamp": "2026-09-18T00:01:16.500017+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "USDG",
+    "kucoin_symbol": "USDG-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0005,
+    "reasons": [
+      "Volumen-Spike (2.5x Durchschnitt)"
+    ],
+    "stop_loss": 1.0011360536298273,
+    "take_profit": 0.9992278927403453,
+    "timestamp": "2026-09-18T00:01:17.532105+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1545,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.1466397095328426,
+    "take_profit": 0.17022058093431477,
+    "timestamp": "2026-09-18T00:01:17.532132+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.26
+  },
+  {
+    "symbol": "KCS",
+    "kucoin_symbol": "KCS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 7.059,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 6.934606689979081,
+    "take_profit": 7.307786620041839,
+    "timestamp": "2026-09-18T00:01:17.532165+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
