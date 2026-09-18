@@ -58450,9 +58450,9 @@
     "stop_loss": 4439.2701161192335,
     "take_profit": 4296.559767761533,
     "timestamp": "2026-09-18T06:41:57.571634+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.97,
     "best_favorable_pct": 0.97
   },
   {
@@ -58468,10 +58468,10 @@
     "stop_loss": 0.5721258448241281,
     "take_profit": 0.6119483103517439,
     "timestamp": "2026-09-18T06:41:58.728167+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 5.18
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.26,
+    "best_favorable_pct": 5.26
   },
   {
     "symbol": "PAXG",
@@ -58486,9 +58486,9 @@
     "stop_loss": 4442.790029836689,
     "take_profit": 4293.479940326622,
     "timestamp": "2026-09-18T06:41:59.855462+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.06,
     "best_favorable_pct": 1.06
   },
   {
@@ -58524,7 +58524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.82
+    "best_favorable_pct": 5.05
   },
   {
     "symbol": "LTC",
@@ -58964,7 +58964,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.36
+    "best_favorable_pct": 4.39
   },
   {
     "symbol": "ARB",
@@ -59724,7 +59724,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.98
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "SKY",
@@ -60176,7 +60176,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "NIGHT",
@@ -60363,7 +60363,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 37.99
+    "best_favorable_pct": 38.71
   },
   {
     "symbol": "JST",
@@ -60698,7 +60698,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "WLD",
@@ -61403,7 +61403,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "SHIB",
@@ -61506,7 +61506,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.75
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "AAVE",
@@ -61660,7 +61660,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.33
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "ENS",
@@ -61885,7 +61885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "LDO",
@@ -61937,7 +61937,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "AKE",
@@ -61989,7 +61989,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "XMR",
@@ -62041,7 +62041,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "SUN",
@@ -62060,5 +62060,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0003,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 1.0000734901097046,
+    "take_profit": 1.000753019780591,
+    "timestamp": "2026-09-18T18:42:29.142624+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 56.85,
+    "reasons": [
+      "RSI \u00fcberkauft (78.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 58.241733209263415,
+    "take_profit": 54.066533581473166,
+    "timestamp": "2026-09-18T18:42:29.142676+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
   }
 ]
