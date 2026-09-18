@@ -58375,9 +58375,9 @@
     "stop_loss": 0.16632129603132312,
     "take_profit": 0.1878574079373537,
     "timestamp": "2026-09-17T23:50:01.475203+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 8.01,
     "best_favorable_pct": 8.01
   },
   {
@@ -58392,9 +58392,9 @@
     "stop_loss": 0.2435054200137424,
     "take_profit": 0.27468915997251525,
     "timestamp": "2026-09-17T23:50:02.509739+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.97,
     "best_favorable_pct": 6.97
   },
   {
@@ -59181,7 +59181,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.48
+    "best_favorable_pct": 7.77
   },
   {
     "symbol": "VVV",
@@ -59945,7 +59945,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.98
+    "best_favorable_pct": 5.15
   },
   {
     "symbol": "AVAX",
@@ -59981,7 +59981,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "STX",
@@ -60207,7 +60207,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "MNT",
@@ -60597,7 +60597,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "NEAR",
@@ -60911,7 +60911,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.81
+    "best_favorable_pct": 4.02
   },
   {
     "symbol": "BDX",
@@ -61103,7 +61103,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "TIA",
@@ -61248,7 +61248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "PEPE",
@@ -61373,7 +61373,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.35
+    "best_favorable_pct": 6.54
   },
   {
     "symbol": "PENGU",
@@ -61461,7 +61461,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "CC",
@@ -61549,7 +61549,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "MORPHO",
@@ -61566,7 +61566,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.97
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "WLD",
@@ -61603,7 +61603,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 1.26
   },
   {
     "symbol": "DOGE",
@@ -61621,7 +61621,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "AVAX",
@@ -61639,7 +61639,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "FIL",
@@ -61706,6 +61706,40 @@
     "stop_loss": 0.019100104300361773,
     "take_profit": 0.02086979139927645,
     "timestamp": "2026-09-18T11:46:03.189397+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.999,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.0011769115657934,
+    "take_profit": 0.9946461768684134,
+    "timestamp": "2026-09-18T11:57:23.782691+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.1307,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 1.0715745211663614,
+    "take_profit": 1.2489509576672773,
+    "timestamp": "2026-09-18T11:57:23.782757+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
