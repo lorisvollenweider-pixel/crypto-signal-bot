@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ASTER",
-    "kucoin_symbol": "ASTER-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.7548,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.7804027709238961,
-    "take_profit": 0.7035944581522078,
-    "timestamp": "2026-09-04T11:23:03.850212+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 4.13,
-    "best_favorable_pct": 4.13
-  },
-  {
     "symbol": "USDG",
     "kucoin_symbol": "USDG-USDT",
     "direction": "short",
@@ -58429,9 +58411,9 @@
     "stop_loss": 0.07967911144979832,
     "take_profit": 0.08583177710040335,
     "timestamp": "2026-09-17T23:25:58.274585+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.02,
     "best_favorable_pct": 6.02
   },
   {
@@ -58446,9 +58428,9 @@
     "stop_loss": 0.7994927328498337,
     "take_profit": 0.9324145343003325,
     "timestamp": "2026-09-17T23:25:59.307620+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.35,
     "best_favorable_pct": 4.35
   },
   {
@@ -58606,7 +58588,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.16
+    "best_favorable_pct": 13.46
   },
   {
     "symbol": "ETC",
@@ -59114,7 +59096,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.5
+    "best_favorable_pct": 2.75
   },
   {
     "symbol": "BCH",
@@ -59339,7 +59321,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "PENDLE",
@@ -60034,7 +60016,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.89
+    "best_favorable_pct": 4.97
   },
   {
     "symbol": "AVAX",
@@ -60278,7 +60260,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "XAUT",
@@ -60491,7 +60473,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.34
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "ENA",
@@ -60824,7 +60806,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "APT",
@@ -60894,7 +60876,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.22
+    "best_favorable_pct": 1.32
   },
   {
     "symbol": "CC",
@@ -61140,7 +61122,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.93
+    "best_favorable_pct": 3.95
   },
   {
     "symbol": "SPX",
@@ -61318,7 +61300,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.3
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "WLD",
@@ -61462,7 +61444,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.37
+    "best_favorable_pct": 6.34
   },
   {
     "symbol": "PENGU",
@@ -61550,7 +61532,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "CC",
@@ -61585,7 +61567,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.95
+    "best_favorable_pct": 3.72
   },
   {
     "symbol": "AERO",
@@ -61638,7 +61620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "MORPHO",
@@ -61689,6 +61671,94 @@
     "stop_loss": 0.17348596807140076,
     "take_profit": 0.19962806385719845,
     "timestamp": "2026-09-18T11:18:10.867525+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.82
+  },
+  {
+    "symbol": "DOGE",
+    "kucoin_symbol": "DOGE-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.08519,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.0828620665024001,
+    "take_profit": 0.0898458669951998,
+    "timestamp": "2026-09-18T11:32:54.606082+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 7.964,
+    "reasons": [
+      "RSI \u00fcberkauft (72.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 8.180220485388618,
+    "take_profit": 7.531559029222765,
+    "timestamp": "2026-09-18T11:32:55.803224+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.8581,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.8128352223069653,
+    "take_profit": 0.9486295553860695,
+    "timestamp": "2026-09-18T11:32:56.978384+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2.5501,
+    "reasons": [
+      "RSI \u00fcberkauft (70.6)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 2.680551566859072,
+    "take_profit": 2.2891968662818556,
+    "timestamp": "2026-09-18T11:32:56.978411+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ENS",
+    "kucoin_symbol": "ENS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 5.995,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 6.207257805027129,
+    "take_profit": 5.570484389945743,
+    "timestamp": "2026-09-18T11:32:58.152078+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
