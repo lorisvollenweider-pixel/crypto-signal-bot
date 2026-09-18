@@ -58524,7 +58524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.05
+    "best_favorable_pct": 5.17
   },
   {
     "symbol": "LTC",
@@ -59724,7 +59724,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "SKY",
@@ -60363,7 +60363,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 38.71
+    "best_favorable_pct": 46.1
   },
   {
     "symbol": "JST",
@@ -60698,7 +60698,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "WLD",
@@ -61015,7 +61015,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "APT",
@@ -61279,7 +61279,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.34
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "STRK",
@@ -61506,7 +61506,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "AAVE",
@@ -61885,7 +61885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "LDO",
@@ -62095,5 +62095,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1039,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.10772882492577186,
+    "take_profit": 0.09624235014845631,
+    "timestamp": "2026-09-18T18:54:05.547352+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "XTZ",
+    "kucoin_symbol": "XTZ-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2847,
+    "reasons": [
+      "RSI \u00fcberkauft (71.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.2962568645477036,
+    "take_profit": 0.2615862709045928,
+    "timestamp": "2026-09-18T18:54:05.547399+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
   }
 ]
