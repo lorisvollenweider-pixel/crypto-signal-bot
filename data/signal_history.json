@@ -58379,9 +58379,9 @@
     "stop_loss": 108.39558429296147,
     "take_profit": 100.09883141407704,
     "timestamp": "2026-09-18T05:32:12.093165+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.27,
     "best_favorable_pct": 0.27
   },
   {
@@ -59775,7 +59775,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "SKY",
@@ -60414,7 +60414,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 20.35
+    "best_favorable_pct": 27.19
   },
   {
     "symbol": "JST",
@@ -61677,7 +61677,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "PENGU",
@@ -61711,7 +61711,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.14
   },
   {
     "symbol": "ENS",
@@ -61866,7 +61866,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "BDX",
@@ -61953,7 +61953,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.62
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "LUNC",
@@ -61988,7 +61988,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "AKE",
@@ -62002,6 +62002,41 @@
     "stop_loss": 0.035481318440298205,
     "take_profit": 0.0229322631194036,
     "timestamp": "2026-09-18T17:29:16.102085+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0327096,
+    "reasons": [
+      "RSI \u00fcberkauft (73.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.0370005434402982,
+    "take_profit": 0.024127713119403593,
+    "timestamp": "2026-09-18T17:41:33.597806+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PRL",
+    "kucoin_symbol": "PRL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.11246,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.11556735599001644,
+    "take_profit": 0.10624528801996713,
+    "timestamp": "2026-09-18T17:41:34.880630+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
