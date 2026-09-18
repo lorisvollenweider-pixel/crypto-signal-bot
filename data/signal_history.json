@@ -58707,9 +58707,9 @@
     "stop_loss": 0.3900910772339617,
     "take_profit": 0.34487784553207673,
     "timestamp": "2026-09-17T17:20:41.855259+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.82,
     "best_favorable_pct": 1.82
   },
   {
@@ -58725,9 +58725,9 @@
     "stop_loss": 3.5037445157571414e-06,
     "take_profit": 3.906510968485718e-06,
     "timestamp": "2026-09-17T17:20:41.855282+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.37,
     "best_favorable_pct": 1.37
   },
   {
@@ -58742,10 +58742,10 @@
     "stop_loss": 3.150152332281439e-07,
     "take_profit": 3.317695335437122e-07,
     "timestamp": "2026-09-17T17:20:43.036681+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 0.81
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.15,
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "ONDO",
@@ -59632,7 +59632,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.89
+    "best_favorable_pct": 4.96
   },
   {
     "symbol": "RENDER",
@@ -59685,7 +59685,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "DOT",
@@ -60175,7 +60175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "AAVE",
@@ -60313,7 +60313,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "PYTH",
@@ -60400,7 +60400,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 2.31
   },
   {
     "symbol": "AVAX",
@@ -60557,7 +60557,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "RAY",
@@ -60646,7 +60646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 1.72
   },
   {
     "symbol": "CRO",
@@ -60784,7 +60784,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "ZRO",
@@ -60872,7 +60872,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "HYPE",
@@ -60940,7 +60940,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "STABLE",
@@ -60957,7 +60957,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "PENGU",
@@ -61026,7 +61026,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "AVAX",
@@ -61044,7 +61044,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "PUMP",
@@ -61062,7 +61062,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "STX",
@@ -61114,7 +61114,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "USDS",
@@ -61148,6 +61148,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.37
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 105.63,
+    "reasons": [
+      "RSI \u00fcberkauft (70.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 108.39558429296147,
+    "take_profit": 100.09883141407704,
+    "timestamp": "2026-09-18T05:32:12.093165+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
