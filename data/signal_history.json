@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "USDD",
-    "kucoin_symbol": "USDD-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.9994,
-    "reasons": [
-      "Volumen-Spike (11.4x Durchschnitt)"
-    ],
-    "stop_loss": 0.9975276067198323,
-    "take_profit": 1.0031447865603351,
-    "timestamp": "2026-09-04T06:38:06.172380+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "MNT",
     "kucoin_symbol": "MNT-USDT",
     "direction": "short",
@@ -59338,7 +59321,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.95
+    "best_favorable_pct": 3.39
   },
   {
     "symbol": "XRP",
@@ -59408,7 +59391,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.86
+    "best_favorable_pct": 7.31
   },
   {
     "symbol": "KCS",
@@ -59494,7 +59477,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.4
+    "best_favorable_pct": 10.1
   },
   {
     "symbol": "RENDER",
@@ -60158,7 +60141,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "TRUMP",
@@ -60384,7 +60367,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "ATOM",
@@ -60419,7 +60402,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.53
+    "best_favorable_pct": 2.3
   },
   {
     "symbol": "RAY",
@@ -60611,7 +60594,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "FLR",
@@ -60664,7 +60647,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.91
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "NIGHT",
@@ -60819,7 +60802,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.99
   },
   {
     "symbol": "PENGU",
@@ -60888,7 +60871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 2.57
   },
   {
     "symbol": "AVAX",
@@ -61114,7 +61097,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.67
   },
   {
     "symbol": "VIRTUAL",
@@ -61129,6 +61112,60 @@
     "stop_loss": 0.6575514049376192,
     "take_profit": 0.5943971901247614,
     "timestamp": "2026-09-18T06:22:55.773815+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XAUT",
+    "kucoin_symbol": "XAUT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 4391.7,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 4439.2701161192335,
+    "take_profit": 4296.559767761533,
+    "timestamp": "2026-09-18T06:41:57.571634+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MNT",
+    "kucoin_symbol": "MNT-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.5854,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.5721258448241281,
+    "take_profit": 0.6119483103517439,
+    "timestamp": "2026-09-18T06:41:58.728167+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 4393.02,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 4442.790029836689,
+    "take_profit": 4293.479940326622,
+    "timestamp": "2026-09-18T06:41:59.855462+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
