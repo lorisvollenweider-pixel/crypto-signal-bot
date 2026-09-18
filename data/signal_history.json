@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "USDD",
-    "kucoin_symbol": "USDD-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.9964,
-    "reasons": [
-      "Volumen-Spike (3.7x Durchschnitt)"
-    ],
-    "stop_loss": 0.9984443643801476,
-    "take_profit": 0.9923112712397045,
-    "timestamp": "2026-09-04T19:08:55.821837+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "NEAR",
     "kucoin_symbol": "NEAR-USDT",
     "direction": "short",
@@ -58504,9 +58487,9 @@
     "stop_loss": 1.5445210775961227,
     "take_profit": 1.3989578448077546,
     "timestamp": "2026-09-18T06:57:23.794546+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.07,
     "best_favorable_pct": 0.07
   },
   {
@@ -58524,7 +58507,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.17
+    "best_favorable_pct": 5.34
   },
   {
     "symbol": "LTC",
@@ -58964,7 +58947,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.39
+    "best_favorable_pct": 4.53
   },
   {
     "symbol": "ARB",
@@ -59529,7 +59512,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.88
   },
   {
     "symbol": "ZRO",
@@ -59902,7 +59885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.36
+    "best_favorable_pct": 5.63
   },
   {
     "symbol": "PENDLE",
@@ -60244,7 +60227,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.54
+    "best_favorable_pct": 4.67
   },
   {
     "symbol": "SOL",
@@ -60381,7 +60364,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.21
+    "best_favorable_pct": 3.31
   },
   {
     "symbol": "ETHFI",
@@ -61015,7 +60998,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "APT",
@@ -61763,7 +61746,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "HYPE",
@@ -61815,7 +61798,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "BDX",
@@ -61902,7 +61885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 2.21
   },
   {
     "symbol": "LUNC",
@@ -62076,7 +62059,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "LTC",
@@ -62129,6 +62112,128 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 1.12
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0584,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.05683880659805759,
+    "take_profit": 0.06152238680388483,
+    "timestamp": "2026-09-18T19:09:36.579952+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1671,
+    "reasons": [
+      "RSI \u00fcberkauft (70.7)"
+    ],
+    "stop_loss": 0.17684307193410537,
+    "take_profit": 0.14761385613178923,
+    "timestamp": "2026-09-18T19:09:36.579973+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.856e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (78.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.9951490567191786e-06,
+    "take_profit": 3.577701886561642e-06,
+    "timestamp": "2026-09-18T19:09:36.579988+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1043,
+    "reasons": [
+      "RSI \u00fcberkauft (70.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.10826811064005756,
+    "take_profit": 0.09636377871988487,
+    "timestamp": "2026-09-18T19:09:37.740043+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9057,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.9514855385236072,
+    "take_profit": 0.8141289229527855,
+    "timestamp": "2026-09-18T19:09:38.780135+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "AERO",
+    "kucoin_symbol": "AERO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.6726,
+    "reasons": [
+      "RSI \u00fcberkauft (77.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.7055553325769128,
+    "take_profit": 0.6066893348461744,
+    "timestamp": "2026-09-18T19:09:38.780159+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.31
+  },
+  {
+    "symbol": "USELESS",
+    "kucoin_symbol": "USELESS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.28934,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.25694278665961395,
+    "take_profit": 0.3541344266807721,
+    "timestamp": "2026-09-18T19:09:39.820537+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
