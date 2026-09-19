@@ -59939,9 +59939,9 @@
     "stop_loss": 0.08175899990518586,
     "take_profit": 0.07393200018962827,
     "timestamp": "2026-09-18T15:17:25.126232+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.04,
     "best_favorable_pct": 1.04
   },
   {
@@ -59957,9 +59957,9 @@
     "stop_loss": 1.7161867545337057e-06,
     "take_profit": 1.6286264909325883e-06,
     "timestamp": "2026-09-18T15:17:25.126274+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.06,
     "best_favorable_pct": 0.06
   },
   {
@@ -60047,7 +60047,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.53
+    "best_favorable_pct": 1.87
   },
   {
     "symbol": "SPX",
@@ -61771,7 +61771,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 2.41
   },
   {
     "symbol": "USD1",
@@ -61912,7 +61912,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.44
+    "best_favorable_pct": 3.0
   },
   {
     "symbol": "BCH",
@@ -62279,7 +62279,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.35
+    "best_favorable_pct": 2.05
   },
   {
     "symbol": "NIGHT",
@@ -62626,7 +62626,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "SUN",
@@ -62662,7 +62662,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.25
   },
   {
     "symbol": "USDE",
@@ -62714,7 +62714,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.47
   },
   {
     "symbol": "VVV",
@@ -62731,7 +62731,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.29
+    "best_favorable_pct": 2.29
   },
   {
     "symbol": "QNT",
@@ -62765,7 +62765,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "VIRTUAL",
@@ -62817,7 +62817,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "VVV",
@@ -62835,7 +62835,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.32
+    "best_favorable_pct": 3.3
   },
   {
     "symbol": "POL",
@@ -62853,7 +62853,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "ATOM",
@@ -62871,7 +62871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.88
   },
   {
     "symbol": "AAVE",
@@ -62889,7 +62889,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "OP",
@@ -62908,5 +62908,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.57
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1782,
+    "reasons": [
+      "RSI \u00fcberkauft (78.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1885859525578608,
+    "take_profit": 0.1574280948842784,
+    "timestamp": "2026-09-19T03:25:18.973641+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "APT",
+    "kucoin_symbol": "APT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.7642,
+    "reasons": [
+      "RSI \u00fcberkauft (84.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.8048719088512387,
+    "take_profit": 0.6828561822975225,
+    "timestamp": "2026-09-19T03:25:20.009362+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.52
   }
 ]
