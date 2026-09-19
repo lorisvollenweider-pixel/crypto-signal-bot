@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "ETHFI",
-    "kucoin_symbol": "ETHFI-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.5558,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.5840524090802943,
-    "take_profit": 0.49929518183941124,
-    "timestamp": "2026-09-05T05:55:19.276329+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.23,
-    "best_favorable_pct": 0.23
-  },
-  {
     "symbol": "USDE",
     "kucoin_symbol": "USDE-USDT",
     "direction": "short",
@@ -60607,7 +60590,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "FIL",
@@ -61216,7 +61199,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.89
+    "best_favorable_pct": 2.06
   },
   {
     "symbol": "PIEVERSE",
@@ -61287,7 +61270,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.23
+    "best_favorable_pct": 2.51
   },
   {
     "symbol": "SUN",
@@ -61445,7 +61428,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.53
+    "best_favorable_pct": 2.38
   },
   {
     "symbol": "USELESS",
@@ -61462,7 +61445,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.47
+    "best_favorable_pct": 6.7
   },
   {
     "symbol": "BONK",
@@ -61884,7 +61867,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.4
+    "best_favorable_pct": 2.68
   },
   {
     "symbol": "FET",
@@ -62040,7 +62023,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.47
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "XTZ",
@@ -62179,7 +62162,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "KCS",
@@ -62370,7 +62353,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "ALGO",
@@ -62475,7 +62458,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.08
+    "best_favorable_pct": 3.26
   },
   {
     "symbol": "ATOM",
@@ -62529,7 +62512,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "ENA",
@@ -62565,7 +62548,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.04
+    "best_favorable_pct": 5.93
   },
   {
     "symbol": "HBAR",
@@ -62687,7 +62670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.43
+    "best_favorable_pct": 2.56
   },
   {
     "symbol": "GRAM",
@@ -62772,7 +62755,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "VET",
@@ -62807,7 +62790,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.32
+    "best_favorable_pct": 6.2
   },
   {
     "symbol": "PENDLE",
@@ -62944,7 +62927,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.15
+    "best_favorable_pct": 3.44
   },
   {
     "symbol": "PENGU",
@@ -62961,7 +62944,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "TIA",
@@ -63117,5 +63100,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.92
+  },
+  {
+    "symbol": "AR",
+    "kucoin_symbol": "AR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 4.288,
+    "reasons": [
+      "RSI \u00fcberkauft (92.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 4.6038815401979525,
+    "take_profit": 3.656236919604096,
+    "timestamp": "2026-09-19T05:57:30.263844+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
   }
 ]
