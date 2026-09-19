@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "LTC",
-    "kucoin_symbol": "LTC-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 53.56,
-    "reasons": [
-      "Volumen-Spike (1.8x Durchschnitt)"
-    ],
-    "stop_loss": 52.10272981338518,
-    "take_profit": 56.47454037322965,
-    "timestamp": "2026-09-05T15:51:33.328644+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.84,
-    "best_favorable_pct": 2.84
-  },
-  {
     "symbol": "RAIN",
     "kucoin_symbol": "RAIN-USDT",
     "direction": "long",
@@ -60949,9 +60932,9 @@
     "stop_loss": 0.07691031910792306,
     "take_profit": 0.0844393617841539,
     "timestamp": "2026-09-19T03:52:58.980323+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.47,
     "best_favorable_pct": 2.47
   },
   {
@@ -60967,10 +60950,10 @@
     "stop_loss": 1.842492406161515,
     "take_profit": 1.3655151876769698,
     "timestamp": "2026-09-19T03:52:58.980399+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 9.35
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.6,
+    "best_favorable_pct": 9.6
   },
   {
     "symbol": "STRK",
@@ -60985,9 +60968,9 @@
     "stop_loss": 0.04812351886068159,
     "take_profit": 0.03743296227863682,
     "timestamp": "2026-09-19T03:53:00.015596+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 10.57,
     "best_favorable_pct": 10.57
   },
   {
@@ -61713,7 +61696,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.72
+    "best_favorable_pct": 2.93
   },
   {
     "symbol": "USDG",
@@ -61849,7 +61832,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.17
+    "best_favorable_pct": 8.43
   },
   {
     "symbol": "LINK",
@@ -62509,7 +62492,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.12
+    "best_favorable_pct": 2.25
   },
   {
     "symbol": "AVAX",
@@ -62560,7 +62543,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.04
+    "best_favorable_pct": 2.22
   },
   {
     "symbol": "NIGHT",
@@ -62800,7 +62783,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "XLM",
@@ -62939,7 +62922,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.75
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "XLM",
@@ -62973,7 +62956,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "ENA",
@@ -62988,6 +62971,75 @@
     "stop_loss": 0.2113312493169114,
     "take_profit": 0.1728375013661772,
     "timestamp": "2026-09-19T15:43:31.425095+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HBAR",
+    "kucoin_symbol": "HBAR-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.08119,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.07863736453380062,
+    "take_profit": 0.08629527093239875,
+    "timestamp": "2026-09-19T15:54:36.010877+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9867,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.934124786010505,
+    "take_profit": 1.09185042797899,
+    "timestamp": "2026-09-19T15:54:36.010914+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETHFI",
+    "kucoin_symbol": "ETHFI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.7425,
+    "reasons": [
+      "RSI \u00fcberkauft (71.9)"
+    ],
+    "stop_loss": 0.780563272623858,
+    "take_profit": 0.6663734547522842,
+    "timestamp": "2026-09-19T15:54:36.010925+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STRK",
+    "kucoin_symbol": "STRK-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.04422,
+    "reasons": [
+      "RSI \u00fcberkauft (73.1)",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.0490553684248901,
+    "take_profit": 0.034549263150219806,
+    "timestamp": "2026-09-19T15:54:36.010941+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
