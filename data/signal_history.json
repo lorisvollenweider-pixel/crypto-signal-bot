@@ -1,58 +1,5 @@
 [
   {
-    "symbol": "POL",
-    "kucoin_symbol": "POL-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.0971,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.10024165054718834,
-    "take_profit": 0.09081669890562336,
-    "timestamp": "2026-09-05T22:36:09.594205+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.62,
-    "best_favorable_pct": 0.62
-  },
-  {
-    "symbol": "FF",
-    "kucoin_symbol": "FF-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.12023,
-    "reasons": [
-      "RSI \u00fcberkauft (70.0)"
-    ],
-    "stop_loss": 0.1295066501736108,
-    "take_profit": 0.10167669965277842,
-    "timestamp": "2026-09-05T22:36:11.018187+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.82,
-    "best_favorable_pct": 1.82
-  },
-  {
-    "symbol": "CFX",
-    "kucoin_symbol": "CFX-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.04943,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.048072628510595704,
-    "take_profit": 0.0521447429788086,
-    "timestamp": "2026-09-05T22:36:11.018213+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.87,
-    "best_favorable_pct": 0.87
-  },
-  {
     "symbol": "UNI",
     "kucoin_symbol": "UNI-USDT",
     "direction": "short",
@@ -61104,9 +61051,9 @@
     "stop_loss": 8.884971875043673,
     "take_profit": 8.057656249912652,
     "timestamp": "2026-09-19T10:43:06.390594+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.44,
     "best_favorable_pct": 2.44
   },
   {
@@ -62918,6 +62865,24 @@
     "stop_loss": 1.0001758698667509,
     "take_profit": 0.9981482602664984,
     "timestamp": "2026-09-19T22:34:51.325789+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.5773,
+    "reasons": [
+      "RSI \u00fcberkauft (71.7)",
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 3.8265034737652535,
+    "take_profit": 3.078893052469493,
+    "timestamp": "2026-09-19T22:46:17.080957+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
