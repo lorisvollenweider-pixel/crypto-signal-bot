@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "XDC",
-    "kucoin_symbol": "XDC-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.02793,
-    "reasons": [
-      "Volumen-Spike (1.8x Durchschnitt)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.028374375958322613,
-    "take_profit": 0.027041248083354775,
-    "timestamp": "2026-09-05T11:01:44.219838+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.86,
-    "best_favorable_pct": 0.86
-  },
-  {
-    "symbol": "SUN",
-    "kucoin_symbol": "SUN-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.01665,
-    "reasons": [
-      "Volumen-Spike (3.7x Durchschnitt)",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.01649598082535479,
-    "take_profit": 0.016958038349290425,
-    "timestamp": "2026-09-05T11:01:45.472548+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.44,
-    "best_favorable_pct": 1.44
-  },
-  {
     "symbol": "BNB",
     "kucoin_symbol": "BNB-USDT",
     "direction": "short",
@@ -60874,9 +60838,9 @@
     "stop_loss": 0.038897353209906664,
     "take_profit": 0.034135293580186674,
     "timestamp": "2026-09-18T23:05:09.163302+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -60891,9 +60855,9 @@
     "stop_loss": 0.00750752626610123,
     "take_profit": 0.008627947467797542,
     "timestamp": "2026-09-18T23:05:10.371715+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 10.65,
     "best_favorable_pct": 10.65
   },
   {
@@ -60908,9 +60872,9 @@
     "stop_loss": 0.6844555563694282,
     "take_profit": 0.5744888872611436,
     "timestamp": "2026-09-18T23:05:10.371735+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.51,
     "best_favorable_pct": 1.51
   },
   {
@@ -60926,9 +60890,9 @@
     "stop_loss": 0.1317734258080201,
     "take_profit": 0.1502551483839598,
     "timestamp": "2026-09-18T23:05:10.371769+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.72,
     "best_favorable_pct": 2.72
   },
   {
@@ -61381,7 +61345,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.54
+    "best_favorable_pct": 1.9
   },
   {
     "symbol": "ETH",
@@ -61818,7 +61782,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "PIEVERSE",
@@ -62094,7 +62058,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.84
+    "best_favorable_pct": 2.21
   },
   {
     "symbol": "USDC",
@@ -62579,7 +62543,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "USDG",
@@ -62630,7 +62594,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "USDC",
@@ -62992,7 +62956,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "VET",
@@ -63079,7 +63043,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "ETC",
@@ -63097,6 +63061,59 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.94
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.8663,
+    "reasons": [
+      "RSI \u00fcberkauft (78.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.9013254329164501,
+    "take_profit": 0.7962491341670997,
+    "timestamp": "2026-09-19T11:09:48.173009+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "AERO",
+    "kucoin_symbol": "AERO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.684,
+    "reasons": [
+      "RSI \u00fcberkauft (72.2)"
+    ],
+    "stop_loss": 0.7201621789892007,
+    "take_profit": 0.611675642021599,
+    "timestamp": "2026-09-19T11:09:49.532681+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.02846,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.029232035238285336,
+    "take_profit": 0.026915929523429326,
+    "timestamp": "2026-09-19T11:09:49.532694+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
