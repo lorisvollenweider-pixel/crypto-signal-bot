@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "AI",
-    "kucoin_symbol": "AI-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.02046,
-    "reasons": [
-      "RSI \u00fcberkauft (70.2)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.02087905179713104,
-    "take_profit": 0.01962189640573792,
-    "timestamp": "2026-09-05T22:58:39.771200+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.76,
-    "best_favorable_pct": 1.76
-  },
-  {
     "symbol": "PUMP",
     "kucoin_symbol": "PUMP-USDT",
     "direction": "long",
@@ -61013,9 +60995,9 @@
     "stop_loss": 0.9013254329164501,
     "take_profit": 0.7962491341670997,
     "timestamp": "2026-09-19T11:09:48.173009+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.93,
     "best_favorable_pct": 2.93
   },
   {
@@ -61030,9 +61012,9 @@
     "stop_loss": 0.7201621789892007,
     "take_profit": 0.611675642021599,
     "timestamp": "2026-09-19T11:09:49.532681+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.53,
     "best_favorable_pct": 4.53
   },
   {
@@ -61048,9 +61030,9 @@
     "stop_loss": 0.029232035238285336,
     "take_profit": 0.026915929523429326,
     "timestamp": "2026-09-19T11:09:49.532694+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.05,
     "best_favorable_pct": 1.05
   },
   {
@@ -62831,5 +62813,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETH",
+    "kucoin_symbol": "ETH-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2635.9,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2692.651973913981,
+    "take_profit": 2522.3960521720387,
+    "timestamp": "2026-09-19T23:14:23.872128+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 4.144e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (76.4)",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 4.338445808471497e-06,
+    "take_profit": 3.7551083830570048e-06,
+    "timestamp": "2026-09-19T23:14:25.190815+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
   }
 ]
