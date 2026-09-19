@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "ASTER",
-    "kucoin_symbol": "ASTER-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.7809,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Volumen-Spike (1.8x Durchschnitt)"
-    ],
-    "stop_loss": 0.7490385628688098,
-    "take_profit": 0.8446228742623807,
-    "timestamp": "2026-09-05T11:42:11.588543+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 10.58,
-    "best_favorable_pct": 10.58
-  },
-  {
-    "symbol": "PONS",
-    "kucoin_symbol": "PONS-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.8526,
-    "reasons": [
-      "RSI \u00fcberkauft (78.7)"
-    ],
-    "stop_loss": 0.9825793384558992,
-    "take_profit": 0.5926413230882017,
-    "timestamp": "2026-09-05T11:42:12.811142+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.02,
-    "best_favorable_pct": 0.02
-  },
-  {
     "symbol": "ALGO",
     "kucoin_symbol": "ALGO-USDT",
     "direction": "long",
@@ -60803,9 +60768,9 @@
     "stop_loss": 0.051680605538316514,
     "take_profit": 0.03317148892336697,
     "timestamp": "2026-09-18T23:46:03.185887+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 10.15,
     "best_favorable_pct": 10.15
   },
   {
@@ -60821,9 +60786,9 @@
     "stop_loss": 3.402567850939024e-07,
     "take_profit": 3.226864298121952e-07,
     "timestamp": "2026-09-18T23:46:04.412262+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.26,
     "best_favorable_pct": 1.26
   },
   {
@@ -61482,7 +61447,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "ETHFI",
@@ -61659,7 +61624,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.57
+    "best_favorable_pct": 1.59
   },
   {
     "symbol": "PIEVERSE",
@@ -61781,7 +61746,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "PAXG",
@@ -62471,7 +62436,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "USDC",
@@ -62920,7 +62885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "ETC",
@@ -62973,7 +62938,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "XDC",
@@ -62991,7 +62956,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "RAIN",
@@ -63045,5 +63010,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0625645,
+    "reasons": [
+      "RSI \u00fcberkauft (83.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.07244621665917697,
+    "take_profit": 0.04280106668164603,
+    "timestamp": "2026-09-19T11:49:53.241211+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.49
   }
 ]
