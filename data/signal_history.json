@@ -1,57 +1,5 @@
 [
   {
-    "symbol": "CAKE",
-    "kucoin_symbol": "CAKE-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 2.14,
-    "reasons": [
-      "RSI \u00fcberkauft (71.6)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 2.2234834844084124,
-    "take_profit": 1.9730330311831756,
-    "timestamp": "2026-09-05T09:33:08.332987+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.65,
-    "best_favorable_pct": 0.65
-  },
-  {
-    "symbol": "FF",
-    "kucoin_symbol": "FF-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.11631,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.1255479466433015,
-    "take_profit": 0.09783410671339704,
-    "timestamp": "2026-09-05T09:33:09.550874+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "BTT",
-    "kucoin_symbol": "BTT-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 2.981e-07,
-    "reasons": [
-      "Volumen-Spike (2.3x Durchschnitt)"
-    ],
-    "stop_loss": 3.0362420329607376e-07,
-    "take_profit": 2.8705159340785243e-07,
-    "timestamp": "2026-09-05T09:44:40.648960+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.64,
-    "best_favorable_pct": 0.64
-  },
-  {
     "symbol": "XDC",
     "kucoin_symbol": "XDC-USDT",
     "direction": "short",
@@ -60607,9 +60555,9 @@
     "stop_loss": 778.9466318229331,
     "take_profit": 736.5607363541336,
     "timestamp": "2026-09-18T21:43:33.295909+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.7,
     "best_favorable_pct": 0.7
   },
   {
@@ -60625,9 +60573,9 @@
     "stop_loss": 595.5271264389024,
     "take_profit": 511.6557471221953,
     "timestamp": "2026-09-18T21:43:33.295944+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.96,
     "best_favorable_pct": 0.96
   },
   {
@@ -60643,9 +60591,9 @@
     "stop_loss": 0.5350267233044423,
     "take_profit": 0.4536465533911155,
     "timestamp": "2026-09-18T21:43:34.444296+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.55,
     "best_favorable_pct": 5.55
   },
   {
@@ -60661,9 +60609,9 @@
     "stop_loss": 0.04731084702820085,
     "take_profit": 0.03749830594359832,
     "timestamp": "2026-09-18T21:43:35.528476+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.51,
     "best_favorable_pct": 9.51
   },
   {
@@ -60678,9 +60626,9 @@
     "stop_loss": 0.025831021711090217,
     "take_profit": 0.023007956577819563,
     "timestamp": "2026-09-18T21:43:36.611450+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.78,
     "best_favorable_pct": 3.78
   },
   {
@@ -62386,7 +62334,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "AKE",
@@ -62870,7 +62818,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.17
+    "best_favorable_pct": 3.33
   },
   {
     "symbol": "AVAX",
@@ -62940,6 +62888,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.47
+  },
+  {
+    "symbol": "BNB",
+    "kucoin_symbol": "BNB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 765.995,
+    "reasons": [
+      "RSI \u00fcberkauft (72.0)"
+    ],
+    "stop_loss": 779.8890484014314,
+    "take_profit": 738.2069031971373,
+    "timestamp": "2026-09-19T09:45:18.853188+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "OP",
+    "kucoin_symbol": "OP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.122,
+    "reasons": [
+      "RSI \u00fcberkauft (70.9)"
+    ],
+    "stop_loss": 0.1294513796469209,
+    "take_profit": 0.10709724070615818,
+    "timestamp": "2026-09-19T09:45:18.853275+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
