@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "CAKE",
-    "kucoin_symbol": "CAKE-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 2.214,
-    "reasons": [
-      "RSI \u00fcberkauft (75.5)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 2.305295248629705,
-    "take_profit": 2.03140950274059,
-    "timestamp": "2026-09-05T15:40:17.377249+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "LTC",
     "kucoin_symbol": "LTC-USDT",
     "direction": "long",
@@ -61867,7 +61849,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.08
+    "best_favorable_pct": 7.17
   },
   {
     "symbol": "LINK",
@@ -62249,7 +62231,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.41
+    "best_favorable_pct": 2.44
   },
   {
     "symbol": "SUI",
@@ -62578,7 +62560,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.61
+    "best_favorable_pct": 2.04
   },
   {
     "symbol": "NIGHT",
@@ -62870,7 +62852,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "VIRTUAL",
@@ -62939,7 +62921,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.54
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "RENDER",
@@ -62957,6 +62939,58 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.75
+  },
+  {
+    "symbol": "XLM",
+    "kucoin_symbol": "XLM-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1988,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.19122054266029148,
+    "take_profit": 0.21395891467941705,
+    "timestamp": "2026-09-19T15:43:31.425055+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BCH",
+    "kucoin_symbol": "BCH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 256.43,
+    "reasons": [
+      "RSI \u00fcberkauft (70.4)"
+    ],
+    "stop_loss": 266.5609870448655,
+    "take_profit": 236.168025910269,
+    "timestamp": "2026-09-19T15:43:31.425073+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1985,
+    "reasons": [
+      "RSI \u00fcberkauft (82.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.2113312493169114,
+    "take_profit": 0.1728375013661772,
+    "timestamp": "2026-09-19T15:43:31.425095+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
