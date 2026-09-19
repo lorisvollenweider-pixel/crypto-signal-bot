@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "MON",
-    "kucoin_symbol": "MON-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.02603,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.024756126791023958,
-    "take_profit": 0.02857774641795209,
-    "timestamp": "2026-09-05T21:43:11.157314+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.38,
-    "best_favorable_pct": 1.38
-  },
-  {
     "symbol": "BTT",
     "kucoin_symbol": "BTT-USDT",
     "direction": "short",
@@ -61017,9 +61000,9 @@
     "stop_loss": 779.8890484014314,
     "take_profit": 738.2069031971373,
     "timestamp": "2026-09-19T09:45:18.853188+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.97,
     "best_favorable_pct": 0.97
   },
   {
@@ -61034,9 +61017,9 @@
     "stop_loss": 0.1294513796469209,
     "take_profit": 0.10709724070615818,
     "timestamp": "2026-09-19T09:45:18.853275+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.62,
     "best_favorable_pct": 2.62
   },
   {
@@ -61247,7 +61230,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.25
+    "best_favorable_pct": 4.3
   },
   {
     "symbol": "XDC",
@@ -61353,7 +61336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.03
+    "best_favorable_pct": 1.91
   },
   {
     "symbol": "ARB",
@@ -61490,7 +61473,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.5
+    "best_favorable_pct": 6.56
   },
   {
     "symbol": "AVAX",
@@ -61781,7 +61764,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "XLM",
@@ -61833,7 +61816,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.63
+    "best_favorable_pct": 4.73
   },
   {
     "symbol": "VIRTUAL",
@@ -62265,7 +62248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.72
+    "best_favorable_pct": 1.75
   },
   {
     "symbol": "PEPE",
@@ -62370,7 +62353,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.7
+    "best_favorable_pct": 2.9
   },
   {
     "symbol": "USDE",
@@ -62475,7 +62458,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "ENA",
@@ -62646,7 +62629,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.02
+    "best_favorable_pct": 2.09
   },
   {
     "symbol": "NEAR",
@@ -62698,7 +62681,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.25
+    "best_favorable_pct": 1.26
   },
   {
     "symbol": "BTC",
@@ -62783,7 +62766,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "QNT",
@@ -62886,7 +62869,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "VET",
@@ -62904,5 +62887,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.76
+  },
+  {
+    "symbol": "AVAX",
+    "kucoin_symbol": "AVAX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 9.722,
+    "reasons": [
+      "RSI \u00fcberkauft (90.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 10.11725775403091,
+    "take_profit": 8.93148449193818,
+    "timestamp": "2026-09-19T21:52:31.095801+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
