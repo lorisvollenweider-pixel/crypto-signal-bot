@@ -60785,9 +60785,9 @@
     "stop_loss": 271.44601471088856,
     "take_profit": 243.3479705782228,
     "timestamp": "2026-09-18T22:26:03.629482+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.22,
     "best_favorable_pct": 6.22
   },
   {
@@ -60803,9 +60803,9 @@
     "stop_loss": 0.06623556815244613,
     "take_profit": 0.0763288636951077,
     "timestamp": "2026-09-18T22:26:04.858022+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.49,
     "best_favorable_pct": 3.49
   },
   {
@@ -60820,9 +60820,9 @@
     "stop_loss": 0.12956935437944866,
     "take_profit": 0.14664129124110267,
     "timestamp": "2026-09-18T22:26:05.899587+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.75,
     "best_favorable_pct": 4.75
   },
   {
@@ -61818,7 +61818,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "PIEVERSE",
@@ -62163,7 +62163,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "JUP",
@@ -62766,7 +62766,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "ETC",
@@ -63024,6 +63024,58 @@
     "stop_loss": 18.92255135390215,
     "take_profit": 15.794897292195696,
     "timestamp": "2026-09-19T10:14:27.643394+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9993,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.9985716915036255,
+    "take_profit": 1.0007566169927489,
+    "timestamp": "2026-09-19T10:29:36.233592+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "TAO",
+    "kucoin_symbol": "TAO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 268.45,
+    "reasons": [
+      "RSI \u00fcberkauft (77.6)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 279.38383454986337,
+    "take_profit": 246.58233090027326,
+    "timestamp": "2026-09-19T10:29:36.233618+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LDO",
+    "kucoin_symbol": "LDO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4014,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.38650851663486274,
+    "take_profit": 0.43118296673027445,
+    "timestamp": "2026-09-19T10:29:37.343234+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
