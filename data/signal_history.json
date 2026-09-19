@@ -60731,9 +60731,9 @@
     "stop_loss": 0.9997468057145867,
     "take_profit": 1.0005063885708265,
     "timestamp": "2026-09-18T22:10:36.615915+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -60749,9 +60749,9 @@
     "stop_loss": 0.23316393925164786,
     "take_profit": 0.20957212149670432,
     "timestamp": "2026-09-18T22:10:37.803760+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.55,
     "best_favorable_pct": 1.55
   },
   {
@@ -60767,9 +60767,9 @@
     "stop_loss": 0.026035664568233075,
     "take_profit": 0.02304867086353385,
     "timestamp": "2026-09-18T22:10:38.845668+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.35,
     "best_favorable_pct": 4.35
   },
   {
@@ -61818,7 +61818,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "PIEVERSE",
@@ -62957,5 +62957,76 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.05
+  },
+  {
+    "symbol": "ETH",
+    "kucoin_symbol": "ETH-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 2641.9,
+    "reasons": [
+      "RSI \u00fcberkauft (72.9)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2702.7498797592175,
+    "take_profit": 2520.2002404815653,
+    "timestamp": "2026-09-19T10:14:24.250629+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 28.421,
+    "reasons": [
+      "RSI \u00fcberkauft (70.2)",
+      "Volumen-Spike (2.9x Durchschnitt)"
+    ],
+    "stop_loss": 30.566181997296454,
+    "take_profit": 24.130636005407094,
+    "timestamp": "2026-09-19T10:14:25.398152+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.22
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.008448,
+    "reasons": [
+      "RSI \u00fcberkauft (70.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.008882851935936098,
+    "take_profit": 0.007578296128127804,
+    "timestamp": "2026-09-19T10:14:26.520703+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 17.88,
+    "reasons": [
+      "RSI \u00fcberkauft (70.3)"
+    ],
+    "stop_loss": 18.92255135390215,
+    "take_profit": 15.794897292195696,
+    "timestamp": "2026-09-19T10:14:27.643394+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
