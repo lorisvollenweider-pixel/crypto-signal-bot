@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "AAVE",
-    "kucoin_symbol": "AAVE-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 134.378,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 129.91206582113864,
-    "take_profit": 143.30986835772268,
-    "timestamp": "2026-09-05T22:24:10.164453+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.99,
-    "best_favorable_pct": 3.99
-  },
-  {
     "symbol": "POL",
     "kucoin_symbol": "POL-USDT",
     "direction": "short",
@@ -61069,9 +61051,9 @@
     "stop_loss": 0.9985716915036255,
     "take_profit": 1.0007566169927489,
     "timestamp": "2026-09-19T10:29:36.233592+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -61087,9 +61069,9 @@
     "stop_loss": 279.38383454986337,
     "take_profit": 246.58233090027326,
     "timestamp": "2026-09-19T10:29:36.233618+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.43,
     "best_favorable_pct": 2.43
   },
   {
@@ -61104,9 +61086,9 @@
     "stop_loss": 0.38650851663486274,
     "take_profit": 0.43118296673027445,
     "timestamp": "2026-09-19T10:29:37.343234+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.38,
     "best_favorable_pct": 4.38
   },
   {
@@ -61780,7 +61762,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.47
+    "best_favorable_pct": 3.54
   },
   {
     "symbol": "QNT",
@@ -62645,7 +62627,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.29
+    "best_favorable_pct": 1.51
   },
   {
     "symbol": "PONS",
@@ -62799,7 +62781,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "VET",
@@ -62918,6 +62900,24 @@
     "stop_loss": 18.1909280024922,
     "take_profit": 15.188143995015604,
     "timestamp": "2026-09-19T22:21:44.226749+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDG",
+    "kucoin_symbol": "USDG-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9995,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Volumen-Spike (2.4x Durchschnitt)"
+    ],
+    "stop_loss": 1.0001758698667509,
+    "take_profit": 0.9981482602664984,
+    "timestamp": "2026-09-19T22:34:51.325789+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
