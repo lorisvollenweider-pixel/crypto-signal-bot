@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "RENDER",
-    "kucoin_symbol": "RENDER-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 1.483,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 1.436468154503228,
-    "take_profit": 1.5760636909935442,
-    "timestamp": "2026-09-05T09:03:59.046062+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.27,
-    "best_favorable_pct": 0.27
-  },
-  {
-    "symbol": "BDX",
-    "kucoin_symbol": "BDX-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.08068,
-    "reasons": [
-      "RSI \u00fcberkauft (71.2)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.08186408616158025,
-    "take_profit": 0.0783118276768395,
-    "timestamp": "2026-09-05T09:04:00.288921+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.27,
-    "best_favorable_pct": 2.27
-  },
-  {
     "symbol": "DOGE",
     "kucoin_symbol": "DOGE-USDT",
     "direction": "long",
@@ -60607,9 +60571,9 @@
     "stop_loss": 0.772289971230059,
     "take_profit": 0.658620057539882,
     "timestamp": "2026-09-18T21:15:53.462370+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.96,
     "best_favorable_pct": 4.96
   },
   {
@@ -60820,7 +60784,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.38
+    "best_favorable_pct": 9.93
   },
   {
     "symbol": "BONK",
@@ -62387,7 +62351,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "WLFI",
@@ -62580,7 +62544,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.26
+    "best_favorable_pct": 9.88
   },
   {
     "symbol": "ENA",
@@ -62684,7 +62648,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "ZEC",
@@ -62871,7 +62835,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 1.56
   },
   {
     "symbol": "PYUSD",
@@ -62940,7 +62904,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 2.46
   },
   {
     "symbol": "AVAX",
@@ -62972,6 +62936,23 @@
     "stop_loss": 0.07704411671518115,
     "take_profit": 0.0714517665696377,
     "timestamp": "2026-09-19T08:58:40.627073+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.008421,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.008855101935936098,
+    "take_profit": 0.007552796128127803,
+    "timestamp": "2026-09-19T09:17:52.471870+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
