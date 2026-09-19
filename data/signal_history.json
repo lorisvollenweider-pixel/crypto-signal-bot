@@ -60838,9 +60838,9 @@
     "stop_loss": 0.11037212723447541,
     "take_profit": 0.11705574553104918,
     "timestamp": "2026-09-18T22:40:10.360585+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.1,
     "best_favorable_pct": 5.1
   },
   {
@@ -61555,7 +61555,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "HTX",
@@ -61572,7 +61572,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "VVV",
@@ -62094,7 +62094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "USDC",
@@ -62630,7 +62630,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "USDC",
@@ -62715,7 +62715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "LINK",
@@ -63027,7 +63027,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "USDE",
@@ -63080,5 +63080,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETC",
+    "kucoin_symbol": "ETC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 8.6092,
+    "reasons": [
+      "RSI \u00fcberkauft (75.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 8.884971875043673,
+    "take_profit": 8.057656249912652,
+    "timestamp": "2026-09-19T10:43:06.390594+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
   }
 ]
