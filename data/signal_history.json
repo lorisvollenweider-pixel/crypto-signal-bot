@@ -1,39 +1,5 @@
 [
   {
-    "symbol": "VIRTUAL",
-    "kucoin_symbol": "VIRTUAL-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.7066,
-    "reasons": [
-      "Volumen-Spike (1.8x Durchschnitt)"
-    ],
-    "stop_loss": 0.6811000822305601,
-    "take_profit": 0.7575998355388799,
-    "timestamp": "2026-09-06T13:44:52.922493+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.34,
-    "best_favorable_pct": 3.34
-  },
-  {
-    "symbol": "XTZ",
-    "kucoin_symbol": "XTZ-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.2369,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.2426736206833934,
-    "take_profit": 0.22535275863321316,
-    "timestamp": "2026-09-06T13:44:52.922525+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.8,
-    "best_favorable_pct": 0.8
-  },
-  {
     "symbol": "NEAR",
     "kucoin_symbol": "NEAR-USDT",
     "direction": "short",
@@ -61566,7 +61532,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 1.0
   },
   {
     "symbol": "MON",
@@ -61982,7 +61948,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.61
+    "best_favorable_pct": 5.78
   },
   {
     "symbol": "AKE",
@@ -62312,7 +62278,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "BTC",
@@ -62533,7 +62499,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 1.75
   },
   {
     "symbol": "STABLE",
@@ -62567,7 +62533,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "UNI",
@@ -62601,7 +62567,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 10.66
+    "best_favorable_pct": 11.48
   },
   {
     "symbol": "NIGHT",
@@ -62635,7 +62601,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.67
+    "best_favorable_pct": 1.84
   },
   {
     "symbol": "INJ",
@@ -62720,7 +62686,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "ETC",
@@ -62754,7 +62720,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "OP",
@@ -62768,6 +62734,41 @@
     "stop_loss": 0.12930134811771585,
     "take_profit": 0.10739730376456828,
     "timestamp": "2026-09-20T13:41:32.458356+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HBAR",
+    "kucoin_symbol": "HBAR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0855,
+    "reasons": [
+      "RSI \u00fcberkauft (73.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.08873043594791377,
+    "take_profit": 0.07903912810417248,
+    "timestamp": "2026-09-20T13:53:50.865974+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.29
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.157812,
+    "reasons": [
+      "Volumen-Spike (4.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.1709577633723705,
+    "take_profit": 0.131520473255259,
+    "timestamp": "2026-09-20T13:53:52.099848+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
