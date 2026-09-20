@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "CRO",
-    "kucoin_symbol": "CRO-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.05734,
-    "reasons": [
-      "Volumen-Spike (3.4x Durchschnitt)"
-    ],
-    "stop_loss": 0.05586229305394928,
-    "take_profit": 0.06029541389210145,
-    "timestamp": "2026-09-06T14:41:51.666007+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.1,
-    "best_favorable_pct": 1.1
-  },
-  {
     "symbol": "ALGO",
     "kucoin_symbol": "ALGO-USDT",
     "direction": "short",
@@ -60681,9 +60664,9 @@
     "stop_loss": 0.49634187286264525,
     "take_profit": 0.41611625427470955,
     "timestamp": "2026-09-20T02:46:45.888515+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.41,
     "best_favorable_pct": 4.41
   },
   {
@@ -60699,9 +60682,9 @@
     "stop_loss": 1.1538962080534498,
     "take_profit": 0.9796075838931008,
     "timestamp": "2026-09-20T02:46:45.888540+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.08,
     "best_favorable_pct": 3.08
   },
   {
@@ -60805,7 +60788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.33
   },
   {
     "symbol": "VIRTUAL",
@@ -61461,7 +61444,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.51
+    "best_favorable_pct": 3.8
   },
   {
     "symbol": "TRX",
@@ -61842,7 +61825,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.58
+    "best_favorable_pct": 14.17
   },
   {
     "symbol": "XDC",
@@ -62340,7 +62323,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.12
+    "best_favorable_pct": 5.62
   },
   {
     "symbol": "STABLE",
@@ -62408,7 +62391,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.34
+    "best_favorable_pct": 12.56
   },
   {
     "symbol": "NIGHT",
@@ -62613,7 +62596,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.26
+    "best_favorable_pct": 16.55
   },
   {
     "symbol": "AVAX",
@@ -62632,5 +62615,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ALGO",
+    "kucoin_symbol": "ALGO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1099,
+    "reasons": [
+      "RSI \u00fcberkauft (74.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1151220648695801,
+    "take_profit": 0.09945587026083981,
+    "timestamp": "2026-09-20T14:50:50.261405+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.36
   }
 ]
