@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "KAS",
-    "kucoin_symbol": "KAS-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.03052,
-    "reasons": [
-      "MACD Bearish Crossover",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.03141666608152555,
-    "take_profit": 0.02872666783694889,
-    "timestamp": "2026-09-06T18:23:38.410546+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.16,
-    "best_favorable_pct": 0.16
-  },
-  {
     "symbol": "RAIN",
     "kucoin_symbol": "RAIN-USDT",
     "direction": "short",
@@ -60728,9 +60710,9 @@
     "stop_loss": 2.3565356587940256,
     "take_profit": 2.6549286824119487,
     "timestamp": "2026-09-20T06:17:58.849163+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.38,
     "best_favorable_pct": 3.38
   },
   {
@@ -60745,9 +60727,9 @@
     "stop_loss": 0.3472864605857536,
     "take_profit": 0.29752707882849283,
     "timestamp": "2026-09-20T06:17:58.849204+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.0,
     "best_favorable_pct": 1.0
   },
   {
@@ -61217,7 +61199,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 16.2
+    "best_favorable_pct": 17.59
   },
   {
     "symbol": "XDC",
@@ -61251,7 +61233,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.11
+    "best_favorable_pct": 2.7
   },
   {
     "symbol": "TRX",
@@ -61443,7 +61425,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.28
+    "best_favorable_pct": 5.4
   },
   {
     "symbol": "BNB",
@@ -61460,7 +61442,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "KCS",
@@ -61988,7 +61970,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 18.69
+    "best_favorable_pct": 20.03
   },
   {
     "symbol": "AVAX",
@@ -62526,7 +62508,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "HYPE",
@@ -62577,7 +62559,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.06
+    "best_favorable_pct": 2.54
   },
   {
     "symbol": "XDC",
@@ -62681,7 +62663,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "ENA",
@@ -62717,7 +62699,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "USDS",
@@ -62751,6 +62733,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.44
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 2.7243,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (2.4x Durchschnitt)"
+    ],
+    "stop_loss": 2.5845357806740035,
+    "take_profit": 3.0038284386519924,
+    "timestamp": "2026-09-20T18:26:09.466873+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
   }
 ]
