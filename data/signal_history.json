@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "ENS",
-    "kucoin_symbol": "ENS-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 6.219,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 6.499176048396961,
-    "take_profit": 5.658647903206078,
-    "timestamp": "2026-09-06T18:05:15.722153+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.22,
-    "best_favorable_pct": 2.22
-  },
-  {
     "symbol": "KAS",
     "kucoin_symbol": "KAS-USDT",
     "direction": "short",
@@ -60711,9 +60694,9 @@
     "stop_loss": 9.497649250002748,
     "take_profit": 7.734701499994504,
     "timestamp": "2026-09-20T05:56:27.116031+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.97,
     "best_favorable_pct": 3.97
   },
   {
@@ -60728,9 +60711,9 @@
     "stop_loss": 4.7283340741974484,
     "take_profit": 3.452331851605102,
     "timestamp": "2026-09-20T05:56:28.153130+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.51,
     "best_favorable_pct": 2.51
   },
   {
@@ -61077,7 +61060,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.29
+    "best_favorable_pct": 6.33
   },
   {
     "symbol": "NIGHT",
@@ -62230,7 +62213,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.0
+    "best_favorable_pct": 1.42
   },
   {
     "symbol": "DASH",
@@ -62318,7 +62301,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.5
+    "best_favorable_pct": 3.83
   },
   {
     "symbol": "HBAR",
@@ -62543,7 +62526,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "HYPE",
@@ -62594,7 +62577,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 2.06
   },
   {
     "symbol": "XDC",
@@ -62629,7 +62612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "SUI",
@@ -62681,7 +62664,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "TIA",
@@ -62698,7 +62681,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "ENA",
@@ -62735,5 +62718,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9995,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.0016633461881947,
+    "take_profit": 0.9951733076236109,
+    "timestamp": "2026-09-20T18:07:56.212322+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AR",
+    "kucoin_symbol": "AR-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 4.862,
+    "reasons": [
+      "RSI \u00fcberkauft (78.5)"
+    ],
+    "stop_loss": 5.343365437949709,
+    "take_profit": 3.899269124100583,
+    "timestamp": "2026-09-20T18:07:56.212388+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
