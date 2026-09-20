@@ -1,59 +1,5 @@
 [
   {
-    "symbol": "LINK",
-    "kucoin_symbol": "LINK-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 12.4231,
-    "reasons": [
-      "RSI \u00fcberkauft (72.7)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 12.783851646832247,
-    "take_profit": 11.701596706335506,
-    "timestamp": "2026-09-06T18:52:24.544221+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.73,
-    "best_favorable_pct": 0.73
-  },
-  {
-    "symbol": "INJ",
-    "kucoin_symbol": "INJ-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 5.114,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 4.933998069885682,
-    "take_profit": 5.474003860228636,
-    "timestamp": "2026-09-06T18:52:25.651138+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 10.48,
-    "best_favorable_pct": 10.48
-  },
-  {
-    "symbol": "LDO",
-    "kucoin_symbol": "LDO-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.4203,
-    "reasons": [
-      "RSI \u00fcberkauft (70.2)",
-      "Preis \u00fcber oberem Bollinger Band",
-      "Volumen-Spike (2.7x Durchschnitt)"
-    ],
-    "stop_loss": 0.43961622856597987,
-    "take_profit": 0.38166754286804033,
-    "timestamp": "2026-09-06T18:52:25.651173+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 4.62,
-    "best_favorable_pct": 4.62
-  },
-  {
     "symbol": "JUP",
     "kucoin_symbol": "JUP-USDT",
     "direction": "short",
@@ -60744,9 +60690,9 @@
     "stop_loss": 0.9990442781505584,
     "take_profit": 0.9971114436988832,
     "timestamp": "2026-09-20T06:53:00.215323+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -60762,9 +60708,9 @@
     "stop_loss": 18.18740699383886,
     "take_profit": 15.37518601232228,
     "timestamp": "2026-09-20T06:53:00.215391+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.87,
     "best_favorable_pct": 0.87
   },
   {
@@ -61181,7 +61127,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 18.08
+    "best_favorable_pct": 20.77
   },
   {
     "symbol": "XDC",
@@ -61952,7 +61898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 20.51
+    "best_favorable_pct": 23.19
   },
   {
     "symbol": "AVAX",
@@ -62177,7 +62123,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.55
   },
   {
     "symbol": "DASH",
@@ -62335,7 +62281,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 2.83
   },
   {
     "symbol": "FLR",
@@ -62421,7 +62367,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.49
+    "best_favorable_pct": 3.41
   },
   {
     "symbol": "ICP",
@@ -62645,7 +62591,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 2.21
   },
   {
     "symbol": "ENA",
@@ -62663,7 +62609,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.85
+    "best_favorable_pct": 2.86
   },
   {
     "symbol": "UB",
@@ -62681,7 +62627,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.6
+    "best_favorable_pct": 5.98
   },
   {
     "symbol": "USDS",
@@ -62715,7 +62661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.44
+    "best_favorable_pct": 4.81
   },
   {
     "symbol": "MORPHO",
@@ -62768,5 +62714,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 1.65,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (3.7x Durchschnitt)"
+    ],
+    "stop_loss": 1.574685883364003,
+    "take_profit": 1.800628233271994,
+    "timestamp": "2026-09-20T18:53:12.107345+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
