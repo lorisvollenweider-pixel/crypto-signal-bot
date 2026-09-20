@@ -60846,9 +60846,9 @@
     "stop_loss": 3.031656271831236,
     "take_profit": 2.720687456337528,
     "timestamp": "2026-09-19T18:13:23.013168+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.91,
     "best_favorable_pct": 5.91
   },
   {
@@ -61039,7 +61039,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.23
+    "best_favorable_pct": 8.27
   },
   {
     "symbol": "TRUMP",
@@ -61143,7 +61143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.92
+    "best_favorable_pct": 2.4
   },
   {
     "symbol": "XDC",
@@ -61280,7 +61280,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.26
+    "best_favorable_pct": 2.45
   },
   {
     "symbol": "FET",
@@ -61382,7 +61382,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.2
+    "best_favorable_pct": 4.24
   },
   {
     "symbol": "AVAX",
@@ -61453,7 +61453,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.4
+    "best_favorable_pct": 2.81
   },
   {
     "symbol": "PYUSD",
@@ -61523,7 +61523,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.09
+    "best_favorable_pct": 3.49
   },
   {
     "symbol": "ETH",
@@ -61612,7 +61612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.6
+    "best_favorable_pct": 4.96
   },
   {
     "symbol": "NEAR",
@@ -61629,7 +61629,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.83
+    "best_favorable_pct": 4.19
   },
   {
     "symbol": "CC",
@@ -61818,7 +61818,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.3
+    "best_favorable_pct": 2.42
   },
   {
     "symbol": "UB",
@@ -62317,7 +62317,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.09
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "CC",
@@ -62405,7 +62405,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "XLM",
@@ -62524,7 +62524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.65
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "RENDER",
@@ -62541,7 +62541,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "AERO",
@@ -62628,7 +62628,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.62
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "LUNC",
@@ -62663,7 +62663,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "AAVE",
@@ -62680,7 +62680,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "USDD",
@@ -62766,7 +62766,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "AR",
@@ -62784,5 +62784,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "CAKE",
+    "kucoin_symbol": "CAKE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.456,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 2.3565356587940256,
+    "take_profit": 2.6549286824119487,
+    "timestamp": "2026-09-20T06:17:58.849163+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 1.14
+  },
+  {
+    "symbol": "CRV",
+    "kucoin_symbol": "CRV-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.3307,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.3472864605857536,
+    "take_profit": 0.29752707882849283,
+    "timestamp": "2026-09-20T06:17:58.849204+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
