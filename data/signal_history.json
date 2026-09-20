@@ -60758,9 +60758,9 @@
     "stop_loss": 0.04241264994350266,
     "take_profit": 0.036614700112994676,
     "timestamp": "2026-09-20T09:17:09.853890+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.78,
     "best_favorable_pct": 5.78
   },
   {
@@ -62577,7 +62577,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.06
+    "best_favorable_pct": 3.32
   },
   {
     "symbol": "ZEC",
@@ -62782,7 +62782,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "FF",
@@ -62923,5 +62923,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0583,
+    "reasons": [
+      "Volumen-Spike (3.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.05959228128254402,
+    "take_profit": 0.055715437434911946,
+    "timestamp": "2026-09-20T21:19:54.769897+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0394,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.04125517003818821,
+    "take_profit": 0.03568965992362358,
+    "timestamp": "2026-09-20T21:19:54.769923+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
