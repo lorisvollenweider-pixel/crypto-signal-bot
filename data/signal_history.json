@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "PENDLE",
-    "kucoin_symbol": "PENDLE-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 2.0465,
-    "reasons": [
-      "RSI \u00fcberkauft (71.3)"
-    ],
-    "stop_loss": 2.126559330136994,
-    "take_profit": 1.8863813397260119,
-    "timestamp": "2026-09-06T05:24:16.737865+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.61,
-    "best_favorable_pct": 0.61
-  },
-  {
     "symbol": "USDD",
     "kucoin_symbol": "USDD-USDT",
     "direction": "long",
@@ -60845,9 +60828,9 @@
     "stop_loss": 5.848403188265286e-06,
     "take_profit": 5.3161936234694285e-06,
     "timestamp": "2026-09-19T17:21:04.080312+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.55,
     "best_favorable_pct": 5.55
   },
   {
@@ -60863,9 +60846,9 @@
     "stop_loss": 0.027747094845490414,
     "take_profit": 0.030005810309019176,
     "timestamp": "2026-09-19T17:21:04.080370+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -60880,9 +60863,9 @@
     "stop_loss": 0.008657893233780403,
     "take_profit": 0.007602213532439191,
     "timestamp": "2026-09-19T17:21:05.446636+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 7.95,
     "best_favorable_pct": 7.95
   },
   {
@@ -61331,7 +61314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.26
   },
   {
     "symbol": "FET",
@@ -61348,7 +61331,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.57
+    "best_favorable_pct": 3.85
   },
   {
     "symbol": "ETH",
@@ -61433,7 +61416,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.0
+    "best_favorable_pct": 4.2
   },
   {
     "symbol": "AVAX",
@@ -61663,7 +61646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.82
+    "best_favorable_pct": 4.41
   },
   {
     "symbol": "NEAR",
@@ -62368,7 +62351,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "CC",
@@ -62386,7 +62369,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "BTT",
@@ -62490,7 +62473,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "XAUT",
@@ -62609,7 +62592,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "FLR",
@@ -62765,7 +62748,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "HYPE",
@@ -62783,5 +62766,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.007688,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.008057150701826745,
+    "take_profit": 0.006949698596346511,
+    "timestamp": "2026-09-20T05:32:18.650897+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
