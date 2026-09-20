@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "RAIN",
-    "kucoin_symbol": "RAIN-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.016817,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.017189031310047988,
-    "take_profit": 0.01607293737990402,
-    "timestamp": "2026-09-06T18:39:32.504911+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.84,
-    "best_favorable_pct": 0.84
-  },
-  {
     "symbol": "LINK",
     "kucoin_symbol": "LINK-USDT",
     "direction": "short",
@@ -60745,9 +60727,9 @@
     "stop_loss": 0.024743453926526555,
     "take_profit": 0.021463092146946892,
     "timestamp": "2026-09-20T06:37:33.615371+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.16,
     "best_favorable_pct": 2.16
   },
   {
@@ -61199,7 +61181,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 17.59
+    "best_favorable_pct": 18.08
   },
   {
     "symbol": "XDC",
@@ -61442,7 +61424,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.24
+    "best_favorable_pct": 2.43
   },
   {
     "symbol": "KCS",
@@ -61970,7 +61952,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 20.03
+    "best_favorable_pct": 20.51
   },
   {
     "symbol": "AVAX",
@@ -62195,7 +62177,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.42
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "DASH",
@@ -62265,7 +62247,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "NEAR",
@@ -62283,7 +62265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.83
+    "best_favorable_pct": 5.44
   },
   {
     "symbol": "HBAR",
@@ -62439,7 +62421,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.28
+    "best_favorable_pct": 2.49
   },
   {
     "symbol": "ICP",
@@ -62663,7 +62645,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "ENA",
@@ -62681,7 +62663,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "UB",
@@ -62699,7 +62681,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "USDS",
@@ -62752,5 +62734,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "CAKE",
+    "kucoin_symbol": "CAKE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.518,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 2.405164542679373,
+    "take_profit": 2.743670914641253,
+    "timestamp": "2026-09-20T18:41:42.393573+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
+  },
+  {
+    "symbol": "LDO",
+    "kucoin_symbol": "LDO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4141,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.3971384444136831,
+    "take_profit": 0.4480231111726338,
+    "timestamp": "2026-09-20T18:41:42.393615+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
   }
 ]
