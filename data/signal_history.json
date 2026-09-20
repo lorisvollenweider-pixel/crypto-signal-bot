@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "VET",
-    "kucoin_symbol": "VET-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.00715,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.007336602935608553,
-    "take_profit": 0.006776794128782895,
-    "timestamp": "2026-09-06T20:26:45.306546+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.97,
-    "best_favorable_pct": 1.97
-  },
-  {
     "symbol": "ZEC",
     "kucoin_symbol": "ZEC-USDT",
     "direction": "short",
@@ -62262,7 +62245,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.77
+    "best_favorable_pct": 3.98
   },
   {
     "symbol": "HYPE",
@@ -62557,7 +62540,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.79
   },
   {
     "symbol": "QNT",
@@ -62609,7 +62592,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "WLD",
@@ -62627,7 +62610,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "BDX",
@@ -62680,7 +62663,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "FF",
@@ -62940,7 +62923,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "ZRO",
@@ -62957,7 +62940,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "BR",
@@ -62975,5 +62958,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STX",
+    "kucoin_symbol": "STX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.3211,
+    "reasons": [
+      "RSI \u00fcberkauft (70.3)"
+    ],
+    "stop_loss": 0.33853636992206637,
+    "take_profit": 0.2862272601558673,
+    "timestamp": "2026-09-20T20:39:43.927408+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.05278,
+    "reasons": [
+      "RSI \u00fcberkauft (75.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.054746316407363174,
+    "take_profit": 0.04884736718527365,
+    "timestamp": "2026-09-20T20:39:43.927434+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
