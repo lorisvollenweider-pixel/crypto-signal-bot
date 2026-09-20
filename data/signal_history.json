@@ -61477,7 +61477,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "KCS",
@@ -61630,7 +61630,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.48
+    "best_favorable_pct": 2.57
   },
   {
     "symbol": "JUP",
@@ -61800,7 +61800,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 17.23
+    "best_favorable_pct": 17.43
   },
   {
     "symbol": "NIGHT",
@@ -62230,7 +62230,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 1.0
   },
   {
     "symbol": "DASH",
@@ -62318,7 +62318,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.84
+    "best_favorable_pct": 3.5
   },
   {
     "symbol": "HBAR",
@@ -62681,7 +62681,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "TIA",
@@ -62698,6 +62698,42 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2275,
+    "reasons": [
+      "RSI \u00fcberkauft (79.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.24515199643210497,
+    "take_profit": 0.19219600713579005,
+    "timestamp": "2026-09-20T17:52:43.757409+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.128933,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.3x Durchschnitt)"
+    ],
+    "stop_loss": 0.14448296130923574,
+    "take_profit": 0.0978330773815285,
+    "timestamp": "2026-09-20T17:52:44.860227+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
