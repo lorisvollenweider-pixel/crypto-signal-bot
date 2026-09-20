@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "TAO",
-    "kucoin_symbol": "TAO-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 252.01,
-    "reasons": [
-      "RSI \u00fcberkauft (71.0)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 261.08319057422705,
-    "take_profit": 233.86361885154594,
-    "timestamp": "2026-09-06T16:56:47.354323+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.47,
-    "best_favorable_pct": 0.47
-  },
-  {
     "symbol": "ZRO",
     "kucoin_symbol": "ZRO-USDT",
     "direction": "long",
@@ -61321,7 +61303,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 2.11
   },
   {
     "symbol": "TRX",
@@ -61513,7 +61495,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.03
+    "best_favorable_pct": 5.28
   },
   {
     "symbol": "BNB",
@@ -61649,7 +61631,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.61
+    "best_favorable_pct": 3.15
   },
   {
     "symbol": "GRAM",
@@ -61683,7 +61665,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.14
+    "best_favorable_pct": 1.71
   },
   {
     "symbol": "JUP",
@@ -61751,7 +61733,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.91
+    "best_favorable_pct": 3.5
   },
   {
     "symbol": "CC",
@@ -62214,7 +62196,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 2.71
   },
   {
     "symbol": "PYUSD",
@@ -62283,7 +62265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "DASH",
@@ -62353,7 +62335,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "NEAR",
@@ -62405,7 +62387,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.73
+    "best_favorable_pct": 5.82
   },
   {
     "symbol": "WLD",
@@ -62423,7 +62405,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "RENDER",
@@ -62475,7 +62457,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "XRP",
@@ -62562,5 +62544,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "LTC",
+    "kucoin_symbol": "LTC-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 58.95,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 57.09144444896832,
+    "take_profit": 62.66711110206337,
+    "timestamp": "2026-09-20T16:56:39.141540+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "SEI",
+    "kucoin_symbol": "SEI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.05073,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.04894649943305199,
+    "take_profit": 0.054297001133896024,
+    "timestamp": "2026-09-20T16:56:40.291426+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
