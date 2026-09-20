@@ -1,93 +1,5 @@
 [
   {
-    "symbol": "BCH",
-    "kucoin_symbol": "BCH-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 258.86,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 250.07791956179713,
-    "take_profit": 276.4241608764058,
-    "timestamp": "2026-09-06T07:27:40.155228+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.04,
-    "best_favorable_pct": 1.04
-  },
-  {
-    "symbol": "PYUSD",
-    "kucoin_symbol": "PYUSD-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.998,
-    "reasons": [
-      "MACD Bearish Crossover",
-      "Volumen-Spike (2.3x Durchschnitt)"
-    ],
-    "stop_loss": 0.999113350660149,
-    "take_profit": 0.9957732986797021,
-    "timestamp": "2026-09-06T07:27:41.410719+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "MNT",
-    "kucoin_symbol": "MNT-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.5955,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.6100855775214308,
-    "take_profit": 0.5663288449571386,
-    "timestamp": "2026-09-06T07:27:42.638463+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "PENDLE",
-    "kucoin_symbol": "PENDLE-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 2.1099,
-    "reasons": [
-      "RSI \u00fcberkauft (75.9)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 2.1999771872798513,
-    "take_profit": 1.9297456254402978,
-    "timestamp": "2026-09-06T07:27:42.638539+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.6,
-    "best_favorable_pct": 3.6
-  },
-  {
-    "symbol": "DCR",
-    "kucoin_symbol": "DCR-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 16.6,
-    "reasons": [
-      "Volumen-Spike (2.0x Durchschnitt)"
-    ],
-    "stop_loss": 15.221020716522666,
-    "take_profit": 19.35795856695467,
-    "timestamp": "2026-09-06T07:27:43.861985+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.41,
-    "best_favorable_pct": 2.41
-  },
-  {
     "symbol": "NEAR",
     "kucoin_symbol": "NEAR-USDT",
     "direction": "short",
@@ -61438,7 +61350,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.23
+    "best_favorable_pct": 3.33
   },
   {
     "symbol": "INJ",
@@ -61765,7 +61677,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.73
+    "best_favorable_pct": 5.87
   },
   {
     "symbol": "INJ",
@@ -62127,7 +62039,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.65
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "UB",
@@ -62249,7 +62161,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.52
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "SOL",
@@ -62283,7 +62195,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "BCH",
@@ -62507,7 +62419,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "DOGE",
@@ -62541,7 +62453,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.43
   },
   {
     "symbol": "USDD",
@@ -62609,7 +62521,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "UNI",
@@ -62749,6 +62661,6 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.04
   }
 ]
