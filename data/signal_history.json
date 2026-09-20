@@ -61269,7 +61269,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.7
+    "best_favorable_pct": 2.51
   },
   {
     "symbol": "CAKE",
@@ -62631,5 +62631,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "CAKE",
+    "kucoin_symbol": "CAKE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.472,
+    "reasons": [
+      "Volumen-Spike (2.9x Durchschnitt)"
+    ],
+    "stop_loss": 2.583006247269265,
+    "take_profit": 2.2499875054614695,
+    "timestamp": "2026-09-20T15:33:43.099524+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BDX",
+    "kucoin_symbol": "BDX-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.07626,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.07467043737791798,
+    "take_profit": 0.07943912524416404,
+    "timestamp": "2026-09-20T15:33:43.099560+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
