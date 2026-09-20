@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "ZRO",
-    "kucoin_symbol": "ZRO-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.0868,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 1.031475531583707,
-    "take_profit": 1.197448936832586,
-    "timestamp": "2026-09-06T17:12:56.273168+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.72,
-    "best_favorable_pct": 3.67
-  },
-  {
     "symbol": "ZEC",
     "kucoin_symbol": "ZEC-USDT",
     "direction": "short",
@@ -60711,9 +60694,9 @@
     "stop_loss": 93.88614903441632,
     "take_profit": 85.17070193116733,
     "timestamp": "2026-09-20T04:59:23.001871+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.68,
     "best_favorable_pct": 0.68
   },
   {
@@ -61269,7 +61252,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.28
+    "best_favorable_pct": 15.34
   },
   {
     "symbol": "XDC",
@@ -61835,7 +61818,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 16.51
+    "best_favorable_pct": 16.58
   },
   {
     "symbol": "NIGHT",
@@ -62040,7 +62023,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 17.79
+    "best_favorable_pct": 17.85
   },
   {
     "symbol": "AVAX",
@@ -62265,7 +62248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "DASH",
@@ -62353,7 +62336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 2.84
   },
   {
     "symbol": "HBAR",
@@ -62423,7 +62406,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "FLR",
@@ -62509,7 +62492,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "ICP",
@@ -62543,7 +62526,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "LTC",
@@ -62575,6 +62558,75 @@
     "stop_loss": 0.04894649943305199,
     "take_profit": 0.054297001133896024,
     "timestamp": "2026-09-20T16:56:40.291426+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 92.983,
+    "reasons": [
+      "RSI \u00fcberkauft (72.7)"
+    ],
+    "stop_loss": 95.7983062803841,
+    "take_profit": 87.35238743923183,
+    "timestamp": "2026-09-20T17:13:03.123164+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9996,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.0012468772005385,
+    "take_profit": 0.996306245598923,
+    "timestamp": "2026-09-20T17:13:03.123205+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 2.6608,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 2.5210357806740036,
+    "take_profit": 2.940328438651993,
+    "timestamp": "2026-09-20T17:13:03.123223+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.02817,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.027461537122091664,
+    "take_profit": 0.02958692575581667,
+    "timestamp": "2026-09-20T17:13:03.123251+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
