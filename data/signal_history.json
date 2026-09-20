@@ -1,76 +1,5 @@
 [
   {
-    "symbol": "ZEC",
-    "kucoin_symbol": "ZEC-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 1146.575,
-    "reasons": [
-      "RSI \u00fcberkauft (80.5)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1207.0234020399948,
-    "take_profit": 1025.6781959200107,
-    "timestamp": "2026-09-06T04:54:08.622843+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.43,
-    "best_favorable_pct": 0.43
-  },
-  {
-    "symbol": "MORPHO",
-    "kucoin_symbol": "MORPHO-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 2.5821,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 2.6809151684009063,
-    "take_profit": 2.384469663198188,
-    "timestamp": "2026-09-06T04:54:09.885361+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.72,
-    "best_favorable_pct": 2.72
-  },
-  {
-    "symbol": "JST",
-    "kucoin_symbol": "JST-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.1113,
-    "reasons": [
-      "RSI \u00fcberkauft (72.9)",
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.11295267483521634,
-    "take_profit": 0.1079946503295673,
-    "timestamp": "2026-09-06T04:54:09.885433+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.49,
-    "best_favorable_pct": 0.49
-  },
-  {
-    "symbol": "ZRO",
-    "kucoin_symbol": "ZRO-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.0906,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 1.0363554961686705,
-    "take_profit": 1.199089007662659,
-    "timestamp": "2026-09-06T04:54:10.915021+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.77,
-    "best_favorable_pct": 1.77
-  },
-  {
     "symbol": "PENDLE",
     "kucoin_symbol": "PENDLE-USDT",
     "direction": "short",
@@ -60863,9 +60792,9 @@
     "stop_loss": 95.85818156413416,
     "take_profit": 87.13063687173167,
     "timestamp": "2026-09-19T16:55:01.617341+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.88,
     "best_favorable_pct": 2.88
   },
   {
@@ -60881,9 +60810,9 @@
     "stop_loss": 4.201928789436524e-06,
     "take_profit": 3.7491424211269506e-06,
     "timestamp": "2026-09-19T16:55:01.617392+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.74,
     "best_favorable_pct": 2.74
   },
   {
@@ -60899,9 +60828,9 @@
     "stop_loss": 1.1111372658519012,
     "take_profit": 0.9412254682961976,
     "timestamp": "2026-09-19T16:55:02.734543+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.85,
     "best_favorable_pct": 9.85
   },
   {
@@ -62595,7 +62524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "WLFI",
@@ -62680,7 +62609,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "FLR",
@@ -62714,7 +62643,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.48
+    "best_favorable_pct": 1.71
   },
   {
     "symbol": "DCR",
@@ -62750,7 +62679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "LUNC",
@@ -62837,5 +62766,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 90.981,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 93.88614903441632,
+    "take_profit": 85.17070193116733,
+    "timestamp": "2026-09-20T04:59:23.001871+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
   }
 ]
