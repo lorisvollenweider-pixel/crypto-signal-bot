@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "SEI",
-    "kucoin_symbol": "SEI-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.04872,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.047216149589032676,
-    "take_profit": 0.05172770082193465,
-    "timestamp": "2026-09-06T09:41:52.719074+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.9,
-    "best_favorable_pct": 0.9
-  },
-  {
     "symbol": "TIA",
     "kucoin_symbol": "TIA-USDT",
     "direction": "short",
@@ -60826,7 +60809,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.74
+    "best_favorable_pct": 4.75
   },
   {
     "symbol": "UNI",
@@ -60879,7 +60862,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "DCR",
@@ -61692,7 +61675,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.52
+    "best_favorable_pct": 5.0
   },
   {
     "symbol": "LUNC",
@@ -62106,7 +62089,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "TIA",
@@ -62521,7 +62504,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "FF",
@@ -62590,7 +62573,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.27
+    "best_favorable_pct": 7.2
   },
   {
     "symbol": "ONDO",
@@ -62642,7 +62625,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 1.7
   },
   {
     "symbol": "AKE",
@@ -62661,5 +62644,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 2.13
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.03979,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.03784449291364019,
+    "take_profit": 0.04368101417271961,
+    "timestamp": "2026-09-20T09:44:51.779630+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.15313,
+    "reasons": [
+      "RSI \u00fcberkauft (70.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.16165798426822353,
+    "take_profit": 0.1360740314635529,
+    "timestamp": "2026-09-20T09:44:51.779661+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
   }
 ]
