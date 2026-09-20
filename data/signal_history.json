@@ -1,57 +1,5 @@
 [
   {
-    "symbol": "WLFI",
-    "kucoin_symbol": "WLFI-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.0567,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.05556603732792769,
-    "take_profit": 0.05896792534414462,
-    "timestamp": "2026-09-06T09:27:29.158591+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.35,
-    "best_favorable_pct": 0.35
-  },
-  {
-    "symbol": "LIT",
-    "kucoin_symbol": "LIT-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 4.64,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 4.915322873568368,
-    "take_profit": 4.089354252863265,
-    "timestamp": "2026-09-06T09:27:29.158625+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.84,
-    "best_favorable_pct": 3.84
-  },
-  {
-    "symbol": "JUP",
-    "kucoin_symbol": "JUP-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.2514,
-    "reasons": [
-      "RSI \u00fcberkauft (71.6)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.26350094566864896,
-    "take_profit": 0.22719810866270213,
-    "timestamp": "2026-09-06T09:27:29.158641+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.36,
-    "best_favorable_pct": 0.36
-  },
-  {
     "symbol": "SEI",
     "kucoin_symbol": "SEI-USDT",
     "direction": "long",
@@ -60806,9 +60754,9 @@
     "stop_loss": 1.0018945530770031,
     "take_profit": 0.9956108938459937,
     "timestamp": "2026-09-19T21:27:40.943055+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.07,
     "best_favorable_pct": 0.07
   },
   {
@@ -60823,9 +60771,9 @@
     "stop_loss": 1.0006330127238936,
     "take_profit": 0.9987339745522126,
     "timestamp": "2026-09-19T21:27:40.943090+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -60840,9 +60788,9 @@
     "stop_loss": 0.009133076457761891,
     "take_profit": 0.007824847084476215,
     "timestamp": "2026-09-19T21:27:40.943120+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.36,
     "best_favorable_pct": 5.36
   },
   {
@@ -61744,7 +61692,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.08
+    "best_favorable_pct": 3.52
   },
   {
     "symbol": "LUNC",
@@ -62642,7 +62590,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.66
+    "best_favorable_pct": 5.27
   },
   {
     "symbol": "ONDO",
@@ -62694,6 +62642,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.82
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0947277,
+    "reasons": [
+      "RSI \u00fcberkauft (89.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.11108136148638689,
+    "take_profit": 0.06202037702722622,
+    "timestamp": "2026-09-20T09:32:07.261880+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 2.13
   }
 ]
