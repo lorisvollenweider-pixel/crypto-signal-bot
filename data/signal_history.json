@@ -1,59 +1,5 @@
 [
   {
-    "symbol": "JUP",
-    "kucoin_symbol": "JUP-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.2348,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.224247171033682,
-    "take_profit": 0.25590565793263603,
-    "timestamp": "2026-09-06T03:27:39.543206+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 19.97,
-    "best_favorable_pct": 19.97
-  },
-  {
-    "symbol": "FIL",
-    "kucoin_symbol": "FIL-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.8147,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Volumen-Spike (1.8x Durchschnitt)"
-    ],
-    "stop_loss": 0.78060812920718,
-    "take_profit": 0.8828837415856399,
-    "timestamp": "2026-09-06T03:27:40.766276+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.44,
-    "best_favorable_pct": 0.44
-  },
-  {
-    "symbol": "CRV",
-    "kucoin_symbol": "CRV-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.3789,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.3607420432945692,
-    "take_profit": 0.4152159134108616,
-    "timestamp": "2026-09-06T03:27:41.929505+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.53,
-    "best_favorable_pct": 1.53
-  },
-  {
     "symbol": "XRP",
     "kucoin_symbol": "XRP-USDT",
     "direction": "long",
@@ -62217,7 +62163,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.85
+    "best_favorable_pct": 5.29
   },
   {
     "symbol": "XTZ",
@@ -62320,7 +62266,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.61
   },
   {
     "symbol": "SEI",
@@ -62458,7 +62404,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.05
+    "best_favorable_pct": 2.28
   },
   {
     "symbol": "USD1",
@@ -62799,6 +62745,42 @@
     "stop_loss": 66.65830979801954,
     "take_profit": 61.38338040396092,
     "timestamp": "2026-09-20T03:17:59.148219+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "CC",
+    "kucoin_symbol": "CC-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.10602,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.11102425791199588,
+    "take_profit": 0.09601148417600824,
+    "timestamp": "2026-09-20T03:34:13.967105+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.292e-07,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 3.347665185309045e-07,
+    "take_profit": 3.1806696293819093e-07,
+    "timestamp": "2026-09-20T03:34:15.027150+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
