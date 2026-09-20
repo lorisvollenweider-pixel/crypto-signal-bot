@@ -1,41 +1,5 @@
 [
   {
-    "symbol": "BCH",
-    "kucoin_symbol": "BCH-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 260.11,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 251.9469530788275,
-    "take_profit": 276.43609384234503,
-    "timestamp": "2026-09-06T01:55:31.211318+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.5,
-    "best_favorable_pct": 1.5
-  },
-  {
-    "symbol": "ARB",
-    "kucoin_symbol": "ARB-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.1934,
-    "reasons": [
-      "RSI \u00fcberkauft (87.1)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.20887663132171266,
-    "take_profit": 0.16244673735657464,
-    "timestamp": "2026-09-06T01:55:32.401781+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.9,
-    "best_favorable_pct": 2.9
-  },
-  {
     "symbol": "ATOM",
     "kucoin_symbol": "ATOM-USDT",
     "direction": "short",
@@ -60869,9 +60833,9 @@
     "stop_loss": 0.3787541745444457,
     "take_profit": 0.30389165091110854,
     "timestamp": "2026-09-19T13:52:43.333698+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.71,
     "best_favorable_pct": 2.71
   },
   {
@@ -61823,7 +61787,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "ZRO",
@@ -62275,7 +62239,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 1.34
   },
   {
     "symbol": "NEAR",
@@ -62309,7 +62273,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "ASTER",
@@ -62326,7 +62290,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "ARB",
@@ -62532,7 +62496,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "CC",
@@ -62550,7 +62514,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "SUI",
@@ -62722,7 +62686,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "HBAR",
@@ -62739,6 +62703,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.72
+    "best_favorable_pct": 2.28
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2141,
+    "reasons": [
+      "RSI \u00fcberkauft (85.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.22794720428830595,
+    "take_profit": 0.18640559142338814,
+    "timestamp": "2026-09-20T01:57:45.666791+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.33
   }
 ]
