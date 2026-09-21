@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "PIEVERSE",
-    "kucoin_symbol": "PIEVERSE-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 1.2694,
-    "reasons": [
-      "RSI \u00fcberkauft (75.7)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1.3429724390057627,
-    "take_profit": 1.1222551219884749,
-    "timestamp": "2026-09-07T18:59:44.611831+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 9.61,
-    "best_favorable_pct": 9.61
-  },
-  {
-    "symbol": "MON",
-    "kucoin_symbol": "MON-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.02815,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.029656265105692713,
-    "take_profit": 0.025137469788614582,
-    "timestamp": "2026-09-07T18:59:45.646838+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 9.77,
-    "best_favorable_pct": 9.77
-  },
-  {
     "symbol": "HBAR",
     "kucoin_symbol": "HBAR-USDT",
     "direction": "long",
@@ -60362,9 +60327,9 @@
     "stop_loss": 0.4752665838592329,
     "take_profit": 0.4054668322815342,
     "timestamp": "2026-09-21T07:02:59.632813+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.69,
     "best_favorable_pct": 4.69
   },
   {
@@ -60380,9 +60345,9 @@
     "stop_loss": 0.9997724918115337,
     "take_profit": 0.9971550163769325,
     "timestamp": "2026-09-21T07:03:00.823408+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -61164,7 +61129,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.44
+    "best_favorable_pct": 2.62
   },
   {
     "symbol": "STABLE",
@@ -61234,7 +61199,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "LINK",
@@ -62378,7 +62343,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "USDS",
@@ -62680,7 +62645,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "ADA",
@@ -62770,7 +62735,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.57
+    "best_favorable_pct": 1.81
   },
   {
     "symbol": "AAVE",
@@ -63120,7 +63085,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.1
+    "best_favorable_pct": 2.35
   },
   {
     "symbol": "DOT",
@@ -63501,7 +63466,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "XAUT",
@@ -63641,7 +63606,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "FET",
@@ -63659,7 +63624,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.8
   },
   {
     "symbol": "NIGHT",
@@ -63694,6 +63659,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.26
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 58.97,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 55.46949107786226,
+    "take_profit": 65.97101784427548,
+    "timestamp": "2026-09-21T19:07:55.884531+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "RAY",
+    "kucoin_symbol": "RAY-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.816,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 1.689188052081207,
+    "take_profit": 2.0696238958375863,
+    "timestamp": "2026-09-21T19:07:57.087120+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.42
   }
 ]
