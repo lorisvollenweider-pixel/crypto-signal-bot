@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "INJ",
-    "kucoin_symbol": "INJ-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 5.975,
-    "reasons": [
-      "RSI \u00fcberkauft (85.4)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 6.229496936693821,
-    "take_profit": 5.466006126612356,
-    "timestamp": "2026-09-07T18:48:03.544195+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.45,
-    "best_favorable_pct": 0.45
-  },
-  {
     "symbol": "PIEVERSE",
     "kucoin_symbol": "PIEVERSE-USDT",
     "direction": "short",
@@ -60310,9 +60292,9 @@
     "stop_loss": 659.0268468770055,
     "take_profit": 557.5463062459893,
     "timestamp": "2026-09-21T06:49:26.908822+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 11.29,
     "best_favorable_pct": 11.29
   },
   {
@@ -60328,9 +60310,9 @@
     "stop_loss": 1.0140630450643844,
     "take_profit": 0.860273909871231,
     "timestamp": "2026-09-21T06:49:28.140281+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.52,
     "best_favorable_pct": 1.52
   },
   {
@@ -60345,9 +60327,9 @@
     "stop_loss": 0.7316113877425484,
     "take_profit": 0.8683772245149032,
     "timestamp": "2026-09-21T06:49:29.315742+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.61,
     "best_favorable_pct": 1.61
   },
   {
@@ -60362,9 +60344,9 @@
     "stop_loss": 0.17556533511175593,
     "take_profit": 0.20476932977648815,
     "timestamp": "2026-09-21T06:49:29.315758+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 12.25,
     "best_favorable_pct": 12.25
   },
   {
@@ -61660,7 +61642,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "ETC",
@@ -63485,7 +63467,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.29
+    "best_favorable_pct": 1.66
   },
   {
     "symbol": "LTC",
@@ -63502,7 +63484,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "USDG",
@@ -63554,7 +63536,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "TIA",
@@ -63625,6 +63607,93 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.13
+  },
+  {
+    "symbol": "PAXG",
+    "kucoin_symbol": "PAXG-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4345.6,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 4315.78147933893,
+    "take_profit": 4405.2370413221415,
+    "timestamp": "2026-09-21T18:53:48.629444+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.732e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.753773379716867e-06,
+    "take_profit": 1.6884532405662665e-06,
+    "timestamp": "2026-09-21T18:53:48.629466+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2007,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.21317540447219166,
+    "take_profit": 0.17574919105561665,
+    "timestamp": "2026-09-21T18:53:48.629499+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.02422,
+    "reasons": [
+      "Volumen-Spike (2.3x Durchschnitt)"
+    ],
+    "stop_loss": 0.02317276700026119,
+    "take_profit": 0.026314465999477617,
+    "timestamp": "2026-09-21T18:53:49.838091+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.5868,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.3x Durchschnitt)"
+    ],
+    "stop_loss": 0.6462032679341393,
+    "take_profit": 0.4679934641317213,
+    "timestamp": "2026-09-21T18:53:49.838107+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
   }
 ]
