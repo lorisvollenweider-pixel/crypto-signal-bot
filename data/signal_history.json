@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "SYRUP",
-    "kucoin_symbol": "SYRUP-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.2258,
-    "reasons": [
-      "Volumen-Spike (3.5x Durchschnitt)"
-    ],
-    "stop_loss": 0.21565971511458903,
-    "take_profit": 0.24608056977082193,
-    "timestamp": "2026-09-07T19:44:57.935428+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 5.18,
-    "best_favorable_pct": 5.18
-  },
-  {
     "symbol": "SUI",
     "kucoin_symbol": "SUI-USDT",
     "direction": "long",
@@ -60308,9 +60291,9 @@
     "stop_loss": 36.11255556433173,
     "take_profit": 27.992888871336532,
     "timestamp": "2026-09-21T07:40:31.401687+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 8.84,
     "best_favorable_pct": 8.84
   },
   {
@@ -61039,7 +61022,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.38
+    "best_favorable_pct": 3.74
   },
   {
     "symbol": "STABLE",
@@ -61729,7 +61712,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.74
+    "best_favorable_pct": 2.16
   },
   {
     "symbol": "ICP",
@@ -62627,7 +62610,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "CC",
@@ -62662,7 +62645,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "CAKE",
@@ -63359,7 +63342,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.88
+    "best_favorable_pct": 1.16
   },
   {
     "symbol": "USDG",
@@ -63411,7 +63394,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.25
+    "best_favorable_pct": 1.4
   },
   {
     "symbol": "TIA",
@@ -63551,7 +63534,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "PONS",
@@ -63587,7 +63570,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "RAY",
@@ -63676,6 +63659,58 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 1.59
+  },
+  {
+    "symbol": "MNT",
+    "kucoin_symbol": "MNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.6479,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.6700458825622249,
+    "take_profit": 0.6036082348755503,
+    "timestamp": "2026-09-21T19:51:54.482331+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 2.6834,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.8280818342439136,
+    "take_profit": 2.394036331512172,
+    "timestamp": "2026-09-21T19:51:54.482357+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VET",
+    "kucoin_symbol": "VET-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.009073,
+    "reasons": [
+      "RSI \u00fcberkauft (70.5)"
+    ],
+    "stop_loss": 0.009557124813363295,
+    "take_profit": 0.008104750373273406,
+    "timestamp": "2026-09-21T19:51:55.691438+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
   }
 ]
