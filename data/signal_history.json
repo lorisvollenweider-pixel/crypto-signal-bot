@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "HBAR",
-    "kucoin_symbol": "HBAR-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.08201,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.0798056379770659,
-    "take_profit": 0.08641872404586819,
-    "timestamp": "2026-09-07T19:17:41.122812+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.04,
-    "best_favorable_pct": 1.04
-  },
-  {
     "symbol": "DOT",
     "kucoin_symbol": "DOT-USDT",
     "direction": "short",
@@ -60362,9 +60344,9 @@
     "stop_loss": 7.109629849885259,
     "take_profit": 7.500740300229483,
     "timestamp": "2026-09-21T07:23:11.044105+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.34,
     "best_favorable_pct": 1.34
   },
   {
@@ -60380,9 +60362,9 @@
     "stop_loss": 0.452905697546511,
     "take_profit": 0.39408860490697806,
     "timestamp": "2026-09-21T07:23:11.044130+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.18,
     "best_favorable_pct": 1.18
   },
   {
@@ -61129,7 +61111,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.62
+    "best_favorable_pct": 3.38
   },
   {
     "symbol": "STABLE",
@@ -63137,7 +63119,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.03
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "STABLE",
@@ -63256,7 +63238,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.9
+    "best_favorable_pct": 1.94
   },
   {
     "symbol": "GRAM",
@@ -63466,7 +63448,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "XAUT",
@@ -63572,7 +63554,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "PAXG",
@@ -63659,7 +63641,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "DASH",
@@ -63694,6 +63676,61 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 2.19
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 4.934e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (79.4)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (2.6x Durchschnitt)"
+    ],
+    "stop_loss": 5.22237333649979e-06,
+    "take_profit": 4.357253327000419e-06,
+    "timestamp": "2026-09-21T19:24:41.099342+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "KCS",
+    "kucoin_symbol": "KCS-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 7.316,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 7.172548086837506,
+    "take_profit": 7.602903826324987,
+    "timestamp": "2026-09-21T19:24:42.373284+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.455e-07,
+    "reasons": [
+      "RSI \u00fcberkauft (74.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.51467056991319e-07,
+    "take_profit": 3.3356588601736205e-07,
+    "timestamp": "2026-09-21T19:24:43.494081+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
