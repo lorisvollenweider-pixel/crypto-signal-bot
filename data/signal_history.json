@@ -60395,9 +60395,9 @@
     "stop_loss": 0.99998390531099,
     "take_profit": 0.9976321893780199,
     "timestamp": "2026-09-20T19:31:31.018065+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.03,
     "best_favorable_pct": 0.03
   },
   {
@@ -60608,7 +60608,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 2.01
   },
   {
     "symbol": "DOT",
@@ -60798,7 +60798,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "SEI",
@@ -61447,7 +61447,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.82
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "BCH",
@@ -61672,7 +61672,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.79
+    "best_favorable_pct": 3.9
   },
   {
     "symbol": "USD1",
@@ -61759,7 +61759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 3.43
   },
   {
     "symbol": "LDO",
@@ -61829,7 +61829,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.99
   },
   {
     "symbol": "DOGE",
@@ -61898,7 +61898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.33
+    "best_favorable_pct": 3.88
   },
   {
     "symbol": "CRO",
@@ -62157,7 +62157,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.01
+    "best_favorable_pct": 2.38
   },
   {
     "symbol": "ARB",
@@ -62210,7 +62210,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.65
+    "best_favorable_pct": 4.02
   },
   {
     "symbol": "BDX",
@@ -62558,7 +62558,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.66
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "SHIB",
@@ -62593,7 +62593,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.78
+    "best_favorable_pct": 3.31
   },
   {
     "symbol": "HTX",
@@ -62679,7 +62679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.48
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "DOT",
@@ -62782,7 +62782,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "PAXG",
@@ -62869,7 +62869,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.35
+    "best_favorable_pct": 4.36
   },
   {
     "symbol": "SUI",
@@ -62887,7 +62887,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.52
   },
   {
     "symbol": "APT",
@@ -62939,7 +62939,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "U",
@@ -62993,5 +62993,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VVV",
+    "kucoin_symbol": "VVV-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 33.406,
+    "reasons": [
+      "RSI \u00fcberkauft (76.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 36.11255556433173,
+    "take_profit": 27.992888871336532,
+    "timestamp": "2026-09-21T07:40:31.401687+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
   }
 ]
