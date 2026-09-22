@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "STABLE",
-    "kucoin_symbol": "STABLE-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.028888,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.029639756791947164,
-    "take_profit": 0.02738448641610567,
-    "timestamp": "2026-09-08T07:37:57.192513+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.99,
-    "best_favorable_pct": 0.99
-  },
-  {
     "symbol": "TRX",
     "kucoin_symbol": "TRX-USDT",
     "direction": "short",
@@ -61610,9 +61593,9 @@
     "stop_loss": 0.3373436166386229,
     "take_profit": 0.3987127667227543,
     "timestamp": "2026-09-21T19:39:57.510931+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.63,
     "best_favorable_pct": 3.63
   },
   {
@@ -61786,7 +61769,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.89
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "LINK",
@@ -62423,7 +62406,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.87
+    "best_favorable_pct": 2.15
   },
   {
     "symbol": "PENGU",
@@ -62458,7 +62441,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 0.97
   },
   {
     "symbol": "SKY",
@@ -62597,7 +62580,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 1.51
   },
   {
     "symbol": "DOT",
@@ -62668,7 +62651,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "KCS",
@@ -62703,7 +62686,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.59
   },
   {
     "symbol": "USDS",
@@ -63655,7 +63638,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.9
+    "best_favorable_pct": 2.02
   },
   {
     "symbol": "KITE",
@@ -63966,7 +63949,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.34
   },
   {
     "symbol": "PIEVERSE",
@@ -64070,7 +64053,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "JST",
@@ -64137,6 +64120,78 @@
     "stop_loss": 0.5658317497757003,
     "take_profit": 0.7448365004485993,
     "timestamp": "2026-09-22T07:19:20.476134+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PEPE",
+    "kucoin_symbol": "PEPE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 5.15e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (74.2)",
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 5.51342135663784e-06,
+    "take_profit": 4.42315728672432e-06,
+    "timestamp": "2026-09-22T07:48:43.674561+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.549e-07,
+    "reasons": [
+      "RSI \u00fcberkauft (80.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.6123937555164866e-07,
+    "take_profit": 3.422212488967026e-07,
+    "timestamp": "2026-09-22T07:48:44.850685+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BONK",
+    "kucoin_symbol": "BONK-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.532e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (80.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 3.7128855199504643e-06,
+    "take_profit": 3.170228960099071e-06,
+    "timestamp": "2026-09-22T07:48:46.034562+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MON",
+    "kucoin_symbol": "MON-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.02498,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.026223139831434532,
+    "take_profit": 0.022493720337130933,
+    "timestamp": "2026-09-22T07:48:47.215748+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
