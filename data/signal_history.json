@@ -61979,7 +61979,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.05
+    "best_favorable_pct": 3.28
   },
   {
     "symbol": "DCR",
@@ -62738,7 +62738,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "KCS",
@@ -64036,7 +64036,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "PIEVERSE",
@@ -64067,6 +64067,76 @@
     "stop_loss": 1.001504727569419,
     "take_profit": 0.9951905448611618,
     "timestamp": "2026-09-22T06:23:43.780143+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDD",
+    "kucoin_symbol": "USDD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9972,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.0002466439974855,
+    "take_profit": 0.991106712005029,
+    "timestamp": "2026-09-22T06:43:23.652295+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 67.581,
+    "reasons": [
+      "RSI \u00fcberkauft (70.8)"
+    ],
+    "stop_loss": 69.43847038784567,
+    "take_profit": 63.866059224308685,
+    "timestamp": "2026-09-22T06:43:23.652317+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.7733,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 1.845855312719877,
+    "take_profit": 1.6281893745602465,
+    "timestamp": "2026-09-22T06:43:23.652331+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "XDC",
+    "kucoin_symbol": "XDC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.03131,
+    "reasons": [
+      "RSI \u00fcberkauft (80.6)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.032237238589373766,
+    "take_profit": 0.029455522821252453,
+    "timestamp": "2026-09-22T06:43:24.798093+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
