@@ -1,93 +1,5 @@
 [
   {
-    "symbol": "HBAR",
-    "kucoin_symbol": "HBAR-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.08026,
-    "reasons": [
-      "Volumen-Spike (2.1x Durchschnitt)",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.07801569943167522,
-    "take_profit": 0.08474860113664955,
-    "timestamp": "2026-09-08T15:30:36.249576+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.65,
-    "best_favorable_pct": 0.65
-  },
-  {
-    "symbol": "ONDO",
-    "kucoin_symbol": "ONDO-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.38018,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.3650154335831901,
-    "take_profit": 0.4105091328336198,
-    "timestamp": "2026-09-08T15:30:37.311832+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.33,
-    "best_favorable_pct": 1.33
-  },
-  {
-    "symbol": "QNT",
-    "kucoin_symbol": "QNT-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 67.939,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 69.74525366598841,
-    "take_profit": 64.32649266802315,
-    "timestamp": "2026-09-08T15:30:37.311869+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.6,
-    "best_favorable_pct": 1.6
-  },
-  {
-    "symbol": "FIL",
-    "kucoin_symbol": "FIL-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.8718,
-    "reasons": [
-      "RSI \u00fcberkauft (70.2)"
-    ],
-    "stop_loss": 0.9108664408948657,
-    "take_profit": 0.7936671182102687,
-    "timestamp": "2026-09-08T15:30:38.355710+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 4.48,
-    "best_favorable_pct": 4.48
-  },
-  {
-    "symbol": "BTT",
-    "kucoin_symbol": "BTT-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 3.039e-07,
-    "reasons": [
-      "Volumen-Spike (2.6x Durchschnitt)",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 2.991668503099849e-07,
-    "take_profit": 3.1336629938003025e-07,
-    "timestamp": "2026-09-08T15:30:38.355753+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.96,
-    "best_favorable_pct": 2.96
-  },
-  {
     "symbol": "BNB",
     "kucoin_symbol": "BNB-USDT",
     "direction": "long",
@@ -61988,9 +61900,9 @@
     "stop_loss": 0.10415246339842602,
     "take_profit": 0.09202507320314797,
     "timestamp": "2026-09-22T03:35:12.192915+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.53,
     "best_favorable_pct": 2.53
   },
   {
@@ -62006,9 +61918,9 @@
     "stop_loss": 0.43360890359008214,
     "take_profit": 0.5112821928198358,
     "timestamp": "2026-09-22T03:35:13.245332+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.15,
     "best_favorable_pct": 0.15
   },
   {
@@ -62024,9 +61936,9 @@
     "stop_loss": 0.04527388629314674,
     "take_profit": 0.038452227413706505,
     "timestamp": "2026-09-22T03:35:14.272800+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.53,
     "best_favorable_pct": 3.53
   },
   {
@@ -62042,9 +61954,9 @@
     "stop_loss": 1.926642993164651,
     "take_profit": 1.6427140136706981,
     "timestamp": "2026-09-22T03:35:15.303765+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.24,
     "best_favorable_pct": 2.24
   },
   {
@@ -63616,7 +63528,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "FIL",
@@ -63736,7 +63648,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.56
+    "best_favorable_pct": 5.97
   },
   {
     "symbol": "UNI",
@@ -63805,7 +63717,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.4
+    "best_favorable_pct": 3.44
   },
   {
     "symbol": "USDG",
@@ -63891,7 +63803,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.91
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "XDC",
@@ -63977,7 +63889,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "BTT",
@@ -64064,7 +63976,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "PYUSD",
@@ -64117,7 +64029,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.27
+    "best_favorable_pct": 3.18
   },
   {
     "symbol": "PYTH",
@@ -64135,7 +64047,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.67
+    "best_favorable_pct": 2.11
   },
   {
     "symbol": "PENDLE",
@@ -64291,7 +64203,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "ZRO",
@@ -64358,6 +64270,23 @@
     "stop_loss": 1.2106698516428878,
     "take_profit": 0.6389002967142249,
     "timestamp": "2026-09-22T15:23:44.461229+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0107,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.9533670682901665,
+    "take_profit": 1.1253658634196668,
+    "timestamp": "2026-09-22T15:38:43.396878+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
