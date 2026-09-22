@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "XDC",
-    "kucoin_symbol": "XDC-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.02857,
-    "reasons": [
-      "Volumen-Spike (1.8x Durchschnitt)"
-    ],
-    "stop_loss": 0.02785661386447777,
-    "take_profit": 0.02999677227104447,
-    "timestamp": "2026-09-08T19:26:17.324885+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.16,
-    "best_favorable_pct": 1.16
-  },
-  {
     "symbol": "KITE",
     "kucoin_symbol": "KITE-USDT",
     "direction": "long",
@@ -61939,9 +61922,9 @@
     "stop_loss": 0.009593746702335863,
     "take_profit": 0.00814550659532827,
     "timestamp": "2026-09-22T07:19:19.178904+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.46,
     "best_favorable_pct": 3.46
   },
   {
@@ -61956,9 +61939,9 @@
     "stop_loss": 0.462159076782586,
     "take_profit": 0.40528184643482795,
     "timestamp": "2026-09-22T07:19:20.476117+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.89,
     "best_favorable_pct": 2.89
   },
   {
@@ -61973,10 +61956,10 @@
     "stop_loss": 0.5658317497757003,
     "take_profit": 0.7448365004485993,
     "timestamp": "2026-09-22T07:19:20.476134+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 7.19
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 8.44,
+    "best_favorable_pct": 8.31
   },
   {
     "symbol": "PEPE",
@@ -62082,7 +62065,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.54
+    "best_favorable_pct": 3.89
   },
   {
     "symbol": "NEAR",
@@ -62117,7 +62100,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 1.21
   },
   {
     "symbol": "FET",
@@ -62546,7 +62529,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.95
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "SUN",
@@ -63237,7 +63220,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "USDC",
@@ -63429,7 +63412,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.91
+    "best_favorable_pct": 2.76
   },
   {
     "symbol": "USDG",
@@ -63464,7 +63447,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "NIGHT",
@@ -63637,7 +63620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 2.01
   },
   {
     "symbol": "UNI",
@@ -63655,7 +63638,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.97
   },
   {
     "symbol": "ETHFI",
@@ -63775,7 +63758,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "WLFI",
@@ -64154,7 +64137,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "PENGU",
@@ -64293,7 +64276,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "USDS",
@@ -64363,5 +64346,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.14
+  },
+  {
+    "symbol": "TIA",
+    "kucoin_symbol": "TIA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.4769,
+    "reasons": [
+      "RSI \u00fcberkauft (78.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.5002484813048609,
+    "take_profit": 0.4302030373902783,
+    "timestamp": "2026-09-22T19:30:19.011173+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
   }
 ]
