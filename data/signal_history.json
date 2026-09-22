@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "APT",
-    "kucoin_symbol": "APT-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.6586,
-    "reasons": [
-      "RSI \u00fcberkauft (71.9)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.6851599155000749,
-    "take_profit": 0.6054801689998501,
-    "timestamp": "2026-09-08T09:38:49.545819+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.64,
-    "best_favorable_pct": 3.64
-  },
-  {
     "symbol": "USDS",
     "kucoin_symbol": "USDS-USDT",
     "direction": "long",
@@ -61896,9 +61878,9 @@
     "stop_loss": 1.0005226798295017,
     "take_profit": 0.9965546403409966,
     "timestamp": "2026-09-21T21:33:26.335422+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -61913,9 +61895,9 @@
     "stop_loss": 2.7975786075264937,
     "take_profit": 2.3698427849470116,
     "timestamp": "2026-09-21T21:33:27.551201+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.89,
     "best_favorable_pct": 2.89
   },
   {
@@ -61931,9 +61913,9 @@
     "stop_loss": 1.967166734888041,
     "take_profit": 1.696666530223918,
     "timestamp": "2026-09-21T21:33:27.551233+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.58,
     "best_favorable_pct": 4.58
   },
   {
@@ -61949,9 +61931,9 @@
     "stop_loss": 0.74606593641602,
     "take_profit": 0.6657681271679601,
     "timestamp": "2026-09-21T21:33:28.703246+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.95,
     "best_favorable_pct": 1.95
   },
   {
@@ -63086,7 +63068,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "LDO",
@@ -63157,7 +63139,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.86
   },
   {
     "symbol": "RENDER",
@@ -63707,7 +63689,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "KCS",
@@ -63829,7 +63811,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "JST",
@@ -64193,7 +64175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "AERO",
@@ -64210,7 +64192,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "PYTH",
@@ -64259,6 +64241,23 @@
     "stop_loss": 1.0008931480819896,
     "take_profit": 0.9988137038360209,
     "timestamp": "2026-09-22T09:23:20.206619+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.6104,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.7422914240549185,
+    "take_profit": 2.346617151890162,
+    "timestamp": "2026-09-22T09:39:19.015189+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
