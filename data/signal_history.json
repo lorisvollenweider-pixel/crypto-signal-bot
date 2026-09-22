@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "VET",
-    "kucoin_symbol": "VET-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.00802,
-    "reasons": [
-      "RSI \u00fcberkauft (81.4)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.008363016090755859,
-    "take_profit": 0.007333967818488282,
-    "timestamp": "2026-09-08T23:50:22.736569+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 4.14,
-    "best_favorable_pct": 4.14
-  },
-  {
-    "symbol": "SUN",
-    "kucoin_symbol": "SUN-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.01691,
-    "reasons": [
-      "Volumen-Spike (3.0x Durchschnitt)"
-    ],
-    "stop_loss": 0.016733499193806123,
-    "take_profit": 0.017263001612387762,
-    "timestamp": "2026-09-08T23:50:23.794737+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.47,
-    "best_favorable_pct": 0.47
-  },
-  {
     "symbol": "ETH",
     "kucoin_symbol": "ETH-USDT",
     "direction": "short",
@@ -62127,9 +62092,9 @@
     "stop_loss": 0.999155037135371,
     "take_profit": 1.0055899257292582,
     "timestamp": "2026-09-22T11:54:49.590997+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -63047,7 +63012,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 11.24
+    "best_favorable_pct": 11.32
   },
   {
     "symbol": "ETHFI",
@@ -63167,7 +63132,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.35
+    "best_favorable_pct": 12.41
   },
   {
     "symbol": "WLFI",
@@ -63634,7 +63599,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.53
+    "best_favorable_pct": 4.74
   },
   {
     "symbol": "PRL",
@@ -64124,7 +64089,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "BONK",
@@ -64158,7 +64123,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "SKY",
@@ -64280,7 +64245,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.8
+    "best_favorable_pct": 1.23
   },
   {
     "symbol": "AAVE",
@@ -64401,7 +64366,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "ICP",
@@ -64452,7 +64417,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "WLD",
@@ -64470,7 +64435,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "HTX",
@@ -64485,6 +64450,40 @@
     "stop_loss": 1.7747794552742778e-06,
     "take_profit": 1.7064410894514444e-06,
     "timestamp": "2026-09-22T23:45:10.979349+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TRX",
+    "kucoin_symbol": "TRX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.342,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.33890184055152606,
+    "take_profit": 0.3481963188969479,
+    "timestamp": "2026-09-22T23:56:16.979895+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.2351,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.25386448533347167,
+    "take_profit": 0.19757102933305673,
+    "timestamp": "2026-09-22T23:56:16.979946+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
