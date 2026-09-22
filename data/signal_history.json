@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "RAIN",
-    "kucoin_symbol": "RAIN-USDT",
-    "direction": "short",
-    "tier": 3,
-    "price_at_signal": 0.016028,
-    "reasons": [
-      "MACD Bearish Crossover",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.016421082915465953,
-    "take_profit": 0.015241834169068094,
-    "timestamp": "2026-09-08T23:38:28.219582+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.22,
-    "best_favorable_pct": 1.22
-  },
-  {
-    "symbol": "KITE",
-    "kucoin_symbol": "KITE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.11428,
-    "reasons": [
-      "Volumen-Spike (3.0x Durchschnitt)"
-    ],
-    "stop_loss": 0.1095019495911044,
-    "take_profit": 0.12383610081779123,
-    "timestamp": "2026-09-08T23:38:29.419079+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.58,
-    "best_favorable_pct": 1.58
-  },
-  {
     "symbol": "VET",
     "kucoin_symbol": "VET-USDT",
     "direction": "short",
@@ -62111,9 +62076,9 @@
     "stop_loss": 0.9993075722272264,
     "take_profit": 0.9998848555455472,
     "timestamp": "2026-09-22T11:43:31.801168+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -62128,9 +62093,9 @@
     "stop_loss": 0.004923829240525515,
     "take_profit": 0.004120341518948973,
     "timestamp": "2026-09-22T11:43:31.801196+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.93,
     "best_favorable_pct": 5.93
   },
   {
@@ -62145,9 +62110,9 @@
     "stop_loss": 0.00954454724903186,
     "take_profit": 0.00803990550193628,
     "timestamp": "2026-09-22T11:43:31.801233+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.49,
     "best_favorable_pct": 2.49
   },
   {
@@ -62751,7 +62716,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.57
+    "best_favorable_pct": 6.61
   },
   {
     "symbol": "PYTH",
@@ -63581,7 +63546,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.06
+    "best_favorable_pct": 2.6
   },
   {
     "symbol": "PENGU",
@@ -63946,7 +63911,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.28
+    "best_favorable_pct": 8.69
   },
   {
     "symbol": "USELESS",
@@ -64141,7 +64106,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.6
   },
   {
     "symbol": "DCR",
@@ -64262,7 +64227,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 1.9
   },
   {
     "symbol": "QNT",
@@ -64298,7 +64263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "LTC",
@@ -64402,7 +64367,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "MON",
@@ -64484,6 +64449,42 @@
     "stop_loss": 19.540041988125218,
     "take_profit": 17.07991602374956,
     "timestamp": "2026-09-22T23:33:06.379287+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.4715,
+    "reasons": [
+      "RSI \u00fcberkauft (70.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.49721405861616685,
+    "take_profit": 0.4200718827676662,
+    "timestamp": "2026-09-22T23:45:09.921278+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.752e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.7747794552742778e-06,
+    "take_profit": 1.7064410894514444e-06,
+    "timestamp": "2026-09-22T23:45:10.979349+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
