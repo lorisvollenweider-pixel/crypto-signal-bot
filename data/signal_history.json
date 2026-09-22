@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "LTC",
-    "kucoin_symbol": "LTC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 54.92,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 57.091635540437565,
-    "take_profit": 50.576728919124875,
-    "timestamp": "2026-09-08T13:56:43.487750+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.73,
-    "best_favorable_pct": 1.73
-  },
-  {
     "symbol": "HYPE",
     "kucoin_symbol": "HYPE-USDT",
     "direction": "short",
@@ -62021,9 +62004,9 @@
     "stop_loss": 11.810915265431511,
     "take_profit": 9.705169469136976,
     "timestamp": "2026-09-22T01:48:35.704240+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.17,
     "best_favorable_pct": 5.17
   },
   {
@@ -62233,7 +62216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "KAS",
@@ -63960,7 +63943,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.95
+    "best_favorable_pct": 3.51
   },
   {
     "symbol": "UNI",
@@ -64132,7 +64115,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "XRP",
@@ -64150,5 +64133,75 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XRP",
+    "kucoin_symbol": "XRP-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.58982,
+    "reasons": [
+      "RSI \u00fcberkauft (79.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 1.6460253882234197,
+    "take_profit": 1.4774092235531606,
+    "timestamp": "2026-09-22T13:58:47.571613+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SOL",
+    "kucoin_symbol": "SOL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 117.85,
+    "reasons": [
+      "RSI \u00fcberkauft (70.1)"
+    ],
+    "stop_loss": 121.01367808629493,
+    "take_profit": 111.52264382741012,
+    "timestamp": "2026-09-22T13:58:48.934507+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BDX",
+    "kucoin_symbol": "BDX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.07635,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.07803728435909908,
+    "take_profit": 0.07297543128180184,
+    "timestamp": "2026-09-22T13:58:48.934575+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 3.969e-07,
+    "reasons": [
+      "RSI \u00fcberkauft (91.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 4.149098530133871e-07,
+    "take_profit": 3.608802939732258e-07,
+    "timestamp": "2026-09-22T13:58:48.934593+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.45
   }
 ]
