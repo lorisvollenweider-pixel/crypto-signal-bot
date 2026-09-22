@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ETC",
-    "kucoin_symbol": "ETC-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 8.5873,
-    "reasons": [
-      "RSI \u00fcberkauft (70.2)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 8.940663332727484,
-    "take_profit": 7.880573334545034,
-    "timestamp": "2026-09-08T22:10:02.857076+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.02,
-    "best_favorable_pct": 2.74
-  },
-  {
     "symbol": "ZRO",
     "kucoin_symbol": "ZRO-USDT",
     "direction": "long",
@@ -63013,7 +62995,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "KAS",
@@ -63066,7 +63048,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "FF",
@@ -63117,7 +63099,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.05
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "USDC",
@@ -63187,7 +63169,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.64
+    "best_favorable_pct": 7.0
   },
   {
     "symbol": "ETHFI",
@@ -63307,7 +63289,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.69
+    "best_favorable_pct": 8.06
   },
   {
     "symbol": "WLFI",
@@ -64051,7 +64033,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.67
   },
   {
     "symbol": "USELESS",
@@ -64157,7 +64139,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.81
+    "best_favorable_pct": 2.32
   },
   {
     "symbol": "HYPE",
@@ -64175,7 +64157,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "OP",
@@ -64194,5 +64176,93 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.23
+  },
+  {
+    "symbol": "UNI",
+    "kucoin_symbol": "UNI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 9.8865,
+    "reasons": [
+      "RSI \u00fcberkauft (74.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 10.550078493439901,
+    "take_profit": 8.559343013120197,
+    "timestamp": "2026-09-22T22:25:11.490503+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "USD1",
+    "kucoin_symbol": "USD1-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.9994,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.9)",
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.9992053168505239,
+    "take_profit": 0.9997893662989521,
+    "timestamp": "2026-09-22T22:25:12.735325+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SPX",
+    "kucoin_symbol": "SPX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.526,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.5584419223426226,
+    "take_profit": 0.46111615531475497,
+    "timestamp": "2026-09-22T22:25:13.946987+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DCR",
+    "kucoin_symbol": "DCR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 18.8,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 19.61147055955379,
+    "take_profit": 17.17705888089242,
+    "timestamp": "2026-09-22T22:25:13.947019+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BONK",
+    "kucoin_symbol": "BONK-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.574e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (72.8)"
+    ],
+    "stop_loss": 3.7691137227539043e-06,
+    "take_profit": 3.1837725544921915e-06,
+    "timestamp": "2026-09-22T22:25:15.166652+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
