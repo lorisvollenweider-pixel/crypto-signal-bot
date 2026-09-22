@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "KITE",
-    "kucoin_symbol": "KITE-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.11332,
-    "reasons": [
-      "RSI \u00fcberverkauft (27.0)",
-      "Volumen-Spike (2.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.1088501812047677,
-    "take_profit": 0.12225963759046464,
-    "timestamp": "2026-09-08T19:53:42.721242+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.21,
-    "best_favorable_pct": 1.21
-  },
-  {
     "symbol": "BTC",
     "kucoin_symbol": "BTC-USDT",
     "direction": "short",
@@ -61974,9 +61956,9 @@
     "stop_loss": 5.51342135663784e-06,
     "take_profit": 4.42315728672432e-06,
     "timestamp": "2026-09-22T07:48:43.674561+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.5,
     "best_favorable_pct": 6.5
   },
   {
@@ -61992,9 +61974,9 @@
     "stop_loss": 3.6123937555164866e-07,
     "take_profit": 3.422212488967026e-07,
     "timestamp": "2026-09-22T07:48:44.850685+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62010,9 +61992,9 @@
     "stop_loss": 3.7128855199504643e-06,
     "take_profit": 3.170228960099071e-06,
     "timestamp": "2026-09-22T07:48:46.034562+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.22,
     "best_favorable_pct": 4.22
   },
   {
@@ -62028,9 +62010,9 @@
     "stop_loss": 0.026223139831434532,
     "take_profit": 0.022493720337130933,
     "timestamp": "2026-09-22T07:48:47.215748+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62529,7 +62511,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "SUN",
@@ -63447,7 +63429,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.79
+    "best_favorable_pct": 0.81
   },
   {
     "symbol": "NIGHT",
@@ -63879,7 +63861,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "PYUSD",
@@ -64000,7 +63982,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "HYPE",
@@ -64017,7 +63999,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "CRO",
@@ -64103,7 +64085,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "FLR",
@@ -64310,7 +64292,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "SHIB",
@@ -64327,7 +64309,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "FLR",
@@ -64345,7 +64327,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.98
   },
   {
     "symbol": "TIA",
@@ -64364,5 +64346,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1083,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.10350798644540078,
+    "take_profit": 0.11788402710919842,
+    "timestamp": "2026-09-22T19:55:27.087437+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
