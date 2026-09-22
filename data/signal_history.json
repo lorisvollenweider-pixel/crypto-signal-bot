@@ -61364,9 +61364,9 @@
     "stop_loss": 0.2305880302198373,
     "take_profit": 0.26002393956032543,
     "timestamp": "2026-09-21T17:57:23.479295+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.03,
     "best_favorable_pct": 4.03
   },
   {
@@ -61381,9 +61381,9 @@
     "stop_loss": 59.10855055060933,
     "take_profit": 66.07289889878133,
     "timestamp": "2026-09-21T17:57:23.479328+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.12,
     "best_favorable_pct": 2.12
   },
   {
@@ -61398,9 +61398,9 @@
     "stop_loss": 1.00055332269184,
     "take_profit": 0.9988933546163199,
     "timestamp": "2026-09-21T17:57:23.479344+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -61415,9 +61415,9 @@
     "stop_loss": 4317.58403896257,
     "take_profit": 4403.58192207486,
     "timestamp": "2026-09-21T17:57:23.479356+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.57,
     "best_favorable_pct": 0.57
   },
   {
@@ -61433,9 +61433,9 @@
     "stop_loss": 55.07949107786226,
     "take_profit": 65.58101784427548,
     "timestamp": "2026-09-21T17:57:23.479386+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.84,
     "best_favorable_pct": 3.84
   },
   {
@@ -61450,9 +61450,9 @@
     "stop_loss": 0.4459564744537824,
     "take_profit": 0.38998705109243526,
     "timestamp": "2026-09-21T17:57:24.584447+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.14,
     "best_favorable_pct": 0.14
   },
   {
@@ -61468,9 +61468,9 @@
     "stop_loss": 3.471258860070258e-06,
     "take_profit": 2.975482279859485e-06,
     "timestamp": "2026-09-21T17:57:24.584480+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.09,
     "best_favorable_pct": 0.09
   },
   {
@@ -61666,7 +61666,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.94
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "BTT",
@@ -62299,7 +62299,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "QNT",
@@ -62928,7 +62928,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.7
+    "best_favorable_pct": 3.09
   },
   {
     "symbol": "PENDLE",
@@ -63623,7 +63623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.31
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "SHIB",
@@ -63675,7 +63675,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.25
   },
   {
     "symbol": "WLFI",
@@ -64020,5 +64020,57 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 1.5
+  },
+  {
+    "symbol": "CC",
+    "kucoin_symbol": "CC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.11869,
+    "reasons": [
+      "RSI \u00fcberkauft (70.1)"
+    ],
+    "stop_loss": 0.12338406868824933,
+    "take_profit": 0.10930186262350135,
+    "timestamp": "2026-09-22T05:59:06.007952+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KCS",
+    "kucoin_symbol": "KCS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 7.471,
+    "reasons": [
+      "RSI \u00fcberkauft (70.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 7.627590100824125,
+    "take_profit": 7.15781979835175,
+    "timestamp": "2026-09-22T05:59:06.008000+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "PIEVERSE",
+    "kucoin_symbol": "PIEVERSE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.7968,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.9996201257082717,
+    "take_profit": 1.3911597485834566,
+    "timestamp": "2026-09-22T05:59:07.211102+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
   }
 ]
