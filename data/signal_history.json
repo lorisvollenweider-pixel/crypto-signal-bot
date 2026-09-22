@@ -62022,9 +62022,9 @@
     "stop_loss": 7.61677645407109,
     "take_profit": 7.140447091857821,
     "timestamp": "2026-09-22T10:54:53.961128+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.29,
     "best_favorable_pct": 2.29
   },
   {
@@ -62612,7 +62612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.35
+    "best_favorable_pct": 1.68
   },
   {
     "symbol": "XRP",
@@ -62978,7 +62978,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.35
+    "best_favorable_pct": 1.39
   },
   {
     "symbol": "KAS",
@@ -63031,7 +63031,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "FF",
@@ -63739,7 +63739,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.31
+    "best_favorable_pct": 2.8
   },
   {
     "symbol": "PRL",
@@ -64016,7 +64016,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.56
+    "best_favorable_pct": 3.35
   },
   {
     "symbol": "USELESS",
@@ -64194,7 +64194,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "SPX",
@@ -64332,6 +64332,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.43
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 73.603,
+    "reasons": [
+      "RSI \u00fcberkauft (81.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 76.34328579376225,
+    "take_profit": 68.1224284124755,
+    "timestamp": "2026-09-22T23:04:48.221825+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.08
   }
 ]
