@@ -61905,9 +61905,9 @@
     "stop_loss": 0.6746224993488275,
     "take_profit": 0.7729550013023452,
     "timestamp": "2026-09-22T09:06:06.753933+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.69,
     "best_favorable_pct": 0.69
   },
   {
@@ -61922,9 +61922,9 @@
     "stop_loss": 0.06563245140527665,
     "take_profit": 0.056925097189446675,
     "timestamp": "2026-09-22T09:06:06.753954+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.69,
     "best_favorable_pct": 1.69
   },
   {
@@ -61940,9 +61940,9 @@
     "stop_loss": 20.40138900525275,
     "take_profit": 16.500221989494495,
     "timestamp": "2026-09-22T09:06:06.753972+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62633,7 +62633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.29
+    "best_favorable_pct": 5.42
   },
   {
     "symbol": "USDG",
@@ -62928,7 +62928,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.38
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "ETC",
@@ -63102,7 +63102,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "KAS",
@@ -63206,7 +63206,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "USDC",
@@ -63672,7 +63672,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "PONS",
@@ -63863,7 +63863,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "PRL",
@@ -64053,7 +64053,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "WLFI",
@@ -64088,7 +64088,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "USELESS",
@@ -64106,7 +64106,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.58
+    "best_favorable_pct": 2.08
   },
   {
     "symbol": "KITE",
@@ -64123,7 +64123,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "ZEC",
@@ -64140,7 +64140,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "USELESS",
@@ -64157,6 +64157,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.63
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.72e-06,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.7398865981076303e-06,
+    "take_profit": 1.6802268037847398e-06,
+    "timestamp": "2026-09-22T21:12:36.690781+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDD",
+    "kucoin_symbol": "USDD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.997,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 0.9996757921081871,
+    "take_profit": 0.9916484157836257,
+    "timestamp": "2026-09-22T21:12:36.690802+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
