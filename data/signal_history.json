@@ -61970,9 +61970,9 @@
     "stop_loss": 0.07007501688306102,
     "take_profit": 0.061629966233877974,
     "timestamp": "2026-09-22T10:41:47.567535+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.56,
     "best_favorable_pct": 0.56
   },
   {
@@ -61988,9 +61988,9 @@
     "stop_loss": 70.576436665597,
     "take_profit": 64.73712666880598,
     "timestamp": "2026-09-22T10:41:47.567560+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62005,9 +62005,9 @@
     "stop_loss": 1.9064700205349618,
     "take_profit": 1.6230599589300765,
     "timestamp": "2026-09-22T10:41:48.820787+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.66,
     "best_favorable_pct": 0.66
   },
   {
@@ -62354,7 +62354,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.86
+    "best_favorable_pct": 2.36
   },
   {
     "symbol": "STABLE",
@@ -62612,7 +62612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.97
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "XRP",
@@ -62978,7 +62978,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "KAS",
@@ -63082,7 +63082,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.76
+    "best_favorable_pct": 2.33
   },
   {
     "symbol": "USDC",
@@ -63152,7 +63152,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.57
+    "best_favorable_pct": 11.24
   },
   {
     "symbol": "ETHFI",
@@ -63272,7 +63272,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.68
+    "best_favorable_pct": 12.35
   },
   {
     "symbol": "WLFI",
@@ -63739,7 +63739,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.65
+    "best_favorable_pct": 2.31
   },
   {
     "symbol": "PRL",
@@ -64140,7 +64140,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "OP",
@@ -64260,6 +64260,75 @@
     "stop_loss": 0.22119592183332598,
     "take_profit": 0.18520815633334806,
     "timestamp": "2026-09-22T22:40:06.121772+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SKY",
+    "kucoin_symbol": "SKY-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.06911,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.07189377882829374,
+    "take_profit": 0.06354244234341253,
+    "timestamp": "2026-09-22T22:51:57.411727+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.841,
+    "reasons": [
+      "RSI \u00fcberkauft (71.7)"
+    ],
+    "stop_loss": 1.9306765434962656,
+    "take_profit": 1.6616469130074685,
+    "timestamp": "2026-09-22T22:51:57.411760+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "APT",
+    "kucoin_symbol": "APT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.8148,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.8609874724939499,
+    "take_profit": 0.7224250550121002,
+    "timestamp": "2026-09-22T22:51:57.411773+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.14028,
+    "reasons": [
+      "RSI \u00fcberkauft (87.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1455269762215278,
+    "take_profit": 0.12978604755694434,
+    "timestamp": "2026-09-22T22:51:57.411799+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
