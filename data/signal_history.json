@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "XTZ",
-    "kucoin_symbol": "XTZ-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.243,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.2502790434052707,
-    "take_profit": 0.22844191318945867,
-    "timestamp": "2026-09-08T19:09:50.334764+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.62,
-    "best_favorable_pct": 0.62
-  },
-  {
     "symbol": "XDC",
     "kucoin_symbol": "XDC-USDT",
     "direction": "long",
@@ -61939,9 +61921,9 @@
     "stop_loss": 0.1129082123969387,
     "take_profit": 0.1217035752061226,
     "timestamp": "2026-09-22T06:59:11.110250+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.87,
     "best_favorable_pct": 0.87
   },
   {
@@ -61994,7 +61976,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.45
+    "best_favorable_pct": 7.19
   },
   {
     "symbol": "PEPE",
@@ -62135,7 +62117,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "FET",
@@ -62564,7 +62546,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "SUN",
@@ -63342,7 +63324,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.88
+    "best_favorable_pct": 5.16
   },
   {
     "symbol": "PYTH",
@@ -63447,7 +63429,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.91
   },
   {
     "symbol": "USDG",
@@ -63482,7 +63464,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "NIGHT",
@@ -63655,7 +63637,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "UNI",
@@ -63793,7 +63775,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "WLFI",
@@ -64035,7 +64017,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "HYPE",
@@ -64311,6 +64293,75 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9982,
+    "reasons": [
+      "Volumen-Spike (8.6x Durchschnitt)"
+    ],
+    "stop_loss": 1.000400636403081,
+    "take_profit": 0.9937987271938378,
+    "timestamp": "2026-09-22T19:15:23.020923+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XLM",
+    "kucoin_symbol": "XLM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.2162,
+    "reasons": [
+      "RSI \u00fcberkauft (70.7)"
+    ],
+    "stop_loss": 0.22504453480920394,
+    "take_profit": 0.19851093038159212,
+    "timestamp": "2026-09-22T19:15:23.020946+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.05
+  },
+  {
+    "symbol": "SHIB",
+    "kucoin_symbol": "SHIB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 6.063e-06,
+    "reasons": [
+      "RSI \u00fcberkauft (70.2)"
+    ],
+    "stop_loss": 6.319867118359837e-06,
+    "take_profit": 5.549265763280326e-06,
+    "timestamp": "2026-09-22T19:15:23.020969+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "FLR",
+    "kucoin_symbol": "FLR-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.00717,
+    "reasons": [
+      "RSI \u00fcberkauft (73.8)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.007355652799281427,
+    "take_profit": 0.006798694401437146,
+    "timestamp": "2026-09-22T19:15:23.021005+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.14
   }
 ]
