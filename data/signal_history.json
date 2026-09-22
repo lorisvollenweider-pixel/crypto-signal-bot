@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "MON",
-    "kucoin_symbol": "MON-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.02536,
-    "reasons": [
-      "MACD Bearish Crossover"
-    ],
-    "stop_loss": 0.026849623647389943,
-    "take_profit": 0.022380752705220112,
-    "timestamp": "2026-09-08T07:00:10.253975+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.75,
-    "best_favorable_pct": 0.75
-  },
-  {
-    "symbol": "SYRUP",
-    "kucoin_symbol": "SYRUP-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.2304,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band",
-      "Volumen-Spike (3.1x Durchschnitt)"
-    ],
-    "stop_loss": 0.24121397284802373,
-    "take_profit": 0.20877205430395254,
-    "timestamp": "2026-09-08T07:00:10.253997+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.69,
-    "best_favorable_pct": 1.69
-  },
-  {
     "symbol": "STABLE",
     "kucoin_symbol": "STABLE-USDT",
     "direction": "short",
@@ -61556,9 +61521,9 @@
     "stop_loss": 55.46949107786226,
     "take_profit": 65.97101784427548,
     "timestamp": "2026-09-21T19:07:55.884531+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.15,
     "best_favorable_pct": 3.15
   },
   {
@@ -61573,9 +61538,9 @@
     "stop_loss": 1.689188052081207,
     "take_profit": 2.0696238958375863,
     "timestamp": "2026-09-21T19:07:57.087120+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.36,
     "best_favorable_pct": 2.36
   },
   {
@@ -61944,7 +61909,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.66
+    "best_favorable_pct": 4.25
   },
   {
     "symbol": "DCR",
@@ -62032,7 +61997,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.08
+    "best_favorable_pct": 4.15
   },
   {
     "symbol": "BTC",
@@ -62614,7 +62579,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 2.53
   },
   {
     "symbol": "GRAM",
@@ -63759,7 +63724,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "POL",
@@ -64001,7 +63966,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 0.86
   },
   {
     "symbol": "PIEVERSE",
@@ -64069,7 +64034,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "ATOM",
@@ -64120,6 +64085,58 @@
     "stop_loss": 0.1129082123969387,
     "take_profit": 0.1217035752061226,
     "timestamp": "2026-09-22T06:59:11.110250+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.42
+  },
+  {
+    "symbol": "PENGU",
+    "kucoin_symbol": "PENGU-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.009111,
+    "reasons": [
+      "RSI \u00fcberkauft (76.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.009593746702335863,
+    "take_profit": 0.00814550659532827,
+    "timestamp": "2026-09-22T07:19:19.178904+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "TIA",
+    "kucoin_symbol": "TIA-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.4432,
+    "reasons": [
+      "RSI \u00fcberkauft (70.0)"
+    ],
+    "stop_loss": 0.462159076782586,
+    "take_profit": 0.40528184643482795,
+    "timestamp": "2026-09-22T07:19:20.476117+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.6255,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.5658317497757003,
+    "take_profit": 0.7448365004485993,
+    "timestamp": "2026-09-22T07:19:20.476134+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
