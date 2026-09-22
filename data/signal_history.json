@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "HBAR",
-    "kucoin_symbol": "HBAR-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.07891,
-    "reasons": [
-      "Preis unter unterem Bollinger Band",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.07667139743175665,
-    "take_profit": 0.0833872051364867,
-    "timestamp": "2026-09-08T21:54:23.808362+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.33,
-    "best_favorable_pct": 1.33
-  },
-  {
     "symbol": "ETC",
     "kucoin_symbol": "ETC-USDT",
     "direction": "short",
@@ -61920,9 +61902,9 @@
     "stop_loss": 0.9961157418574692,
     "take_profit": 0.9987685162850615,
     "timestamp": "2026-09-22T09:52:33.851550+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.1,
     "best_favorable_pct": 0.1
   },
   {
@@ -62997,7 +62979,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "XAUT",
@@ -63084,7 +63066,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "FF",
@@ -63809,7 +63791,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "QNT",
@@ -64138,7 +64120,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "ZRO",
@@ -64175,6 +64157,42 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.98
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 97.63,
+    "reasons": [
+      "RSI \u00fcberkauft (71.4)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 100.53925721510684,
+    "take_profit": 91.8114855697863,
+    "timestamp": "2026-09-22T21:54:18.536550+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "OP",
+    "kucoin_symbol": "OP-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1319,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.1392655071915712,
+    "take_profit": 0.11716898561685761,
+    "timestamp": "2026-09-22T21:54:19.742445+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
