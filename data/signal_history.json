@@ -1,39 +1,5 @@
 [
   {
-    "symbol": "QNT",
-    "kucoin_symbol": "QNT-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 68.831,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 70.58544258654699,
-    "take_profit": 65.32211482690603,
-    "timestamp": "2026-09-09T05:42:44.033626+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.17,
-    "best_favorable_pct": 3.17
-  },
-  {
-    "symbol": "USELESS",
-    "kucoin_symbol": "USELESS-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.30868,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.354364176906645,
-    "take_profit": 0.21731164618670998,
-    "timestamp": "2026-09-09T05:42:44.033666+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 15.75,
-    "best_favorable_pct": 15.75
-  },
-  {
     "symbol": "SUN",
     "kucoin_symbol": "SUN-USDT",
     "direction": "short",
@@ -62933,7 +62899,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.81
+    "best_favorable_pct": 2.15
   },
   {
     "symbol": "DCR",
@@ -63436,7 +63402,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.89
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "ETC",
@@ -63661,7 +63627,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.24
+    "best_favorable_pct": 3.78
   },
   {
     "symbol": "VIRTUAL",
@@ -64216,7 +64182,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.94
+    "best_favorable_pct": 5.5
   },
   {
     "symbol": "AAVE",
@@ -64671,5 +64637,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.13
+  },
+  {
+    "symbol": "USDD",
+    "kucoin_symbol": "USDD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9975,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.9999897590215165,
+    "take_profit": 0.9925204819569671,
+    "timestamp": "2026-09-23T05:47:59.296741+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
