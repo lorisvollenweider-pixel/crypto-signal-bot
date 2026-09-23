@@ -62445,9 +62445,9 @@
     "stop_loss": 0.22064145304796817,
     "take_profit": 0.18541709390406363,
     "timestamp": "2026-09-23T10:49:11.456420+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 7.42,
     "best_favorable_pct": 7.42
   },
   {
@@ -62463,9 +62463,9 @@
     "stop_loss": 0.14585453755439975,
     "take_profit": 0.12169092489120051,
     "timestamp": "2026-09-23T10:49:11.456452+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 10.96,
     "best_favorable_pct": 10.96
   },
   {
@@ -63106,7 +63106,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.85
+    "best_favorable_pct": 4.89
   },
   {
     "symbol": "FET",
@@ -64775,7 +64775,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.79
   },
   {
     "symbol": "ETHFI",
@@ -64790,6 +64790,41 @@
     "stop_loss": 0.6066526553516646,
     "take_profit": 0.7231946892966707,
     "timestamp": "2026-09-23T22:45:04.386288+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1952,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.20731932488692056,
+    "take_profit": 0.17096135022615894,
+    "timestamp": "2026-09-23T22:55:44.492389+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "SPX",
+    "kucoin_symbol": "SPX-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.4305,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.4658072006753161,
+    "take_profit": 0.35988559864936776,
+    "timestamp": "2026-09-23T22:55:44.492421+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
