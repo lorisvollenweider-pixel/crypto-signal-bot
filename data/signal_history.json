@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "ZEC",
-    "kucoin_symbol": "ZEC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1254.031,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1324.3856155956962,
-    "take_profit": 1113.3217688086077,
-    "timestamp": "2026-09-09T09:10:00.893221+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.56,
-    "best_favorable_pct": 1.56
-  },
-  {
     "symbol": "SKY",
     "kucoin_symbol": "SKY-USDT",
     "direction": "long",
@@ -62299,9 +62282,9 @@
     "stop_loss": 0.380475954483339,
     "take_profit": 0.26936809103332204,
     "timestamp": "2026-09-22T20:56:10.089028+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.03,
     "best_favorable_pct": 6.03
   },
   {
@@ -62480,7 +62463,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.18
+    "best_favorable_pct": 4.3
   },
   {
     "symbol": "DCR",
@@ -63587,7 +63570,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.3
   },
   {
     "symbol": "ARB",
@@ -64531,7 +64514,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "BTC",
@@ -64653,7 +64636,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "UNI",
@@ -64687,7 +64670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "SEI",
@@ -64721,7 +64704,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "ZEC",
@@ -64738,7 +64721,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "SKY",
@@ -64755,7 +64738,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "OP",
@@ -64769,6 +64752,40 @@
     "stop_loss": 0.1282990338741717,
     "take_profit": 0.15230193225165664,
     "timestamp": "2026-09-23T08:54:35.796103+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.22
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 4.6247,
+    "reasons": [
+      "RSI \u00fcberkauft (71.0)"
+    ],
+    "stop_loss": 4.981991212834895,
+    "take_profit": 3.910117574330209,
+    "timestamp": "2026-09-23T09:11:01.676208+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.999,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 1.0024126943029343,
+    "take_profit": 0.9921746113941311,
+    "timestamp": "2026-09-23T09:11:01.676228+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
