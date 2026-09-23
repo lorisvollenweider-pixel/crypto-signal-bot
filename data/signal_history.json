@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "UB",
-    "kucoin_symbol": "UB-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.123081,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von oben"
-    ],
-    "stop_loss": 0.12885524629396392,
-    "take_profit": 0.11153250741207216,
-    "timestamp": "2026-09-09T04:39:22.859064+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "AVAX",
     "kucoin_symbol": "AVAX-USDT",
     "direction": "short",
@@ -62164,9 +62147,9 @@
     "stop_loss": 4.796830919790305,
     "take_profit": 3.731438160419389,
     "timestamp": "2026-09-22T16:40:37.128397+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.23,
     "best_favorable_pct": 4.23
   },
   {
@@ -62181,9 +62164,9 @@
     "stop_loss": 1.0603069789924042,
     "take_profit": 0.8904860420151918,
     "timestamp": "2026-09-22T16:40:37.128419+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.24,
     "best_favorable_pct": 0.24
   },
   {
@@ -62198,9 +62181,9 @@
     "stop_loss": 0.9980784393073803,
     "take_profit": 1.0014431213852395,
     "timestamp": "2026-09-22T16:40:37.128428+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.03,
     "best_favorable_pct": 0.03
   },
   {
@@ -62215,9 +62198,9 @@
     "stop_loss": 4.0181040994399304e-07,
     "take_profit": 3.483791801120139e-07,
     "timestamp": "2026-09-22T16:40:37.128460+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.85,
     "best_favorable_pct": 1.85
   },
   {
@@ -62233,9 +62216,9 @@
     "stop_loss": 0.1429775722969632,
     "take_profit": 0.12795485540607363,
     "timestamp": "2026-09-22T16:40:37.128468+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.73,
     "best_favorable_pct": 1.73
   },
   {
@@ -63798,7 +63781,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.07
+    "best_favorable_pct": 1.34
   },
   {
     "symbol": "BTC",
@@ -64144,7 +64127,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.2
   },
   {
     "symbol": "CRV",
@@ -64285,7 +64268,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.7
+    "best_favorable_pct": 2.18
   },
   {
     "symbol": "AAVE",
@@ -64303,7 +64286,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.71
   },
   {
     "symbol": "ICP",
@@ -64480,7 +64463,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "USDD",
@@ -64567,7 +64550,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "ETC",
@@ -64598,6 +64581,58 @@
     "stop_loss": 0.3630064242307487,
     "take_profit": 0.30298715153850264,
     "timestamp": "2026-09-23T04:34:26.977060+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.55
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0299,
+    "reasons": [
+      "RSI \u00fcberkauft (73.8)"
+    ],
+    "stop_loss": 1.0828465755315722,
+    "take_profit": 0.9240068489368558,
+    "timestamp": "2026-09-23T04:48:52.493224+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.9e-07,
+    "reasons": [
+      "RSI \u00fcberkauft (76.8)"
+    ],
+    "stop_loss": 4.0938205467760493e-07,
+    "take_profit": 3.5123589064479026e-07,
+    "timestamp": "2026-09-23T04:48:52.493315+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.01747,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.017291745474691513,
+    "take_profit": 0.017826509050616977,
+    "timestamp": "2026-09-23T04:48:52.493333+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
