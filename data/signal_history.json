@@ -62216,9 +62216,9 @@
     "stop_loss": 0.10114684547281515,
     "take_profit": 0.0866963090543697,
     "timestamp": "2026-09-22T17:09:24.291729+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.77,
     "best_favorable_pct": 0.77
   },
   {
@@ -62233,9 +62233,9 @@
     "stop_loss": 67.381992026304,
     "take_profit": 56.45601594739198,
     "timestamp": "2026-09-22T17:09:24.291784+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.23,
     "best_favorable_pct": 2.23
   },
   {
@@ -62461,7 +62461,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.3
+    "best_favorable_pct": 6.53
   },
   {
     "symbol": "PRL",
@@ -63661,7 +63661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.74
+    "best_favorable_pct": 3.24
   },
   {
     "symbol": "VIRTUAL",
@@ -64181,7 +64181,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.93
+    "best_favorable_pct": 1.05
   },
   {
     "symbol": "SPX",
@@ -64234,7 +64234,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.99
+    "best_favorable_pct": 2.15
   },
   {
     "symbol": "ICP",
@@ -64270,7 +64270,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.29
+    "best_favorable_pct": 1.55
   },
   {
     "symbol": "VET",
@@ -64394,7 +64394,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "DOT",
@@ -64411,7 +64411,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "USDD",
@@ -64515,7 +64515,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 0.66
   },
   {
     "symbol": "XTZ",
@@ -64549,7 +64549,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "BTT",
@@ -64601,7 +64601,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "ATOM",
@@ -64619,5 +64619,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.05
+  },
+  {
+    "symbol": "HBAR",
+    "kucoin_symbol": "HBAR-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.09924,
+    "reasons": [
+      "RSI \u00fcberkauft (77.2)"
+    ],
+    "stop_loss": 0.10393060217386381,
+    "take_profit": 0.08985879565227238,
+    "timestamp": "2026-09-23T05:18:33.346338+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
   }
 ]
