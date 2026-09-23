@@ -62660,9 +62660,9 @@
     "stop_loss": 0.11500917749110996,
     "take_profit": 0.10688164501778008,
     "timestamp": "2026-09-23T08:40:20.693728+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.41,
     "best_favorable_pct": 1.41
   },
   {
@@ -62677,9 +62677,9 @@
     "stop_loss": 0.06475590068443789,
     "take_profit": 0.05504819863112423,
     "timestamp": "2026-09-23T08:40:20.693775+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.43,
     "best_favorable_pct": 5.43
   },
   {
@@ -62694,9 +62694,9 @@
     "stop_loss": 0.14131073739517377,
     "take_profit": 0.12573852520965242,
     "timestamp": "2026-09-23T08:40:20.693794+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.36,
     "best_favorable_pct": 4.36
   },
   {
@@ -62907,7 +62907,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 12.7
+    "best_favorable_pct": 12.92
   },
   {
     "symbol": "BONK",
@@ -63360,7 +63360,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.11
+    "best_favorable_pct": 7.28
   },
   {
     "symbol": "HTX",
@@ -63565,7 +63565,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.42
+    "best_favorable_pct": 3.48
   },
   {
     "symbol": "WLD",
@@ -63812,7 +63812,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.3
+    "best_favorable_pct": 5.48
   },
   {
     "symbol": "SKY",
@@ -64302,7 +64302,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.84
+    "best_favorable_pct": 7.89
   },
   {
     "symbol": "LDO",
@@ -64610,7 +64610,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.76
+    "best_favorable_pct": 1.79
   },
   {
     "symbol": "TUSD",
@@ -65131,5 +65131,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "KITE",
+    "kucoin_symbol": "KITE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.13089,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.13646862394071368,
+    "take_profit": 0.11973275211857265,
+    "timestamp": "2026-09-23T20:46:35.345541+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
