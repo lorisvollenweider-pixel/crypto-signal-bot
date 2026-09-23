@@ -1,58 +1,5 @@
 [
   {
-    "symbol": "BNB",
-    "kucoin_symbol": "BNB-USDT",
-    "direction": "short",
-    "tier": 3,
-    "price_at_signal": 721.237,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 737.4927870385847,
-    "take_profit": 688.7254259228305,
-    "timestamp": "2026-09-09T23:06:27.304754+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.61,
-    "best_favorable_pct": 0.61
-  },
-  {
-    "symbol": "HBAR",
-    "kucoin_symbol": "HBAR-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.07628,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.07402541185447405,
-    "take_profit": 0.08078917629105191,
-    "timestamp": "2026-09-09T23:06:28.359991+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.19,
-    "best_favorable_pct": 1.19
-  },
-  {
-    "symbol": "VIRTUAL",
-    "kucoin_symbol": "VIRTUAL-USDT",
-    "direction": "short",
-    "tier": 3,
-    "price_at_signal": 0.6481,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von oben",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.6830256300631854,
-    "take_profit": 0.5782487398736293,
-    "timestamp": "2026-09-09T23:06:28.360093+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.89,
-    "best_favorable_pct": 0.89
-  },
-  {
     "symbol": "SEI",
     "kucoin_symbol": "SEI-USDT",
     "direction": "long",
@@ -63686,7 +63633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.53
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "ASTER",
@@ -64049,7 +63996,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "TIA",
@@ -64602,7 +64549,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "FLR",
@@ -64758,7 +64705,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "CRV",
@@ -64793,7 +64740,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "FET",
@@ -64829,5 +64776,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0228,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 0.021712328250784035,
+    "take_profit": 0.024975343498431935,
+    "timestamp": "2026-09-23T23:10:30.861874+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
