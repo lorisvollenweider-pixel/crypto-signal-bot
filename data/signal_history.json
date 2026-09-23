@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "ALGO",
-    "kucoin_symbol": "ALGO-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.1009,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.09685589517056704,
-    "take_profit": 0.10898820965886592,
-    "timestamp": "2026-09-09T17:22:36.748430+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.89,
-    "best_favorable_pct": 0.89
-  },
-  {
     "symbol": "NEAR",
     "kucoin_symbol": "NEAR-USDT",
     "direction": "short",
@@ -62570,9 +62553,9 @@
     "stop_loss": 0.10393060217386381,
     "take_profit": 0.08985879565227238,
     "timestamp": "2026-09-23T05:18:33.346338+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.5,
     "best_favorable_pct": 9.5
   },
   {
@@ -63775,7 +63758,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.47
+    "best_favorable_pct": 4.33
   },
   {
     "symbol": "HTX",
@@ -64227,7 +64210,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.59
+    "best_favorable_pct": 2.47
   },
   {
     "symbol": "SKY",
@@ -64472,7 +64455,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.81
+    "best_favorable_pct": 5.26
   },
   {
     "symbol": "BSV",
@@ -64629,7 +64612,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.12
+    "best_favorable_pct": 2.55
   },
   {
     "symbol": "JUP",
@@ -64735,7 +64718,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "XRP",
@@ -64922,7 +64905,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "CAKE",
@@ -65025,7 +65008,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "TUSD",
@@ -65059,7 +65042,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "PUMP",
@@ -65076,7 +65059,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "USDD",
@@ -65111,7 +65094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 2.38
   },
   {
     "symbol": "ETH",
@@ -65146,7 +65129,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 2.09
   },
   {
     "symbol": "SPX",
@@ -65180,7 +65163,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "BTT",
@@ -65194,6 +65177,42 @@
     "stop_loss": 3.854864971048541e-07,
     "take_profit": 3.291270057902919e-07,
     "timestamp": "2026-09-23T17:09:07.181070+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.16
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.0552,
+    "reasons": [
+      "RSI \u00fcberverkauft (28.3)",
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.053737512166479255,
+    "take_profit": 0.05812497566704149,
+    "timestamp": "2026-09-23T17:25:47.592386+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ETHFI",
+    "kucoin_symbol": "ETHFI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.66,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.619857806558535,
+    "take_profit": 0.7402843868829302,
+    "timestamp": "2026-09-23T17:25:48.649626+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
