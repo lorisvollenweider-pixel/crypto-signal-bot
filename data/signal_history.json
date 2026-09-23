@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ZEC",
-    "kucoin_symbol": "ZEC-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 1270.148,
-    "reasons": [
-      "RSI \u00fcberkauft (70.9)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1342.426365595696,
-    "take_profit": 1125.5912688086075,
-    "timestamp": "2026-09-09T11:39:14.686189+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.22,
-    "best_favorable_pct": 3.22
-  },
-  {
     "symbol": "PAXG",
     "kucoin_symbol": "PAXG-USDT",
     "direction": "long",
@@ -62650,9 +62632,9 @@
     "stop_loss": 0.49721405861616685,
     "take_profit": 0.4200718827676662,
     "timestamp": "2026-09-22T23:45:09.921278+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.45,
     "best_favorable_pct": 4.45
   },
   {
@@ -62668,9 +62650,9 @@
     "stop_loss": 1.7747794552742778e-06,
     "take_profit": 1.7064410894514444e-06,
     "timestamp": "2026-09-22T23:45:10.979349+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.26,
     "best_favorable_pct": 1.26
   },
   {
@@ -62757,7 +62739,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.27
+    "best_favorable_pct": 6.43
   },
   {
     "symbol": "PAXG",
@@ -62792,7 +62774,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.51
+    "best_favorable_pct": 3.14
   },
   {
     "symbol": "ETC",
@@ -62913,7 +62895,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.55
+    "best_favorable_pct": 5.52
   },
   {
     "symbol": "FET",
@@ -63310,7 +63292,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "AERO",
@@ -63396,7 +63378,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.7
+    "best_favorable_pct": 1.86
   },
   {
     "symbol": "ARB",
@@ -63608,7 +63590,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.54
+    "best_favorable_pct": 2.32
   },
   {
     "symbol": "CAKE",
@@ -63714,7 +63696,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.97
+    "best_favorable_pct": 3.25
   },
   {
     "symbol": "OP",
@@ -63819,7 +63801,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "FF",
@@ -64008,7 +63990,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.63
+    "best_favorable_pct": 4.65
   },
   {
     "symbol": "APT",
@@ -64235,7 +64217,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 1.02
   },
   {
     "symbol": "XLM",
@@ -64879,7 +64861,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "ASTER",
@@ -64896,7 +64878,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "TUSD",
@@ -64932,5 +64914,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "USDG",
+    "kucoin_symbol": "USDG-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9998,
+    "reasons": [
+      "Volumen-Spike (2.5x Durchschnitt)"
+    ],
+    "stop_loss": 1.0003962199869993,
+    "take_profit": 0.9986075600260014,
+    "timestamp": "2026-09-23T11:49:31.150789+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BR",
+    "kucoin_symbol": "BR-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.0511,
+    "reasons": [
+      "Volumen-Spike (2.7x Durchschnitt)"
+    ],
+    "stop_loss": 1.2488092882231119,
+    "take_profit": 0.6556814235537759,
+    "timestamp": "2026-09-23T11:49:31.150856+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.16
   }
 ]
