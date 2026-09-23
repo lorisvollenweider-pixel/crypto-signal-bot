@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "LIT",
-    "kucoin_symbol": "LIT-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 4.968,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 5.2577070705244076,
-    "take_profit": 4.388585858951186,
-    "timestamp": "2026-09-09T02:58:25.414267+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.45,
-    "best_favorable_pct": 1.45
-  },
-  {
     "symbol": "KAS",
     "kucoin_symbol": "KAS-USDT",
     "direction": "short",
@@ -61990,9 +61973,9 @@
     "stop_loss": 59.22197533882995,
     "take_profit": 66.50604932234009,
     "timestamp": "2026-09-22T15:06:03.769913+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.16,
     "best_favorable_pct": 3.16
   },
   {
@@ -62008,9 +61991,9 @@
     "stop_loss": 1.0005957135837815,
     "take_profit": 0.9985085728324371,
     "timestamp": "2026-09-22T15:06:03.769940+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -62025,9 +62008,9 @@
     "stop_loss": 4296.203726718406,
     "take_profit": 4407.012546563188,
     "timestamp": "2026-09-22T15:06:05.025484+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.81,
     "best_favorable_pct": 0.81
   },
   {
@@ -62042,9 +62025,9 @@
     "stop_loss": 0.02276763243574857,
     "take_profit": 0.025624735128502864,
     "timestamp": "2026-09-22T15:06:05.025549+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.76,
     "best_favorable_pct": 4.76
   },
   {
@@ -62219,7 +62202,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.61
+    "best_favorable_pct": 18.03
   },
   {
     "symbol": "ETHFI",
@@ -62339,7 +62322,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 16.76
+    "best_favorable_pct": 19.21
   },
   {
     "symbol": "WLFI",
@@ -63503,7 +63486,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.06
+    "best_favorable_pct": 3.19
   },
   {
     "symbol": "ATOM",
@@ -63677,7 +63660,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "ARB",
@@ -64006,7 +63989,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 2.23
   },
   {
     "symbol": "VIRTUAL",
@@ -64487,6 +64470,24 @@
     "stop_loss": 0.012624826621993615,
     "take_profit": 0.014062346756012766,
     "timestamp": "2026-09-23T02:54:42.694142+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.18
+  },
+  {
+    "symbol": "MNT",
+    "kucoin_symbol": "MNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.689,
+    "reasons": [
+      "RSI \u00fcberkauft (76.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.7149525427040557,
+    "take_profit": 0.6370949145918884,
+    "timestamp": "2026-09-23T03:11:00.659483+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
