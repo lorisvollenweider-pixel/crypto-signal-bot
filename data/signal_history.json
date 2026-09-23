@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "NEAR",
-    "kucoin_symbol": "NEAR-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 2.6388,
-    "reasons": [
-      "RSI \u00fcberkauft (70.2)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 2.80072030929917,
-    "take_profit": 2.3149593814016596,
-    "timestamp": "2026-09-09T17:38:31.138616+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 7.47,
-    "best_favorable_pct": 7.47
-  },
-  {
-    "symbol": "ZRO",
-    "kucoin_symbol": "ZRO-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.148,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 1.0863066562568415,
-    "take_profit": 1.2713866874863164,
-    "timestamp": "2026-09-09T17:38:32.325705+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.13,
-    "best_favorable_pct": 1.13
-  },
-  {
     "symbol": "QNT",
     "kucoin_symbol": "QNT-USDT",
     "direction": "short",
@@ -62570,9 +62535,9 @@
     "stop_loss": 0.07119267644198818,
     "take_profit": 0.06287464711602363,
     "timestamp": "2026-09-23T05:34:06.072542+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 10.65,
     "best_favorable_pct": 10.65
   },
   {
@@ -62588,9 +62553,9 @@
     "stop_loss": 0.8928353833684192,
     "take_profit": 0.7472292332631619,
     "timestamp": "2026-09-23T05:34:06.072597+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.93,
     "best_favorable_pct": 9.93
   },
   {
@@ -62852,7 +62817,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.61
+    "best_favorable_pct": 1.67
   },
   {
     "symbol": "AERO",
@@ -63305,7 +63270,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 10.85
+    "best_favorable_pct": 11.05
   },
   {
     "symbol": "BONK",
@@ -63530,7 +63495,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.14
+    "best_favorable_pct": 10.81
   },
   {
     "symbol": "TRX",
@@ -63758,7 +63723,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.33
+    "best_favorable_pct": 4.51
   },
   {
     "symbol": "HTX",
@@ -64210,7 +64175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.47
+    "best_favorable_pct": 2.65
   },
   {
     "symbol": "SKY",
@@ -64421,7 +64386,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "BDX",
@@ -64612,7 +64577,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.55
+    "best_favorable_pct": 2.97
   },
   {
     "symbol": "JUP",
@@ -65129,7 +65094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.09
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "SPX",
@@ -65180,7 +65145,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "WLFI",
@@ -65213,6 +65178,40 @@
     "stop_loss": 0.619857806558535,
     "take_profit": 0.7402843868829302,
     "timestamp": "2026-09-23T17:25:48.649626+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CRO",
+    "kucoin_symbol": "CRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.06163,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.06488208611632326,
+    "take_profit": 0.05512582776735346,
+    "timestamp": "2026-09-23T17:40:20.313055+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9994,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.0002834135028316,
+    "take_profit": 0.9976331729943365,
+    "timestamp": "2026-09-23T17:40:20.313081+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
