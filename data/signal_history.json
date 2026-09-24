@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "NIGHT",
-    "kucoin_symbol": "NIGHT-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.02237,
-    "reasons": [
-      "Volumen-Spike (1.8x Durchschnitt)"
-    ],
-    "stop_loss": 0.02347067583296074,
-    "take_profit": 0.02016864833407853,
-    "timestamp": "2026-09-10T01:32:54.506785+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.25,
-    "best_favorable_pct": 1.25
-  },
-  {
     "symbol": "DOGE",
     "kucoin_symbol": "DOGE-USDT",
     "direction": "long",
@@ -62535,9 +62518,9 @@
     "stop_loss": 0.47376300622499534,
     "take_profit": 0.4000739875500093,
     "timestamp": "2026-09-23T13:21:40.018561+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 9.97,
     "best_favorable_pct": 9.97
   },
   {
@@ -62552,9 +62535,9 @@
     "stop_loss": 0.2484041648149391,
     "take_profit": 0.19049167037012177,
     "timestamp": "2026-09-23T13:21:40.018580+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 6.15,
     "best_favorable_pct": 6.15
   },
   {
@@ -62570,9 +62553,9 @@
     "stop_loss": 0.2157229565854145,
     "take_profit": 0.181154086829171,
     "timestamp": "2026-09-23T13:21:40.018616+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.73,
     "best_favorable_pct": 5.73
   },
   {
@@ -63031,7 +63014,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.08
+    "best_favorable_pct": 3.5
   },
   {
     "symbol": "USDC",
@@ -63258,7 +63241,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.34
+    "best_favorable_pct": 9.05
   },
   {
     "symbol": "LDO",
@@ -63446,7 +63429,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.42
   },
   {
     "symbol": "POL",
@@ -64016,7 +63999,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.24
   },
   {
     "symbol": "KCS",
@@ -64051,7 +64034,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.76
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "FLR",
@@ -64103,7 +64086,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "USD1",
@@ -64294,7 +64277,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 1.67
   },
   {
     "symbol": "GRAM",
@@ -64311,7 +64294,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.56
   },
   {
     "symbol": "WLFI",
@@ -64398,7 +64381,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "FIL",
@@ -64432,7 +64415,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "OP",
@@ -64604,7 +64587,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "DCR",
@@ -64621,6 +64604,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 1.36
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.4064,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.4319287918869476,
+    "take_profit": 0.35534241622610474,
+    "timestamp": "2026-09-24T01:32:58.723755+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.026592,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.0277129146862171,
+    "take_profit": 0.024350170627565802,
+    "timestamp": "2026-09-24T01:32:58.723780+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
   }
 ]
