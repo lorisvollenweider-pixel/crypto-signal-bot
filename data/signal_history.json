@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "CC",
-    "kucoin_symbol": "CC-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.09842,
-    "reasons": [
-      "RSI \u00fcberverkauft (28.7)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.09472832646167592,
-    "take_profit": 0.10580334707664814,
-    "timestamp": "2026-09-10T22:47:54.498112+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.05,
-    "best_favorable_pct": 1.05
-  },
-  {
     "symbol": "BTC",
     "kucoin_symbol": "BTC-USDT",
     "direction": "long",
@@ -63860,6 +63842,23 @@
     "stop_loss": 314.91368673053967,
     "take_profit": 377.2726265389206,
     "timestamp": "2026-09-24T22:42:40.959431+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.15
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.13624,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.14332553353776328,
+    "take_profit": 0.12206893292447346,
+    "timestamp": "2026-09-24T22:55:32.097357+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
