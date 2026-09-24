@@ -1,91 +1,5 @@
 [
   {
-    "symbol": "BNB",
-    "kucoin_symbol": "BNB-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 710.477,
-    "reasons": [
-      "Volumen-Spike (1.8x Durchschnitt)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 726.0746527029218,
-    "take_profit": 679.2816945941564,
-    "timestamp": "2026-09-10T14:36:22.359312+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.68,
-    "best_favorable_pct": 0.68
-  },
-  {
-    "symbol": "MORPHO",
-    "kucoin_symbol": "MORPHO-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 2.2921,
-    "reasons": [
-      "Volumen-Spike (3.4x Durchschnitt)"
-    ],
-    "stop_loss": 2.1920977870119374,
-    "take_profit": 2.492104425976126,
-    "timestamp": "2026-09-10T14:36:23.504442+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.47,
-    "best_favorable_pct": 1.47
-  },
-  {
-    "symbol": "ENA",
-    "kucoin_symbol": "ENA-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.1499,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.1413897313750307,
-    "take_profit": 0.1669205372499386,
-    "timestamp": "2026-09-10T14:36:23.504458+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "ETC",
-    "kucoin_symbol": "ETC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 7.7328,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 8.087702435534057,
-    "take_profit": 7.0229951289318855,
-    "timestamp": "2026-09-10T14:36:23.504473+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.42,
-    "best_favorable_pct": 2.42
-  },
-  {
-    "symbol": "VET",
-    "kucoin_symbol": "VET-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.0083,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.007860793445875647,
-    "take_profit": 0.009178413108248708,
-    "timestamp": "2026-09-10T14:36:23.504492+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.48,
-    "best_favorable_pct": 0.48
-  },
-  {
     "symbol": "VET",
     "kucoin_symbol": "VET-USDT",
     "direction": "long",
@@ -62314,9 +62228,9 @@
     "stop_loss": 61.68515861435935,
     "take_profit": 50.3896827712813,
     "timestamp": "2026-09-24T02:34:44.565618+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62332,9 +62246,9 @@
     "stop_loss": 0.0744825821810819,
     "take_profit": 0.0790348356378362,
     "timestamp": "2026-09-24T02:34:44.565652+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.92,
     "best_favorable_pct": 0.92
   },
   {
@@ -62350,9 +62264,9 @@
     "stop_loss": 0.38904371413022043,
     "take_profit": 0.49361257173955914,
     "timestamp": "2026-09-24T02:34:45.724670+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.26,
     "best_favorable_pct": 5.26
   },
   {
@@ -63606,7 +63520,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "ENA",
@@ -63624,7 +63538,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 2.84
   },
   {
     "symbol": "BDX",
@@ -63642,7 +63556,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "ENS",
@@ -63661,5 +63575,57 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 63.49,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 67.73281295861294,
+    "take_profit": 55.004374082774135,
+    "timestamp": "2026-09-24T14:48:25.622513+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.47
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.026928,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.02575027554177697,
+    "take_profit": 0.029283448916446065,
+    "timestamp": "2026-09-24T14:48:25.622528+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FET",
+    "kucoin_symbol": "FET-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2177,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.2317938445979129,
+    "take_profit": 0.1895123108041742,
+    "timestamp": "2026-09-24T14:48:25.622538+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.51
   }
 ]
