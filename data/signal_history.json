@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "PYUSD",
-    "kucoin_symbol": "PYUSD-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.9998,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.9992024465196934,
-    "take_profit": 1.0009951069606133,
-    "timestamp": "2026-09-10T06:25:10.203308+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "JST",
     "kucoin_symbol": "JST-USDT",
     "direction": "long",
@@ -63159,7 +63142,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.04
   },
   {
     "symbol": "SUN",
@@ -63663,7 +63646,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "LTC",
@@ -64368,7 +64351,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "XTZ",
@@ -64419,7 +64402,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "CRO",
@@ -64437,5 +64420,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.21
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9984,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.9978142467183279,
+    "take_profit": 0.9995715065633441,
+    "timestamp": "2026-09-24T06:34:17.315165+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
