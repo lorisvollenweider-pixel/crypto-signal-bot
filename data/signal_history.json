@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "TAO",
-    "kucoin_symbol": "TAO-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 240.36,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 252.19648215118457,
-    "take_profit": 216.68703569763093,
-    "timestamp": "2026-09-10T21:52:57.942095+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.67,
-    "best_favorable_pct": 2.67
-  },
-  {
     "symbol": "U",
     "kucoin_symbol": "U-USDT",
     "direction": "long",
@@ -61977,9 +61960,9 @@
     "stop_loss": 0.10563204570954822,
     "take_profit": 0.09083590858090355,
     "timestamp": "2026-09-24T09:53:59.845409+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -61994,9 +61977,9 @@
     "stop_loss": 0.6878549200730238,
     "take_profit": 0.5721901598539523,
     "timestamp": "2026-09-24T09:53:59.845441+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.32,
     "best_favorable_pct": 0.32
   },
   {
@@ -62011,9 +61994,9 @@
     "stop_loss": 1.4888896061438959,
     "take_profit": 1.8915207877122082,
     "timestamp": "2026-09-24T09:53:59.845458+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.11,
     "best_favorable_pct": 1.11
   },
   {
@@ -62203,7 +62186,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 15.49
+    "best_favorable_pct": 15.52
   },
   {
     "symbol": "LIT",
@@ -62747,7 +62730,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "PYTH",
@@ -63243,7 +63226,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.8
+    "best_favorable_pct": 4.03
   },
   {
     "symbol": "TUSD",
@@ -63277,7 +63260,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.57
+    "best_favorable_pct": 1.67
   },
   {
     "symbol": "BR",
@@ -63380,7 +63363,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "ADA",
@@ -63431,7 +63414,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "GRAM",
@@ -63687,7 +63670,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "U",
@@ -63721,7 +63704,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "XTZ",
@@ -63738,7 +63721,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.22
+    "best_favorable_pct": 1.44
   },
   {
     "symbol": "XPL",
@@ -63862,5 +63845,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.1085,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.11343036381323089,
+    "take_profit": 0.09863927237353821,
+    "timestamp": "2026-09-24T21:54:38.743420+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "XPL",
+    "kucoin_symbol": "XPL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1145,
+    "reasons": [
+      "RSI \u00fcberkauft (71.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.12298128757643287,
+    "take_profit": 0.09753742484713429,
+    "timestamp": "2026-09-24T21:54:38.743471+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.17
   }
 ]
