@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "SKY",
-    "kucoin_symbol": "SKY-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.06079,
-    "reasons": [
-      "RSI \u00fcberverkauft (28.6)"
-    ],
-    "stop_loss": 0.05872547631775286,
-    "take_profit": 0.06491904736449428,
-    "timestamp": "2026-09-10T20:27:08.198789+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "XMR",
     "kucoin_symbol": "XMR-USDT",
     "direction": "short",
@@ -61874,9 +61857,9 @@
     "stop_loss": 0.2196629836724781,
     "take_profit": 0.17447403265504377,
     "timestamp": "2026-09-24T08:34:46.269137+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.39,
     "best_favorable_pct": 2.39
   },
   {
@@ -61891,9 +61874,9 @@
     "stop_loss": 7.344807150605474,
     "take_profit": 6.859385698789051,
     "timestamp": "2026-09-24T08:34:46.269181+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.64,
     "best_favorable_pct": 0.64
   },
   {
@@ -62816,7 +62799,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.2
+    "best_favorable_pct": 2.48
   },
   {
     "symbol": "BTC",
@@ -62850,7 +62833,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "SOL",
@@ -62953,7 +62936,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "SKY",
@@ -63278,7 +63261,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.76
+    "best_favorable_pct": 2.45
   },
   {
     "symbol": "TUSD",
@@ -63312,7 +63295,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.34
+    "best_favorable_pct": 1.48
   },
   {
     "symbol": "BR",
@@ -63329,7 +63312,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.15
+    "best_favorable_pct": 2.34
   },
   {
     "symbol": "CC",
@@ -63534,7 +63517,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.11
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "ARB",
@@ -63603,7 +63586,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "AERO",
@@ -63805,6 +63788,41 @@
     "stop_loss": 6.758623005076294,
     "take_profit": 7.818753989847412,
     "timestamp": "2026-09-24T20:23:57.615878+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BDX",
+    "kucoin_symbol": "BDX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.07707,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.07852311607457259,
+    "take_profit": 0.07416376785085481,
+    "timestamp": "2026-09-24T20:41:08.817273+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "ENS",
+    "kucoin_symbol": "ENS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 7.079,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 6.724765862219151,
+    "take_profit": 7.7874682755616975,
+    "timestamp": "2026-09-24T20:41:09.935433+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
