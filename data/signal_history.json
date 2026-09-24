@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "HBAR",
-    "kucoin_symbol": "HBAR-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.07658,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von oben"
-    ],
-    "stop_loss": 0.07870047240436649,
-    "take_profit": 0.072339055191267,
-    "timestamp": "2026-09-10T07:21:49.503974+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.35,
-    "best_favorable_pct": 2.35
-  },
-  {
     "symbol": "SOL",
     "kucoin_symbol": "SOL-USDT",
     "direction": "long",
@@ -63088,9 +63071,9 @@
     "stop_loss": 0.07349870487670754,
     "take_profit": 0.06312259024658494,
     "timestamp": "2026-09-23T19:17:08.244806+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.83,
     "best_favorable_pct": 1.83
   },
   {
@@ -63105,9 +63088,9 @@
     "stop_loss": 0.9955460627615337,
     "take_profit": 1.0026078744769327,
     "timestamp": "2026-09-23T19:17:09.377505+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.04,
     "best_favorable_pct": 0.04
   },
   {
@@ -63123,9 +63106,9 @@
     "stop_loss": 0.01685658773657582,
     "take_profit": 0.017376824526848356,
     "timestamp": "2026-09-23T19:17:09.377570+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.17,
     "best_favorable_pct": 1.17
   },
   {
@@ -63334,7 +63317,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.14
+    "best_favorable_pct": 2.47
   },
   {
     "symbol": "KITE",
@@ -63974,7 +63957,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.76
+    "best_favorable_pct": 3.96
   },
   {
     "symbol": "LTC",
@@ -64403,5 +64386,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BSV",
+    "kucoin_symbol": "BSV-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 21.671,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 19.853015619844165,
+    "take_profit": 25.30696876031167,
+    "timestamp": "2026-09-24T07:26:08.549494+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SPX",
+    "kucoin_symbol": "SPX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.4397,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.40417067243625926,
+    "take_profit": 0.5107586551274814,
+    "timestamp": "2026-09-24T07:26:08.549515+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.23
   }
 ]
