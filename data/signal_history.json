@@ -1,57 +1,5 @@
 [
   {
-    "symbol": "ETHFI",
-    "kucoin_symbol": "ETHFI-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.6447,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.6790456352972521,
-    "take_profit": 0.5760087294054959,
-    "timestamp": "2026-09-10T11:44:55.376260+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 4.76,
-    "best_favorable_pct": 4.76
-  },
-  {
-    "symbol": "SEI",
-    "kucoin_symbol": "SEI-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.04617,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.04413575168229662,
-    "take_profit": 0.050238496635406756,
-    "timestamp": "2026-09-10T11:44:55.376290+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.26,
-    "best_favorable_pct": 0.26
-  },
-  {
-    "symbol": "KITE",
-    "kucoin_symbol": "KITE-USDT",
-    "direction": "short",
-    "tier": 3,
-    "price_at_signal": 0.10946,
-    "reasons": [
-      "MACD Bearish Crossover",
-      "Volumen-Spike (5.4x Durchschnitt)"
-    ],
-    "stop_loss": 0.1144114815955812,
-    "take_profit": 0.0995570368088376,
-    "timestamp": "2026-09-10T11:44:55.376299+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.91,
-    "best_favorable_pct": 1.91
-  },
-  {
     "symbol": "LTC",
     "kucoin_symbol": "LTC-USDT",
     "direction": "long",
@@ -62845,10 +62793,10 @@
     "stop_loss": 1.4578095288139912,
     "take_profit": 1.3323809423720174,
     "timestamp": "2026-09-23T23:36:08.702019+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 0.99
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.13,
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "WLFI",
@@ -62864,9 +62812,9 @@
     "stop_loss": 0.0524427722339487,
     "take_profit": 0.05741445553210261,
     "timestamp": "2026-09-23T23:36:08.702045+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.66,
     "best_favorable_pct": 1.66
   },
   {
@@ -63776,7 +63724,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "STABLE",
@@ -63862,7 +63810,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "STX",
@@ -64171,7 +64119,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.89
+    "best_favorable_pct": 1.59
   },
   {
     "symbol": "FET",
@@ -64185,6 +64133,40 @@
     "stop_loss": 0.2089359249337588,
     "take_profit": 0.17312815013248248,
     "timestamp": "2026-09-24T10:57:17.875183+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.1
+  },
+  {
+    "symbol": "GRAM",
+    "kucoin_symbol": "GRAM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.4,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.4407394690064987,
+    "take_profit": 1.3185210619870023,
+    "timestamp": "2026-09-24T11:47:26.886848+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.7,
+    "reasons": [
+      "Volumen-Spike (2.4x Durchschnitt)"
+    ],
+    "stop_loss": 1.7869401073298834,
+    "take_profit": 1.526119785340233,
+    "timestamp": "2026-09-24T11:47:26.886901+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
