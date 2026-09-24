@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "PENDLE",
-    "kucoin_symbol": "PENDLE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.9607,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 1.8631625790569621,
-    "take_profit": 2.155774841886076,
-    "timestamp": "2026-09-10T00:59:28.158178+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 4.47,
-    "best_favorable_pct": 4.47
-  },
-  {
     "symbol": "U",
     "kucoin_symbol": "U-USDT",
     "direction": "short",
@@ -62890,7 +62873,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.33
+    "best_favorable_pct": 5.39
   },
   {
     "symbol": "APT",
@@ -63065,7 +63048,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.17
+    "best_favorable_pct": 3.01
   },
   {
     "symbol": "USDC",
@@ -63099,7 +63082,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.42
+    "best_favorable_pct": 6.43
   },
   {
     "symbol": "USDE",
@@ -63480,7 +63463,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "POL",
@@ -64016,7 +63999,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.11
+    "best_favorable_pct": 2.26
   },
   {
     "symbol": "ICP",
@@ -64364,7 +64347,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "TRX",
@@ -64381,7 +64364,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "XMR",
@@ -64398,7 +64381,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "LTC",
@@ -64415,7 +64398,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "JST",
@@ -64500,7 +64483,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "PYUSD",
@@ -64535,7 +64518,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "TRUMP",
@@ -64552,7 +64535,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "LDO",
@@ -64566,6 +64549,41 @@
     "stop_loss": 0.3642859288312608,
     "take_profit": 0.4306281423374784,
     "timestamp": "2026-09-24T00:45:20.546183+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDS",
+    "kucoin_symbol": "USDS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0014,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.9983912173701022,
+    "take_profit": 1.0074175652597959,
+    "timestamp": "2026-09-24T00:59:07.396470+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDE",
+    "kucoin_symbol": "USDE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9992,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.002116329116193,
+    "take_profit": 0.9933673417676139,
+    "timestamp": "2026-09-24T00:59:07.396490+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
