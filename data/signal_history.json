@@ -61834,9 +61834,9 @@
     "stop_loss": 3.331030796366436,
     "take_profit": 2.8059384072671287,
     "timestamp": "2026-09-24T14:10:51.893511+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.33,
     "best_favorable_pct": 3.33
   },
   {
@@ -62068,7 +62068,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.42
+    "best_favorable_pct": 2.8
   },
   {
     "symbol": "JUP",
@@ -62327,7 +62327,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.33
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "CAKE",
@@ -62669,7 +62669,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.32
+    "best_favorable_pct": 6.45
   },
   {
     "symbol": "CC",
@@ -62686,7 +62686,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "SHIB",
@@ -62720,7 +62720,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "DOGE",
@@ -62857,7 +62857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.03
+    "best_favorable_pct": 2.61
   },
   {
     "symbol": "ASTER",
@@ -62977,7 +62977,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "SEI",
@@ -63429,7 +63429,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "BNB",
@@ -63446,7 +63446,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "SOL",
@@ -63463,7 +63463,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.67
   },
   {
     "symbol": "LINK",
@@ -63531,7 +63531,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "AAVE",
@@ -63617,7 +63617,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "XMR",
@@ -63686,7 +63686,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "PONS",
@@ -63718,6 +63718,58 @@
     "stop_loss": 0.21112138376619805,
     "take_profit": 0.2602572324676039,
     "timestamp": "2026-09-25T01:59:39.583280+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.072,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 3.2439818441783785,
+    "take_profit": 2.728036311643243,
+    "timestamp": "2026-09-25T02:18:13.685249+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 88.44,
+    "reasons": [
+      "RSI \u00fcberkauft (81.2)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 92.82742602672778,
+    "take_profit": 79.66514794654444,
+    "timestamp": "2026-09-25T02:18:13.685275+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.848,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.941314836985876,
+    "take_profit": 1.6613703260282484,
+    "timestamp": "2026-09-25T02:18:14.788097+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
