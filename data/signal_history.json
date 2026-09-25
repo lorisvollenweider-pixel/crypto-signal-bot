@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "SYRUP",
-    "kucoin_symbol": "SYRUP-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.2147,
-    "reasons": [
-      "MACD Bearish Crossover"
-    ],
-    "stop_loss": 0.22654517552271283,
-    "take_profit": 0.19100964895457434,
-    "timestamp": "2026-09-11T23:31:55.048084+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "HYPE",
     "kucoin_symbol": "HYPE-USDT",
     "direction": "short",
@@ -62341,9 +62324,9 @@
     "stop_loss": 0.9996890959472303,
     "take_profit": 0.9991218081055394,
     "timestamp": "2026-09-25T11:36:53.335629+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62359,9 +62342,9 @@
     "stop_loss": 0.06305126347307403,
     "take_profit": 0.07246747305385193,
     "timestamp": "2026-09-25T11:36:53.335652+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.5,
     "best_favorable_pct": 0.5
   },
   {
@@ -62376,9 +62359,9 @@
     "stop_loss": 0.07631277064566667,
     "take_profit": 0.06304445870866664,
     "timestamp": "2026-09-25T11:36:54.800228+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.58,
     "best_favorable_pct": 0.58
   },
   {
@@ -62626,7 +62609,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "ENS",
@@ -64478,7 +64461,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "SHIB",
@@ -64513,7 +64496,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.53
+    "best_favorable_pct": 1.16
   },
   {
     "symbol": "BCH",
@@ -64584,6 +64567,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.54
+    "best_favorable_pct": 1.28
+  },
+  {
+    "symbol": "USD1",
+    "kucoin_symbol": "USD1-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9997,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.9998912454263197,
+    "take_profit": 0.9993175091473607,
+    "timestamp": "2026-09-25T23:44:32.062878+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.2676,
+    "reasons": [
+      "RSI \u00fcberkauft (80.1)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.28594181150470926,
+    "take_profit": 0.23091637699058143,
+    "timestamp": "2026-09-25T23:44:32.062915+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
