@@ -1,39 +1,5 @@
 [
   {
-    "symbol": "XRP",
-    "kucoin_symbol": "XRP-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.33698,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 1.3726042700243364,
-    "take_profit": 1.2657314599513276,
-    "timestamp": "2026-09-11T00:51:09.039822+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.02,
-    "best_favorable_pct": 1.02
-  },
-  {
-    "symbol": "CC",
-    "kucoin_symbol": "CC-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.09818,
-    "reasons": [
-      "RSI \u00fcberverkauft (29.1)"
-    ],
-    "stop_loss": 0.0946061262049975,
-    "take_profit": 0.10532774759000499,
-    "timestamp": "2026-09-11T00:51:09.039865+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.29,
-    "best_favorable_pct": 1.29
-  },
-  {
     "symbol": "CRO",
     "kucoin_symbol": "CRO-USDT",
     "direction": "long",
@@ -61746,9 +61712,9 @@
     "stop_loss": 520.0372223131244,
     "take_profit": 594.8955553737512,
     "timestamp": "2026-09-24T12:44:33.742992+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.26,
     "best_favorable_pct": 5.26
   },
   {
@@ -61763,9 +61729,9 @@
     "stop_loss": 0.899292212679089,
     "take_profit": 1.0784155746418218,
     "timestamp": "2026-09-24T12:44:33.743044+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.67,
     "best_favorable_pct": 5.67
   },
   {
@@ -62153,7 +62119,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.76
   },
   {
     "symbol": "JUP",
@@ -62241,7 +62207,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.69
+    "best_favorable_pct": 3.79
   },
   {
     "symbol": "BTC",
@@ -62822,7 +62788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "LINK",
@@ -62874,7 +62840,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "HBAR",
@@ -63147,7 +63113,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.79
+    "best_favorable_pct": 5.67
   },
   {
     "symbol": "U",
@@ -63409,7 +63375,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.89
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "FF",
@@ -63497,7 +63463,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 3.81
   },
   {
     "symbol": "ETH",
@@ -63650,7 +63616,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "FET",
@@ -63667,7 +63633,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 1.52
   },
   {
     "symbol": "ENS",
@@ -63685,7 +63651,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "JST",
@@ -63699,6 +63665,40 @@
     "stop_loss": 0.11164464935854823,
     "take_profit": 0.11850070128290355,
     "timestamp": "2026-09-25T00:36:19.778490+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.16
+  },
+  {
+    "symbol": "XMR",
+    "kucoin_symbol": "XMR-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 566.87,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 541.1523629549604,
+    "take_profit": 618.3052740900791,
+    "timestamp": "2026-09-25T00:52:20.166052+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FIL",
+    "kucoin_symbol": "FIL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9903,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.931989254155612,
+    "take_profit": 1.106921491688776,
+    "timestamp": "2026-09-25T00:52:20.166118+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
