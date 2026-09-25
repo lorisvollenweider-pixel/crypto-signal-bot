@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "USD1",
-    "kucoin_symbol": "USD1-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.9999,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.9997036468406988,
-    "take_profit": 1.0002927063186025,
-    "timestamp": "2026-09-11T07:17:42.019033+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.02,
-    "best_favorable_pct": 0.02
-  },
-  {
-    "symbol": "UB",
-    "kucoin_symbol": "UB-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.127652,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.12196189636959497,
-    "take_profit": 0.13903220726081003,
-    "timestamp": "2026-09-11T07:17:42.019084+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.18,
-    "best_favorable_pct": 1.18
-  },
-  {
     "symbol": "AKE",
     "kucoin_symbol": "AKE-USDT",
     "direction": "short",
@@ -62236,7 +62201,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.87
+    "best_favorable_pct": 3.64
   },
   {
     "symbol": "BR",
@@ -62270,7 +62235,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.26
+    "best_favorable_pct": 2.59
   },
   {
     "symbol": "SHIB",
@@ -62458,7 +62423,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "ARB",
@@ -62544,7 +62509,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.5
+    "best_favorable_pct": 2.69
   },
   {
     "symbol": "FLR",
@@ -63218,7 +63183,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.13
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "FIL",
@@ -63375,7 +63340,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.33
   },
   {
     "symbol": "BDX",
@@ -63427,7 +63392,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "BDX",
@@ -63600,7 +63565,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "JUP",
@@ -63792,7 +63757,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "U",
@@ -63809,7 +63774,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "INJ",
@@ -63915,5 +63880,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "GRASS",
+    "kucoin_symbol": "GRASS-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.4718,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.5059559831013487,
+    "take_profit": 0.4034880337973025,
+    "timestamp": "2026-09-25T07:33:54.036607+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
