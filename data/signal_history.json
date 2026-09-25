@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "APT",
-    "kucoin_symbol": "APT-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.6077,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.5730670814359777,
-    "take_profit": 0.6769658371280446,
-    "timestamp": "2026-09-11T10:34:01.838991+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.64,
-    "best_favorable_pct": 3.64
-  },
-  {
     "symbol": "TUSD",
     "kucoin_symbol": "TUSD-USDT",
     "direction": "long",
@@ -62684,7 +62667,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 1.09
   },
   {
     "symbol": "LINK",
@@ -63116,7 +63099,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.67
+    "best_favorable_pct": 2.34
   },
   {
     "symbol": "SUN",
@@ -63706,7 +63689,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 2.33
   },
   {
     "symbol": "HBAR",
@@ -63723,7 +63706,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "GRAM",
@@ -63740,7 +63723,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "SHIB",
@@ -63930,7 +63913,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.26
+    "best_favorable_pct": 1.88
   },
   {
     "symbol": "VIRTUAL",
@@ -63964,7 +63947,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.92
+    "best_favorable_pct": 5.4
   },
   {
     "symbol": "XTZ",
@@ -64017,7 +64000,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "USDG",
@@ -64068,7 +64051,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "ICP",
@@ -64138,7 +64121,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "TRX",
@@ -64156,7 +64139,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "NEAR",
@@ -64350,7 +64333,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "XAUT",
@@ -64404,5 +64387,59 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.04
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.4507,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.4245015408318914,
+    "take_profit": 0.5030969183362172,
+    "timestamp": "2026-09-25T10:34:58.574907+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.0413,
+    "reasons": [
+      "Volumen-Spike (2.8x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.039201593346125295,
+    "take_profit": 0.04549681330774941,
+    "timestamp": "2026-09-25T10:34:59.721594+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "AERO",
+    "kucoin_symbol": "AERO-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.7766,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.7346567535391055,
+    "take_profit": 0.8604864929217888,
+    "timestamp": "2026-09-25T10:35:00.747955+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
