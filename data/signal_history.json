@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "GRAM",
-    "kucoin_symbol": "GRAM-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 1.363,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 1.3272600373058636,
-    "take_profit": 1.4344799253882725,
-    "timestamp": "2026-09-11T22:25:44.468863+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.25,
-    "best_favorable_pct": 1.25
-  },
-  {
     "symbol": "USDS",
     "kucoin_symbol": "USDS-USDT",
     "direction": "long",
@@ -62091,9 +62073,9 @@
     "stop_loss": 4263.794065587885,
     "take_profit": 4377.901868824231,
     "timestamp": "2026-09-25T10:18:19.656164+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.13,
     "best_favorable_pct": 0.13
   },
   {
@@ -62109,9 +62091,9 @@
     "stop_loss": 1.0007824880255625,
     "take_profit": 0.995135023948875,
     "timestamp": "2026-09-25T10:18:19.656207+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.01,
     "best_favorable_pct": 0.01
   },
   {
@@ -62127,9 +62109,9 @@
     "stop_loss": 0.25304427830158915,
     "take_profit": 0.2082114433968217,
     "timestamp": "2026-09-25T10:18:21.013383+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.55,
     "best_favorable_pct": 0.55
   },
   {
@@ -62219,7 +62201,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.99
+    "best_favorable_pct": 1.39
   },
   {
     "symbol": "CAKE",
@@ -63021,7 +63003,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.03
+    "best_favorable_pct": 2.74
   },
   {
     "symbol": "APT",
@@ -63476,7 +63458,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "BDX",
@@ -63842,7 +63824,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.21
   },
   {
     "symbol": "ASTER",
@@ -64065,7 +64047,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.09
+    "best_favorable_pct": 1.59
   },
   {
     "symbol": "SHIB",
@@ -64099,7 +64081,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "ONDO",
@@ -64201,7 +64183,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "VET",
@@ -64235,7 +64217,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "LDO",
@@ -64269,7 +64251,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "ZRO",
@@ -64460,6 +64442,58 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "CC",
+    "kucoin_symbol": "CC-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.12917,
+    "reasons": [
+      "RSI \u00fcberkauft (73.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.13536093322767376,
+    "take_profit": 0.1167881335446525,
+    "timestamp": "2026-09-25T22:31:56.011355+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.48,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.4527239382940276,
+    "take_profit": 0.5345521234119448,
+    "timestamp": "2026-09-25T22:31:57.080586+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.6564,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.6046914271710253,
+    "take_profit": 0.7598171456579494,
+    "timestamp": "2026-09-25T22:31:57.080637+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.11
   }
 ]
