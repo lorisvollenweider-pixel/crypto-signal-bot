@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "WLD",
-    "kucoin_symbol": "WLD-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.3975,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von oben"
-    ],
-    "stop_loss": 0.42246517245732834,
-    "take_profit": 0.34756965508534343,
-    "timestamp": "2026-09-11T18:59:05.504131+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.38,
-    "best_favorable_pct": 0.38
-  },
-  {
     "symbol": "BTT",
     "kucoin_symbol": "BTT-USDT",
     "direction": "long",
@@ -61551,9 +61534,9 @@
     "stop_loss": 0.0752427012150655,
     "take_profit": 0.06425459756986902,
     "timestamp": "2026-09-25T06:56:53.448138+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -61590,7 +61573,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.91
+    "best_favorable_pct": 8.43
   },
   {
     "symbol": "VIRTUAL",
@@ -62691,7 +62674,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 1.8
   },
   {
     "symbol": "TRUMP",
@@ -62850,7 +62833,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.17
+    "best_favorable_pct": 5.23
   },
   {
     "symbol": "ENS",
@@ -63248,7 +63231,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 1.77
   },
   {
     "symbol": "STX",
@@ -63317,7 +63300,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 1.92
   },
   {
     "symbol": "ZRO",
@@ -63473,7 +63456,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "CC",
@@ -63754,7 +63737,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "CC",
@@ -63823,7 +63806,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "PENDLE",
@@ -63874,7 +63857,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.3
+    "best_favorable_pct": 2.79
   },
   {
     "symbol": "NEAR",
@@ -63927,7 +63910,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.94
+    "best_favorable_pct": 2.58
   },
   {
     "symbol": "SUN",
@@ -63961,7 +63944,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "SUI",
@@ -63996,7 +63979,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "USDD",
@@ -64082,6 +64065,24 @@
     "stop_loss": 0.5182419106933654,
     "take_profit": 0.42511617861326917,
     "timestamp": "2026-09-25T18:54:54.648292+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.9
+  },
+  {
+    "symbol": "JST",
+    "kucoin_symbol": "JST-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.12003,
+    "reasons": [
+      "RSI \u00fcberkauft (70.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.12257370009017345,
+    "take_profit": 0.11494259981965312,
+    "timestamp": "2026-09-25T19:09:59.042976+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
