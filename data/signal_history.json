@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "RAY",
-    "kucoin_symbol": "RAY-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 1.5561,
-    "reasons": [
-      "RSI \u00fcberkauft (70.6)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1.72217688472518,
-    "take_profit": 1.22394623054964,
-    "timestamp": "2026-09-11T02:20:45.520031+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.85,
-    "best_favorable_pct": 2.85
-  },
-  {
-    "symbol": "SEI",
-    "kucoin_symbol": "SEI-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.04422,
-    "reasons": [
-      "RSI \u00fcberverkauft (30.0)"
-    ],
-    "stop_loss": 0.04238007112598183,
-    "take_profit": 0.04789985774803636,
-    "timestamp": "2026-09-11T02:20:46.686826+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.82,
-    "best_favorable_pct": 3.82
-  },
-  {
     "symbol": "PYUSD",
     "kucoin_symbol": "PYUSD-USDT",
     "direction": "short",
@@ -61852,9 +61817,9 @@
     "stop_loss": 0.24195853534719153,
     "take_profit": 0.191682929305617,
     "timestamp": "2026-09-24T14:30:01.068281+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.84,
     "best_favorable_pct": 4.84
   },
   {
@@ -61870,9 +61835,9 @@
     "stop_loss": 0.07809483589256022,
     "take_profit": 0.07367032821487952,
     "timestamp": "2026-09-24T14:30:02.296598+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.21,
     "best_favorable_pct": 0.21
   },
   {
@@ -61888,9 +61853,9 @@
     "stop_loss": 6.851163510095497,
     "take_profit": 8.008672979809006,
     "timestamp": "2026-09-24T14:30:03.478891+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62618,7 +62583,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.99
+    "best_favorable_pct": 5.25
   },
   {
     "symbol": "TUSD",
@@ -62686,7 +62651,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "SHIB",
@@ -62857,7 +62822,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.61
+    "best_favorable_pct": 3.1
   },
   {
     "symbol": "ASTER",
@@ -62994,7 +62959,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.0
+    "best_favorable_pct": 3.49
   },
   {
     "symbol": "BONK",
@@ -63721,7 +63686,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "ICP",
@@ -63770,6 +63735,24 @@
     "stop_loss": 1.941314836985876,
     "take_profit": 1.6613703260282484,
     "timestamp": "2026-09-25T02:18:14.788097+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.38
+  },
+  {
+    "symbol": "CC",
+    "kucoin_symbol": "CC-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.1156,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.11072070364828544,
+    "take_profit": 0.1253585927034291,
+    "timestamp": "2026-09-25T02:34:23.654267+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
