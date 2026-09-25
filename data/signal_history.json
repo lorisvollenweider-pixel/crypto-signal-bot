@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "BCH",
-    "kucoin_symbol": "BCH-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 225.97,
-    "reasons": [
-      "RSI \u00fcberverkauft (22.5)",
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 216.733324838696,
-    "take_profit": 244.443350322608,
-    "timestamp": "2026-09-11T03:21:52.632426+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 4.67,
-    "best_favorable_pct": 4.67
-  },
-  {
-    "symbol": "U",
-    "kucoin_symbol": "U-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.0,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1.000822941252344,
-    "take_profit": 0.9983541174953121,
-    "timestamp": "2026-09-11T03:21:53.873909+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.06,
-    "best_favorable_pct": 0.06
-  },
-  {
     "symbol": "JUP",
     "kucoin_symbol": "JUP-USDT",
     "direction": "long",
@@ -61960,9 +61925,9 @@
     "stop_loss": 9.442862398064742,
     "take_profit": 11.228275203870517,
     "timestamp": "2026-09-24T15:22:43.333236+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.23,
     "best_favorable_pct": 1.23
   },
   {
@@ -61977,9 +61942,9 @@
     "stop_loss": 0.10538211362467508,
     "take_profit": 0.12193577275064985,
     "timestamp": "2026-09-24T15:22:44.603191+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.07,
     "best_favorable_pct": 3.07
   },
   {
@@ -61998,7 +61963,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.39
+    "best_favorable_pct": 3.59
   },
   {
     "symbol": "JUP",
@@ -62154,7 +62119,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.28
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "RAIN",
@@ -62428,7 +62393,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "XTZ",
@@ -62633,7 +62598,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.39
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "ZEC",
@@ -63149,7 +63114,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "CRV",
@@ -63305,7 +63270,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.06
+    "best_favorable_pct": 9.54
   },
   {
     "symbol": "TUSD",
@@ -63547,7 +63512,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.76
+    "best_favorable_pct": 1.97
   },
   {
     "symbol": "XMR",
@@ -63703,7 +63668,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.3
+    "best_favorable_pct": 1.41
   },
   {
     "symbol": "CC",
@@ -63787,6 +63752,23 @@
     "stop_loss": 0.07860876154304847,
     "take_profit": 0.07429247691390306,
     "timestamp": "2026-09-25T03:18:36.905368+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ALGO",
+    "kucoin_symbol": "ALGO-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1114,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.10593890635077093,
+    "take_profit": 0.12232218729845815,
+    "timestamp": "2026-09-25T03:34:55.241013+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
