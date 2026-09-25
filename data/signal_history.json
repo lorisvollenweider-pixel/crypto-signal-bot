@@ -62074,9 +62074,9 @@
     "stop_loss": 2.0721690572633347,
     "take_profit": 1.7776618854733304,
     "timestamp": "2026-09-25T09:58:21.251582+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.85,
     "best_favorable_pct": 3.85
   },
   {
@@ -62918,7 +62918,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.38
+    "best_favorable_pct": 3.78
   },
   {
     "symbol": "STX",
@@ -63021,7 +63021,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.59
+    "best_favorable_pct": 2.03
   },
   {
     "symbol": "APT",
@@ -63143,7 +63143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.38
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "CC",
@@ -63355,7 +63355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.48
   },
   {
     "symbol": "PENGU",
@@ -63493,7 +63493,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.33
+    "best_favorable_pct": 1.35
   },
   {
     "symbol": "PENDLE",
@@ -63842,7 +63842,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "ASTER",
@@ -63894,7 +63894,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.1
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "AERO",
@@ -63980,7 +63980,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "ZEC",
@@ -64150,7 +64150,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "VET",
@@ -64338,7 +64338,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "GRT",
@@ -64425,5 +64425,41 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.02
+  },
+  {
+    "symbol": "RAIN",
+    "kucoin_symbol": "RAIN-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.011862,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.8)",
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.011391246053774264,
+    "take_profit": 0.01280350789245147,
+    "timestamp": "2026-09-25T22:15:59.836906+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.28
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 2.7331,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.8845938599323664,
+    "take_profit": 2.4301122801352664,
+    "timestamp": "2026-09-25T22:16:00.890238+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
