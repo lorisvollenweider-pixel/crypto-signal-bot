@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "AKE",
-    "kucoin_symbol": "AKE-USDT",
-    "direction": "short",
-    "tier": 3,
-    "price_at_signal": 0.0128816,
-    "reasons": [
-      "Volumen-Spike (2.5x Durchschnitt)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.015536615217822316,
-    "take_profit": 0.00757156956435537,
-    "timestamp": "2026-09-11T05:28:50.163735+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.8,
-    "best_favorable_pct": 1.8
-  },
-  {
     "symbol": "JST",
     "kucoin_symbol": "JST-USDT",
     "direction": "long",
@@ -62148,9 +62130,9 @@
     "stop_loss": 2750.9872884977567,
     "take_profit": 2551.6454230044865,
     "timestamp": "2026-09-24T17:32:13.133368+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.52,
     "best_favorable_pct": 0.52
   },
   {
@@ -62579,7 +62561,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.59
   },
   {
     "symbol": "FLR",
@@ -62715,7 +62697,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 2.24
   },
   {
     "symbol": "XTZ",
@@ -63462,7 +63444,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "BDX",
@@ -63618,7 +63600,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "KAS",
@@ -63652,7 +63634,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "ATOM",
@@ -63738,7 +63720,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.36
+    "best_favorable_pct": 1.95
   },
   {
     "symbol": "USDE",
@@ -63772,7 +63754,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "VIRTUAL",
@@ -63790,6 +63772,25 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.51
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9975,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "EMA20 kreuzt EMA50 von oben",
+      "Volumen-Spike (2.2x Durchschnitt)"
+    ],
+    "stop_loss": 1.0008164977819545,
+    "take_profit": 0.9908670044360911,
+    "timestamp": "2026-09-25T05:41:37.239172+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
