@@ -62507,9 +62507,9 @@
     "stop_loss": 0.11343036381323089,
     "take_profit": 0.09863927237353821,
     "timestamp": "2026-09-24T21:54:38.743420+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.65,
     "best_favorable_pct": 0.65
   },
   {
@@ -62525,9 +62525,9 @@
     "stop_loss": 0.12298128757643287,
     "take_profit": 0.09753742484713429,
     "timestamp": "2026-09-24T21:54:38.743471+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.15,
     "best_favorable_pct": 5.15
   },
   {
@@ -62546,7 +62546,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.12
+    "best_favorable_pct": 7.04
   },
   {
     "symbol": "ONDO",
@@ -62737,7 +62737,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.12
+    "best_favorable_pct": 6.02
   },
   {
     "symbol": "XLM",
@@ -62788,7 +62788,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.53
+    "best_favorable_pct": 1.54
   },
   {
     "symbol": "AAVE",
@@ -62908,7 +62908,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.83
+    "best_favorable_pct": 2.91
   },
   {
     "symbol": "JUP",
@@ -63742,7 +63742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.62
+    "best_favorable_pct": 1.83
   },
   {
     "symbol": "HBAR",
@@ -63759,7 +63759,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.68
   },
   {
     "symbol": "GRAM",
@@ -63776,7 +63776,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "SHIB",
@@ -63793,7 +63793,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.84
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "CRO",
@@ -63862,7 +63862,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.26
+    "best_favorable_pct": 5.69
   },
   {
     "symbol": "ARB",
@@ -64139,7 +64139,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 1.66
   },
   {
     "symbol": "SUN",
@@ -64156,7 +64156,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "OP",
@@ -64246,7 +64246,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "XPL",
@@ -64263,7 +64263,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.7
+    "best_favorable_pct": 2.71
   },
   {
     "symbol": "MNT",
@@ -64280,7 +64280,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "U",
@@ -64314,7 +64314,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "CRV",
@@ -64349,7 +64349,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.76
   },
   {
     "symbol": "AR",
@@ -64364,6 +64364,25 @@
     "stop_loss": 5.113237192999038,
     "take_profit": 4.059525614001924,
     "timestamp": "2026-09-25T09:45:40.009642+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.19
+  },
+  {
+    "symbol": "RENDER",
+    "kucoin_symbol": "RENDER-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.974,
+    "reasons": [
+      "RSI \u00fcberkauft (71.0)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 2.0721690572633347,
+    "take_profit": 1.7776618854733304,
+    "timestamp": "2026-09-25T09:58:21.251582+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
