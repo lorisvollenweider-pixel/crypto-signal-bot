@@ -62199,9 +62199,9 @@
     "stop_loss": 7.486863870330017,
     "take_profit": 9.437272259339966,
     "timestamp": "2026-09-24T18:18:35.753363+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.3,
     "best_favorable_pct": 2.3
   },
   {
@@ -62216,10 +62216,10 @@
     "stop_loss": 2.355335284593507,
     "take_profit": 1.806829430812985,
     "timestamp": "2026-09-24T18:37:33.500645+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 6.9
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 7.12,
+    "best_favorable_pct": 7.12
   },
   {
     "symbol": "TUSD",
@@ -63583,7 +63583,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.3
+    "best_favorable_pct": 2.06
   },
   {
     "symbol": "RAIN",
@@ -63685,7 +63685,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "PYUSD",
@@ -63737,7 +63737,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "ETC",
@@ -63754,7 +63754,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "VIRTUAL",
@@ -63806,6 +63806,57 @@
     "stop_loss": 0.6807794797218895,
     "take_profit": 0.795441040556221,
     "timestamp": "2026-09-25T06:15:22.869029+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9995,
+    "reasons": [
+      "Volumen-Spike (2.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.9976911989991178,
+    "take_profit": 1.0031176020017645,
+    "timestamp": "2026-09-25T06:39:13.545564+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "INJ",
+    "kucoin_symbol": "INJ-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 7.852,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 7.251944144531087,
+    "take_profit": 9.052111710937828,
+    "timestamp": "2026-09-25T06:39:13.545607+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.05
+  },
+  {
+    "symbol": "RAY",
+    "kucoin_symbol": "RAY-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.0179,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 2.1906934531551525,
+    "take_profit": 1.6723130936896946,
+    "timestamp": "2026-09-25T06:39:13.545623+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
