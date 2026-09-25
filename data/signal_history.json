@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "ZRO",
-    "kucoin_symbol": "ZRO-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.0391,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 1.097506287030639,
-    "take_profit": 0.922287425938722,
-    "timestamp": "2026-09-11T05:12:50.189681+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.24,
-    "best_favorable_pct": 3.24
-  },
-  {
-    "symbol": "UB",
-    "kucoin_symbol": "UB-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.12736,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.12183907494102354,
-    "take_profit": 0.13840185011795292,
-    "timestamp": "2026-09-11T05:12:50.189707+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.41,
-    "best_favorable_pct": 1.41
-  },
-  {
     "symbol": "AKE",
     "kucoin_symbol": "AKE-USDT",
     "direction": "short",
@@ -62614,7 +62579,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 1.1
   },
   {
     "symbol": "FLR",
@@ -62750,7 +62715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.45
   },
   {
     "symbol": "XTZ",
@@ -63773,7 +63738,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.26
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "USDE",
@@ -63808,5 +63773,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "VIRTUAL",
+    "kucoin_symbol": "VIRTUAL-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.7574,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.7174488436267129,
+    "take_profit": 0.8373023127465742,
+    "timestamp": "2026-09-25T05:25:09.619786+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.04
   }
 ]
