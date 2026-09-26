@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "USDS",
-    "kucoin_symbol": "USDS-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 1.0018,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Volumen-Spike (7.7x Durchschnitt)"
-    ],
-    "stop_loss": 1.0007140154771867,
-    "take_profit": 1.0039719690456266,
-    "timestamp": "2026-09-12T04:47:36.364492+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.02,
-    "best_favorable_pct": 0.02
-  },
-  {
-    "symbol": "CC",
-    "kucoin_symbol": "CC-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.09872,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.09484743982375818,
-    "take_profit": 0.10646512035248366,
-    "timestamp": "2026-09-12T04:47:37.530173+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.67,
-    "best_favorable_pct": 0.67
-  },
-  {
     "symbol": "JST",
     "kucoin_symbol": "JST-USDT",
     "direction": "long",
@@ -62581,9 +62546,9 @@
     "stop_loss": 1.0010941140659728,
     "take_profit": 0.9924117718680544,
     "timestamp": "2026-09-25T16:47:37.007046+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62598,10 +62563,10 @@
     "stop_loss": 0.308449621216778,
     "take_profit": 0.3629007575664441,
     "timestamp": "2026-09-25T16:47:37.007098+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 5.57
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.79,
+    "best_favorable_pct": 5.73
   },
   {
     "symbol": "NEAR",
@@ -63275,7 +63240,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "VIRTUAL",
@@ -63848,7 +63813,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.88
+    "best_favorable_pct": 5.46
   },
   {
     "symbol": "MORPHO",
@@ -63882,7 +63847,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.22
+    "best_favorable_pct": 1.39
   },
   {
     "symbol": "ETC",
@@ -64140,7 +64105,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.97
   },
   {
     "symbol": "AERO",
@@ -64244,7 +64209,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.84
   },
   {
     "symbol": "JTO",
@@ -64261,7 +64226,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.86
   },
   {
     "symbol": "CC",
@@ -64465,7 +64430,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "UB",
@@ -64479,6 +64444,24 @@
     "stop_loss": 0.13881707709289787,
     "take_profit": 0.16097184581420426,
     "timestamp": "2026-09-26T04:33:17.226633+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.17
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.13256,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.13774650959571852,
+    "take_profit": 0.122186980808563,
+    "timestamp": "2026-09-26T04:47:28.373841+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
