@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "USDC",
-    "kucoin_symbol": "USDC-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.0,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.9998039698316167,
-    "take_profit": 1.0003920603367666,
-    "timestamp": "2026-09-12T22:26:11.078623+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.01,
-    "best_favorable_pct": 0.01
-  },
-  {
     "symbol": "USDE",
     "kucoin_symbol": "USDE-USDT",
     "direction": "short",
@@ -62828,9 +62811,9 @@
     "stop_loss": 0.5950788089529016,
     "take_profit": 0.49011238209419683,
     "timestamp": "2026-09-26T10:29:41.373865+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.93,
     "best_favorable_pct": 4.93
   },
   {
@@ -62846,9 +62829,9 @@
     "stop_loss": 0.06017158702408822,
     "take_profit": 0.05575682595182357,
     "timestamp": "2026-09-26T10:29:41.373891+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.7,
     "best_favorable_pct": 1.7
   },
   {
@@ -62864,9 +62847,9 @@
     "stop_loss": 0.04702853159709611,
     "take_profit": 0.04094293680580778,
     "timestamp": "2026-09-26T10:29:42.445442+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.71,
     "best_favorable_pct": 0.71
   },
   {
@@ -63380,7 +63363,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.55
   },
   {
     "symbol": "DASH",
@@ -64107,7 +64090,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.91
+    "best_favorable_pct": 1.4
   },
   {
     "symbol": "RAIN",
@@ -64793,6 +64776,41 @@
     "stop_loss": 139.2640116643409,
     "take_profit": 111.27097667131817,
     "timestamp": "2026-09-26T22:23:44.785559+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ONDO",
+    "kucoin_symbol": "ONDO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.53347,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.5651049313170309,
+    "take_profit": 0.4702001373659382,
+    "timestamp": "2026-09-26T22:38:40.764729+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0585,
+    "reasons": [
+      "Volumen-Spike (2.2x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.06013144693678476,
+    "take_profit": 0.0552371061264305,
+    "timestamp": "2026-09-26T22:38:40.764779+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
