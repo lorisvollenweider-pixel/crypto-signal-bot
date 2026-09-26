@@ -62779,9 +62779,9 @@
     "stop_loss": 0.13774650959571852,
     "take_profit": 0.122186980808563,
     "timestamp": "2026-09-26T04:47:28.373841+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.08,
     "best_favorable_pct": 1.08
   },
   {
@@ -63109,7 +63109,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.98
   },
   {
     "symbol": "CAKE",
@@ -63144,7 +63144,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "ZRO",
@@ -63247,7 +63247,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.68
+    "best_favorable_pct": 5.43
   },
   {
     "symbol": "VVV",
@@ -63369,7 +63369,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.0
+    "best_favorable_pct": 3.46
   },
   {
     "symbol": "STX",
@@ -63525,7 +63525,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.82
+    "best_favorable_pct": 1.85
   },
   {
     "symbol": "PYTH",
@@ -63747,7 +63747,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "LTC",
@@ -63850,7 +63850,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.75
+    "best_favorable_pct": 0.82
   },
   {
     "symbol": "BNB",
@@ -63970,7 +63970,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "DASH",
@@ -64315,7 +64315,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 2.05
   },
   {
     "symbol": "USDS",
@@ -64422,7 +64422,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "XTZ",
@@ -64490,7 +64490,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.73
   },
   {
     "symbol": "SUI",
@@ -64524,7 +64524,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.98
   },
   {
     "symbol": "WLFI",
@@ -64542,7 +64542,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.67
   },
   {
     "symbol": "KAS",
@@ -64577,7 +64577,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.06
   },
   {
     "symbol": "KCS",
@@ -64628,7 +64628,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "GRAM",
@@ -64664,5 +64664,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.26
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0001,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.99993209731404,
+    "take_profit": 1.00043580537192,
+    "timestamp": "2026-09-26T16:58:16.988749+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.027106,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.026372380710722686,
+    "take_profit": 0.028573238578554636,
+    "timestamp": "2026-09-26T16:58:16.988806+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
