@@ -62892,9 +62892,9 @@
     "stop_loss": 325.82218836209984,
     "take_profit": 380.23562327580026,
     "timestamp": "2026-09-25T23:16:08.158191+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.21,
     "best_favorable_pct": 0.21
   },
   {
@@ -62910,9 +62910,9 @@
     "stop_loss": 0.523372490277401,
     "take_profit": 0.43945501944519805,
     "timestamp": "2026-09-25T23:16:08.158230+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.02,
     "best_favorable_pct": 4.02
   },
   {
@@ -62928,9 +62928,9 @@
     "stop_loss": 0.13875626257957072,
     "take_profit": 0.1636914748408586,
     "timestamp": "2026-09-25T23:16:09.314599+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.08,
     "best_favorable_pct": 2.08
   },
   {
@@ -62946,9 +62946,9 @@
     "stop_loss": 0.15733498036375287,
     "take_profit": 0.1305300392724943,
     "timestamp": "2026-09-25T23:16:10.423907+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.45,
     "best_favorable_pct": 4.45
   },
   {
@@ -63120,7 +63120,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "JST",
@@ -63222,7 +63222,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.18
+    "best_favorable_pct": 2.5
   },
   {
     "symbol": "AVAX",
@@ -63686,7 +63686,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.03
+    "best_favorable_pct": 10.08
   },
   {
     "symbol": "UB",
@@ -63877,7 +63877,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.44
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "KAS",
@@ -63963,7 +63963,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.14
+    "best_favorable_pct": 1.49
   },
   {
     "symbol": "CRO",
@@ -64326,7 +64326,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.02
+    "best_favorable_pct": 1.07
   },
   {
     "symbol": "BTT",
@@ -64447,6 +64447,40 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.34
+  },
+  {
+    "symbol": "MNT",
+    "kucoin_symbol": "MNT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.7077,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.7346023771796776,
+    "take_profit": 0.6538952456406448,
+    "timestamp": "2026-09-26T11:27:52.244179+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "PYTH",
+    "kucoin_symbol": "PYTH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0769,
+    "reasons": [
+      "RSI \u00fcberkauft (70.0)"
+    ],
+    "stop_loss": 0.08136332461982994,
+    "take_profit": 0.0679733507603401,
+    "timestamp": "2026-09-26T11:27:52.244234+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
