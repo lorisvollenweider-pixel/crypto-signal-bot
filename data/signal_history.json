@@ -62580,9 +62580,9 @@
     "stop_loss": 5.474094153828226,
     "take_profit": 4.197011692343548,
     "timestamp": "2026-09-25T16:59:28.492239+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.43,
     "best_favorable_pct": 3.42
   },
   {
@@ -62598,9 +62598,9 @@
     "stop_loss": 0.1395019372304619,
     "take_profit": 0.16433912553907623,
     "timestamp": "2026-09-25T16:59:28.492305+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.1,
     "best_favorable_pct": 1.1
   },
   {
@@ -62881,7 +62881,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.32
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "MORPHO",
@@ -63429,7 +63429,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "MNT",
@@ -63657,7 +63657,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.87
+    "best_favorable_pct": 3.19
   },
   {
     "symbol": "UB",
@@ -63813,7 +63813,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.37
+    "best_favorable_pct": 7.66
   },
   {
     "symbol": "MORPHO",
@@ -63898,7 +63898,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "GRT",
@@ -64260,7 +64260,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 1.4
   },
   {
     "symbol": "ENA",
@@ -64345,7 +64345,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.67
+    "best_favorable_pct": 1.32
   },
   {
     "symbol": "PENGU",
@@ -64413,7 +64413,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.24
   },
   {
     "symbol": "RAIN",
@@ -64430,7 +64430,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.67
+    "best_favorable_pct": 2.98
   },
   {
     "symbol": "UB",
@@ -64466,5 +64466,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PUMP",
+    "kucoin_symbol": "PUMP-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.004511,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.004775029031320044,
+    "take_profit": 0.003982941937359913,
+    "timestamp": "2026-09-26T05:17:07.542484+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.38
   }
 ]
