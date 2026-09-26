@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "CAKE",
-    "kucoin_symbol": "CAKE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 2.229,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 2.1455496439163384,
-    "take_profit": 2.3959007121673235,
-    "timestamp": "2026-09-12T02:59:12.466631+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.62,
-    "best_favorable_pct": 1.62
-  },
-  {
     "symbol": "CFX",
     "kucoin_symbol": "CFX-USDT",
     "direction": "long",
@@ -62492,9 +62475,9 @@
     "stop_loss": 1.0000884454178276,
     "take_profit": 0.9977231091643446,
     "timestamp": "2026-09-25T15:04:05.438380+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62509,9 +62492,9 @@
     "stop_loss": 0.3646359993381172,
     "take_profit": 0.3045280013237657,
     "timestamp": "2026-09-25T15:04:05.438434+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.51,
     "best_favorable_pct": 1.51
   },
   {
@@ -62619,7 +62602,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "AR",
@@ -62637,7 +62620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.17
+    "best_favorable_pct": 2.19
   },
   {
     "symbol": "TRX",
@@ -62930,7 +62913,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.24
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "SUI",
@@ -63158,7 +63141,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "MORPHO",
@@ -63176,7 +63159,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.21
+    "best_favorable_pct": 1.22
   },
   {
     "symbol": "PAXG",
@@ -63245,7 +63228,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.11
+    "best_favorable_pct": 3.24
   },
   {
     "symbol": "TIA",
@@ -63759,7 +63742,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.05
+    "best_favorable_pct": 1.06
   },
   {
     "symbol": "CC",
@@ -63864,7 +63847,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.15
+    "best_favorable_pct": 5.39
   },
   {
     "symbol": "SHIB",
@@ -63899,7 +63882,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.92
+    "best_favorable_pct": 5.33
   },
   {
     "symbol": "BCH",
@@ -63934,7 +63917,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.48
+    "best_favorable_pct": 2.87
   },
   {
     "symbol": "UB",
@@ -63970,7 +63953,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.96
+    "best_favorable_pct": 4.04
   },
   {
     "symbol": "USD1",
@@ -64107,7 +64090,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "WLFI",
@@ -64277,7 +64260,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 1.07
   },
   {
     "symbol": "SEI",
@@ -64295,7 +64278,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "TUSD",
@@ -64435,5 +64418,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.1664,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.0950281160917656,
+    "take_profit": 1.3091437678164692,
+    "timestamp": "2026-09-26T03:14:08.394908+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
   }
 ]
