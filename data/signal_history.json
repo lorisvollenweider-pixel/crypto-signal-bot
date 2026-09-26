@@ -62509,9 +62509,9 @@
     "stop_loss": 1.7244666199853254e-06,
     "take_profit": 1.6570667600293494e-06,
     "timestamp": "2026-09-25T15:24:23.702447+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.18,
     "best_favorable_pct": 0.18
   },
   {
@@ -62758,7 +62758,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.25
+    "best_favorable_pct": 2.63
   },
   {
     "symbol": "BDX",
@@ -63569,7 +63569,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.79
+    "best_favorable_pct": 4.08
   },
   {
     "symbol": "USDG",
@@ -64175,7 +64175,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 2.12
   },
   {
     "symbol": "ETH",
@@ -64278,7 +64278,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.28
+    "best_favorable_pct": 1.64
   },
   {
     "symbol": "TUSD",
@@ -64417,7 +64417,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "SUI",
@@ -64434,6 +64434,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "HTX",
+    "kucoin_symbol": "HTX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.705e-06,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.7254473239010248e-06,
+    "take_profit": 1.6641053521979503e-06,
+    "timestamp": "2026-09-26T03:30:35.349736+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
