@@ -1,75 +1,5 @@
 [
   {
-    "symbol": "DOGE",
-    "kucoin_symbol": "DOGE-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.08468,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.08205286214075122,
-    "take_profit": 0.08993427571849756,
-    "timestamp": "2026-09-12T07:45:31.543202+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.65,
-    "best_favorable_pct": 0.65
-  },
-  {
-    "symbol": "U",
-    "kucoin_symbol": "U-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.9997,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.9990114986868807,
-    "take_profit": 1.0010770026262388,
-    "timestamp": "2026-09-12T07:45:32.787013+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.03,
-    "best_favorable_pct": 0.03
-  },
-  {
-    "symbol": "PENDLE",
-    "kucoin_symbol": "PENDLE-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 2.1289,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 2.2319290972172414,
-    "take_profit": 1.922841805565517,
-    "timestamp": "2026-09-12T07:45:32.787061+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "KITE",
-    "kucoin_symbol": "KITE-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.10603,
-    "reasons": [
-      "RSI \u00fcberverkauft (29.6)",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.10212355258624585,
-    "take_profit": 0.11384289482750828,
-    "timestamp": "2026-09-12T07:45:32.787080+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.87,
-    "best_favorable_pct": 0.87
-  },
-  {
     "symbol": "XRP",
     "kucoin_symbol": "XRP-USDT",
     "direction": "short",
@@ -62602,9 +62532,9 @@
     "stop_loss": 0.04292588773180831,
     "take_profit": 0.009817924536383374,
     "timestamp": "2026-09-25T19:53:07.591372+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62930,7 +62860,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.62
   },
   {
     "symbol": "VET",
@@ -63898,7 +63828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.69
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "ZRO",
@@ -64120,7 +64050,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "SEI",
@@ -64205,7 +64135,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "FF",
@@ -64275,7 +64205,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "SUN",
@@ -64396,7 +64326,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "ZRO",
@@ -64413,6 +64343,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.48
+  },
+  {
+    "symbol": "ICP",
+    "kucoin_symbol": "ICP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 3.213,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 3.048460238615229,
+    "take_profit": 3.5420795227695425,
+    "timestamp": "2026-09-26T07:54:41.700237+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
