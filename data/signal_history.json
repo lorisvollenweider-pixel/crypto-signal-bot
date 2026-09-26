@@ -62567,9 +62567,9 @@
     "stop_loss": 0.12257370009017345,
     "take_profit": 0.11494259981965312,
     "timestamp": "2026-09-25T19:09:59.042976+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -63135,7 +63135,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.89
+    "best_favorable_pct": 8.81
   },
   {
     "symbol": "GRT",
@@ -64205,7 +64205,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.32
+    "best_favorable_pct": 5.68
   },
   {
     "symbol": "UB",
@@ -64326,7 +64326,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "CC",
@@ -64341,6 +64341,24 @@
     "stop_loss": 0.14321980002880405,
     "take_profit": 0.12324039994239186,
     "timestamp": "2026-09-26T06:39:40.757531+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.9956,
+    "reasons": [
+      "Volumen-Spike (2.5x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.0025783604971137,
+    "take_profit": 0.9816432790057728,
+    "timestamp": "2026-09-26T07:12:01.332559+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
