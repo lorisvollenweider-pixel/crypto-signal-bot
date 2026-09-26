@@ -62745,9 +62745,9 @@
     "stop_loss": 1.0950281160917656,
     "take_profit": 1.3091437678164692,
     "timestamp": "2026-09-26T03:14:08.394908+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.02,
     "best_favorable_pct": 2.02
   },
   {
@@ -62936,7 +62936,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.5
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "SEI",
@@ -63229,7 +63229,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.84
+    "best_favorable_pct": 3.22
   },
   {
     "symbol": "ICP",
@@ -63246,7 +63246,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 2.52
   },
   {
     "symbol": "NEAR",
@@ -63281,7 +63281,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.27
+    "best_favorable_pct": 3.55
   },
   {
     "symbol": "CRO",
@@ -63782,7 +63782,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.1
+    "best_favorable_pct": 1.29
   },
   {
     "symbol": "PYTH",
@@ -63816,7 +63816,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.34
+    "best_favorable_pct": 9.0
   },
   {
     "symbol": "FLR",
@@ -64141,7 +64141,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.83
+    "best_favorable_pct": 2.05
   },
   {
     "symbol": "FET",
@@ -64227,7 +64227,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "DASH",
@@ -64313,7 +64313,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "PYUSD",
@@ -64364,7 +64364,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.6
+    "best_favorable_pct": 1.88
   },
   {
     "symbol": "FIL",
@@ -64452,5 +64452,75 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.532,
+    "reasons": [
+      "RSI \u00fcberkauft (74.8)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.5639932906661189,
+    "take_profit": 0.4680134186677623,
+    "timestamp": "2026-09-26T15:14:40.717250+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.2287,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.2143593508214595,
+    "take_profit": 0.257381298357081,
+    "timestamp": "2026-09-26T15:14:42.021968+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.6691,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.7956820896847725,
+    "take_profit": 1.4159358206304549,
+    "timestamp": "2026-09-26T15:14:42.022021+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.6483,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.6005086274097359,
+    "take_profit": 0.7438827451805282,
+    "timestamp": "2026-09-26T15:14:43.127319+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
