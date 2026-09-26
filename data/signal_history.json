@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "BNB",
-    "kucoin_symbol": "BNB-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 736.376,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 721.5262896259503,
-    "take_profit": 766.0754207480993,
-    "timestamp": "2026-09-12T10:11:58.266636+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.3,
-    "best_favorable_pct": 0.3
-  },
-  {
     "symbol": "UNI",
     "kucoin_symbol": "UNI-USDT",
     "direction": "long",
@@ -62753,9 +62735,9 @@
     "stop_loss": 1.6174696049015527,
     "take_profit": 1.4266407901968947,
     "timestamp": "2026-09-25T21:57:33.050634+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.09,
     "best_favorable_pct": 1.09
   },
   {
@@ -62770,9 +62752,9 @@
     "stop_loss": 0.687801104856751,
     "take_profit": 0.613097790286498,
     "timestamp": "2026-09-25T21:57:33.050692+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.02,
     "best_favorable_pct": 0.02
   },
   {
@@ -63501,7 +63483,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.48
+    "best_favorable_pct": 0.51
   },
   {
     "symbol": "HTX",
@@ -63638,7 +63620,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.99
   },
   {
     "symbol": "DASH",
@@ -63809,7 +63791,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.13
   },
   {
     "symbol": "U",
@@ -64376,6 +64358,41 @@
     "stop_loss": 0.9677366719312807,
     "take_profit": 0.7921266561374388,
     "timestamp": "2026-09-26T09:56:38.653902+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.44
+  },
+  {
+    "symbol": "STX",
+    "kucoin_symbol": "STX-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.3447,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.3624526139033681,
+    "take_profit": 0.3091947721932639,
+    "timestamp": "2026-09-26T10:13:52.665312+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BTT",
+    "kucoin_symbol": "BTT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.726e-07,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 3.8261348605402895e-07,
+    "take_profit": 3.52573027891942e-07,
+    "timestamp": "2026-09-26T10:13:53.904560+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
