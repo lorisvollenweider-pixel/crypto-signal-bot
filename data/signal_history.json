@@ -1,58 +1,5 @@
 [
   {
-    "symbol": "CRO",
-    "kucoin_symbol": "CRO-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.05967,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.061515613573808366,
-    "take_profit": 0.05597877285238327,
-    "timestamp": "2026-09-12T21:43:44.117018+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.43,
-    "best_favorable_pct": 2.43
-  },
-  {
-    "symbol": "PYUSD",
-    "kucoin_symbol": "PYUSD-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.9999,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "EMA20 kreuzt EMA50 von unten",
-      "Volumen-Spike (2.1x Durchschnitt)"
-    ],
-    "stop_loss": 0.9989543216667482,
-    "take_profit": 1.0017913566665035,
-    "timestamp": "2026-09-12T21:43:44.117037+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "XDC",
-    "kucoin_symbol": "XDC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.02772,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.028281999708560285,
-    "take_profit": 0.026596000582879434,
-    "timestamp": "2026-09-12T21:43:45.356810+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.22,
-    "best_favorable_pct": 0.22
-  },
-  {
     "symbol": "PYUSD",
     "kucoin_symbol": "PYUSD-USDT",
     "direction": "short",
@@ -62882,9 +62829,9 @@
     "stop_loss": 1.891059077343452,
     "take_profit": 1.676081845313096,
     "timestamp": "2026-09-26T09:45:19.144548+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.09,
     "best_favorable_pct": 0.09
   },
   {
@@ -63624,7 +63571,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.12
+    "best_favorable_pct": 3.39
   },
   {
     "symbol": "STRK",
@@ -64473,7 +64420,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.49
+    "best_favorable_pct": 7.48
   },
   {
     "symbol": "ADA",
@@ -64816,7 +64763,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.47
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "TIA",
@@ -64851,7 +64798,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.76
+    "best_favorable_pct": 5.59
   },
   {
     "symbol": "QNT",
@@ -64868,6 +64815,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.2
+  },
+  {
+    "symbol": "ATOM",
+    "kucoin_symbol": "ATOM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.8495,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.9227924403961791,
+    "take_profit": 1.7029151192076415,
+    "timestamp": "2026-09-26T21:53:11.044231+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
