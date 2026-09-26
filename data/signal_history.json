@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "USDC",
-    "kucoin_symbol": "USDC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.0002,
-    "reasons": [
-      "MACD Bearish Crossover"
-    ],
-    "stop_loss": 1.000385655983756,
-    "take_profit": 0.9998286880324878,
-    "timestamp": "2026-09-12T03:47:18.392773+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "PYTH",
-    "kucoin_symbol": "PYTH-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.05207,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.049493296121901696,
-    "take_profit": 0.05722340775619661,
-    "timestamp": "2026-09-12T03:47:18.392834+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 5.51,
-    "best_favorable_pct": 5.51
-  },
-  {
     "symbol": "GRAM",
     "kucoin_symbol": "GRAM-USDT",
     "direction": "long",
@@ -62563,9 +62528,9 @@
     "stop_loss": 0.9991115545821724,
     "take_profit": 1.0014768908356553,
     "timestamp": "2026-09-25T15:53:39.169382+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -62581,9 +62546,9 @@
     "stop_loss": 0.5363838428844725,
     "take_profit": 0.42903231423105503,
     "timestamp": "2026-09-25T15:53:40.638649+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.72,
     "best_favorable_pct": 0.72
   },
   {
@@ -62599,10 +62564,10 @@
     "stop_loss": 5.00739810828309,
     "take_profit": 3.929203783433819,
     "timestamp": "2026-09-25T15:53:41.871790+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
-    "best_favorable_pct": 2.19
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.3,
+    "best_favorable_pct": 2.3
   },
   {
     "symbol": "TRX",
@@ -62757,7 +62722,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.52
+    "best_favorable_pct": 1.68
   },
   {
     "symbol": "PENDLE",
@@ -62895,7 +62860,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.46
+    "best_favorable_pct": 1.5
   },
   {
     "symbol": "SUI",
@@ -63123,7 +63088,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "MORPHO",
@@ -64055,7 +64020,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.73
+    "best_favorable_pct": 3.83
   },
   {
     "symbol": "MORPHO",
@@ -64208,7 +64173,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.05
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "AVAX",
@@ -64430,6 +64395,41 @@
     "stop_loss": 1.7254473239010248e-06,
     "take_profit": 1.6641053521979503e-06,
     "timestamp": "2026-09-26T03:30:35.349736+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "POL",
+    "kucoin_symbol": "POL-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.1192,
+    "reasons": [
+      "RSI \u00fcberkauft (73.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.1242625541290107,
+    "take_profit": 0.10907489174197861,
+    "timestamp": "2026-09-26T03:57:24.287645+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "JTO",
+    "kucoin_symbol": "JTO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.58,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)"
+    ],
+    "stop_loss": 0.6110632936802,
+    "take_profit": 0.5178734126396001,
+    "timestamp": "2026-09-26T03:57:25.481554+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
