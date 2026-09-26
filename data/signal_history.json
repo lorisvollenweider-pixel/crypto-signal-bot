@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "UNI",
-    "kucoin_symbol": "UNI-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 6.3694,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 6.016545981991614,
-    "take_profit": 7.07510803601677,
-    "timestamp": "2026-09-12T10:27:14.821320+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.73,
-    "best_favorable_pct": 2.73
-  },
-  {
     "symbol": "BTT",
     "kucoin_symbol": "BTT-USDT",
     "direction": "short",
@@ -62770,9 +62752,9 @@
     "stop_loss": 0.011391246053774264,
     "take_profit": 0.01280350789245147,
     "timestamp": "2026-09-25T22:15:59.836906+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.67,
     "best_favorable_pct": 0.67
   },
   {
@@ -62788,9 +62770,9 @@
     "stop_loss": 2.8845938599323664,
     "take_profit": 2.4301122801352664,
     "timestamp": "2026-09-25T22:16:00.890238+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.16,
     "best_favorable_pct": 1.16
   },
   {
@@ -63483,7 +63465,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 1.84
   },
   {
     "symbol": "HTX",
@@ -63878,7 +63860,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.44
+    "best_favorable_pct": 1.58
   },
   {
     "symbol": "TUSD",
@@ -64016,7 +63998,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.41
   },
   {
     "symbol": "CRO",
@@ -64361,7 +64343,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 1.28
   },
   {
     "symbol": "STX",
@@ -64379,7 +64361,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "BTT",
@@ -64393,6 +64375,59 @@
     "stop_loss": 3.8261348605402895e-07,
     "take_profit": 3.52573027891942e-07,
     "timestamp": "2026-09-26T10:13:53.904560+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.16
+  },
+  {
+    "symbol": "ONDO",
+    "kucoin_symbol": "ONDO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.56009,
+    "reasons": [
+      "RSI \u00fcberkauft (70.4)"
+    ],
+    "stop_loss": 0.5950788089529016,
+    "take_profit": 0.49011238209419683,
+    "timestamp": "2026-09-26T10:29:41.373865+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.0587,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.06017158702408822,
+    "take_profit": 0.05575682595182357,
+    "timestamp": "2026-09-26T10:29:41.373891+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "KAS",
+    "kucoin_symbol": "KAS-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.045,
+    "reasons": [
+      "RSI \u00fcberkauft (71.5)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.04702853159709611,
+    "take_profit": 0.04094293680580778,
+    "timestamp": "2026-09-26T10:29:42.445442+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
