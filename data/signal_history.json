@@ -63034,9 +63034,9 @@
     "stop_loss": 0.5377540049518331,
     "take_profit": 0.4493919900963337,
     "timestamp": "2026-09-26T14:56:43.761551+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -63051,9 +63051,9 @@
     "stop_loss": 2.1215959626302228,
     "take_profit": 1.8378080747395553,
     "timestamp": "2026-09-26T14:56:43.761588+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.8,
     "best_favorable_pct": 3.8
   },
   {
@@ -63068,9 +63068,9 @@
     "stop_loss": 1.7682320896847725,
     "take_profit": 1.403335820630455,
     "timestamp": "2026-09-26T14:56:43.761620+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.2,
     "best_favorable_pct": 4.2
   },
   {
@@ -63851,7 +63851,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "APT",
@@ -64228,7 +64228,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.67
   },
   {
     "symbol": "U",
@@ -64316,7 +64316,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "POL",
@@ -64574,7 +64574,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "DCR",
@@ -64609,7 +64609,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.04
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "BTC",
@@ -64832,7 +64832,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "WLFI",
@@ -64867,7 +64867,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.14
+    "best_favorable_pct": 2.42
   },
   {
     "symbol": "PYTH",
@@ -64885,7 +64885,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.32
+    "best_favorable_pct": 2.73
   },
   {
     "symbol": "STABLE",
@@ -64989,6 +64989,58 @@
     "stop_loss": 1.0030146712825487,
     "take_profit": 0.9990706574349026,
     "timestamp": "2026-09-27T02:50:06.278827+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "CRO",
+    "kucoin_symbol": "CRO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.06699,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.0697670158931071,
+    "take_profit": 0.06143596821378578,
+    "timestamp": "2026-09-27T03:01:29.710970+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.5936,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.7117220131313888,
+    "take_profit": 1.3573559737372218,
+    "timestamp": "2026-09-27T03:01:30.777787+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.02592,
+    "reasons": [
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 0.02488675766606687,
+    "take_profit": 0.027986484667866258,
+    "timestamp": "2026-09-27T03:01:30.777809+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
