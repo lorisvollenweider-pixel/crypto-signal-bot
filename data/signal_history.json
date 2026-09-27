@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "POL",
-    "kucoin_symbol": "POL-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.0974,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.10017713675065305,
-    "take_profit": 0.09184572649869391,
-    "timestamp": "2026-09-13T19:49:59.443473+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.64,
-    "best_favorable_pct": 1.64
-  },
-  {
-    "symbol": "UB",
-    "kucoin_symbol": "UB-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.132755,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Volumen-Spike (4.1x Durchschnitt)"
-    ],
-    "stop_loss": 0.1267654452170433,
-    "take_profit": 0.14473410956591345,
-    "timestamp": "2026-09-13T19:49:59.443511+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 5.29,
-    "best_favorable_pct": 5.29
-  },
-  {
     "symbol": "BTC",
     "kucoin_symbol": "BTC-USDT",
     "direction": "long",
@@ -63385,9 +63350,9 @@
     "stop_loss": 119.6228892941301,
     "take_profit": 128.97422141173976,
     "timestamp": "2026-09-27T07:56:38.864169+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.49,
     "best_favorable_pct": 1.49
   },
   {
@@ -63402,9 +63367,9 @@
     "stop_loss": 14.983463667628843,
     "take_profit": 13.420572664742314,
     "timestamp": "2026-09-27T07:56:38.864194+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.04,
     "best_favorable_pct": 3.04
   },
   {
@@ -63420,9 +63385,9 @@
     "stop_loss": 360.4480724882923,
     "take_profit": 317.1938550234152,
     "timestamp": "2026-09-27T07:56:38.864209+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 4.88,
     "best_favorable_pct": 4.88
   },
   {
@@ -64403,7 +64368,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.61
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "PENGU",
@@ -64937,7 +64902,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.06
+    "best_favorable_pct": 5.53
   },
   {
     "symbol": "PENDLE",
@@ -65129,7 +65094,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.08
+    "best_favorable_pct": 1.21
   },
   {
     "symbol": "BNB",
@@ -65180,7 +65145,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 1.67
   },
   {
     "symbol": "USDC",
@@ -65250,7 +65215,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "CRV",
@@ -65355,7 +65320,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.56
+    "best_favorable_pct": 5.78
   },
   {
     "symbol": "USDD",
@@ -65391,7 +65356,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.87
+    "best_favorable_pct": 6.1
   },
   {
     "symbol": "SUI",
@@ -65478,7 +65443,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.48
+    "best_favorable_pct": 2.66
   },
   {
     "symbol": "PYUSD",
@@ -65513,5 +65478,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZRO",
+    "kucoin_symbol": "ZRO-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 1.72,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.6005403016055044,
+    "take_profit": 1.958919396788991,
+    "timestamp": "2026-09-27T19:56:28.597677+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PIEVERSE",
+    "kucoin_symbol": "PIEVERSE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.5309,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 1.6128707656098054,
+    "take_profit": 1.3669584687803893,
+    "timestamp": "2026-09-27T19:56:29.839176+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
   }
 ]
