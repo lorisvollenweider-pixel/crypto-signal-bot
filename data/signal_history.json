@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "ICP",
-    "kucoin_symbol": "ICP-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 2.758,
-    "reasons": [
-      "Volumen-Spike (2.4x Durchschnitt)"
-    ],
-    "stop_loss": 2.866932169744128,
-    "take_profit": 2.540135660511744,
-    "timestamp": "2026-09-13T22:55:40.198801+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.29,
-    "best_favorable_pct": 0.29
-  },
-  {
     "symbol": "XMR",
     "kucoin_symbol": "XMR-USDT",
     "direction": "short",
@@ -62983,9 +62966,9 @@
     "stop_loss": 1.3174807070440926,
     "take_profit": 1.1051385859118148,
     "timestamp": "2026-09-27T10:46:56.568988+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.73,
     "best_favorable_pct": 1.73
   },
   {
@@ -63001,9 +62984,9 @@
     "stop_loss": 0.5116196468703891,
     "take_profit": 0.42906070625922177,
     "timestamp": "2026-09-27T10:46:57.730559+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.52,
     "best_favorable_pct": 2.52
   },
   {
@@ -63936,7 +63919,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.07
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "ALGO",
@@ -64282,7 +64265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "WLFI",
@@ -64733,7 +64716,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.43
+    "best_favorable_pct": 3.82
   },
   {
     "symbol": "ETH",
@@ -64852,7 +64835,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "BONK",
@@ -64991,7 +64974,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "QNT",
@@ -65095,7 +65078,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "GRASS",
@@ -65146,7 +65129,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "PUMP",
@@ -65198,7 +65181,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.37
   },
   {
     "symbol": "XDC",
@@ -65217,6 +65200,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 1.4
+  },
+  {
+    "symbol": "XAUT",
+    "kucoin_symbol": "XAUT-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 4259.99,
+    "reasons": [
+      "Preis unter unterem Bollinger Band"
+    ],
+    "stop_loss": 4239.761842673151,
+    "take_profit": 4300.446314653697,
+    "timestamp": "2026-09-27T22:56:36.331953+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FLR",
+    "kucoin_symbol": "FLR-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.00715,
+    "reasons": [
+      "Volumen-Spike (4.3x Durchschnitt)",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.007353841160763491,
+    "take_profit": 0.0067423176784730185,
+    "timestamp": "2026-09-27T22:56:36.331997+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
