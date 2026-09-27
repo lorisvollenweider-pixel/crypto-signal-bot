@@ -1,58 +1,5 @@
 [
   {
-    "symbol": "AVAX",
-    "kucoin_symbol": "AVAX-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 7.385,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 7.210910745258661,
-    "take_profit": 7.733178509482677,
-    "timestamp": "2026-09-13T16:44:22.917411+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.91,
-    "best_favorable_pct": 0.91
-  },
-  {
-    "symbol": "U",
-    "kucoin_symbol": "U-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.999,
-    "reasons": [
-      "MACD Bearish Crossover",
-      "EMA20 kreuzt EMA50 von oben"
-    ],
-    "stop_loss": 0.9999714533562706,
-    "take_profit": 0.997057093287459,
-    "timestamp": "2026-09-13T16:44:24.208191+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "BTT",
-    "kucoin_symbol": "BTT-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 3.306e-07,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 3.3765997045601916e-07,
-    "take_profit": 3.1648005908796166e-07,
-    "timestamp": "2026-09-13T16:44:25.238581+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.57,
-    "best_favorable_pct": 0.57
-  },
-  {
     "symbol": "XRP",
     "kucoin_symbol": "XRP-USDT",
     "direction": "long",
@@ -63321,9 +63268,9 @@
     "stop_loss": 0.14427976747601448,
     "take_profit": 0.12295046504797101,
     "timestamp": "2026-09-27T04:41:25.202989+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.3,
     "best_favorable_pct": 3.3
   },
   {
@@ -63338,9 +63285,9 @@
     "stop_loss": 7.450766592256702,
     "take_profit": 7.067466815486598,
     "timestamp": "2026-09-27T04:41:25.203034+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.57,
     "best_favorable_pct": 0.57
   },
   {
@@ -63355,9 +63302,9 @@
     "stop_loss": 0.07579313806533342,
     "take_profit": 0.06408372386933316,
     "timestamp": "2026-09-27T04:41:25.203055+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.15,
     "best_favorable_pct": 0.15
   },
   {
@@ -64649,7 +64596,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.84
+    "best_favorable_pct": 5.41
   },
   {
     "symbol": "SHIB",
@@ -64978,7 +64925,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.09
   },
   {
     "symbol": "BNB",
@@ -65029,7 +64976,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.68
+    "best_favorable_pct": 2.84
   },
   {
     "symbol": "LIT",
@@ -65080,7 +65027,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.94
+    "best_favorable_pct": 1.32
   },
   {
     "symbol": "USDS",
@@ -65253,7 +65200,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "SPX",
@@ -65357,7 +65304,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.37
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "LDO",
@@ -65375,5 +65322,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.68
+  },
+  {
+    "symbol": "CC",
+    "kucoin_symbol": "CC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.13348,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.14037564912903616,
+    "take_profit": 0.11968870174192767,
+    "timestamp": "2026-09-27T16:46:14.607093+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
