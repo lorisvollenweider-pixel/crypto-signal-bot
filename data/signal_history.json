@@ -63319,9 +63319,9 @@
     "stop_loss": 0.15101413301438465,
     "take_profit": 0.13040073397123067,
     "timestamp": "2026-09-27T04:55:22.430310+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.02,
     "best_favorable_pct": 0.02
   },
   {
@@ -63787,7 +63787,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.74
+    "best_favorable_pct": 3.84
   },
   {
     "symbol": "AKE",
@@ -65010,7 +65010,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "NIGHT",
@@ -65200,7 +65200,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.18
+    "best_favorable_pct": 1.27
   },
   {
     "symbol": "SPX",
@@ -65335,6 +65335,42 @@
     "stop_loss": 0.14037564912903616,
     "take_profit": 0.11968870174192767,
     "timestamp": "2026-09-27T16:46:14.607093+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TUSD",
+    "kucoin_symbol": "TUSD-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.994,
+    "reasons": [
+      "RSI \u00fcberverkauft (18.4)",
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.9899900509661657,
+    "take_profit": 1.0020198980676687,
+    "timestamp": "2026-09-27T16:57:52.796913+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "UB",
+    "kucoin_symbol": "UB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.149122,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.15558566155147704,
+    "take_profit": 0.13619467689704595,
+    "timestamp": "2026-09-27T16:57:53.829148+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
