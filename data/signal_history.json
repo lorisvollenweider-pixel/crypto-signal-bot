@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "ALGO",
-    "kucoin_symbol": "ALGO-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.0997,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Volumen-Spike (2.2x Durchschnitt)"
-    ],
-    "stop_loss": 0.09577554864575617,
-    "take_profit": 0.10754890270848765,
-    "timestamp": "2026-09-13T21:15:16.847436+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "PYTH",
     "kucoin_symbol": "PYTH-USDT",
     "direction": "long",
@@ -64027,7 +64009,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.06
+    "best_favorable_pct": 3.2
   },
   {
     "symbol": "USDS",
@@ -64700,7 +64682,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.02
+    "best_favorable_pct": 2.16
   },
   {
     "symbol": "USDC",
@@ -64770,7 +64752,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.51
+    "best_favorable_pct": 3.62
   },
   {
     "symbol": "CRV",
@@ -65084,7 +65066,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "HBAR",
@@ -65305,7 +65287,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.22
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "BONK",
@@ -65426,7 +65408,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 1.76
   },
   {
     "symbol": "FLR",
@@ -65445,5 +65427,23 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "QNT",
+    "kucoin_symbol": "QNT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 236.542,
+    "reasons": [
+      "RSI \u00fcberkauft (92.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 261.7167549259979,
+    "take_profit": 186.19249014800423,
+    "timestamp": "2026-09-27T21:29:54.110707+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 2.11
   }
 ]
