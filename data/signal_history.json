@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "SUI",
-    "kucoin_symbol": "SUI-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.7086,
-    "reasons": [
-      "MACD Bearish Crossover"
-    ],
-    "stop_loss": 0.7323817195884588,
-    "take_profit": 0.6610365608230825,
-    "timestamp": "2026-09-13T10:51:51.845079+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.4,
-    "best_favorable_pct": 1.4
-  },
-  {
     "symbol": "HTX",
     "kucoin_symbol": "HTX-USDT",
     "direction": "short",
@@ -63538,7 +63521,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 2.32
   },
   {
     "symbol": "BNB",
@@ -64148,7 +64131,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.26
+    "best_favorable_pct": 3.41
   },
   {
     "symbol": "JTO",
@@ -64354,7 +64337,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.91
+    "best_favorable_pct": 2.96
   },
   {
     "symbol": "PYUSD",
@@ -64492,7 +64475,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.11
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "ICP",
@@ -64698,7 +64681,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.15
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "AKE",
@@ -64732,7 +64715,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.0
+    "best_favorable_pct": 2.19
   },
   {
     "symbol": "RAY",
@@ -64817,7 +64800,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.87
+    "best_favorable_pct": 3.9
   },
   {
     "symbol": "USDG",
@@ -64919,7 +64902,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "JUP",
@@ -64988,7 +64971,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "ATOM",
@@ -65005,7 +64988,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "AERO",
@@ -65094,5 +65077,39 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0006,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten"
+    ],
+    "stop_loss": 0.998726074648592,
+    "take_profit": 1.0043478507028158,
+    "timestamp": "2026-09-27T10:58:31.108985+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "DASH",
+    "kucoin_symbol": "DASH-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 70.22,
+    "reasons": [
+      "Volumen-Spike (2.2x Durchschnitt)"
+    ],
+    "stop_loss": 74.402144893716,
+    "take_profit": 61.855710212568,
+    "timestamp": "2026-09-27T10:58:31.109017+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 2.15
   }
 ]
