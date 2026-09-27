@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "DCR",
-    "kucoin_symbol": "DCR-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 16.2,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 15.251389252063863,
-    "take_profit": 18.097221495872272,
-    "timestamp": "2026-09-13T01:31:35.020549+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.99,
-    "best_favorable_pct": 0.99
-  },
-  {
     "symbol": "FLR",
     "kucoin_symbol": "FLR-USDT",
     "direction": "short",
@@ -62983,9 +62965,9 @@
     "stop_loss": 0.9993608147822443,
     "take_profit": 1.0012783704355115,
     "timestamp": "2026-09-26T13:32:20.759421+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.02,
     "best_favorable_pct": 0.02
   },
   {
@@ -63000,9 +62982,9 @@
     "stop_loss": 0.059753280190630725,
     "take_profit": 0.055093439618738554,
     "timestamp": "2026-09-26T13:32:20.759450+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.86,
     "best_favorable_pct": 0.86
   },
   {
@@ -63245,7 +63227,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.14
+    "best_favorable_pct": 2.33
   },
   {
     "symbol": "DOT",
@@ -63368,7 +63350,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.41
+    "best_favorable_pct": 2.59
   },
   {
     "symbol": "UNI",
@@ -63524,7 +63506,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.09
+    "best_favorable_pct": 3.4
   },
   {
     "symbol": "JUP",
@@ -63989,7 +63971,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.16
+    "best_favorable_pct": 1.64
   },
   {
     "symbol": "BONK",
@@ -64212,7 +64194,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.82
+    "best_favorable_pct": 3.14
   },
   {
     "symbol": "PONS",
@@ -64507,7 +64489,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "ADA",
@@ -64524,7 +64506,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "AVAX",
@@ -64541,7 +64523,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.92
   },
   {
     "symbol": "AAVE",
@@ -64610,7 +64592,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.14
+    "best_favorable_pct": 0.17
   },
   {
     "symbol": "XPL",
@@ -64644,7 +64626,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "OP",
@@ -64867,7 +64849,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.23
   },
   {
     "symbol": "BTT",
@@ -64920,5 +64902,58 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "WLFI",
+    "kucoin_symbol": "WLFI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0582,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.05975800201647672,
+    "take_profit": 0.055083995967046565,
+    "timestamp": "2026-09-27T01:34:02.876430+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.033535,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.02590176078671485,
+    "take_profit": 0.0488014784265703,
+    "timestamp": "2026-09-27T01:34:02.876463+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PYTH",
+    "kucoin_symbol": "PYTH-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.08434,
+    "reasons": [
+      "RSI \u00fcberkauft (78.7)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.08922037544720171,
+    "take_profit": 0.07457924910559659,
+    "timestamp": "2026-09-27T01:34:04.088456+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.02
   }
 ]
