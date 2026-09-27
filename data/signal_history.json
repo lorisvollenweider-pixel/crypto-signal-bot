@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "BTT",
-    "kucoin_symbol": "BTT-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 3.324e-07,
-    "reasons": [
-      "RSI \u00fcberkauft (70.7)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 3.400806014774146e-07,
-    "take_profit": 3.1703879704517075e-07,
-    "timestamp": "2026-09-13T06:57:12.123703+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.35,
-    "best_favorable_pct": 1.35
-  },
-  {
     "symbol": "PYUSD",
     "kucoin_symbol": "PYUSD-USDT",
     "direction": "long",
@@ -63455,7 +63437,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.36
+    "best_favorable_pct": 3.88
   },
   {
     "symbol": "XTZ",
@@ -63489,7 +63471,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "CRO",
@@ -63922,7 +63904,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.08
+    "best_favorable_pct": 0.28
   },
   {
     "symbol": "SKY",
@@ -64161,7 +64143,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.33
   },
   {
     "symbol": "AR",
@@ -64316,7 +64298,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "FET",
@@ -64786,7 +64768,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.03
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "TRUMP",
@@ -65097,7 +65079,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.86
+    "best_favorable_pct": 5.27
   },
   {
     "symbol": "NEAR",
@@ -65184,7 +65166,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "SUI",
@@ -65202,5 +65184,22 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.21
+  },
+  {
+    "symbol": "VIRTUAL",
+    "kucoin_symbol": "VIRTUAL-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.8062,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.7663453430765644,
+    "take_profit": 0.8859093138468712,
+    "timestamp": "2026-09-27T07:12:00.592106+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
