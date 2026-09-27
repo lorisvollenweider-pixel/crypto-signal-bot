@@ -1,58 +1,5 @@
 [
   {
-    "symbol": "TAO",
-    "kucoin_symbol": "TAO-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 236.53,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 227.71967777450652,
-    "take_profit": 254.15064445098693,
-    "timestamp": "2026-09-13T04:58:40.007780+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.82,
-    "best_favorable_pct": 0.82
-  },
-  {
-    "symbol": "ICP",
-    "kucoin_symbol": "ICP-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 2.7,
-    "reasons": [
-      "Preis unter unterem Bollinger Band",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 2.601931314636606,
-    "take_profit": 2.8961373707267883,
-    "timestamp": "2026-09-13T04:58:41.359836+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.63,
-    "best_favorable_pct": 3.48
-  },
-  {
-    "symbol": "CFX",
-    "kucoin_symbol": "CFX-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.04883,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.04737193370533293,
-    "take_profit": 0.05174613258933413,
-    "timestamp": "2026-09-13T04:58:42.480950+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.98,
-    "best_favorable_pct": 0.98
-  },
-  {
     "symbol": "FLR",
     "kucoin_symbol": "FLR-USDT",
     "direction": "short",
@@ -63281,9 +63228,9 @@
     "stop_loss": 0.99993209731404,
     "take_profit": 1.00043580537192,
     "timestamp": "2026-09-26T16:58:16.988749+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -63298,9 +63245,9 @@
     "stop_loss": 0.026372380710722686,
     "take_profit": 0.028573238578554636,
     "timestamp": "2026-09-26T16:58:16.988806+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.48,
     "best_favorable_pct": 2.48
   },
   {
@@ -63714,7 +63661,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "KCS",
@@ -63732,7 +63679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.29
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "RAY",
@@ -64559,7 +64506,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.07
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "WLFI",
@@ -64789,7 +64736,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.1
   },
   {
     "symbol": "ALGO",
@@ -65100,7 +65047,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "KCS",
@@ -65117,7 +65064,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.08
   },
   {
     "symbol": "SEI",
@@ -65148,6 +65095,57 @@
     "stop_loss": 0.15101413301438465,
     "take_profit": 0.13040073397123067,
     "timestamp": "2026-09-27T04:55:22.430310+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "USDC",
+    "kucoin_symbol": "USDC-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.0001,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.9999357100260037,
+    "take_profit": 1.0004285799479926,
+    "timestamp": "2026-09-27T05:11:24.137100+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ENA",
+    "kucoin_symbol": "ENA-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.2691,
+    "reasons": [
+      "RSI \u00fcberkauft (70.4)"
+    ],
+    "stop_loss": 0.28506751050217277,
+    "take_profit": 0.23716497899565447,
+    "timestamp": "2026-09-27T05:11:24.137140+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9993,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 1.0011680931462428,
+    "take_profit": 0.9955638137075142,
+    "timestamp": "2026-09-27T05:11:24.137158+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
