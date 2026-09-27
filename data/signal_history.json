@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "CFX",
-    "kucoin_symbol": "CFX-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.04698,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von oben",
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.04860201272648073,
-    "take_profit": 0.04373597454703854,
-    "timestamp": "2026-09-13T23:26:19.891555+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.62,
-    "best_favorable_pct": 0.62
-  },
-  {
     "symbol": "ETH",
     "kucoin_symbol": "ETH-USDT",
     "direction": "long",
@@ -63000,9 +62982,9 @@
     "stop_loss": 0.15266075130326007,
     "take_profit": 0.12877849739347985,
     "timestamp": "2026-09-27T11:17:14.167274+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.59,
     "best_favorable_pct": 1.59
   },
   {
@@ -63018,9 +63000,9 @@
     "stop_loss": 5.049915044218031,
     "take_profit": 4.129169911563938,
     "timestamp": "2026-09-27T11:17:15.402928+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.0,
     "best_favorable_pct": 2.0
   },
   {
@@ -64177,7 +64159,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.43
+    "best_favorable_pct": 3.53
   },
   {
     "symbol": "PONS",
@@ -64799,7 +64781,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "BONK",
@@ -65145,7 +65127,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "XDC",
@@ -65270,7 +65252,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "DASH",
@@ -65324,7 +65306,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.35
+    "best_favorable_pct": 0.57
   },
   {
     "symbol": "XTZ",
@@ -65339,6 +65321,24 @@
     "stop_loss": 0.30749260835542347,
     "take_profit": 0.34381478328915305,
     "timestamp": "2026-09-27T23:13:33.288942+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.13
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.0296727,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.023416204450182658,
+    "take_profit": 0.04218569109963468,
+    "timestamp": "2026-09-27T23:28:33.152636+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
