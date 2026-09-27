@@ -1,24 +1,5 @@
 [
   {
-    "symbol": "FIL",
-    "kucoin_symbol": "FIL-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.999,
-    "reasons": [
-      "RSI \u00fcberkauft (84.4)",
-      "Preis \u00fcber oberem Bollinger Band",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 1.0494947614449288,
-    "take_profit": 0.8980104771101425,
-    "timestamp": "2026-09-13T18:41:55.591519+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 6.13,
-    "best_favorable_pct": 6.13
-  },
-  {
     "symbol": "CAKE",
     "kucoin_symbol": "CAKE-USDT",
     "direction": "long",
@@ -63335,9 +63316,9 @@
     "stop_loss": 10.665858017764965,
     "take_profit": 9.047483964470072,
     "timestamp": "2026-09-27T06:37:58.530908+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.3,
     "best_favorable_pct": 5.3
   },
   {
@@ -63352,9 +63333,9 @@
     "stop_loss": 1.2635760462784782,
     "take_profit": 1.0686479074430437,
     "timestamp": "2026-09-27T06:37:59.743839+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.21,
     "best_favorable_pct": 0.21
   },
   {
@@ -63681,7 +63662,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.46
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "PIEVERSE",
@@ -64388,7 +64369,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.61
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "JST",
@@ -64578,7 +64559,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.58
+    "best_favorable_pct": 2.75
   },
   {
     "symbol": "USDS",
@@ -64923,7 +64904,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.56
+    "best_favorable_pct": 0.6
   },
   {
     "symbol": "TAO",
@@ -65008,7 +64989,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.41
+    "best_favorable_pct": 2.79
   },
   {
     "symbol": "PENDLE",
@@ -65077,7 +65058,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "XTZ",
@@ -65251,7 +65232,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.51
+    "best_favorable_pct": 0.62
   },
   {
     "symbol": "USDC",
@@ -65374,7 +65355,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.13
   },
   {
     "symbol": "GRAM",
@@ -65392,7 +65373,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.3
+    "best_favorable_pct": 0.83
   },
   {
     "symbol": "XDC",
@@ -65426,7 +65407,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "USDD",
@@ -65459,6 +65440,57 @@
     "stop_loss": 0.025682013903214795,
     "take_profit": 0.029305972193570413,
     "timestamp": "2026-09-27T18:35:18.791866+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 1.67
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.2699,
+    "reasons": [
+      "RSI \u00fcberkauft (72.5)"
+    ],
+    "stop_loss": 1.3405200190936353,
+    "take_profit": 1.1286599618127295,
+    "timestamp": "2026-09-27T18:51:13.904495+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.16
+  },
+  {
+    "symbol": "WLD",
+    "kucoin_symbol": "WLD-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.5693,
+    "reasons": [
+      "RSI \u00fcberkauft (70.0)"
+    ],
+    "stop_loss": 0.6063411226983237,
+    "take_profit": 0.49521775460335266,
+    "timestamp": "2026-09-27T18:51:13.904525+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ARB",
+    "kucoin_symbol": "ARB-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.2285,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.21399616076742936,
+    "take_profit": 0.2575076784651413,
+    "timestamp": "2026-09-27T18:51:13.904540+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
