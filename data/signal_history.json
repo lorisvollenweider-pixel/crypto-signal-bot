@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "VIRTUAL",
-    "kucoin_symbol": "VIRTUAL-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.6121,
-    "reasons": [
-      "RSI \u00fcberverkauft (29.8)"
-    ],
-    "stop_loss": 0.5906025396840178,
-    "take_profit": 0.6550949206319644,
-    "timestamp": "2026-09-13T10:39:58.469088+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.72,
-    "best_favorable_pct": 1.72
-  },
-  {
-    "symbol": "LSK",
-    "kucoin_symbol": "LSK-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 1.1612,
-    "reasons": [
-      "RSI \u00fcberkauft (77.0)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1.49735299732822,
-    "take_profit": 0.48889400534356,
-    "timestamp": "2026-09-13T10:39:58.469119+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 25.21,
-    "best_favorable_pct": 25.21
-  },
-  {
     "symbol": "SUI",
     "kucoin_symbol": "SUI-USDT",
     "direction": "short",
@@ -63121,9 +63086,9 @@
     "stop_loss": 0.5651049313170309,
     "take_profit": 0.4702001373659382,
     "timestamp": "2026-09-26T22:38:40.764729+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.79,
     "best_favorable_pct": 0.79
   },
   {
@@ -63139,9 +63104,9 @@
     "stop_loss": 0.06013144693678476,
     "take_profit": 0.0552371061264305,
     "timestamp": "2026-09-26T22:38:40.764779+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.85,
     "best_favorable_pct": 0.85
   },
   {
@@ -63196,7 +63161,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.42
+    "best_favorable_pct": 0.49
   },
   {
     "symbol": "SKY",
@@ -64389,7 +64354,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.84
+    "best_favorable_pct": 2.91
   },
   {
     "symbol": "PYUSD",
@@ -64527,7 +64492,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.92
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "ICP",
@@ -64614,7 +64579,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.98
+    "best_favorable_pct": 2.02
   },
   {
     "symbol": "ETH",
@@ -64665,7 +64630,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.2
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "DOGE",
@@ -64699,7 +64664,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.79
+    "best_favorable_pct": 1.83
   },
   {
     "symbol": "MORPHO",
@@ -64733,7 +64698,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.15
   },
   {
     "symbol": "AKE",
@@ -64767,7 +64732,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.87
+    "best_favorable_pct": 2.0
   },
   {
     "symbol": "RAY",
@@ -64818,7 +64783,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.87
+    "best_favorable_pct": 1.56
   },
   {
     "symbol": "BONK",
@@ -64852,7 +64817,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.8
+    "best_favorable_pct": 3.87
   },
   {
     "symbol": "USDG",
@@ -64869,7 +64834,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "ASTER",
@@ -65089,6 +65054,42 @@
     "stop_loss": 0.031882935486735806,
     "take_profit": 0.02947412902652839,
     "timestamp": "2026-09-27T10:17:51.513945+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.2467,
+    "reasons": [
+      "RSI \u00fcberkauft (71.7)",
+      "Volumen-Spike (1.8x Durchschnitt)"
+    ],
+    "stop_loss": 1.3174807070440926,
+    "take_profit": 1.1051385859118148,
+    "timestamp": "2026-09-27T10:46:56.568988+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "LDO",
+    "kucoin_symbol": "LDO-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.4841,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.5116196468703891,
+    "take_profit": 0.42906070625922177,
+    "timestamp": "2026-09-27T10:46:57.730559+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
