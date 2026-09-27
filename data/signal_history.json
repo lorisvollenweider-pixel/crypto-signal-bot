@@ -63557,7 +63557,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "HYPE",
@@ -63677,7 +63677,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.9
+    "best_favorable_pct": 0.96
   },
   {
     "symbol": "FET",
@@ -64493,7 +64493,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "WLD",
@@ -64614,7 +64614,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.65
+    "best_favorable_pct": 0.75
   },
   {
     "symbol": "ICP",
@@ -64871,7 +64871,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.48
+    "best_favorable_pct": 2.31
   },
   {
     "symbol": "TIA",
@@ -65059,5 +65059,40 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.58
+  },
+  {
+    "symbol": "CRO",
+    "kucoin_symbol": "CRO-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.06855,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.07128556297240551,
+    "take_profit": 0.06307887405518897,
+    "timestamp": "2026-09-27T09:47:42.104449+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.19
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.027815,
+    "reasons": [
+      "RSI \u00fcberkauft (71.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.02855150348529918,
+    "take_profit": 0.02634199302940163,
+    "timestamp": "2026-09-27T09:47:42.104494+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
