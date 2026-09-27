@@ -62999,9 +62999,9 @@
     "stop_loss": 0.8569473791852534,
     "take_profit": 1.4349952416294933,
     "timestamp": "2026-09-26T13:45:10.938133+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.17,
     "best_favorable_pct": 1.17
   },
   {
@@ -63140,7 +63140,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.04
+    "best_favorable_pct": 4.2
   },
   {
     "symbol": "WLD",
@@ -63193,7 +63193,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.34
+    "best_favorable_pct": 5.49
   },
   {
     "symbol": "PONS",
@@ -63643,7 +63643,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.49
+    "best_favorable_pct": 2.48
   },
   {
     "symbol": "RAIN",
@@ -64438,7 +64438,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.36
   },
   {
     "symbol": "MNT",
@@ -64695,7 +64695,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.12
   },
   {
     "symbol": "HYPE",
@@ -64746,7 +64746,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.33
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "JST",
@@ -64780,7 +64780,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "KITE",
@@ -64866,7 +64866,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "TRX",
@@ -64884,7 +64884,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "XMR",
@@ -64901,7 +64901,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.05
   },
   {
     "symbol": "WLFI",
@@ -64936,7 +64936,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.82
   },
   {
     "symbol": "PYTH",
@@ -64954,6 +64954,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.06
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.027777,
+    "reasons": [
+      "RSI \u00fcberkauft (71.3)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.028546117119458068,
+    "take_profit": 0.026238765761083867,
+    "timestamp": "2026-09-27T01:47:48.842357+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.36
   }
 ]
