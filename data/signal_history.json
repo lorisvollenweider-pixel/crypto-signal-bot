@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "FLR",
-    "kucoin_symbol": "FLR-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.00651,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.006610117387115297,
-    "take_profit": 0.006309765225769408,
-    "timestamp": "2026-09-13T01:57:57.500673+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.69,
-    "best_favorable_pct": 1.69
-  },
-  {
     "symbol": "DOGE",
     "kucoin_symbol": "DOGE-USDT",
     "direction": "long",
@@ -63016,9 +62999,9 @@
     "stop_loss": 1.0005690370020384,
     "take_profit": 0.9985619259959235,
     "timestamp": "2026-09-26T13:56:50.724079+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.05,
     "best_favorable_pct": 0.05
   },
   {
@@ -63033,9 +63016,9 @@
     "stop_loss": 0.009961237191421012,
     "take_profit": 0.008592525617157974,
     "timestamp": "2026-09-26T13:56:50.724133+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 3.39,
     "best_favorable_pct": 3.39
   },
   {
@@ -64695,7 +64678,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.12
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "HYPE",
@@ -64712,7 +64695,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.45
   },
   {
     "symbol": "LTC",
@@ -64729,7 +64712,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "ETC",
@@ -64746,7 +64729,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.44
+    "best_favorable_pct": 0.5
   },
   {
     "symbol": "JST",
@@ -64815,7 +64798,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "FET",
@@ -64936,7 +64919,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.82
+    "best_favorable_pct": 2.14
   },
   {
     "symbol": "PYTH",
@@ -64954,7 +64937,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 2.25
   },
   {
     "symbol": "STABLE",
@@ -64972,6 +64955,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.36
+    "best_favorable_pct": 0.8
+  },
+  {
+    "symbol": "TRX",
+    "kucoin_symbol": "TRX-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.3334,
+    "reasons": [
+      "RSI \u00fcberverkauft (29.9)"
+    ],
+    "stop_loss": 0.3302902375838269,
+    "take_profit": 0.3396195248323461,
+    "timestamp": "2026-09-27T01:59:50.135181+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
