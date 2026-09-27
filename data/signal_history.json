@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "XTZ",
-    "kucoin_symbol": "XTZ-USDT",
-    "direction": "long",
-    "tier": 3,
-    "price_at_signal": 0.2686,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.25508914428609536,
-    "take_profit": 0.29562171142780924,
-    "timestamp": "2026-09-13T02:32:35.836612+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 5.73,
-    "best_favorable_pct": 5.73
-  },
-  {
     "symbol": "RENDER",
     "kucoin_symbol": "RENDER-USDT",
     "direction": "short",
@@ -62999,9 +62981,9 @@
     "stop_loss": 0.040045929753813214,
     "take_profit": 0.04758814049237357,
     "timestamp": "2026-09-26T14:30:53.437650+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.88,
     "best_favorable_pct": 1.88
   },
   {
@@ -64627,7 +64609,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 1.04
   },
   {
     "symbol": "BTC",
@@ -64644,7 +64626,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.19
   },
   {
     "symbol": "HYPE",
@@ -64661,7 +64643,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.61
   },
   {
     "symbol": "LTC",
@@ -64678,7 +64660,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 0.54
   },
   {
     "symbol": "ETC",
@@ -64815,7 +64797,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.27
+    "best_favorable_pct": 0.44
   },
   {
     "symbol": "TRX",
@@ -64850,7 +64832,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.59
   },
   {
     "symbol": "WLFI",
@@ -64935,6 +64917,60 @@
     "stop_loss": 0.3302902375838269,
     "take_profit": 0.3396195248323461,
     "timestamp": "2026-09-27T01:59:50.135181+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "HYPE",
+    "kucoin_symbol": "HYPE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 93.479,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 90.92583619457217,
+    "take_profit": 98.58532761085564,
+    "timestamp": "2026-09-27T02:35:38.334448+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "APT",
+    "kucoin_symbol": "APT-USDT",
+    "direction": "short",
+    "tier": 3,
+    "price_at_signal": 0.8482,
+    "reasons": [
+      "MACD Bearish Crossover",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.8965472867319545,
+    "take_profit": 0.7515054265360909,
+    "timestamp": "2026-09-27T02:35:39.579386+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "FLR",
+    "kucoin_symbol": "FLR-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.00739,
+    "reasons": [
+      "Volumen-Spike (1.9x Durchschnitt)",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.007194018819389172,
+    "take_profit": 0.007781962361221656,
+    "timestamp": "2026-09-27T02:35:40.621591+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
