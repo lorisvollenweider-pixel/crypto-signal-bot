@@ -63876,9 +63876,9 @@
     "stop_loss": 0.7250783920907117,
     "take_profit": 0.6576432158185765,
     "timestamp": "2026-09-28T11:41:35.581904+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.98,
     "best_favorable_pct": 0.98
   },
   {
@@ -63895,9 +63895,9 @@
     "stop_loss": 0.12337425762716987,
     "take_profit": 0.14445148474566022,
     "timestamp": "2026-09-28T11:41:36.716239+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.37,
     "best_favorable_pct": 5.37
   },
   {
@@ -63913,9 +63913,9 @@
     "stop_loss": 2.5460198834717973,
     "take_profit": 2.8279602330564053,
     "timestamp": "2026-09-28T11:41:37.797162+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.91,
     "best_favorable_pct": 0.91
   },
   {
@@ -63931,9 +63931,9 @@
     "stop_loss": 0.028014178916701757,
     "take_profit": 0.025487642166596488,
     "timestamp": "2026-09-28T11:41:38.875806+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.65,
     "best_favorable_pct": 1.65
   },
   {
@@ -63948,9 +63948,9 @@
     "stop_loss": 0.02516767821233659,
     "take_profit": 0.02898464357532682,
     "timestamp": "2026-09-28T11:41:39.963196+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 7.94,
     "best_favorable_pct": 7.94
   },
   {
@@ -64679,7 +64679,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.01
+    "best_favorable_pct": 2.17
   },
   {
     "symbol": "ATOM",
@@ -64750,7 +64750,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 16.9
+    "best_favorable_pct": 18.29
   },
   {
     "symbol": "XPL",
@@ -65030,7 +65030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.06
+    "best_favorable_pct": 3.39
   },
   {
     "symbol": "XLM",
@@ -65116,7 +65116,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.61
+    "best_favorable_pct": 5.73
   },
   {
     "symbol": "RENDER",
@@ -66216,7 +66216,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.21
+    "best_favorable_pct": 5.5
   },
   {
     "symbol": "BSV",
@@ -66336,7 +66336,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.71
+    "best_favorable_pct": 0.95
   },
   {
     "symbol": "ETH",
@@ -66512,7 +66512,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.84
+    "best_favorable_pct": 6.14
   },
   {
     "symbol": "GRAM",
@@ -66547,7 +66547,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.33
+    "best_favorable_pct": 2.54
   },
   {
     "symbol": "USD1",
@@ -66650,6 +66650,24 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
+  },
+  {
+    "symbol": "CRO",
+    "kucoin_symbol": "CRO-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.06924,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 0.06584739301739928,
+    "take_profit": 0.07602521396520143,
+    "timestamp": "2026-09-28T23:49:44.576914+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.06
   }
 ]
