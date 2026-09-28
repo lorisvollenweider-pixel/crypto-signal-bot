@@ -1,22 +1,5 @@
 [
   {
-    "symbol": "ICP",
-    "kucoin_symbol": "ICP-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 2.758,
-    "reasons": [
-      "Volumen-Spike (2.1x Durchschnitt)"
-    ],
-    "stop_loss": 2.8655888538936742,
-    "take_profit": 2.542822292212651,
-    "timestamp": "2026-09-14T11:00:51.525762+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.41,
-    "best_favorable_pct": 1.41
-  },
-  {
     "symbol": "XRP",
     "kucoin_symbol": "XRP-USDT",
     "direction": "long",
@@ -63118,9 +63101,9 @@
     "stop_loss": 4239.761842673151,
     "take_profit": 4300.446314653697,
     "timestamp": "2026-09-27T22:56:36.331953+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.13,
     "best_favorable_pct": 0.13
   },
   {
@@ -63136,9 +63119,9 @@
     "stop_loss": 0.007353841160763491,
     "take_profit": 0.0067423176784730185,
     "timestamp": "2026-09-27T22:56:36.331997+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.8,
     "best_favorable_pct": 2.8
   },
   {
@@ -64995,7 +64978,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "CAKE",
@@ -65328,7 +65311,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "MNT",
@@ -65345,7 +65328,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 1.82
   },
   {
     "symbol": "MON",
@@ -65380,7 +65363,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "DOGE",
@@ -65484,7 +65467,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.78
+    "best_favorable_pct": 1.65
   },
   {
     "symbol": "USDD",
@@ -65587,7 +65570,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.83
+    "best_favorable_pct": 0.88
   },
   {
     "symbol": "HBAR",
@@ -65640,7 +65623,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.29
   },
   {
     "symbol": "XMR",
@@ -65658,7 +65641,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.16
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "ASTER",
@@ -65729,7 +65712,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.73
+    "best_favorable_pct": 0.78
   },
   {
     "symbol": "CC",
@@ -65765,7 +65748,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.01
+    "best_favorable_pct": 1.08
   },
   {
     "symbol": "ALGO",
@@ -65801,7 +65784,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.5
+    "best_favorable_pct": 1.53
   },
   {
     "symbol": "TIA",
@@ -65819,7 +65802,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.85
+    "best_favorable_pct": 1.11
   },
   {
     "symbol": "GRAM",
@@ -65853,7 +65836,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.6
+    "best_favorable_pct": 2.7
   },
   {
     "symbol": "PENGU",
@@ -65959,7 +65942,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 2.2
   },
   {
     "symbol": "FLR",
@@ -65976,7 +65959,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.14
   },
   {
     "symbol": "CRV",
@@ -65994,7 +65977,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.15
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "XTZ",
@@ -66011,6 +65994,41 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
+    "best_favorable_pct": 0.29
+  },
+  {
+    "symbol": "BTC",
+    "kucoin_symbol": "BTC-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 83019.4,
+    "reasons": [
+      "Preis unter unterem Bollinger Band",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 81910.78137272305,
+    "take_profit": 85236.63725455386,
+    "timestamp": "2026-09-28T11:01:55.754026+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
     "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SHIB",
+    "kucoin_symbol": "SHIB-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 5.673e-06,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 5.888658006971761e-06,
+    "take_profit": 5.241683986056477e-06,
+    "timestamp": "2026-09-28T11:01:56.851150+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
   }
 ]
