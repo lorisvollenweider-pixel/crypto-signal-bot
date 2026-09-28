@@ -64236,7 +64236,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 0.69
   },
   {
     "symbol": "DOGE",
@@ -64479,7 +64479,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.57
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "ETH",
@@ -64639,7 +64639,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.93
+    "best_favorable_pct": 10.01
   },
   {
     "symbol": "VET",
@@ -64780,7 +64780,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 1.25
   },
   {
     "symbol": "NIGHT",
@@ -65030,7 +65030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.29
+    "best_favorable_pct": 5.37
   },
   {
     "symbol": "CAKE",
@@ -65359,7 +65359,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.14
+    "best_favorable_pct": 2.75
   },
   {
     "symbol": "XLM",
@@ -65587,7 +65587,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.66
+    "best_favorable_pct": 5.06
   },
   {
     "symbol": "UNI",
@@ -65828,7 +65828,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.56
+    "best_favorable_pct": 3.15
   },
   {
     "symbol": "APT",
@@ -65882,7 +65882,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 8.76
+    "best_favorable_pct": 11.54
   },
   {
     "symbol": "XPL",
@@ -65899,7 +65899,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.29
+    "best_favorable_pct": 3.8
   },
   {
     "symbol": "LDO",
@@ -66076,7 +66076,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.83
+    "best_favorable_pct": 9.38
   },
   {
     "symbol": "ENA",
@@ -66180,7 +66180,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.47
+    "best_favorable_pct": 6.93
   },
   {
     "symbol": "LTC",
@@ -66248,7 +66248,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.29
+    "best_favorable_pct": 3.56
   },
   {
     "symbol": "RENDER",
@@ -66476,7 +66476,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.21
+    "best_favorable_pct": 0.31
   },
   {
     "symbol": "DOGE",
@@ -66868,6 +66868,59 @@
     "stop_loss": 0.15268710275228473,
     "take_profit": 0.13132979449543059,
     "timestamp": "2026-09-28T18:01:55.661885+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.63
+  },
+  {
+    "symbol": "LINK",
+    "kucoin_symbol": "LINK-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 15.1896,
+    "reasons": [
+      "RSI \u00fcberkauft (72.3)",
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 15.83852977915807,
+    "take_profit": 13.891740441683861,
+    "timestamp": "2026-09-28T18:25:18.450133+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.07
+  },
+  {
+    "symbol": "PYUSD",
+    "kucoin_symbol": "PYUSD-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.9997,
+    "reasons": [
+      "Volumen-Spike (3.6x Durchschnitt)"
+    ],
+    "stop_loss": 0.9991579141787224,
+    "take_profit": 1.0007841716425554,
+    "timestamp": "2026-09-28T18:25:19.678896+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "SUN",
+    "kucoin_symbol": "SUN-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0172,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 0.016997698621869315,
+    "take_profit": 0.01760460275626137,
+    "timestamp": "2026-09-28T18:25:19.678997+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
