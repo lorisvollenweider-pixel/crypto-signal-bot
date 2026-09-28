@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "AVAX",
-    "kucoin_symbol": "AVAX-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 7.626,
-    "reasons": [
-      "Volumen-Spike (2.0x Durchschnitt)",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 7.427831745082169,
-    "take_profit": 8.022336509835663,
-    "timestamp": "2026-09-14T22:45:00.247235+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.01,
-    "best_favorable_pct": 0.01
-  },
-  {
     "symbol": "XRP",
     "kucoin_symbol": "XRP-USDT",
     "direction": "long",
@@ -64559,7 +64541,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 9.19
+    "best_favorable_pct": 9.66
   },
   {
     "symbol": "PAXG",
@@ -65136,7 +65118,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.74
+    "best_favorable_pct": 4.26
   },
   {
     "symbol": "DOT",
@@ -66092,7 +66074,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.02
   },
   {
     "symbol": "ARB",
@@ -66408,7 +66390,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.13
+    "best_favorable_pct": 1.16
   },
   {
     "symbol": "GRT",
@@ -66442,7 +66424,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.02
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "HBAR",
@@ -66511,7 +66493,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.04
+    "best_favorable_pct": 0.07
   },
   {
     "symbol": "HBAR",
@@ -66635,7 +66617,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.13
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "ENA",
@@ -66652,7 +66634,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.55
+    "best_favorable_pct": 1.03
   },
   {
     "symbol": "CRV",
@@ -66670,7 +66652,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.58
+    "best_favorable_pct": 1.66
   },
   {
     "symbol": "GRAM",
@@ -66705,6 +66687,23 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.89
+  },
+  {
+    "symbol": "USD1",
+    "kucoin_symbol": "USD1-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9996,
+    "reasons": [
+      "MACD Bearish Crossover"
+    ],
+    "stop_loss": 0.999760841460672,
+    "take_profit": 0.9992783170786561,
+    "timestamp": "2026-09-28T22:48:29.687429+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
