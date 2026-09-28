@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "XRP",
-    "kucoin_symbol": "XRP-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 1.43636,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von unten",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 1.3918728602907493,
-    "take_profit": 1.5253342794185014,
-    "timestamp": "2026-09-14T22:57:42.982166+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "HBAR",
     "kucoin_symbol": "HBAR-USDT",
     "direction": "short",
@@ -63837,9 +63819,9 @@
     "stop_loss": 0.007217616094179895,
     "take_profit": 0.00662476781164021,
     "timestamp": "2026-09-28T10:49:21.798738+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.14,
     "best_favorable_pct": 0.14
   },
   {
@@ -63855,9 +63837,9 @@
     "stop_loss": 0.34861643505241496,
     "take_profit": 0.29696712989516993,
     "timestamp": "2026-09-28T10:49:21.798762+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 2.17,
     "best_favorable_pct": 2.17
   },
   {
@@ -63872,9 +63854,9 @@
     "stop_loss": 0.298081145514549,
     "take_profit": 0.3353377089709019,
     "timestamp": "2026-09-28T10:49:22.976128+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.58,
     "best_favorable_pct": 1.58
   },
   {
@@ -64091,7 +64073,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 7.0
+    "best_favorable_pct": 7.34
   },
   {
     "symbol": "BNB",
@@ -65256,7 +65238,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.56
+    "best_favorable_pct": 3.59
   },
   {
     "symbol": "RENDER",
@@ -65932,7 +65914,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "JST",
@@ -66145,7 +66127,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "OP",
@@ -66216,7 +66198,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.52
+    "best_favorable_pct": 3.67
   },
   {
     "symbol": "TUSD",
@@ -66493,7 +66475,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.07
+    "best_favorable_pct": 0.16
   },
   {
     "symbol": "HBAR",
@@ -66600,7 +66582,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.49
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "FET",
@@ -66617,7 +66599,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.18
+    "best_favorable_pct": 0.22
   },
   {
     "symbol": "ENA",
@@ -66634,7 +66616,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.03
+    "best_favorable_pct": 1.62
   },
   {
     "symbol": "CRV",
@@ -66687,7 +66669,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.89
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "USD1",
@@ -66701,6 +66683,23 @@
     "stop_loss": 0.999760841460672,
     "take_profit": 0.9992783170786561,
     "timestamp": "2026-09-28T22:48:29.687429+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.02834,
+    "reasons": [
+      "RSI \u00fcberkauft (70.3)"
+    ],
+    "stop_loss": 0.029710695124628858,
+    "take_profit": 0.025598609750742286,
+    "timestamp": "2026-09-28T23:00:25.215611+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
