@@ -1,58 +1,5 @@
 [
   {
-    "symbol": "XLM",
-    "kucoin_symbol": "XLM-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.1863,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.1912238599128876,
-    "take_profit": 0.1764522801742248,
-    "timestamp": "2026-09-14T09:57:58.883591+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
-    "symbol": "USDG",
-    "kucoin_symbol": "USDG-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 1.0003,
-    "reasons": [
-      "MACD Bullish Crossover",
-      "Volumen-Spike (1.9x Durchschnitt)"
-    ],
-    "stop_loss": 0.9997273548169927,
-    "take_profit": 1.0014452903660145,
-    "timestamp": "2026-09-14T09:57:58.883614+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.04,
-    "best_favorable_pct": 0.04
-  },
-  {
-    "symbol": "KCS",
-    "kucoin_symbol": "KCS-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 7.014,
-    "reasons": [
-      "Volumen-Spike (3.5x Durchschnitt)",
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 6.8940246617229635,
-    "take_profit": 7.253950676554073,
-    "timestamp": "2026-09-14T09:58:00.037448+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.38,
-    "best_favorable_pct": 1.38
-  },
-  {
     "symbol": "ATOM",
     "kucoin_symbol": "ATOM-USDT",
     "direction": "short",
@@ -63138,9 +63085,9 @@
     "stop_loss": 0.06977206375781737,
     "take_profit": 0.060735872484365266,
     "timestamp": "2026-09-27T21:55:30.697318+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 5.11,
     "best_favorable_pct": 5.11
   },
   {
@@ -63155,9 +63102,9 @@
     "stop_loss": 17.805721164215303,
     "take_profit": 19.738557671569396,
     "timestamp": "2026-09-27T21:55:30.697389+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.36,
     "best_favorable_pct": 1.36
   },
   {
@@ -63209,7 +63156,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 11.68
+    "best_favorable_pct": 12.18
   },
   {
     "symbol": "SUN",
@@ -63261,7 +63208,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.17
+    "best_favorable_pct": 5.37
   },
   {
     "symbol": "PAXG",
@@ -63474,7 +63421,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.03
+    "best_favorable_pct": 3.25
   },
   {
     "symbol": "XTZ",
@@ -64282,7 +64229,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.7
+    "best_favorable_pct": 6.96
   },
   {
     "symbol": "ATOM",
@@ -64981,7 +64928,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 6.29
+    "best_favorable_pct": 8.41
   },
   {
     "symbol": "STABLE",
@@ -65015,7 +64962,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.3
   },
   {
     "symbol": "ZRO",
@@ -65241,7 +65188,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.06
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "PENDLE",
@@ -65344,7 +65291,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.02
+    "best_favorable_pct": 3.03
   },
   {
     "symbol": "HBAR",
@@ -65414,7 +65361,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.77
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "ARB",
@@ -65555,7 +65502,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.05
+    "best_favorable_pct": 0.15
   },
   {
     "symbol": "MON",
@@ -65797,7 +65744,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.17
+    "best_favorable_pct": 0.32
   },
   {
     "symbol": "HBAR",
@@ -65993,7 +65940,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.32
+    "best_favorable_pct": 1.68
   },
   {
     "symbol": "VET",
@@ -66011,7 +65958,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.83
   },
   {
     "symbol": "TIA",
@@ -66029,7 +65976,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.11
   },
   {
     "symbol": "GRAM",
@@ -66063,7 +66010,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.71
   },
   {
     "symbol": "PENGU",
@@ -66080,7 +66027,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.26
   },
   {
     "symbol": "NIGHT",
@@ -66098,5 +66045,42 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.19
+  },
+  {
+    "symbol": "XAUT",
+    "kucoin_symbol": "XAUT-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 4161.7,
+    "reasons": [
+      "RSI \u00fcberverkauft (16.2)",
+      "Preis unter unterem Bollinger Band",
+      "Volumen-Spike (1.9x Durchschnitt)"
+    ],
+    "stop_loss": 4133.2470465592805,
+    "take_profit": 4218.605906881439,
+    "timestamp": "2026-09-28T10:10:34.484037+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PIEVERSE",
+    "kucoin_symbol": "PIEVERSE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 1.5022,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.5776918805947708,
+    "take_profit": 1.3512162388104583,
+    "timestamp": "2026-09-28T10:10:35.668047+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.22
   }
 ]
