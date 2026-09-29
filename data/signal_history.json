@@ -1,57 +1,5 @@
 [
   {
-    "symbol": "PENDLE",
-    "kucoin_symbol": "PENDLE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 2.3673,
-    "reasons": [
-      "Volumen-Spike (2.0x Durchschnitt)"
-    ],
-    "stop_loss": 2.2547120615399385,
-    "take_profit": 2.5924758769201235,
-    "timestamp": "2026-09-14T23:55:24.159931+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.27,
-    "best_favorable_pct": 2.27
-  },
-  {
-    "symbol": "MON",
-    "kucoin_symbol": "MON-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.02289,
-    "reasons": [
-      "Volumen-Spike (1.9x Durchschnitt)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.02379652479824011,
-    "take_profit": 0.021076950403519788,
-    "timestamp": "2026-09-14T23:55:24.159962+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.01,
-    "best_favorable_pct": 3.01
-  },
-  {
-    "symbol": "CFX",
-    "kucoin_symbol": "CFX-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.04729,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.04586403430751385,
-    "take_profit": 0.05014193138497229,
-    "timestamp": "2026-09-14T23:55:25.330161+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.91,
-    "best_favorable_pct": 0.91
-  },
-  {
     "symbol": "XRP",
     "kucoin_symbol": "XRP-USDT",
     "direction": "long",
@@ -63966,9 +63914,9 @@
     "stop_loss": 750.5474121713028,
     "take_profit": 787.6921756573945,
     "timestamp": "2026-09-28T11:56:48.229684+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.32,
     "best_favorable_pct": 1.32
   },
   {
@@ -63983,9 +63931,9 @@
     "stop_loss": 68.25114703113081,
     "take_profit": 76.79770593773836,
     "timestamp": "2026-09-28T11:56:49.364017+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "richtig",
+    "change_pct": 1.52,
     "best_favorable_pct": 1.52
   },
   {
@@ -64001,9 +63949,9 @@
     "stop_loss": 0.993014435331104,
     "take_profit": 1.008271129337792,
     "timestamp": "2026-09-28T11:56:49.364106+00:00",
-    "checked": false,
-    "outcome": null,
-    "change_pct": null,
+    "checked": true,
+    "outcome": "neutral",
+    "change_pct": 0.0,
     "best_favorable_pct": 0.0
   },
   {
@@ -65030,7 +64978,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.39
+    "best_favorable_pct": 3.43
   },
   {
     "symbol": "XLM",
@@ -65116,7 +65064,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 5.73
+    "best_favorable_pct": 6.24
   },
   {
     "symbol": "RENDER",
@@ -65792,7 +65740,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.64
+    "best_favorable_pct": 0.7
   },
   {
     "symbol": "JST",
@@ -66005,7 +65953,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.52
+    "best_favorable_pct": 0.58
   },
   {
     "symbol": "OP",
@@ -66181,7 +66129,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.03
+    "best_favorable_pct": 3.18
   },
   {
     "symbol": "CAKE",
@@ -66336,7 +66284,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.95
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "ETH",
@@ -66424,7 +66372,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.25
+    "best_favorable_pct": 0.27
   },
   {
     "symbol": "HYPE",
@@ -66477,7 +66425,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.81
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "ENA",
@@ -66547,7 +66495,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.54
+    "best_favorable_pct": 2.84
   },
   {
     "symbol": "USD1",
@@ -66668,6 +66616,75 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.2
+  },
+  {
+    "symbol": "SUI",
+    "kucoin_symbol": "SUI-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 1.1675,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 1.0997946664572815,
+    "take_profit": 1.302910667085437,
+    "timestamp": "2026-09-29T00:01:00.210863+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "GRAM",
+    "kucoin_symbol": "GRAM-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1.572,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 1.6583892249315733,
+    "take_profit": 1.3992215501368537,
+    "timestamp": "2026-09-29T00:01:00.210880+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "STABLE",
+    "kucoin_symbol": "STABLE-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.029148,
+    "reasons": [
+      "RSI \u00fcberkauft (71.0)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.030074676062887034,
+    "take_profit": 0.027294647874225933,
+    "timestamp": "2026-09-29T00:01:00.210902+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PENDLE",
+    "kucoin_symbol": "PENDLE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 2.3858,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 2.5063996415945464,
+    "take_profit": 2.144600716810907,
+    "timestamp": "2026-09-29T00:01:03.053656+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
