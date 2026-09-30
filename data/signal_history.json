@@ -1,76 +1,5 @@
 [
   {
-    "symbol": "KAS",
-    "kucoin_symbol": "KAS-USDT",
-    "direction": "short",
-    "tier": 3,
-    "price_at_signal": 0.03186,
-    "reasons": [
-      "EMA20 kreuzt EMA50 von oben",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.033352439931637445,
-    "take_profit": 0.028875120136725104,
-    "timestamp": "2026-09-16T08:30:39.060801+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.31,
-    "best_favorable_pct": 0.31
-  },
-  {
-    "symbol": "STABLE",
-    "kucoin_symbol": "STABLE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.026839,
-    "reasons": [
-      "Double-Bottom-Formation erkannt"
-    ],
-    "stop_loss": 0.02612272785680734,
-    "take_profit": 0.02827154428638532,
-    "timestamp": "2026-09-16T08:30:40.261825+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.52,
-    "best_favorable_pct": 0.52
-  },
-  {
-    "symbol": "JUP",
-    "kucoin_symbol": "JUP-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.2096,
-    "reasons": [
-      "RSI \u00fcberverkauft (24.8)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.19969551402032368,
-    "take_profit": 0.22940897195935264,
-    "timestamp": "2026-09-16T08:30:40.261843+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.05,
-    "best_favorable_pct": 3.05
-  },
-  {
-    "symbol": "RENDER",
-    "kucoin_symbol": "RENDER-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 1.29,
-    "reasons": [
-      "RSI \u00fcberverkauft (24.6)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 1.248135224432696,
-    "take_profit": 1.373729551134608,
-    "timestamp": "2026-09-16T08:30:41.374812+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.57,
-    "best_favorable_pct": 3.57
-  },
-  {
     "symbol": "AAVE",
     "kucoin_symbol": "AAVE-USDT",
     "direction": "long",
@@ -58909,7 +58838,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.36
   },
   {
     "symbol": "DOGE",
@@ -59979,7 +59908,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.88
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "SPX",
@@ -60049,7 +59978,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.19
+    "best_favorable_pct": 0.38
   },
   {
     "symbol": "SKY",
@@ -60207,7 +60136,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.23
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "USDC",
@@ -60242,7 +60171,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.03
   },
   {
     "symbol": "MORPHO",
@@ -60277,7 +60206,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.63
   },
   {
     "symbol": "STABLE",
@@ -60311,7 +60240,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.52
   },
   {
     "symbol": "KITE",
@@ -60325,6 +60254,40 @@
     "stop_loss": 0.13236397541715106,
     "take_profit": 0.15398204916569788,
     "timestamp": "2026-09-30T08:23:29.710681+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.0339564,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.03770686030703026,
+    "take_profit": 0.02645547938593948,
+    "timestamp": "2026-09-30T08:43:04.074566+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.09
+  },
+  {
+    "symbol": "TIA",
+    "kucoin_symbol": "TIA-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.4408,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von oben"
+    ],
+    "stop_loss": 0.4664259353359059,
+    "take_profit": 0.3895481293281883,
+    "timestamp": "2026-09-30T08:43:04.074596+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
