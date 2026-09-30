@@ -1,39 +1,5 @@
 [
   {
-    "symbol": "AAVE",
-    "kucoin_symbol": "AAVE-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 118.627,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 114.09709814439456,
-    "take_profit": 127.68680371121084,
-    "timestamp": "2026-09-16T08:48:14.234092+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.79,
-    "best_favorable_pct": 1.79
-  },
-  {
-    "symbol": "USELESS",
-    "kucoin_symbol": "USELESS-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.2432,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 0.26843029200719176,
-    "take_profit": 0.19273941598561645,
-    "timestamp": "2026-09-16T08:48:14.234137+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 8.57,
-    "best_favorable_pct": 8.57
-  },
-  {
     "symbol": "GRAM",
     "kucoin_symbol": "GRAM-USDT",
     "direction": "short",
@@ -59493,7 +59459,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.87
+    "best_favorable_pct": 1.17
   },
   {
     "symbol": "ASTER",
@@ -59596,7 +59562,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.68
+    "best_favorable_pct": 1.75
   },
   {
     "symbol": "ASTER",
@@ -59717,7 +59683,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 0.74
   },
   {
     "symbol": "PONS",
@@ -60047,7 +60013,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.24
+    "best_favorable_pct": 0.46
   },
   {
     "symbol": "HTX",
@@ -60064,7 +60030,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.18
   },
   {
     "symbol": "ETC",
@@ -60118,7 +60084,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 1.46
   },
   {
     "symbol": "PRL",
@@ -60189,7 +60155,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.55
   },
   {
     "symbol": "ATOM",
@@ -60257,7 +60223,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.34
   },
   {
     "symbol": "AKE",
@@ -60288,6 +60254,58 @@
     "stop_loss": 0.4664259353359059,
     "take_profit": 0.3895481293281883,
     "timestamp": "2026-09-30T08:43:04.074596+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "MORPHO",
+    "kucoin_symbol": "MORPHO-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 2.5571,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 2.429566865943201,
+    "take_profit": 2.812166268113599,
+    "timestamp": "2026-09-30T08:58:51.748668+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "LIT",
+    "kucoin_symbol": "LIT-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.817,
+    "reasons": [
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 4.156922399058193,
+    "take_profit": 3.1371552018836146,
+    "timestamp": "2026-09-30T08:58:53.891931+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.03
+  },
+  {
+    "symbol": "FF",
+    "kucoin_symbol": "FF-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.1262,
+    "reasons": [
+      "Volumen-Spike (2.1x Durchschnitt)"
+    ],
+    "stop_loss": 0.11843702003869092,
+    "take_profit": 0.1417259599226182,
+    "timestamp": "2026-09-30T08:58:53.891979+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
