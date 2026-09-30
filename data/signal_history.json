@@ -1,39 +1,5 @@
 [
   {
-    "symbol": "ZEC",
-    "kucoin_symbol": "ZEC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1206.034,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1273.2484507508852,
-    "take_profit": 1071.6050984982298,
-    "timestamp": "2026-09-16T10:03:10.011601+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.31,
-    "best_favorable_pct": 0.31
-  },
-  {
-    "symbol": "USDS",
-    "kucoin_symbol": "USDS-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.0014,
-    "reasons": [
-      "MACD Bullish Crossover"
-    ],
-    "stop_loss": 0.9998213200189164,
-    "take_profit": 1.0045573599621673,
-    "timestamp": "2026-09-16T10:03:10.011625+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "MCAT",
     "kucoin_symbol": "MCAT-USDT",
     "direction": "long",
@@ -58737,7 +58703,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.69
+    "best_favorable_pct": 0.72
   },
   {
     "symbol": "AVAX",
@@ -59151,7 +59117,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.22
+    "best_favorable_pct": 2.8
   },
   {
     "symbol": "BTT",
@@ -59219,7 +59185,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.82
+    "best_favorable_pct": 3.41
   },
   {
     "symbol": "KCS",
@@ -59288,7 +59254,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.46
+    "best_favorable_pct": 3.05
   },
   {
     "symbol": "UB",
@@ -59323,7 +59289,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.17
+    "best_favorable_pct": 1.38
   },
   {
     "symbol": "ASTER",
@@ -59565,7 +59531,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 3.64
+    "best_favorable_pct": 4.27
   },
   {
     "symbol": "XTZ",
@@ -59634,7 +59600,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.01
+    "best_favorable_pct": 4.14
   },
   {
     "symbol": "RAY",
@@ -59651,7 +59617,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.19
+    "best_favorable_pct": 1.37
   },
   {
     "symbol": "LDO",
@@ -59773,7 +59739,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.23
+    "best_favorable_pct": 1.92
   },
   {
     "symbol": "USDS",
@@ -59948,7 +59914,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.53
+    "best_favorable_pct": 2.87
   },
   {
     "symbol": "PRL",
@@ -60036,7 +60002,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "STABLE",
@@ -60104,7 +60070,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.09
+    "best_favorable_pct": 0.89
   },
   {
     "symbol": "TIA",
@@ -60173,7 +60139,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.87
+    "best_favorable_pct": 1.98
   },
   {
     "symbol": "XRP",
@@ -60209,5 +60175,57 @@
     "outcome": null,
     "change_pct": null,
     "best_favorable_pct": 0.47
+  },
+  {
+    "symbol": "AKE",
+    "kucoin_symbol": "AKE-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.0337541,
+    "reasons": [
+      "Volumen-Spike (3.3x Durchschnitt)"
+    ],
+    "stop_loss": 0.02950632540725546,
+    "take_profit": 0.0422496491854891,
+    "timestamp": "2026-09-30T10:17:43.652860+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NIGHT",
+    "kucoin_symbol": "NIGHT-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.03498,
+    "reasons": [
+      "RSI \u00fcberkauft (85.9)",
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.037035272853337235,
+    "take_profit": 0.030869454293325514,
+    "timestamp": "2026-09-30T10:17:43.652894+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "BONK",
+    "kucoin_symbol": "BONK-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 3.964e-06,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 4.190055384535081e-06,
+    "take_profit": 3.511889230929838e-06,
+    "timestamp": "2026-09-30T10:17:44.872839+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.2
   }
 ]
