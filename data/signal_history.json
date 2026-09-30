@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "USDC",
-    "kucoin_symbol": "USDC-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 1.0008,
-    "reasons": [
-      "RSI \u00fcberkauft (72.5)",
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1.0010473576939392,
-    "take_profit": 1.0003052846121214,
-    "timestamp": "2026-09-16T10:39:55.740073+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.01,
-    "best_favorable_pct": 0.01
-  },
-  {
-    "symbol": "LUNC",
-    "kucoin_symbol": "LUNC-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 4.778e-05,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 4.9280473130984744e-05,
-    "take_profit": 4.477905373803051e-05,
-    "timestamp": "2026-09-16T10:39:56.943696+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.49,
-    "best_favorable_pct": 1.49
-  },
-  {
     "symbol": "HYPE",
     "kucoin_symbol": "HYPE-USDT",
     "direction": "long",
@@ -58685,7 +58650,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.19
   },
   {
     "symbol": "AVAX",
@@ -58962,7 +58927,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.43
+    "best_favorable_pct": 0.64
   },
   {
     "symbol": "ETHFI",
@@ -59443,7 +59408,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.12
+    "best_favorable_pct": 1.2
   },
   {
     "symbol": "STABLE",
@@ -59495,7 +59460,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.04
+    "best_favorable_pct": 1.12
   },
   {
     "symbol": "PONS",
@@ -59599,7 +59564,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.08
+    "best_favorable_pct": 2.38
   },
   {
     "symbol": "LDO",
@@ -59808,7 +59773,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.96
+    "best_favorable_pct": 1.61
   },
   {
     "symbol": "HYPE",
@@ -59896,7 +59861,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 4.55
+    "best_favorable_pct": 4.81
   },
   {
     "symbol": "PRL",
@@ -60035,7 +60000,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.74
+    "best_favorable_pct": 1.01
   },
   {
     "symbol": "AKE",
@@ -60173,7 +60138,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.39
+    "best_favorable_pct": 1.52
   },
   {
     "symbol": "NIGHT",
@@ -60225,6 +60190,59 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.01
+    "best_favorable_pct": 0.08
+  },
+  {
+    "symbol": "DOGE",
+    "kucoin_symbol": "DOGE-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.09512,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Volumen-Spike (3.9x Durchschnitt)"
+    ],
+    "stop_loss": 0.09203457518679233,
+    "take_profit": 0.10129084962641532,
+    "timestamp": "2026-09-30T10:55:04.311559+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "NEAR",
+    "kucoin_symbol": "NEAR-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 5.3135,
+    "reasons": [
+      "MACD Bullish Crossover"
+    ],
+    "stop_loss": 4.913718320426205,
+    "take_profit": 6.113063359147592,
+    "timestamp": "2026-09-30T10:55:05.563143+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "short",
+    "tier": 2,
+    "price_at_signal": 0.7625,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band",
+      "Double-Top-Formation erkannt"
+    ],
+    "stop_loss": 0.7877835698526463,
+    "take_profit": 0.7119328602947073,
+    "timestamp": "2026-09-30T10:55:05.563167+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
   }
 ]
