@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "WLD",
-    "kucoin_symbol": "WLD-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.3606,
-    "reasons": [
-      "RSI \u00fcberverkauft (28.2)"
-    ],
-    "stop_loss": 0.34415779009694003,
-    "take_profit": 0.3934844198061198,
-    "timestamp": "2026-09-16T03:47:48.582132+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.5,
-    "best_favorable_pct": 2.5
-  },
-  {
-    "symbol": "DASH",
-    "kucoin_symbol": "DASH-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 50.37,
-    "reasons": [
-      "RSI \u00fcberverkauft (29.7)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 47.66367474283888,
-    "take_profit": 55.782650514322235,
-    "timestamp": "2026-09-16T03:47:48.582171+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 9.77,
-    "best_favorable_pct": 9.77
-  },
-  {
     "symbol": "ZEC",
     "kucoin_symbol": "ZEC-USDT",
     "direction": "long",
@@ -60262,7 +60227,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.35
   },
   {
     "symbol": "MORPHO",
@@ -60296,7 +60261,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.41
+    "best_favorable_pct": 0.53
   },
   {
     "symbol": "U",
@@ -60436,7 +60401,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.6
+    "best_favorable_pct": 0.65
   },
   {
     "symbol": "TRUMP",
@@ -60470,7 +60435,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.43
+    "best_favorable_pct": 1.55
   },
   {
     "symbol": "SPX",
@@ -60504,7 +60469,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.62
+    "best_favorable_pct": 1.74
   },
   {
     "symbol": "PONS",
@@ -60624,7 +60589,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 2.99
+    "best_favorable_pct": 3.28
   },
   {
     "symbol": "U",
@@ -60674,6 +60639,58 @@
     "stop_loss": 0.1436175046929915,
     "take_profit": 0.166733990614017,
     "timestamp": "2026-09-30T03:12:17.378370+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.12
+  },
+  {
+    "symbol": "PUMP",
+    "kucoin_symbol": "PUMP-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 0.005726,
+    "reasons": [
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.00524416565974701,
+    "take_profit": 0.006689668680505981,
+    "timestamp": "2026-09-30T03:50:15.293287+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.24
+  },
+  {
+    "symbol": "ASTER",
+    "kucoin_symbol": "ASTER-USDT",
+    "direction": "long",
+    "tier": 3,
+    "price_at_signal": 0.7478,
+    "reasons": [
+      "EMA20 kreuzt EMA50 von unten",
+      "Volumen-Spike (2.3x Durchschnitt)"
+    ],
+    "stop_loss": 0.7229576641465034,
+    "take_profit": 0.7974846717069932,
+    "timestamp": "2026-09-30T03:50:15.293311+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "INJ",
+    "kucoin_symbol": "INJ-USDT",
+    "direction": "long",
+    "tier": 1,
+    "price_at_signal": 7.642,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 7.212429567016843,
+    "take_profit": 8.501140865966315,
+    "timestamp": "2026-09-30T03:50:16.471051+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
