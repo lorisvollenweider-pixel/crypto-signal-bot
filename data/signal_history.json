@@ -1,179 +1,5 @@
 [
   {
-    "symbol": "USDG",
-    "kucoin_symbol": "USDG-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.0007,
-    "reasons": [
-      "Preis \u00fcber oberem Bollinger Band"
-    ],
-    "stop_loss": 1.001256368366263,
-    "take_profit": 0.999587263267474,
-    "timestamp": "2026-09-16T07:03:53.611292+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.03,
-    "best_favorable_pct": 0.03
-  },
-  {
-    "symbol": "HBAR",
-    "kucoin_symbol": "HBAR-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.07476,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.077072780980151,
-    "take_profit": 0.07013443803969799,
-    "timestamp": "2026-09-16T07:03:53.611307+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 3.57,
-    "best_favorable_pct": 3.57
-  },
-  {
-    "symbol": "APT",
-    "kucoin_symbol": "APT-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.5394,
-    "reasons": [
-      "RSI \u00fcberverkauft (25.2)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.5142665242419362,
-    "take_profit": 0.5896669515161276,
-    "timestamp": "2026-09-16T07:03:53.611339+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.17,
-    "best_favorable_pct": 0.17
-  },
-  {
-    "symbol": "PENGU",
-    "kucoin_symbol": "PENGU-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.006875,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.007139851396708278,
-    "take_profit": 0.0063452972065834445,
-    "timestamp": "2026-09-16T07:03:54.910187+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.36,
-    "best_favorable_pct": 2.36
-  },
-  {
-    "symbol": "ASTER",
-    "kucoin_symbol": "ASTER-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 0.6708,
-    "reasons": [
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.6504052291833133,
-    "take_profit": 0.7115895416333732,
-    "timestamp": "2026-09-16T07:23:28.423373+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.74,
-    "best_favorable_pct": 2.74
-  },
-  {
-    "symbol": "SKY",
-    "kucoin_symbol": "SKY-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.05894,
-    "reasons": [
-      "RSI \u00fcberverkauft (29.3)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.05680051299291077,
-    "take_profit": 0.06321897401417845,
-    "timestamp": "2026-09-16T07:23:28.423408+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.64,
-    "best_favorable_pct": 0.64
-  },
-  {
-    "symbol": "JST",
-    "kucoin_symbol": "JST-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 0.11548,
-    "reasons": [
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.11745066295120862,
-    "take_profit": 0.11153867409758277,
-    "timestamp": "2026-09-16T07:23:29.666233+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.12,
-    "best_favorable_pct": 0.12
-  },
-  {
-    "symbol": "TRUMP",
-    "kucoin_symbol": "TRUMP-USDT",
-    "direction": "short",
-    "tier": 1,
-    "price_at_signal": 1.867,
-    "reasons": [
-      "Volumen-Spike (2.0x Durchschnitt)"
-    ],
-    "stop_loss": 1.949546087885014,
-    "take_profit": 1.7019078242299719,
-    "timestamp": "2026-09-16T07:23:29.666301+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 2.84,
-    "best_favorable_pct": 2.84
-  },
-  {
-    "symbol": "SEI",
-    "kucoin_symbol": "SEI-USDT",
-    "direction": "short",
-    "tier": 2,
-    "price_at_signal": 0.04195,
-    "reasons": [
-      "Volumen-Spike (2.0x Durchschnitt)",
-      "Double-Top-Formation erkannt"
-    ],
-    "stop_loss": 0.04330801399044734,
-    "take_profit": 0.03923397201910531,
-    "timestamp": "2026-09-16T07:23:29.666326+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.64,
-    "best_favorable_pct": 1.64
-  },
-  {
-    "symbol": "LUNC",
-    "kucoin_symbol": "LUNC-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 4.738e-05,
-    "reasons": [
-      "RSI \u00fcberverkauft (24.9)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 4.5986669618946775e-05,
-    "take_profit": 5.016666076210644e-05,
-    "timestamp": "2026-09-16T07:23:30.706869+00:00",
-    "checked": true,
-    "outcome": "richtig",
-    "change_pct": 1.01,
-    "best_favorable_pct": 1.01
-  },
-  {
     "symbol": "DOT",
     "kucoin_symbol": "DOT-USDT",
     "direction": "short",
@@ -60019,7 +59845,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.45
+    "best_favorable_pct": 0.87
   },
   {
     "symbol": "ASTER",
@@ -60519,6 +60345,23 @@
     "stop_loss": 0.0854430071295163,
     "take_profit": 0.0724139857409674,
     "timestamp": "2026-09-30T07:00:29.169604+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "ZEC",
+    "kucoin_symbol": "ZEC-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 1396.296,
+    "reasons": [
+      "Volumen-Spike (2.0x Durchschnitt)"
+    ],
+    "stop_loss": 1477.1388643390733,
+    "take_profit": 1234.6102713218536,
+    "timestamp": "2026-09-30T07:23:44.073210+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
