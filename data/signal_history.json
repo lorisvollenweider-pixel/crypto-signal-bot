@@ -1,40 +1,5 @@
 [
   {
-    "symbol": "SHIB",
-    "kucoin_symbol": "SHIB-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 4.908e-06,
-    "reasons": [
-      "RSI \u00fcberverkauft (28.9)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 4.753312246608584e-06,
-    "take_profit": 5.217375506782831e-06,
-    "timestamp": "2026-09-16T05:03:24.696526+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.22,
-    "best_favorable_pct": 0.22
-  },
-  {
-    "symbol": "U",
-    "kucoin_symbol": "U-USDT",
-    "direction": "long",
-    "tier": 1,
-    "price_at_signal": 1.0002,
-    "reasons": [
-      "Volumen-Spike (9.5x Durchschnitt)"
-    ],
-    "stop_loss": 0.999473588056186,
-    "take_profit": 1.0016528238876279,
-    "timestamp": "2026-09-16T05:03:25.794554+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.0,
-    "best_favorable_pct": 0.0
-  },
-  {
     "symbol": "CRV",
     "kucoin_symbol": "CRV-USDT",
     "direction": "long",
@@ -60042,7 +60007,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.68
+    "best_favorable_pct": 0.91
   },
   {
     "symbol": "TRUMP",
@@ -60318,7 +60283,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 1.18
   },
   {
     "symbol": "INJ",
@@ -60335,7 +60300,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.86
+    "best_favorable_pct": 0.93
   },
   {
     "symbol": "ETH",
@@ -60403,7 +60368,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.45
+    "best_favorable_pct": 1.47
   },
   {
     "symbol": "ASTER",
@@ -60490,7 +60455,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.06
+    "best_favorable_pct": 0.4
   },
   {
     "symbol": "PYTH",
@@ -60507,7 +60472,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.63
+    "best_favorable_pct": 0.9
   },
   {
     "symbol": "BSV",
@@ -60678,6 +60643,23 @@
     "stop_loss": 0.09632155826381097,
     "take_profit": 0.08722688347237803,
     "timestamp": "2026-09-30T04:59:48.744290+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "TRX",
+    "kucoin_symbol": "TRX-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.3371,
+    "reasons": [
+      "Preis \u00fcber oberem Bollinger Band"
+    ],
+    "stop_loss": 0.3396631319571187,
+    "take_profit": 0.3319737360857625,
+    "timestamp": "2026-09-30T05:20:58.466224+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
