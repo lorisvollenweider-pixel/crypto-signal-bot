@@ -1,23 +1,5 @@
 [
   {
-    "symbol": "DOGE",
-    "kucoin_symbol": "DOGE-USDT",
-    "direction": "long",
-    "tier": 2,
-    "price_at_signal": 0.08023,
-    "reasons": [
-      "RSI \u00fcberverkauft (29.1)",
-      "Preis unter unterem Bollinger Band"
-    ],
-    "stop_loss": 0.07788849077541868,
-    "take_profit": 0.08491301844916262,
-    "timestamp": "2026-09-16T02:43:28.562583+00:00",
-    "checked": true,
-    "outcome": "neutral",
-    "change_pct": 0.24,
-    "best_favorable_pct": 0.24
-  },
-  {
     "symbol": "XLM",
     "kucoin_symbol": "XLM-USDT",
     "direction": "short",
@@ -60283,7 +60265,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "AVAX",
@@ -60402,7 +60384,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.0
+    "best_favorable_pct": 0.01
   },
   {
     "symbol": "ICP",
@@ -60454,7 +60436,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.4
+    "best_favorable_pct": 0.94
   },
   {
     "symbol": "HTX",
@@ -60541,7 +60523,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.59
+    "best_favorable_pct": 0.77
   },
   {
     "symbol": "LIT",
@@ -60594,7 +60576,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 0.26
+    "best_favorable_pct": 0.39
   },
   {
     "symbol": "BDX",
@@ -60645,7 +60627,7 @@
     "checked": false,
     "outcome": null,
     "change_pct": null,
-    "best_favorable_pct": 1.31
+    "best_favorable_pct": 1.43
   },
   {
     "symbol": "SPX",
@@ -60796,6 +60778,41 @@
     "stop_loss": 1.5839140261681288,
     "take_profit": 2.042271947663742,
     "timestamp": "2026-09-30T02:38:17.863725+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 2.39
+  },
+  {
+    "symbol": "U",
+    "kucoin_symbol": "U-USDT",
+    "direction": "short",
+    "tier": 1,
+    "price_at_signal": 0.9991,
+    "reasons": [
+      "Volumen-Spike (5.5x Durchschnitt)"
+    ],
+    "stop_loss": 1.0006308817986902,
+    "take_profit": 0.9960382364026196,
+    "timestamp": "2026-09-30T02:54:53.567204+00:00",
+    "checked": false,
+    "outcome": null,
+    "change_pct": null,
+    "best_favorable_pct": 0.0
+  },
+  {
+    "symbol": "PONS",
+    "kucoin_symbol": "PONS-USDT",
+    "direction": "long",
+    "tier": 2,
+    "price_at_signal": 0.5449,
+    "reasons": [
+      "MACD Bullish Crossover",
+      "Double-Bottom-Formation erkannt"
+    ],
+    "stop_loss": 0.49442836453763844,
+    "take_profit": 0.6458432709247233,
+    "timestamp": "2026-09-30T02:54:53.567237+00:00",
     "checked": false,
     "outcome": null,
     "change_pct": null,
